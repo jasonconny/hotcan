@@ -1,30 +1,17 @@
 var hotCan = angular.module('hotCan', []);
 
-hotCan.controller('EpisodeController', ['$scope', '$http', function($scope, $http) {
-    $scope.url = '_res/json/001.json';
+hotCan.factory('Episode', ['$http', function($http) {
+    var url = '_res/json/001.json'; // this needs to be passed in when service is called
 
-
-    $http({method: 'GET', url: $scope.url}).
-        success(function(data, status) {
-
-            $scope.data = data;
-
-            $scope.episodeNumber = data.number;
-            $scope.episodeTitle = data.title;
-
-            $scope.introArtist = data.intro.artist;
-            $scope.introTitle = data.intro.title;
-            $scope.introAlbum = data.intro.album;
-            $scope.introAlbumURL = data.intro.albumURL;
-            $scope.introLabel = data.intro.label;
-            $scope.introYear = data.intro.year;
-
-        }).
-        error(function(data, status) {
-            console.log('get error: ' + status);
-        });
-
+    return {
+        getEpisode: function() {
+            return $http.get(url);
+        }
+    }
 }]);
 
-
-
+hotCan.controller('EpisodeController', ['$scope', 'Episode', function($scope, Episode) {
+    Episode.getEpisode().success(function(data) {
+        $scope.episode = data;
+    });
+}]);
