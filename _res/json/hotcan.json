@@ -113,10 +113,122 @@
 			]
 		},
         {
-            "number" : "002",
-            "title" : "Groove And Move",
-            "date" : "May 16, 2012",
-            "filename" : "episode_002_Groove_and_Move.mp3",
+            "number": "002",
+            "title": "Groove And Move",
+            "date": "May 16, 2012",
+            "filename": "episode_002_Groove_and_Move.mp3",
+            "intro": {
+                "artist": "Booker T and the MG's",
+                "title": "Hip-Hug Her",
+                "album": "Hip-Hug Her",
+                "albumURL": "http://www.allmusic.com/album/hip-hug-her-r2306",
+                "label": "Stax",
+                "year": "1967"
+            },
+            "songs": [
+                {
+                    "artist": "Richard ‘Groove’ Holmes",
+                    "title": "Dumpy Mama",
+                    "album": "Theme From The Six Million Dollar Man And Other Selections",
+                    "albumURL": "http://www.discogs.com/Richard-Groove-Holmes-Six-Million-Dollar-Man/release/801848",
+                    "label": "Flying Dutchman",
+                    "year": "1975"
+                },
+                {
+                    "artist": "Geraldo Pino and the Heartbeats",
+                    "title": "Heavy, Heavy, Heavy",
+                    "album": "Let’s Have A Party",
+                    "albumURL": "http://www.discogs.com/Geraldo-Pino-Heartbeats-Lets-Have-A-Party/release/557743",
+                    "label": "Soundway",
+                    "year": "2005"
+                },
+                {
+                    "artist": "JD and the Evil’s Dynamite Band",
+                    "title": "Heavy, Heavy… Heavy",
+                    "album": "Explodes Across The Nation",
+                    "albumURL": "http://allmusic.com/album/explodes-across-the-nation-r522367",
+                    "label": "Soul Fire",
+                    "year": "2001"
+                },
+                {
+                    "artist": "Donald Byrd",
+                    "title": "Mr. Thomas",
+                    "album": "Black Byrd",
+                    "albumURL": "http://allmusic.com/album/black-byrd-r151557",
+                    "label": "Blue Note",
+                    "year": "1973"
+                },
+                {
+                    "artist": "The Mebusas",
+                    "title": "Son of Mr. Bull Dog",
+                    "album": "Afro Baby: The Evolution of the Afro-Sound in Nigeria 1970-79",
+                    "albumURL": "http://www.allmusic.com/album/nigeria-afro-baby-the-evolution-of-the-afro-sound-in-nigeria-1970-1979-mw0000376869",
+                    "label": "Soundway",
+                    "year": "2004"
+                },
+                {
+                    "artist": "The Jimmy Castor Bunch",
+                    "title": "E-Man Par-Tay",
+                    "album": "Maximum Stimulation",
+                    "albumURL": "http://www.discogs.com/Jimmy-Castor-Bunch-Maximum-Stimulation/release/511655",
+                    "label": "Atlantic",
+                    "year": "1977"
+                },
+                {
+                    "artist": "Gene Ammons",
+                    "title": "Mellow Gravy",
+                    "album": "The Best of Gene Ammons with Brother Jack McDuff",
+                    "albumURL": "http://www.allmusic.com/album/the-best-of-gene-ammons-with-brother-jack-mcduff-mw0000917837",
+                    "label": "Prestige",
+                    "year": "1962"
+                },
+                {
+                    "artist": "Alabama Shakes",
+                    "title": "Be Mine",
+                    "album": "7\" single b/w You Ain’t Alone",
+                    "albumURL": "",
+                    "label": "Third Man Live",
+                    "year": "2012"
+                },
+                {
+                    "artist": "Charles Earland",
+                    "title": "Smiling",
+                    "album": "Live at the Lighthouse",
+                    "albumURL": "http://allmusic.com/album/live-at-the-lighthouse-r207332",
+                    "label": "Prestige",
+                    "year": "1972"
+                },
+                {
+                    "artist": "Lou Donaldson",
+                    "title": "Bag of Jewels",
+                    "album": "Midnight Creeper",
+                    "albumURL": "http://allmusic.com/album/the-midnight-creeper-r137800",
+                    "label": "Blue Note",
+                    "year": "1968"
+                },
+                {
+                    "artist": "Jr. Walker & the All Stars",
+                    "title": "Groove and Move",
+                    "album": "A Gasssss",
+                    "albumURL": "http://allmusic.com/album/a-gasss-r52214",
+                    "label": "Atco",
+                    "year": "1970"
+                },
+                {
+                    "artist": "King Curtis",
+                    "title": "Games People Play",
+                    "album": "Instant Groove",
+                    "albumURL": "http://allmusic.com/album/instant-groove-wounded-bird-r1456851",
+                    "label": "Wounded Bird",
+                    "year": "1969"
+                }
+            ]
+        },
+        {
+            "number" : "003",
+            "title" : "Maximum Stimulation",
+            "date" : "May 23, 2012",
+            "filename" : "episode_003_Maximum_Stimulation.mp3",
             "intro" : {
                 "artist" : "Booker T and the MG's",
                 "title" : "Hip-Hug Her",
@@ -127,100 +239,76 @@
             },
             "songs" : [
                 {
-                    "artist" : "Richard ‘Groove’ Holmes",
-                    "title" : "Dumpy Mama",
-                    "album" : "Theme From The Six Million Dollar Man And Other Selections",
-                    "albumURL" : "http://www.discogs.com/Richard-Groove-Holmes-Six-Million-Dollar-Man/release/801848",
-					"label" : "Flying Dutchman",
-                    "year" : "1975"
-                },
-                {
-                    "artist" : "Geraldo Pino and the Heartbeats",
-                    "title" : "Heavy, Heavy, Heavy",
-                    "album" : "Let’s Have A Party",
-                    "albumURL" : "http://www.discogs.com/Geraldo-Pino-Heartbeats-Lets-Have-A-Party/release/557743",
-					"label" : "Soundway",
-                    "year" : "2005"
-                },
-                {
-                    "artist" : "JD and the Evil’s Dynamite Band",
-                    "title" : "Heavy, Heavy… Heavy",
-                    "album" : "Explodes Across The Nation",
-                    "albumURL" : "http://allmusic.com/album/explodes-across-the-nation-r522367",
-					"label" : "Soul Fire",
-                    "year" : "2001"
-                },
-                {
-                    "artist" : "Donald Byrd",
-                    "title" : "Mr. Thomas",
-                    "album" : "Black Byrd",
-                    "albumURL" : "http://allmusic.com/album/black-byrd-r151557",
-					"label" : "Blue Note",
-                    "year" : "1973"
-                },
-                {
-                    "artist" : "The Mebusas",
-                    "title" : "Son of Mr. Bull Dog",
-                    "album" : "Afro Baby: The Evolution of the Afro-Sound in Nigeria 1970-79",
-                    "albumURL" : "http://www.allmusic.com/album/nigeria-afro-baby-the-evolution-of-the-afro-sound-in-nigeria-1970-1979-mw0000376869",
-					"label" : "Soundway",
-                    "year" : "2004"
-                },
-                {
-                    "artist" : "The Jimmy Castor Bunch",
-                    "title" : "E-Man Par-Tay",
-                    "album" : "Maximum Stimulation",
-                    "albumURL" : "http://www.discogs.com/Jimmy-Castor-Bunch-Maximum-Stimulation/release/511655",
-					"label" : "Atlantic",
+                    "artist" : "Brick",
+                    "title" : "Dusic",
+                    "album" : "Brick",
+                    "albumURL": "http://www.allmusic.com/album/brick-r2148904",
+                    "label" : "Bang Reords",
                     "year" : "1977"
                 },
                 {
-                    "artist" : "Gene Ammons",
-                    "title" : "Mellow Gravy",
-                    "album" : "The Best of Gene Ammons with Brother Jack McDuff",
-                    "albumURL" : "http://www.allmusic.com/album/the-best-of-gene-ammons-with-brother-jack-mcduff-mw0000917837",
-					"label" : "Prestige",
-                    "year" : "1962"
+                    "artist" : "Bohannon",
+                    "title" : "Dance Your Ass Off",
+                    "album" : "Dance Your Ass Off",
+                    "albumURL": "http://www.allmusic.com/album/dance-your-ass-off-r31098",
+                    "label" : "Dakar Records/Brunswick",
+                    "year" : "1976"
                 },
                 {
-                    "artist" : "Alabama Shakes",
-                    "title" : "Be Mine",
-                    "album" : "7\" single b/w You Ain’t Alone",
-                    "albumURL" : "",
-					"label" : "Third Man Live",
-                    "year" : "2012"
+                    "artist" : "King Sunny Ade",
+                    "title" : "Ase",
+                    "album" : "http://www.allmusic.com/album/aura-r123657",
+                    "albumURL": "Aura",
+                    "label" : "Island",
+                    "year" : "1984"
                 },
                 {
-                    "artist" : "Charles Earland",
-                    "title" : "Smiling",
-                    "album" : "Live at the Lighthouse",
-                    "albumURL" : "http://allmusic.com/album/live-at-the-lighthouse-r207332",
-					"label" : "Prestige",
+                    "artist" : "Les McCann and Houston Person",
+                    "title" : "Road Warriors",
+                    "album" : "Road Warriors",
+                    "albumURL": "http://www.allmusic.com/album/road-warriors-r936139",
+                    "label" : "Green Street Records/CTI",
+                    "year" : "1984"
+                },
+                {
+                    "artist" : "Pieces of a Dream",
+                    "title" : "Yo Frat",
+                    "album" : "We Are One",
+                    "albumURL": "http://www.allmusic.com/album/we-are-one-r145650",
+                    "label" : "Elektra",
+                    "year" : "1982"
+                },
+                {
+                    "artist" : "Roger",
+                    "title" : "So Ruff, So Tuff",
+                    "album" : "The Many Faces of Roger",
+                    "albumURL": "http://www.allmusic.com/album/the-many-facets-of-roger-r48225",
+                    "label" : "Warner Brothers",
+                    "year" : "1981"
+                },
+                {
+                    "artist" : "Deodato",
+                    "title" : "Also Sprach Zarathustra (2001)",
+                    "album" : "Prelude",
+                    "albumURL": "http://www.allmusic.com/album/prelude-r5478",
+                    "label" : "CTI",
                     "year" : "1972"
                 },
                 {
-                    "artist" : "Lou Donaldson",
-                    "title" : "Bag of Jewels",
-                    "album" : "Midnight Creeper",
-                    "albumURL" : "http://allmusic.com/album/the-midnight-creeper-r137800",
-					"label" : "Blue Note",
-                    "year" : "1968"
+                    "artist" : "Space",
+                    "title" : "Fasten Seat Belt",
+                    "album" : "Magic Fly",
+                    "albumURL": "http://www.allmusic.com/album/magic-fly-r173445",
+                    "label" : "United Artists",
+                    "year" : "1977"
                 },
                 {
-                    "artist" : "Jr. Walker & the All Stars",
-                    "title" : "Groove and Move",
-                    "album" : "A Gasssss",
-                    "albumURL" : "http://allmusic.com/album/a-gasss-r52214",
-					"label" : "Atco",
-                    "year" : "1970"
-                },
-                {
-                    "artist" : "King Curtis",
-                    "title" : "Games People Play",
-                    "album" : "Instant Groove",
-                    "albumURL" : "http://allmusic.com/album/instant-groove-wounded-bird-r1456851",
-					"label" : "Wounded Bird",
-                    "year" : "1969"
+                    "artist" : "BLO",
+                    "title" : "Chant To Mother Earth",
+                    "album" : "Phases 1972-1982",
+                    "albumURL": "http://www.allmusic.com/album/phases-1972-1982-r567399",
+                    "label" : "Afro Strut",
+                    "year" : "2002"
                 }
             ]
         }
