@@ -115,8 +115,34 @@ header {
       }
     }
   }
-  .article-nav {
-    display: none;
+}
+
+.article-nav {
+  position: relative;
+  width: 100%;
+  a {
+    display: block;
+    position: fixed;
+    background-color: $text;
+    opacity: .2;
+    padding: 3em;
+    height: 0;
+    width: 0;
+    top: 50%;
+    margin-top: -3em;
+    border-radius: 3em;
+    text-indent: 100%;
+    overflow: hidden;
+    &:hover, &:active {
+      opacity: .3;
+    }
+    &.previous {
+      left: 1em;
+    }
+    &.next {
+      right: 1em;
+      border-left: 2em solid
+    }
   }
 }
 
