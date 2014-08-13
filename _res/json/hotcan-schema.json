@@ -1,0 +1,33 @@
+{
+	"episodes": [
+		{
+			"number" : "",
+			"title" : "",
+			"date" : "",
+			"filename" : "",
+			"intro" : {
+                "artist" : "Booker T and the MG's",
+				"title" : "Hip-Hug Her",
+				"album" : "Hip-Hug Her",
+				"label" : "Stax",
+				"year" : "1967"
+			},
+			"songs" : [
+				{
+                    "artist" : "",
+					"title" : "",
+					"album" : "",
+					"label" : "",
+					"year" : ""
+				},
+				{
+                    "artist" : "",
+					"title" : "",
+					"album" : "",
+					"label" : "",
+					"year" : ""
+				}
+			]
+		}
+	]
+}
