@@ -1,0 +1,112 @@
+{
+    "number" : "001",
+    "title" : "Beginnings",
+    "date" : "May 8, 2012",
+    "filename" : "episode_001_Beginnings.mp3",
+    "intro" : {
+        "artist" : "Booker T and the MG's",
+        "title" : "Hip-Hug Her",
+        "album" : "Hip-Hug Her",
+        "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+        "label" : "Stax",
+        "year" : "1967"
+    },
+    "songs" : [
+        {
+            "artist" : "Cymande",
+            "title" : "Bra",
+            "album" : "Cymande",
+            "albumURL" : "http://www.allmusic.com/album/cymande-r4957",
+            "label" : "Janus Records",
+            "year" : "1972"
+        },
+        {
+            "artist" : "Wheedle's Groove",
+            "title" : "Everything Bad Is Good",
+            "album" : "Kearney Barton",
+            "albumURL" : "http://www.allmusic.com/album/kearney-barton-r1620773",
+            "label" : "Light In The Attic",
+            "year" : "2009"
+        },
+        {
+            "artist" : "Grant Green",
+            "title" : "The Selma March",
+            "album" : "His Majesty King Funk",
+            "albumURL" : "http://www.allmusic.com/album/his-majesty-king-funk-r139798",
+            "label" : "Verve",
+            "year" : "1965"
+        },
+        {
+            "artist" : "Ramsey Lewis",
+            "title" : "Jungle Strut",
+            "album" : "Sun Goddess",
+            "albumURL" : "http://www.allmusic.com/album/sun-goddess-r133720",
+            "label" : "Columbia",
+            "year" : "1974"
+        },
+        {
+            "artist" : "Herbie Hancock",
+            "title" : "Watermelon Man",
+            "album" : "Head Hunters",
+            "albumURL" : "http://www.allmusic.com/album/head-hunters-r140166",
+            "label" : "Columbia",
+            "year" : "1973"
+        },
+        {
+            "artist" : "Black Heat",
+            "title" : "Chip’s Funk",
+            "album" : "Black Heat",
+            "albumURL" : "http://www.allmusic.com/album/black-heat-r30714",
+            "label" : "Atlantic",
+            "year" : "1972"
+        },
+        {
+            "artist" : "Idris Muhammad",
+            "title" : "Express Yourself",
+            "album" : "Black Rhythm Revolution",
+            "albumURL" : "http://www.allmusic.com/album/black-rhythm-revolution-peace--rhythm-r1746384",
+            "label" : "BGP Records",
+            "year" : "1970"
+        },
+        {
+            "artist" : "Chico Hamilton",
+            "title" : "For Mods Only",
+            "album" : "Sounds from the Verve Hi-Fi",
+            "albumURL" : "http://www.allmusic.com/album/sounds-from-the-verve-hi-fi-r566754",
+            "label" : "Verve",
+            "year" : "2001"
+        },
+        {
+            "artist" : "Herbie Mann",
+            "title" : "Philly Dog",
+            "album" : "Live at the Whiskey A Go Go",
+            "albumURL" : "http://www.allmusic.com/album/live-at-the-whisky-a-go-go-r164498",
+            "label" : "Atlantic",
+            "year" : "1968"
+        },
+        {
+            "artist" : "The Boogoos",
+            "title" : "Theme From Isaac Kirya",
+            "album" : "Contemporary Afro Beat",
+            "albumURL" : "http://www.allmusic.com/album/contemporary-afro-beat-r2107551",
+            "label" : "Tramp Records",
+            "year" : "2011"
+        },
+        {
+            "artist" : "Los Llamas",
+            "title" : "Siboney",
+            "album" : "Si Para Usted: The Funky Beats of Revolutionary Cuba, Vol. 2",
+            "albumURL" : "http://www.allmusic.com/album/r1620749",
+            "label" : "Waxing Deep/Light in the Attic",
+            "year" : "2010"
+        },
+        {
+            "artist" : "Jimmy McGriff",
+            "title" : "Back On The Track",
+            "album" : "Portrait",
+            "albumURL" : "http://www.discogs.com/Jimmy-McGriff-Portrait/release/1152455",
+            "label" : "Blue Note",
+            "year" : "197?"
+        }
+    ]
+}

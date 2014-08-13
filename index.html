@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app class="no-js">
+<html ng-app="hotCan" class="no-js">
 <head>
     <meta charset="utf-8">
     <title>The Hot Can All Vinyl Power Hour</title>
@@ -28,7 +28,7 @@
         <article ng-controller="EpisodeController">
             <h2><a href="#">The Hot Can All Vinyl Power Hour, episode {{episodeNumber}}: "{{episodeTitle}}"</a></h2>
             <ul>
-                <li>intro: <strong>Artist</strong>, "Song Title", <a href="#" target="_blank">Album Title</a>; Record Label, YEAR</li>
+                <li>intro: <strong>{{introArtist}}</strong>, "{{introTitle}}", <a href="{{introAlbumURL}}" target="_blank">{{introAlbum}}</a>; {{introLabel}}, {{introYear}}</li>
                 <li><strong>Artist</strong>, "Song Title", <a href="#" target="_blank">Album Title</a>; Record Label, YEAR</li>
                 <li><strong>Artist</strong>, "Song Title", <a href="#" target="_blank">Album Title</a>; Record Label, YEAR</li>
             </ul>
