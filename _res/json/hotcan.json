@@ -18,7 +18,7 @@
                     "artist" : "Cymande",
 					"title" : "Bra",
 					"album" : "Cymande",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/cymande-r4957",
 					"label" : "Janus Records", 
 					"year" : "1972"
 				},
@@ -26,7 +26,7 @@
                     "artist" : "Wheedle's Groove",
 					"title" : "Everything Bad Is Good",
 					"album" : "Kearney Barton",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/kearney-barton-r1620773",
 					"label" : "Light In The Attic", 
 					"year" : "2009"
 				},
@@ -34,15 +34,15 @@
                     "artist" : "Grant Green",
                     "title" : "The Selma March",
                     "album" : "His Majesty King Funk",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/his-majesty-king-funk-r139798",
 					"label" : "Verve",
                     "year" : "1965"
                 },
                 {
-                    "artist" : "Ramsey Lewi",
+                    "artist" : "Ramsey Lewis",
                     "title" : "Jungle Strut",
                     "album" : "Sun Goddess",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/sun-goddess-r133720",
 					"label" : "Columbia",
                     "year" : "1974"
                 },
@@ -50,7 +50,7 @@
                     "artist" : "Herbie Hancock",
                     "title" : "Watermelon Man",
                     "album" : "Head Hunters",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/head-hunters-r140166",
 					"label" : "Columbia",
                     "year" : "1973"
                 },
@@ -58,7 +58,7 @@
                     "artist" : "Black Heat",
                     "title" : "Chip’s Funk",
                     "album" : "Black Heat",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/black-heat-r30714",
 					"label" : "Atlantic",
                     "year" : "1972"
                 },
@@ -66,7 +66,7 @@
                     "artist" : "Idris Muhammad",
                     "title" : "Express Yourself",
                     "album" : "Black Rhythm Revolution",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/black-rhythm-revolution-peace--rhythm-r1746384",
 					"label" : "BGP Records",
                     "year" : "1970"
                 },
@@ -74,7 +74,7 @@
                     "artist" : "Chico Hamilton",
                     "title" : "For Mods Only",
                     "album" : "Sounds from the Verve Hi-Fi",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/sounds-from-the-verve-hi-fi-r566754",
 					"label" : "Verve",
                     "year" : "2001"
                 },
@@ -82,7 +82,7 @@
                     "artist" : "Herbie Mann",
                     "title" : "Philly Dog",
                     "album" : "Live at the Whiskey A Go Go",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/live-at-the-whisky-a-go-go-r164498",
 					"label" : "Atlantic",
                     "year" : "1968"
                 },
@@ -90,7 +90,7 @@
                     "artist" : "The Boogoos",
                     "title" : "Theme From Isaac Kirya",
                     "album" : "Contemporary Afro Beat",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/contemporary-afro-beat-r2107551",
 					"label" : "Tramp Records",
                     "year" : "2011"
                 },
@@ -98,7 +98,7 @@
                     "artist" : "Los Llamas",
                     "title" : "Siboney",
                     "album" : "Si Para Usted: The Funky Beats of Revolutionary Cuba, Vol. 2",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/r1620749",
 					"label" : "Waxing Deep/Light in the Attic",
                     "year" : "2010"
                 },
@@ -106,7 +106,7 @@
                     "artist" : "Jimmy McGriff",
                     "title" : "Back On The Track",
                     "album" : "Portrait",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.discogs.com/Jimmy-McGriff-Portrait/release/1152455",
 					"label" : "Blue Note",
                     "year" : "197?"
                 }
@@ -130,7 +130,7 @@
                     "artist" : "Richard ‘Groove’ Holmes",
                     "title" : "Dumpy Mama",
                     "album" : "Theme From The Six Million Dollar Man And Other Selections",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.discogs.com/Richard-Groove-Holmes-Six-Million-Dollar-Man/release/801848",
 					"label" : "Flying Dutchman",
                     "year" : "1975"
                 },
@@ -138,7 +138,7 @@
                     "artist" : "Geraldo Pino and the Heartbeats",
                     "title" : "Heavy, Heavy, Heavy",
                     "album" : "Let’s Have A Party",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.discogs.com/Geraldo-Pino-Heartbeats-Lets-Have-A-Party/release/557743",
 					"label" : "Soundway",
                     "year" : "2005"
                 },
@@ -146,7 +146,7 @@
                     "artist" : "JD and the Evil’s Dynamite Band",
                     "title" : "Heavy, Heavy… Heavy",
                     "album" : "Explodes Across The Nation",
-                    "albumURL" : "",
+                    "albumURL" : "http://allmusic.com/album/explodes-across-the-nation-r522367",
 					"label" : "Soul Fire",
                     "year" : "2001"
                 },
@@ -154,7 +154,7 @@
                     "artist" : "Donald Byrd",
                     "title" : "Mr. Thomas",
                     "album" : "Black Byrd",
-                    "albumURL" : "",
+                    "albumURL" : "http://allmusic.com/album/black-byrd-r151557",
 					"label" : "Blue Note",
                     "year" : "1973"
                 },
@@ -162,7 +162,7 @@
                     "artist" : "The Mebusas",
                     "title" : "Son of Mr. Bull Dog",
                     "album" : "Afro Baby: The Evolution of the Afro-Sound in Nigeria 1970-79",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/nigeria-afro-baby-the-evolution-of-the-afro-sound-in-nigeria-1970-1979-mw0000376869",
 					"label" : "Soundway",
                     "year" : "2004"
                 },
@@ -170,7 +170,7 @@
                     "artist" : "The Jimmy Castor Bunch",
                     "title" : "E-Man Par-Tay",
                     "album" : "Maximum Stimulation",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.discogs.com/Jimmy-Castor-Bunch-Maximum-Stimulation/release/511655",
 					"label" : "Atlantic",
                     "year" : "1977"
                 },
@@ -178,7 +178,7 @@
                     "artist" : "Gene Ammons",
                     "title" : "Mellow Gravy",
                     "album" : "The Best of Gene Ammons with Brother Jack McDuff",
-                    "albumURL" : "",
+                    "albumURL" : "http://www.allmusic.com/album/the-best-of-gene-ammons-with-brother-jack-mcduff-mw0000917837",
 					"label" : "Prestige",
                     "year" : "1962"
                 },
@@ -194,7 +194,7 @@
                     "artist" : "Charles Earland",
                     "title" : "Smiling",
                     "album" : "Live at the Lighthouse",
-                    "albumURL" : "",
+                    "albumURL" : "http://allmusic.com/album/live-at-the-lighthouse-r207332",
 					"label" : "Prestige",
                     "year" : "1972"
                 },
@@ -202,7 +202,7 @@
                     "artist" : "Lou Donaldson",
                     "title" : "Bag of Jewels",
                     "album" : "Midnight Creeper",
-                    "albumURL" : "",
+                    "albumURL" : "http://allmusic.com/album/the-midnight-creeper-r137800",
 					"label" : "Blue Note",
                     "year" : "1968"
                 },
@@ -210,17 +210,17 @@
                     "artist" : "Jr. Walker & the All Stars",
                     "title" : "Groove and Move",
                     "album" : "A Gasssss",
-                    "albumURL" : "",
+                    "albumURL" : "http://allmusic.com/album/a-gasss-r52214",
 					"label" : "Atco",
                     "year" : "1970"
                 },
                 {
                     "artist" : "King Curtis",
                     "title" : "Games People Play",
-                    "album" : "Duane Allman: An Anthology",
-                    "albumURL" : "",
-					"label" : "Capricorn",
-                    "year" : "1972"
+                    "album" : "Instant Groove",
+                    "albumURL" : "http://allmusic.com/album/instant-groove-wounded-bird-r1456851",
+					"label" : "Wounded Bird",
+                    "year" : "1969"
                 }
             ]
         }
