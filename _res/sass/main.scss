@@ -1,0 +1,93 @@
+@import "_normalize";
+
+/* COLORS */
+$bodyBg: #815BFF;
+$logoBg: #90f;
+$logoTxt: #6682d2;
+$logoShadow: #4f6cc1;
+$linkText: #B08CFF;
+$text: #dcc3e1;
+
+
+body {
+  background-color: $bodyBg;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: $logoBg;
+  position: fixed;
+  top: 1em;
+  left: 3em;
+  height: 9em;
+  width: 11em;
+  border-radius: 6em;
+  padding: 1em 0;
+  h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: center;
+    text-shadow: -.05em .05em 0 $logoShadow;
+    text-transform: uppercase;
+    margin: .25em 0 0;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    a {
+      &:link, &:visited {
+        color: $logoTxt;
+        text-decoration: none;
+        display: block;
+      }
+      &:hover, &:active {
+        color: $logoShadow;
+        text-shadow: -.05em .05em 0 $logoTxt;
+      }
+    }
+  }
+}
+
+.main-nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  ul {
+    margin: 0 auto;
+    min-width: 20em;
+    text-align: right;
+    li {
+      line-height: 1em;
+      letter-spacing: .132em;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: .444em 0;
+      a {
+        color: $linkText;
+        text-decoration: none;
+        padding: .444em .675em;
+        &:hover, &:active {
+          background-color: $logoBg;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  color: $text;
+  margin: 3em auto;
+  padding: 0 2em;
+  max-width: 50em;
+  h1, h2 {
+    font-size: 4em;
+    font-weight: normal;
+    letter-spacing: .125em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: .444em 0 1em;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+

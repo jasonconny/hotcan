@@ -1,0 +1,399 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body {
+	background-color: #815BFF;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header { 
+	background-color: #90F;
+	position: fixed;
+	top: 1em;
+	left: 3em;
+	height: 9em;
+	width: 11em;
+	border-radius: 6em;
+	padding: 1em 0;
+}
+
+header h1 {
+	font-size: 3.5em;
+	font-weight: bold;
+	line-height: 1em;
+	text-align: center;
+	color: #6682d2;
+	text-shadow: -.05em .05em 0 #4f6cc1;
+	text-transform: uppercase;
+	margin: .25em 0 0;
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+header h1 a:link,
+header h1 a:visited {
+	color: #6682d2;
+	text-decoration: none;
+	display: block;
+}
+
+header h1 a:hover, 
+header h1 a:active {
+	color: #4f6cc1;
+	text-shadow: -.05em .05em 0 #6682d2;
+}
+
+nav.main {
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav.main a#skip {
+	display: none;
+}
+
+nav.main div.menu-header {
+	margin: 0 auto;
+	min-width: 20em;
+}
+
+nav.main div.menu-header ul {
+	text-align: right;
+}
+
+nav.main div.menu-header ul li {
+	line-height: 1em;
+	letter-spacing: .132em;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: .444em 0;
+}
+
+nav.main div.menu-header ul li a {
+	color: #B08CFF;
+	text-decoration: none;
+	padding: .444em .675em;
+}
+
+nav.main div.menu-header ul li a:hover, 
+nav.main div.menu-header ul li a:active {
+	background-color: #90f;
+}
+
+section#content {
+	color: #f6dbfc;
+	margin: 3em auto;
+	padding: 0 2em;
+	max-width: 50em;
+}
+
+section#content h1,
+section#content h2 {
+	font-size: 4em;
+	font-weight: normal;
+	letter-spacing: .125em;
+	line-height: 1em;
+	text-transform: uppercase;
+	margin: .444em 0 1em;
+}
+
+section#content h1 a,
+section#content h2 a {
+	text-decoration: none;
+}
+
+section#content #nav-below {
+	position: fixed;
+	margin: -2em 0 0 0;
+	top: 50%;
+	left: 0;
+	width: 100%;
+}
+
+section#content #nav-below > div {
+	background: transparent center no-repeat;
+	background-size: cover;
+	text-indent: -999em;
+	height: 4em;
+	width: 4em;
+}
+
+section#content #nav-below .nav-previous {
+	float: left;
+	margin: 0 0 0 1em;
+}
+
+section#content #nav-below .nav-next {
+	float: right;
+	margin: 0 1em 0 0;
+}
+
+section#content #nav-below a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	opacity: .1;
+}
+
+section#content #nav-below a:hover,
+section#content #nav-below a:active {
+	opacity: .2;
+}
+
+section#content #nav-below .nav-previous a {
+	background-image: url(../img/arrow-left.png);
+}
+
+section#content #nav-below .nav-next a {
+	background-image: url(../img/arrow-right.png);
+}
+
+section#content a {
+	color: #B08CFF;
+}
+
+section#content a:hover,
+section#content a:active {
+    color: #9900FF;
+}
+
+section#content input, 
+section#content textarea {
+	color: #bbb;
+	border: .132em solid #AD33FF;
+	border-radius: .296em;
+	padding: .296em !important;
+	width: auto !important;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+section#content article p {
+	color: #dcc3e1;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	margin: 0 0 1em;
+}
+
+section#content article p em {
+	font-style: italic; 
+}
+
+section#content article p strong {
+	color: #F6DBFC;
+	font-weight: bold;
+}
+
+section#content .entry-utility {
+	font-size: .667em;
+}
+
+section#content .entry-meta {
+	display: none;
+}
+
+section#content .entry-utility {
+	line-height: 1.5em;
+	margin: 6em 0 2.25em;
+}
+
+section#content .podPress_content {
+	margin: 0 0 3em;
+}
+
+section#content .podPress_downloadlinks {
+	font-size: 1em !important;
+	line-height: 1em !important;
+}
+
+section#content .podpress_mediafile_title {
+	display: none;
+}
+
+section#content .podpress_mediafile_dursize {
+	margin: 0 .5em 0 0 !important;
+}
+
+section#content .podPress_downloadlinks a {
+	display: inline-block;
+	color: #f6dbfc;
+	background-color: #9900ff;
+	padding: .25em .5em;
+	border-radius: .25em;
+	text-decoration: none;
+}
+
+section#content .podPress_downloadlinks a:hover,
+section#content .podPress_downloadlinks a:active {
+    color: #B08CFF;
+}
+
+section#content .podPress_downloadlinks a:first-child {
+	display: none;
+}
+
+section#content ol {
+	padding: 0;
+}
+
+section#content #sidebar {
+	margin-top: 3em;
+}
+
+body.archive section#content #sidebar {
+	margin-top: 15em;
+}
+
+section#content #sidebar a:hover, 
+section#content #sidebar a:active {
+	color: #AD33FF	;
+}
+
+section#content #sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 1.5em 0 0;
+}
+
+section#content #sidebar ul ul {
+	padding: 0;
+}
+
+section#content #sidebar ul li li {
+	font-size: 1;
+}
+
+section#content #sidebar h3 {
+	margin: 1.5em 0 0 0;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	letter-spacing: .132em;
+}
+
+section#content #sidebar li.jetpack_subscription_widget p {
+	font-size: .667em;
+}
+
+section#content #sidebar #searchform input#searchsubmit, 
+section#content #sidebar li.jetpack_subscription_widget input[type="submit"] {
+	display: block;
+	background-color: #AD33FF;
+	border: none;
+	border-radius: 5px;
+	color: #f6dbfc;
+	margin: .667em 0 0 0;
+	padding: .296em .667em;
+	text-transform: uppercase;
+	letter-spacing: .088em;
+}
+
+section#content #sidebar li.jetpack_subscription_widget input {
+	font-size: .444em;
+}
+
+footer.main {
+	margin: 1em auto;
+	padding: 1em 0;
+	color: #f6dbfc;
+	max-width: 50em;
+}
+
+footer.main ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer.main ul li {
+	font-size: .667em;
+	margin: 0 1em 0 0;
+	padding: 0 0 0 1em;
+	border-left: 1px solid #f6dbfc;
+	float: left;
+}
+
+footer.main ul li:first-child {
+	border: none;
+	padding: 0;
+}
+
+footer.main a {
+	color: #f6dbfc;
+}
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* print styles */
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+
+/* These rather presentational classes are generated by WordPress, so it's useful to have some styles for them. Edit as you see fit. More info: http://codex.wordpress.org/CSS */
+.aligncenter { display:block; margin:0 auto }
+.alignleft { float:left }
+.alignright { float:right }
+.wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }
+
+.screen-reader-text, .podPress_imgicon {
+	display: none !important;
+	text-indent: -9999px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1080px) {	
+
+}
+
+@media screen and (max-width: 900px) {	
+	section#content #sidebar ul li#fb-like {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 730px) {	
+	section#content input[type="text"], section#content input[type="search"], section#content textarea {
+		width: 95% !important;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px), only screen and (min-width: 320px) and (max-width: 480px)  {
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) {
+	/* mobile retina */
+}
+
+
