@@ -9,6 +9,7 @@
                 "artist" : "Booker T and the MG's",
 				"title" : "Hip-Hug Her",
 				"album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
 				"label" : "Stax",
 				"year" : "1967"
 			},
@@ -17,6 +18,7 @@
                     "artist" : "Cymande",
 					"title" : "Bra",
 					"album" : "Cymande",
+                    "albumURL" : "",
 					"label" : "Janus Records", 
 					"year" : "1972"
 				},
@@ -24,6 +26,7 @@
                     "artist" : "Wheedle's Groove",
 					"title" : "Everything Bad Is Good",
 					"album" : "Kearney Barton",
+                    "albumURL" : "",
 					"label" : "Light In The Attic", 
 					"year" : "2009"
 				},
@@ -31,70 +34,80 @@
                     "artist" : "Grant Green",
                     "title" : "The Selma March",
                     "album" : "His Majesty King Funk",
-                    "label" : "Verve",
+                    "albumURL" : "",
+					"label" : "Verve",
                     "year" : "1965"
                 },
                 {
                     "artist" : "Ramsey Lewi",
                     "title" : "Jungle Strut",
                     "album" : "Sun Goddess",
-                    "label" : "Columbia",
+                    "albumURL" : "",
+					"label" : "Columbia",
                     "year" : "1974"
                 },
                 {
                     "artist" : "Herbie Hancock",
                     "title" : "Watermelon Man",
                     "album" : "Head Hunters",
-                    "label" : "Columbia",
+                    "albumURL" : "",
+					"label" : "Columbia",
                     "year" : "1973"
                 },
                 {
                     "artist" : "Black Heat",
                     "title" : "Chip’s Funk",
                     "album" : "Black Heat",
-                    "label" : "Atlantic",
+                    "albumURL" : "",
+					"label" : "Atlantic",
                     "year" : "1972"
                 },
                 {
                     "artist" : "Idris Muhammad",
                     "title" : "Express Yourself",
                     "album" : "Black Rhythm Revolution",
-                    "label" : "BGP Records",
+                    "albumURL" : "",
+					"label" : "BGP Records",
                     "year" : "1970"
                 },
                 {
                     "artist" : "Chico Hamilton",
                     "title" : "For Mods Only",
                     "album" : "Sounds from the Verve Hi-Fi",
-                    "label" : "Verve",
+                    "albumURL" : "",
+					"label" : "Verve",
                     "year" : "2001"
                 },
                 {
                     "artist" : "Herbie Mann",
                     "title" : "Philly Dog",
                     "album" : "Live at the Whiskey A Go Go",
-                    "label" : "Atlantic",
+                    "albumURL" : "",
+					"label" : "Atlantic",
                     "year" : "1968"
                 },
                 {
                     "artist" : "The Boogoos",
                     "title" : "Theme From Isaac Kirya",
                     "album" : "Contemporary Afro Beat",
-                    "label" : "Tramp Records",
+                    "albumURL" : "",
+					"label" : "Tramp Records",
                     "year" : "2011"
                 },
                 {
                     "artist" : "Los Llamas",
                     "title" : "Siboney",
                     "album" : "Si Para Usted: The Funky Beats of Revolutionary Cuba, Vol. 2",
-                    "label" : "Waxing Deep/Light in the Attic",
+                    "albumURL" : "",
+					"label" : "Waxing Deep/Light in the Attic",
                     "year" : "2010"
                 },
                 {
                     "artist" : "Jimmy McGriff",
                     "title" : "Back On The Track",
                     "album" : "Portrait",
-                    "label" : "Blue Note",
+                    "albumURL" : "",
+					"label" : "Blue Note",
                     "year" : "197?"
                 }
 			]
@@ -108,6 +121,7 @@
                 "artist" : "Booker T and the MG's",
                 "title" : "Hip-Hug Her",
                 "album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
                 "label" : "Stax",
                 "year" : "1967"
             },
@@ -116,84 +130,96 @@
                     "artist" : "Richard ‘Groove’ Holmes",
                     "title" : "Dumpy Mama",
                     "album" : "Theme From The Six Million Dollar Man And Other Selections",
-                    "label" : "Flying Dutchman",
+                    "albumURL" : "",
+					"label" : "Flying Dutchman",
                     "year" : "1975"
                 },
                 {
                     "artist" : "Geraldo Pino and the Heartbeats",
                     "title" : "Heavy, Heavy, Heavy",
                     "album" : "Let’s Have A Party",
-                    "label" : "Soundway",
+                    "albumURL" : "",
+					"label" : "Soundway",
                     "year" : "2005"
                 },
                 {
                     "artist" : "JD and the Evil’s Dynamite Band",
                     "title" : "Heavy, Heavy… Heavy",
                     "album" : "Explodes Across The Nation",
-                    "label" : "Soul Fire",
+                    "albumURL" : "",
+					"label" : "Soul Fire",
                     "year" : "2001"
                 },
                 {
                     "artist" : "Donald Byrd",
                     "title" : "Mr. Thomas",
                     "album" : "Black Byrd",
-                    "label" : "Blue Note",
+                    "albumURL" : "",
+					"label" : "Blue Note",
                     "year" : "1973"
                 },
                 {
                     "artist" : "The Mebusas",
                     "title" : "Son of Mr. Bull Dog",
                     "album" : "Afro Baby: The Evolution of the Afro-Sound in Nigeria 1970-79",
-                    "label" : "Soundway",
+                    "albumURL" : "",
+					"label" : "Soundway",
                     "year" : "2004"
                 },
                 {
                     "artist" : "The Jimmy Castor Bunch",
                     "title" : "E-Man Par-Tay",
                     "album" : "Maximum Stimulation",
-                    "label" : "Atlantic",
+                    "albumURL" : "",
+					"label" : "Atlantic",
                     "year" : "1977"
                 },
                 {
                     "artist" : "Gene Ammons",
                     "title" : "Mellow Gravy",
                     "album" : "The Best of Gene Ammons with Brother Jack McDuff",
-                    "label" : "Prestige",
+                    "albumURL" : "",
+					"label" : "Prestige",
                     "year" : "1962"
                 },
                 {
                     "artist" : "Alabama Shakes",
                     "title" : "Be Mine",
                     "album" : "7\" single b/w You Ain’t Alone",
-                    "label" : "Third Man Live",
+                    "albumURL" : "",
+					"label" : "Third Man Live",
                     "year" : "2012"
                 },
                 {
                     "artist" : "Charles Earland",
                     "title" : "Smiling",
                     "album" : "Live at the Lighthouse",
-                    "label" : "Prestige",
+                    "albumURL" : "",
+					"label" : "Prestige",
                     "year" : "1972"
                 },
                 {
                     "artist" : "Lou Donaldson",
                     "title" : "Bag of Jewels",
                     "album" : "Midnight Creeper",
-                    "label" : "Blue Note",
+                    "albumURL" : "",
+					"label" : "Blue Note",
                     "year" : "1968"
                 },
                 {
                     "artist" : "Jr. Walker & the All Stars",
                     "title" : "Groove and Move",
                     "album" : "A Gasssss",
-                    "label" : "Atco",
+                    "albumURL" : "",
+					"label" : "Atco",
                     "year" : "1970"
                 },
                 {
                     "artist" : "King Curtis",
                     "title" : "Games People Play",
                     "album" : "Duane Allman: An Anthology",
-                    "label" : "Capricorn",
+                    "albumURL" : "",
+					"label" : "Capricorn",
                     "year" : "1972"
                 }
             ]

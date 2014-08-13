@@ -6,7 +6,9 @@ $logoBg: #90f;
 $logoTxt: #6682d2;
 $logoShadow: #4f6cc1;
 $linkText: #B08CFF;
+$linkHover: #90f;
 $text: #dcc3e1;
+$textStrong: #F6DBFC;
 
 
 body {
@@ -66,7 +68,7 @@ header {
         text-decoration: none;
         padding: .444em .675em;
         &:hover, &:active {
-          background-color: $logoBg;
+          background-color: $linkHover;
         }
       }
     }
@@ -89,5 +91,35 @@ header {
       text-decoration: none;
     }
   }
+  a {
+    color: $linkText;
+    &:hover, &:active {
+      color: $linkHover
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      font-size: 1.5em;
+      letter-spacing: 1px;
+      line-height: 1.5em;
+      margin: 0 0 1em;
+      a {
+        font-style: italic;
+      }
+      strong {
+        color: $textStrong;
+        font-weight: bold;
+      }
+    }
+  }
+  .article-nav {
+    display: none;
+  }
 }
 
+footer {
+  display: none;
+}

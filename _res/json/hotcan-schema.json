@@ -9,6 +9,7 @@
                 "artist" : "Booker T and the MG's",
 				"title" : "Hip-Hug Her",
 				"album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
 				"label" : "Stax",
 				"year" : "1967"
 			},
@@ -17,6 +18,7 @@
                     "artist" : "",
 					"title" : "",
 					"album" : "",
+                    "albumURL": "",
 					"label" : "",
 					"year" : ""
 				},
@@ -24,6 +26,7 @@
                     "artist" : "",
 					"title" : "",
 					"album" : "",
+                    "albumURL": "",
 					"label" : "",
 					"year" : ""
 				}
