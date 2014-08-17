@@ -1,0 +1,88 @@
+{
+    "number" : "004",
+    "title" : "Y Sharp",
+    "date" : "May 30, 2012",
+    "filename" : "episode_004_Y_Sharp.mp3",
+    "intro" : {
+        "artist" : "Booker T and the MG's",
+        "title" : "Hip-Hug Her",
+        "album" : "Hip-Hug Her",
+        "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+        "label" : "Stax",
+        "year" : "1967"
+    },
+    "songs" : [
+        {
+            "artist" : "Big John Patton",
+            "title" : "Hot Sauce",
+            "album" : "Blue John",
+            "albumURL": "http://www.allmusic.com/album/blue-john-r145280",
+            "label" : "Blue Note",
+            "year" : "1963"
+        },
+        {
+            "artist" : "Herbie Hancock",
+            "title" : "Blind Man, Blind Man",
+            "album" : "My Point Of View",
+            "albumURL": "http://www.allmusic.com/album/my-point-of-view-mw0000247492",
+            "label" : "Blue Note",
+            "year" : "1963"
+        },
+        {
+            "artist" : "Lee Morgan",
+            "title" : "The Sidewinder",
+            "album": "The Sidewinder",
+            "albumURL" : "http://www.allmusic.com/album/the-sidewinder-r144338",
+            "label" : "Blue Note",
+            "year" : "1963"
+        },
+        {
+            "artist" : "Brother Jack McDuff",
+            "title" : "Mac-Duffin'",
+            "album" : "Gin and Orange",
+            "albumURL": "http://www.allmusic.com/album/gin-and-orange-r164563",
+            "label" : "Cadet",
+            "year" : "1969"
+        },
+        {
+            "artist" : "Osibisa",
+            "title" : "Y Sharp",
+            "album" : "Woyaya",
+            "albumURL": "http://www.allmusic.com/album/woyaya-r98154",
+            "label" : "Decca",
+            "year" : "1971"
+        },
+        {
+            "artist" : "Kings Go Forth",
+            "title" : "You're The One",
+            "album" : "The Outsiders Are Back",
+            "albumURL": "http://www.allmusic.com/album/the-outsiders-are-back-r1738026",
+            "label" : "Luaka Bop",
+            "year" : "2010"
+        },
+        {
+            "artist" : "Freddie Hubbard",
+            "title" : "Mr. Clean",
+            "album" : "Straight Life",
+            "albumURL": "http://www.allmusic.com/album/straight-life-r141111",
+            "label" : "CTI",
+            "year" : "1971"
+        },
+        {
+            "artist" : "O'Donel Levy",
+            "title" : "You've Made Me So Very Happy",
+            "album" : "Black Velvet",
+            "albumURL": "http://www.allmusic.com/album/black-velvet-r130061",
+            "label" : "Groove Merchant",
+            "year" : "1970"
+        },
+        {
+            "artist" : "Cannonball Adderly",
+            "title" : "Mercy, Mercy, Mercy",
+            "album" : "Mercy, Mercy, Mercy!",
+            "albumURL": "http://www.allmusic.com/album/mercy-mercy-mercy-r222700",
+            "label" : "Capitol",
+            "year" : "1966"
+        }
+    ]
+}

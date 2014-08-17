@@ -1,0 +1,112 @@
+{
+    "number": "002",
+    "title": "Groove And Move",
+    "date": "May 16, 2012",
+    "filename": "episode_002_Groove_and_Move.mp3",
+    "intro": {
+        "artist": "Booker T and the MG's",
+        "title": "Hip-Hug Her",
+        "album": "Hip-Hug Her",
+        "albumURL": "http://www.allmusic.com/album/hip-hug-her-r2306",
+        "label": "Stax",
+        "year": "1967"
+    },
+    "songs": [
+        {
+            "artist": "Richard ‘Groove’ Holmes",
+            "title": "Dumpy Mama",
+            "album": "Theme From The Six Million Dollar Man And Other Selections",
+            "albumURL": "http://www.discogs.com/Richard-Groove-Holmes-Six-Million-Dollar-Man/release/801848",
+            "label": "Flying Dutchman",
+            "year": "1975"
+        },
+        {
+            "artist": "Geraldo Pino and the Heartbeats",
+            "title": "Heavy, Heavy, Heavy",
+            "album": "Let’s Have A Party",
+            "albumURL": "http://www.discogs.com/Geraldo-Pino-Heartbeats-Lets-Have-A-Party/release/557743",
+            "label": "Soundway",
+            "year": "2005"
+        },
+        {
+            "artist": "JD and the Evil’s Dynamite Band",
+            "title": "Heavy, Heavy… Heavy",
+            "album": "Explodes Across The Nation",
+            "albumURL": "http://allmusic.com/album/explodes-across-the-nation-r522367",
+            "label": "Soul Fire",
+            "year": "2001"
+        },
+        {
+            "artist": "Donald Byrd",
+            "title": "Mr. Thomas",
+            "album": "Black Byrd",
+            "albumURL": "http://allmusic.com/album/black-byrd-r151557",
+            "label": "Blue Note",
+            "year": "1973"
+        },
+        {
+            "artist": "The Mebusas",
+            "title": "Son of Mr. Bull Dog",
+            "album": "Afro Baby: The Evolution of the Afro-Sound in Nigeria 1970-79",
+            "albumURL": "http://www.allmusic.com/album/nigeria-afro-baby-the-evolution-of-the-afro-sound-in-nigeria-1970-1979-mw0000376869",
+            "label": "Soundway",
+            "year": "2004"
+        },
+        {
+            "artist": "The Jimmy Castor Bunch",
+            "title": "E-Man Par-Tay",
+            "album": "Maximum Stimulation",
+            "albumURL": "http://www.discogs.com/Jimmy-Castor-Bunch-Maximum-Stimulation/release/511655",
+            "label": "Atlantic",
+            "year": "1977"
+        },
+        {
+            "artist": "Gene Ammons",
+            "title": "Mellow Gravy",
+            "album": "The Best of Gene Ammons with Brother Jack McDuff",
+            "albumURL": "http://www.allmusic.com/album/the-best-of-gene-ammons-with-brother-jack-mcduff-mw0000917837",
+            "label": "Prestige",
+            "year": "1962"
+        },
+        {
+            "artist": "Alabama Shakes",
+            "title": "Be Mine",
+            "album": "7\" single b/w You Ain’t Alone",
+            "albumURL": "",
+            "label": "Third Man Live",
+            "year": "2012"
+        },
+        {
+            "artist": "Charles Earland",
+            "title": "Smiling",
+            "album": "Live at the Lighthouse",
+            "albumURL": "http://allmusic.com/album/live-at-the-lighthouse-r207332",
+            "label": "Prestige",
+            "year": "1972"
+        },
+        {
+            "artist": "Lou Donaldson",
+            "title": "Bag of Jewels",
+            "album": "Midnight Creeper",
+            "albumURL": "http://allmusic.com/album/the-midnight-creeper-r137800",
+            "label": "Blue Note",
+            "year": "1968"
+        },
+        {
+            "artist": "Jr. Walker & the All Stars",
+            "title": "Groove and Move",
+            "album": "A Gasssss",
+            "albumURL": "http://allmusic.com/album/a-gasss-r52214",
+            "label": "Atco",
+            "year": "1970"
+        },
+        {
+            "artist": "King Curtis",
+            "title": "Games People Play",
+            "album": "Instant Groove",
+            "albumURL": "http://allmusic.com/album/instant-groove-wounded-bird-r1456851",
+            "label": "Wounded Bird",
+            "year": "1969"
+        }
+    ]
+}
