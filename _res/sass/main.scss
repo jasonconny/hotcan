@@ -125,23 +125,42 @@ header {
     position: fixed;
     background-color: $text;
     opacity: .2;
-    padding: 3em;
-    height: 0;
-    width: 0;
+    padding: 1em;
+    height: 2em;
+    width: 2em;
     top: 50%;
     margin-top: -3em;
     border-radius: 3em;
-    text-indent: 100%;
-    overflow: hidden;
     &:hover, &:active {
       opacity: .3;
     }
     &.previous {
       left: 1em;
+      &:before {
+        display: block;
+        content: '';
+        border-top: 1em solid transparent;
+        border-right: 1em solid $bodyBg;
+        border-bottom: 1em solid transparent;
+        border-left: 1em solid transparent;
+        position: absolute;
+        top: 1em;
+        left: .25em;
+      }
     }
     &.next {
       right: 1em;
-      border-left: 2em solid
+      &:before {
+        display: block;
+        content: '';
+        border-top: 1em solid transparent;
+        border-right: 1em solid transparent;
+        border-bottom: 1em solid transparent;
+        border-left: 1em solid $bodyBg;
+        position: absolute;
+        top: 1em;
+        left: 1.75em;
+      }
     }
   }
 }
