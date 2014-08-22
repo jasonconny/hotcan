@@ -1,0 +1,7 @@
+<article>
+    <h2><a href="#">The Hot Can All Vinyl Power Hour, episode {{episode.number}}: "{{episode.title}}"</a></h2>
+    <ul>
+        <li>intro: <strong>{{episode.intro.artist}}</strong>, "{{episode.intro.title}}", <a href="{{episode.intro.albumURL}}" target="_blank">{{episode.intro.album}}</a>; {{episode.intro.label}}, {{episode.intro.year}}</li>
+        <li ng-repeat="song in episode.songs"><strong>{{song.artist}}</strong>, "{{song.title}}", <a href="{{song.albumURL}}" target="_blank">{{song.album}}</a>; {{song.label}}, {{song.year}}</li>
+    </ul>
+</article>
