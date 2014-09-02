@@ -176,12 +176,12 @@ header h1 a:hover, header h1 a:active { color: #4f6cc1; text-shadow: -0.05em 0.0
 .content ul li a { font-style: italic; }
 .content ul li strong { color: #f6dbfc; font-weight: bold; }
 
-.article-nav { position: relative; width: 100%; }
-.article-nav a { display: block; position: fixed; background-color: #dcc3e1; opacity: .2; padding: 1em; height: 2em; width: 2em; top: 50%; margin-top: -3em; border-radius: 3em; }
-.article-nav a:hover, .article-nav a:active { opacity: .3; }
-.article-nav a.previous { left: 1em; }
-.article-nav a.previous:before { display: block; content: ''; border-top: 1em solid transparent; border-right: 1em solid #815bff; border-bottom: 1em solid transparent; border-left: 1em solid transparent; position: absolute; top: 1em; left: .25em; }
-.article-nav a.next { right: 1em; }
-.article-nav a.next:before { display: block; content: ''; border-top: 1em solid transparent; border-right: 1em solid transparent; border-bottom: 1em solid transparent; border-left: 1em solid #815bff; position: absolute; top: 1em; left: 1.75em; }
+.episode-nav { position: relative; width: 100%; }
+.episode-nav a { display: block; position: fixed; background-color: #dcc3e1; opacity: .2; padding: 1em; height: 2em; width: 2em; top: 50%; margin-top: -3em; border-radius: 3em; }
+.episode-nav a:hover, .episode-nav a:active { opacity: .3; }
+.episode-nav a.previous { left: 1em; }
+.episode-nav a.previous:before { display: block; content: ''; border-top: 1em solid transparent; border-right: 1em solid #815bff; border-bottom: 1em solid transparent; border-left: 1em solid transparent; position: absolute; top: 1em; left: .25em; }
+.episode-nav a.next { right: 1em; }
+.episode-nav a.next:before { display: block; content: ''; border-top: 1em solid transparent; border-right: 1em solid transparent; border-bottom: 1em solid transparent; border-left: 1em solid #815bff; position: absolute; top: 1em; left: 1.75em; }
 
 footer { display: none; }
