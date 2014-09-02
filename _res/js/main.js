@@ -6,6 +6,7 @@ hotcan.config(function ($routeProvider) {
     $routeProvider
         .when('/',
         {
+            controller: "EpisodeController",
             templateUrl: "_res/views/episode.html"
         })
         .when('/about', {
@@ -17,28 +18,17 @@ hotcan.config(function ($routeProvider) {
 });
 
 // CONTROLLERS
-hotcan.controller('EpisodeController', ['$scope', 'Episodes', function($scope, Episode) {
-    Episodes.getEpisodes().success(function(data) {
-        $scope.episodes = data;
+hotcan.controller('EpisodeController', ['$scope', 'EpisodeLoader', function($scope, EpisodeLoader) {
+    EpisodeLoader.success(function(data) {
+        episodes = data.episodes;
+        $scope.episode = episodes[0];
     });
 }]);
 
 // SERVICES
-hotcan.factory('Episodes', ['$http', function($http) {
-    var url = '_res/json/hotcan.json';
-
-    return {
-        getEpisodes: function() {
-            return $http.get(url);
-        }
-    }
+hotcan.factory('EpisodeLoader', ['$http', function($http) {
+    return $http.get('_res/json/hotcan.json');
 }]);
 
 // DIRECTIVES
-//hotcan.directive('episode', function() {
-//   return {
-//       restrict: "E",
-//       replace: true,
-//       templateUrl: "_res/views/episode.html"
-//   }
-//});
+// episode-nav directive
