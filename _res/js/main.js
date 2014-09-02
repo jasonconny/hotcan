@@ -1,35 +1,41 @@
-var hotCan = angular.module('hotCan', ['ngRoute']);
+var hotcan = angular.module('hotcan', ['ngRoute']);
 
 
 // ROUTES
-hotCan.config(function ($routeProvider) {
-    $routeProvider.when('/',
+hotcan.config(function ($routeProvider) {
+    $routeProvider
+        .when('/',
         {
             templateUrl: "_res/views/episode.html"
-        }
-    )
+        })
+        .when('/about', {
+            templateUrl: "_res/views/about.html"
+        })
+        .when('/contact', {
+            templateUrl: "_res/views/contact.html"
+        })
 });
 
 // CONTROLLERS
-hotCan.controller('EpisodeController', ['$scope', 'Episode', function($scope, Episode) {
-    Episode.getEpisode().success(function(data) {
-        $scope.episode = data;
+hotcan.controller('EpisodeController', ['$scope', 'Episodes', function($scope, Episode) {
+    Episodes.getEpisodes().success(function(data) {
+        $scope.episodes = data;
     });
 }]);
 
 // SERVICES
-hotCan.factory('Episode', ['$http', function($http) {
-    var url = '_res/json/001.json'; // this needs to be passed in when service is called
+hotcan.factory('Episodes', ['$http', function($http) {
+    var url = '_res/json/hotcan.json';
 
     return {
-        getEpisode: function() {
+        getEpisodes: function() {
             return $http.get(url);
         }
     }
 }]);
 
 // DIRECTIVES
-//hotCan.directive('episode', function() {
+//hotcan.directive('episode', function() {
 //   return {
 //       restrict: "E",
 //       replace: true,
