@@ -5,6 +5,7 @@
 			"title" : "Beginnings",
 			"date" : "May 8, 2012",
 			"filename" : "episode_001_Beginnings",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-1",
 			"intro" : {
                 "artist" : "Booker T and the MG's",
 				"title" : "Hip-Hug Her",
@@ -117,6 +118,7 @@
             "title": "Groove And Move",
             "date": "May 16, 2012",
             "filename": "episode_002_Groove_and_Move",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-2",
             "intro": {
                 "artist": "Booker T and the MG's",
                 "title": "Hip-Hug Her",
@@ -229,6 +231,7 @@
             "title" : "Maximum Stimulation",
             "date" : "May 23, 2012",
             "filename" : "episode_003_Maximum_Stimulation",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-3-maximum-stimulation",
             "intro" : {
                 "artist" : "Booker T and the MG's",
                 "title" : "Hip-Hug Her",
@@ -317,6 +320,7 @@
             "title" : "Y Sharp",
             "date" : "May 30, 2012",
             "filename" : "episode_004_Y_Sharp",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-4",
             "intro" : {
                 "artist" : "Booker T and the MG's",
                 "title" : "Hip-Hug Her",
@@ -405,6 +409,7 @@
             "title" : "Functus",
             "date" : "June 6, 2012",
             "filename" : "episode_005_Functus",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-5-functus",
             "intro" : {
                 "artist" : "Booker T and the MG's",
                 "title" : "Hip-Hug Her",
