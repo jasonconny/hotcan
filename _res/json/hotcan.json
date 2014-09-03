@@ -500,6 +500,507 @@
                     "year" : "1974"
                 }
             ]
+        },
+        {
+            "number" : "006",
+            "title" : "Music To Think By",
+            "date" : "Jun 13, 2012",
+            "filename" : "episode_006_Music_To_Think_By",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-6-music-to-think-by",
+            "intro" : {
+                "artist" : "Booker T and the MG's",
+                "title" : "Hip-Hug Her",
+                "album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+                "label" : "Stax",
+                "year" : "1967"
+            },
+            "songs" : [
+                {
+                    "artist" : "Jimmy Smith",
+                    "title" : "Can Heat",
+                    "album" : "Rockin' The Boat",
+                    "albumURL": "http://www.allmusic.com/album/rockin-the-boat-r147794",
+                    "label" : "Blue Note",
+                    "year" : "1963"
+                },
+                {
+                    "artist" : "Henry Cain",
+                    "title" : "Precious Memories",
+                    "album" : "The Funky Organ-ization of Henry Cain",
+                    "albumURL": "http://www.allmusic.com/album/the-funky-organ-ization-of-henry-cain-r68668",
+                    "label" : "Capitol",
+                    "year" : "1968"
+                },
+                {
+                    "artist" : "Charles Kynard",
+                    "title" : "Boogalooin",
+                    "album" : "Welcome To The Basement",
+                    "albumURL": "http://www.allmusic.com/album/welcome-to-the-basement-r925812",
+                    "label" : "Brown Sugar",
+                    "year" : "2004"
+                },
+                {
+                    "artist" : "Don Patterson",
+                    "title" : "Music To Think By",
+                    "album" : "Mellow Soul",
+                    "albumURL": "http://www.allmusic.com/album/mellow-soul-r155803",
+                    "label" : "Prestige",
+                    "year" : "1967"
+                },
+                {
+                    "artist" : "Shirley Scott",
+                    "title" : "Rapid Shave",
+                    "album" : "Queen Of The Organ",
+                    "albumURL": "http://www.allmusic.com/album/queen-of-the-organ-r147123",
+                    "label" : "Impulse",
+                    "year" : "1964"
+                },
+                {
+                    "artist" : "Johnny 'Hammond' Smith",
+                    "title" : "Oriole",
+                    "album" : "The Stinger Meets The Golden Thrush",
+                    "albumURL": "http://www.allmusic.com/album/the-stinger-meets-the-golden-thrush-r156431",
+                    "label" : "Prestige",
+                    "year" : "1966"
+                },
+                {
+                    "artist" : "Lonnie Smith",
+                    "title" : "I Feel The Earth Move",
+                    "album" : "Mama Wailer",
+                    "albumURL": "http://www.allmusic.com/album/mama-wailer-r147829",
+                    "label" : "CTI",
+                    "year" : "1971"
+                },
+                {
+                    "artist" : "Merl Saunders",
+                    "title" : "Expressway (To Your Heart)",
+                    "album" : "Fire Up",
+                    "albumURL": "http://www.allmusic.com/album/fire-up-r348865",
+                    "label" : "Fantasy",
+                    "year" : "1973"
+                },
+                {
+                    "artist" : "Jimmy McGriff and 'Groove' Holmes",
+                    "title" : "The Preacher's Tune",
+                    "album" : "Giants Of The Organ In Concert",
+                    "albumURL": "http://www.allmusic.com/album/giants-of-the-organ-in-concert-r1240417",
+                    "label" : "Groove Merchant",
+                    "year" : "1972"
+                },
+                {
+                    "artist" : "James Brown",
+                    "title" : "Fat Bag",
+                    "album" : "James Brown Plays New Breed",
+                    "albumURL": "http://www.allmusic.com/album/james-brown-plays-new-breed-r2764",
+                    "label" : "Smash Records",
+                    "year" : "1966"
+                }
+            ]
+        },
+        {
+            "number" : "007",
+            "title" : "Funky Doo",
+            "date" : "June 20, 2012",
+            "filename" : "episode_007_Funky_Doo",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-7",
+            "intro" : {
+                "artist" : "Booker T and the MG's",
+                "title" : "Hip-Hug Her",
+                "album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+                "label" : "Stax",
+                "year" : "1967"
+            },
+            "songs" : [
+                {
+                    "artist" : "The Crusaders",
+                    "title" : "Scratch",
+                    "album" : "Scratch",
+                    "albumURL": "http://www.allmusic.com/album/scratch-mw0000197128",
+                    "label" : "Blue Thumb Records",
+                    "year" : "1974"
+                },
+                {
+                    "artist" : "Cedar Walton",
+                    "title" : "The Electric Boogaloo Song",
+                    "album" : "The Electric Boogaloo Song",
+                    "albumURL": "http://www.allmusic.com/album/the-electic-boogaloo-song-mw0000900370",
+                    "label" : "Prestige",
+                    "year" : "1969"
+                },
+                {
+                    "artist" : "Eddie Harris",
+                    "title" : "Funky Doo",
+                    "album" : "High Voltage",
+                    "albumURL": "http://www.allmusic.com/album/high-voltage-mw0000870800",
+                    "label" : "Atlantic",
+                    "year" : "1969"
+                },
+                {
+                    "artist" : "Reuben Wilson",
+                    "title" : "Inner City Blues",
+                    "album" : "Groove Merchant Presents",
+                    "albumURL": "http://www.discogs.com/Various-Groove-Merchant-Presents/release/2463573",
+                    "label" : "Groove Merchant",
+                    "year" : "197?"
+                },
+                {
+                    "artist" : "Herbie Mann",
+                    "title" : "Blind Willy",
+                    "album" : "Muscle Shoals Nitty Gritty",
+                    "albumURL": "http://www.allmusic.com/album/muscle-shoals-nitty-gritty-mw0000779589",
+                    "label" : "Embryo",
+                    "year" : "1970"
+                },
+                {
+                    "artist" : "Steve Cropper",
+                    "title" : "Rattlesnake",
+                    "album" : "With A Little Help From My Friends",
+                    "albumURL": "http://www.allmusic.com/album/with-a-little-help-from-my-friends-mw0000689844",
+                    "label" : "Volt",
+                    "year" : "1971"
+                },
+                {
+                    "artist" : "J.M. Tim &amp; Foty",
+                    "title" : "Douala By Night",
+                    "album" : "Ouelele: Another Collection Of Modern Afro Rythms",
+                    "albumURL": "http://www.allmusic.com/album/ouelele-another-collection-of-afro-rythms-mw0000726876",
+                    "label" : "Comet Records",
+                    "year" : "1999"
+                },
+                {
+                    "artist" : "Babatunde Olatunji",
+                    "title" : "Dominira",
+                    "album" : "Soul Makossa",
+                    "albumURL": "http://www.discogs.com/Babatunde-Olatunji-Soul-Makossa/release/641810",
+                    "label" : "Paramount Records",
+                    "year" : "1973"
+                },
+                {
+                    "artist" : "Tunji Oyelana and the Benders",
+                    "title" : "Ifa",
+                    "album" : "World Psychedelic Classics 3: Love's A Real Thing: The Funky Fuzzy Sounds Of West Africa",
+                    "albumURL": "http://www.allmusic.com/album/world-psychedelic-classics-vol-3-loves-a-real-thing-mw0000673313",
+                    "label" : "Stones Throw/Luaka Bop",
+                    "year" : "2005"
+                },
+                {
+                    "artist" : "Hubert Laws",
+                    "title" : "The Crying Song",
+                    "album" : "The Crying Song",
+                    "albumURL": "http://www.allmusic.com/album/crying-song-mw0000198638",
+                    "label" : "CTI",
+                    "year" : "1969"
+                }
+            ]
+        },
+        {
+            "number" : "008",
+            "title" : "Bumpin' On Sunset",
+            "date" : "June 27, 2012",
+            "filename" : "episode_008_Bumpin_On_Sunset.mp3",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-8-bumpin-on-sunset",
+            "intro" : {
+                "artist" : "Booker T and the MG's",
+                "title" : "Hip-Hug Her",
+                "album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+                "label" : "Stax",
+                "year" : "1967"
+            },
+            "songs" : [
+                {
+                    "artist" : "Mel Brown",
+                    "title" : "Shanty",
+                    "album" : "Chicken Fat",
+                    "albumURL": "http://www.allmusic.com/album/chicken-fat-mw0000335503",
+                    "label" : "Euphoria",
+                    "year" : "1967"
+                },
+                {
+                    "artist" : "Gabor Szabo",
+                    "title" : "Spellbinder",
+                    "album" : "Spellbinder",
+                    "albumURL": "http://www.allmusic.com/album/spellbinder-mw0000389250",
+                    "label" : "Impulse",
+                    "year" : "1966"
+                },
+                {
+                    "artist" : "Ivan 'Boogaloo Joe' Jones",
+                    "title" : "Brown Bag",
+                    "album" : "Cold Sweat: From Jazz to Soul 'n' Funk to Blaxploitaion",
+                    "albumURL": "http://www.allmusic.com/album/cold-sweat-brown-sugar-mw0001460501",
+                    "label" : "Brown Sugar",
+                    "year" : "2004"
+                },
+                {
+                    "artist" : "Wes Montgomery",
+                    "title" : "Bumpin' On Sunset",
+                    "album" : "Tequila",
+                    "albumURL": "http://www.allmusic.com/album/tequila-mw0000197158",
+                    "label" : "Verve",
+                    "year" : "1966"
+                },
+                {
+                    "artist" : "Kenny Burrell",
+                    "title" : "A Streetcar Named Desire",
+                    "album" : "'Round Midnight",
+                    "albumURL": "http://www.allmusic.com/album/round-midnight-mw0000600580",
+                    "label" : "Fantasy",
+                    "year" : "1972"
+                },
+                {
+                    "artist" : "Grant Green",
+                    "title" : "Old Man Moses (Let My People Go)",
+                    "album" : "Iron City",
+                    "albumURL": "http://www.allmusic.com/album/iron-city-mw0000035660",
+                    "label" : "Cobblestone",
+                    "year" : "1967"
+                },
+                {
+                    "artist" : "Chief Commander Ebenezer Obey",
+                    "title" : "A Fi Eni Oluwa Koyo (He Who God Delivers)",
+                    "album" : "Juju Jubilee",
+                    "albumURL": "http://www.allmusic.com/album/juju-jubilee-mw0000198883",
+                    "label" : "Shanachie",
+                    "year" : "1985"
+                },
+                {
+                    "artist" : "Sir Victor Uwaifo",
+                    "title" : "Idogo (Ekassa 42)",
+                    "album" : "Guitar Boy Superstar: 1970-76",
+                    "albumURL": "http://www.allmusic.com/album/guitar-boy-superstar-1970-1976-mw0000789082",
+                    "label" : "Soundway",
+                    "year" : "2008"
+                },
+                {
+                    "artist" : "Oliver de Cocque and His Expo '76",
+                    "title" : "The Tragedy of Two Friends",
+                    "album" : "Lagos Chop Up",
+                    "albumURL": "http://www.allmusic.com/album/lagos-chop-up-fuji-afrobeat-highlife-juju-mw0000703331",
+                    "label" : "Honest Jon's Records",
+                    "year" : "2005"
+                },
+                {
+                    "artist" : "Jeff Beck",
+                    "title" : "Freeway Jam",
+                    "album" : "Blow By Blow",
+                    "albumURL": "http://www.allmusic.com/album/blow-by-blow-mw0000619122",
+                    "label" : "Epic",
+                    "year" : "1975"
+                }
+            ]
+        },
+        {
+            "number" : "009",
+            "title" : "The Dirty Hunch's Birthday Favs!",
+            "date" : "July 4, 2012",
+            "filename" : "episode_009_The Dirty_Hunchs_Birthday_Favs",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-9-the-dirty-hunchs-birthday-favs",
+            "intro" : {
+                "artist" : "Booker T and the MG's",
+                "title" : "Hip-Hug Her",
+                "album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+                "label" : "Stax",
+                "year" : "1967"
+            },
+            "songs" : [
+                {
+                    "artist" : "Herbie Hancock",
+                    "title" : "Wiggle Waggle",
+                    "album" : "Fat Albert Rotunda",
+                    "albumURL": "http://www.allmusic.com/album/fat-albert-rotunda-mw0000738792",
+                    "label" : "Warner Brothers",
+                    "year" : "1969"
+                },
+                {
+                    "artist" : "Cymande",
+                    "title" : "Brothers On The Slide",
+                    "album" : "Promised Heights",
+                    "albumURL": "http://www.allmusic.com/album/promised-heights-mw0000488913",
+                    "label" : "Janus",
+                    "year" : "1974"
+                },
+                {
+                    "artist" : "Jimmy McGriff",
+                    "title" : "Sugar Sugar",
+                    "album" : "Soul Sugar",
+                    "albumURL": "http://www.allmusic.com/album/soul-sugar-mw0001142981",
+                    "label" : "Capitol",
+                    "year" : "1971"
+                },
+                {
+                    "artist" : "Brother Jack McDuff",
+                    "title" : "Butter (For Yo Popcorn)",
+                    "album" : "Down Home Style",
+                    "albumURL": "http://www.allmusic.com/album/down-home-style-mw0000089767",
+                    "label" : "Blue Note",
+                    "year" : "1969"
+                },
+                {
+                    "artist" : "Donny Hathaway",
+                    "title" : "The Ghetto",
+                    "album" : "Live",
+                    "albumURL": "http://www.allmusic.com/album/live-mw0000460498",
+                    "label" : "Atco",
+                    "year" : "1972"
+                },
+                {
+                    "artist" : "Curtis Mayfield",
+                    "title" : "We're A Winner",
+                    "album" : "Curtis/Live!",
+                    "albumURL": "http://www.allmusic.com/album/curtis-live-mw0000615044",
+                    "label" : "Curtom",
+                    "year" : "1971"
+                },
+                {
+                    "artist" : "Fela Anikulapo Kuti and the Africa 70",
+                    "title" : "Chop and Quench",
+                    "album" : "Fela Anikulapo Kuti and the Africa 70",
+                    "albumURL": "http://www.discogs.com/Fela-Anikulapo-Kuti-Africa-70-The-Fela-Anikulapo-Kuti-The-Africa-70/master/193252",
+                    "label" : "EMI",
+                    "year" : "1983"
+                },
+                {
+                    "artist" : "Herbie Mann",
+                    "title" : "Memphis Underground",
+                    "album" : "Memphis Underground",
+                    "albumURL": "http://www.allmusic.com/album/memphis-underground-mw0000649626",
+                    "label" : "Atlantic",
+                    "year" : "1969"
+                },
+                {
+                    "artist" : "Funkadelic",
+                    "title" : "Can You Get To That",
+                    "album" : "Funkadelic's Greatest Hits",
+                    "albumURL": "http://www.allmusic.com/album/funkadelics-greatest-hits-mw0000847425",
+                    "label" : "Westbound",
+                    "year" : "1975"
+                },
+                {
+                    "artist" : "Otis Redding and Booker T &amp; the MG's",
+                    "title" : "I've Been Loving You Too Long",
+                    "album" : "At Monterey",
+                    "albumURL": "http://www.allmusic.com/album/at-monterey-mw0000311724",
+                    "label" : "Reprise",
+                    "year" : "1970"
+                }
+            ]
+        },
+        {
+            "number" : "010",
+            "title" : "Lotus Flower",
+            "date" : "July 11, 2012",
+            "filename" : "episode_010_Lotus_Flower",
+            "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-10",
+            "intro" : {
+                "artist" : "Booker T and the MG's",
+                "title" : "Hip-Hug Her",
+                "album" : "Hip-Hug Her",
+                "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+                "label" : "Stax",
+                "year" : "1967"
+            },
+            "songs" : [
+                {
+                    "artist" : "Odell Brown and the Organ-izers",
+                    "title" : "Quiet Village",
+                    "album" : "Mellow Yellow",
+                    "albumURL": "http://www.allmusic.com/album/mellow-yellow-mw0000902931",
+                    "label" : "Cadet",
+                    "year" : "1967"
+                },
+                {
+                    "artist" : "Willie Bobo",
+                    "title" : "1-2-3 (Uno-Dos-Tres)",
+                    "album" : "Uno Dos Tres/1, 2, 3",
+                    "albumURL": "http://www.allmusic.com/album/uno-dos-tres-1-2-3-mw0000903454",
+                    "label" : "Verve",
+                    "year" : "1966"
+                },
+                {
+                    "artist" : "Combo Tiempos Nuevos",
+                    "title" : "De La Fiesta La Mejor",
+                    "album" : "Si, Para Usted: The Funky Beats of Revolutionary Cuba, Vol. 1",
+                    "albumURL": "http://www.allmusic.com/album/si-para-usted-the-funky-beats-of-revolutionary-cuba-vol-1-mw0000500019",
+                    "label" : "Waxing Deep/Light in the Attic",
+                    "year" : "2006"
+                },
+                {
+                    "artist" : "The Souljazz Orchestra",
+                    "title" : "Lotus Flower",
+                    "album" : "Rising Sun",
+                    "albumURL": "http://www.allmusic.com/album/rising-sun-mw0001958420",
+                    "label" : "Strut",
+                    "year" : "2010"
+                },
+                {
+                    "artist" : "Leon Spencer",
+                    "title" : "Louisiana Slim",
+                    "album" : "Louisiana Slim",
+                    "albumURL": "http://www.allmusic.com/album/louisiana-slim-mw0001882588",
+                    "label" : "Prestige",
+                    "year" : "1971"
+                },
+                {
+                    "artist" : "Marvin Gaye",
+                    "title" : "'T' Plays It Cool",
+                    "album" : "Trouble Man",
+                    "albumURL": "http://www.allmusic.com/album/trouble-man-mw0000653759q",
+                    "label" : "Tamla",
+                    "year" : "1972"
+                },
+                {
+                    "artist" : "The Memphis Horns",
+                    "title" : "Party Line",
+                    "album" : "The Memphis Horns Band II",
+                    "albumURL": "http://www.allmusic.com/album/memphis-horns-band-2-mw0000855401",
+                    "label" : "RCA",
+                    "year" : "1978"
+                },
+                {
+                    "artist" : "Tower Of Power",
+                    "title" : "The Skunk, The Goose and The Fly",
+                    "album" : "East Bay Grease",
+                    "albumURL": "http://www.allmusic.com/album/east-bay-grease-mw0000616730",
+                    "label" : "United Artists",
+                    "year" : "1970"
+                },
+                {
+                    "artist" : "Rick James",
+                    "title" : "Cop 'N' Blow",
+                    "album" : "Bustin' Out Of L Seven",
+                    "albumURL": "http://www.allmusic.com/album/bustin-out-of-l-seven-mw0000626607",
+                    "label" : "Gordy",
+                    "year" : "1979"
+                },
+                {
+                    "artist" : "Demon Fuzz",
+                    "title" : "Past Present and Future",
+                    "album" : "Afreaka!",
+                    "albumURL": "http://www.allmusic.com/album/afreaka%21-mw0000348801",
+                    "label" : "Janus Records",
+                    "year" : "1970"
+                },
+                {
+                    "artist" : "Orchestre Poly-Rythmo De Cotonou",
+                    "title" : "Gbeti Madjro",
+                    "album" : "African Scream Contest: Raw &amp; Psychedelic Afro Sounds from Benin &amp; Togo 70s",
+                    "albumURL": "http://www.allmusic.com/album/african-scream-contest-raw-psychedelic-afro-sounds-mw0000805230",
+                    "label" : "Analog Africa",
+                    "year" : "2008"
+                },
+                {
+                    "artist" : "Willis 'Gator' Jackson",
+                    "title" : "Win, Lose or Draw",
+                    "album" : "Swivelhips",
+                    "albumURL": "http://www.allmusic.com/album/swivel-hips-mw0000914987",
+                    "label" : "Prestige",
+                    "year" : "1968"
+                }
+            ]
         }
     ]
 }
