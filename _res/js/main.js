@@ -4,8 +4,11 @@ var hotcan = angular.module('hotcan', ['ngRoute']);
 // ROUTES
 hotcan.config(function ($routeProvider) {
     $routeProvider
-        .when('/',
-        {
+        .when('/', {
+            controller: "EpisodeController",
+            templateUrl: "_res/views/episode.html"
+        })
+        .when('/podcast/:deeplink', {
             controller: "EpisodeController",
             templateUrl: "_res/views/episode.html"
         })
@@ -20,8 +23,11 @@ hotcan.config(function ($routeProvider) {
 // CONTROLLERS
 hotcan.controller('EpisodeController', ['$scope', 'EpisodeLoader', function($scope, EpisodeLoader) {
     EpisodeLoader.success(function(data) {
+        var index = 0;
         episodes = data.episodes;
-        $scope.episode = episodes[0];
+        $scope.currentEpisode = episodes[index];
+        $scope.previousEpisode = episodes[index - 1];
+        $scope.nextEpisode = episodes[index + 1];
     });
 }]);
 
