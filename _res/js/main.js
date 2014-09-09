@@ -24,7 +24,7 @@ hotcan.config(function ($routeProvider) {
 hotcan.controller('EpisodeController', ['$scope', 'EpisodeLoader', function($scope, EpisodeLoader) {
     EpisodeLoader.success(function(data) {
         var index = 0;
-        episodes = data.episodes;
+        episodes = data;
         $scope.currentEpisode = episodes[index];
         $scope.previousEpisode = episodes[index - 1];
         $scope.nextEpisode = episodes[index + 1];
