@@ -1,12 +1,12 @@
 {
 	"episodes": [
 		{
-			"number" : "",
-			"title" : "",
-			"date" : "",
-			"filename" : "",
-            "deeplink" : "",
-			"intro" : {
+			"number" : "increments",
+			"title" : "extracted from <title>",
+			"date" : "<pubDate>",
+			"filename" : "extracted from podPress meta data",
+            "id" : "<wp:post_name>",
+			"intro" : { // can also be Herbie Hancocok's Blind Man, Blind Man
                 "artist" : "Booker T and the MG's",
 				"title" : "Hip-Hug Her",
 				"album" : "Hip-Hug Her",
@@ -15,7 +15,7 @@
 				"year" : "1967"
 			},
 			"songs" : [
-				{
+				{ // extracted from <content:encoded>
                     "artist" : "",
 					"title" : "",
 					"album" : "",

@@ -1,6 +1,6 @@
 <article>
     <h2>The Hot Can All Vinyl Power Hour, episode {{currentEpisode.number}}: "{{currentEpisode.title}}"</h2>
-    <p class="date">posted on: {{currentEpisode.date}}</p>
+    <p class="date">posted on: {{postDate | date:"longDate"}}</p>
     <a href="/_res/audio/mp3/{{currentEpisode.filename}}.mp3" class="download-link">download this episode</a>
     <ul>
         <li>intro: <strong>{{currentEpisode.intro.artist}}</strong>, "{{currentEpisode.intro.title}}", <a href="{{currentEpisode.intro.albumURL}}" target="_blank">{{currentEpisode.intro.album}}</a>; {{currentEpisode.intro.label}}, {{currentEpisode.intro.year}}</li>

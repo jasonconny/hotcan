@@ -28,6 +28,9 @@ hotcan.controller('EpisodeController', ['$scope', 'EpisodeLoader', function($sco
         $scope.currentEpisode = episodes[index];
         $scope.previousEpisode = episodes[index - 1];
         $scope.nextEpisode = episodes[index + 1];
+        console.log($scope.currentEpisode.date);
+        $scope.postDate = new Date($scope.currentEpisode.date);
+        console.log($scope.postDate);
     });
 }]);
 
