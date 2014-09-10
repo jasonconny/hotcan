@@ -1,10 +1,10 @@
 [
     {
-        "number" : "001",
+        "number" : "1",
         "title" : "Beginnings",
         "date" : "Tue, 08 May 2012 13:40:18 +0000",
         "filename" : "episode_001_Beginnings",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-1",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-1",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -113,11 +113,11 @@
         ]
     },
     {
-        "number": "002",
+        "number": "2",
         "title": "Groove And Move",
         "date": "Wed, 16 May 2012 06:00:28 +0000",
         "filename": "episode_002_Groove_and_Move",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-2",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-2",
         "intro": {
             "artist": "Booker T and the MG's",
             "title": "Hip-Hug Her",
@@ -226,11 +226,11 @@
         ]
     },
     {
-        "number" : "003",
+        "number" : "3",
         "title" : "Maximum Stimulation",
         "date" : "Wed, 23 May 2012 06:00:50 +0000",
         "filename" : "episode_003_Maximum_Stimulation",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-3-maximum-stimulation",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-3-maximum-stimulation",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -315,11 +315,11 @@
         ]
     },
     {
-        "number" : "004",
+        "number" : "4",
         "title" : "Y Sharp",
         "date" : "Wed, 30 May 2012 06:00:43 +0000",
         "filename" : "episode_004_Y_Sharp",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-4",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-4",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -404,11 +404,11 @@
         ]
     },
     {
-        "number" : "005",
+        "number" : "5",
         "title" : "Functus",
         "date" : "Wed, 06 Jun 2012 06:00:51 +0000",
         "filename" : "episode_005_Functus",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-5-functus",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-5-functus",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -501,11 +501,11 @@
         ]
     },
     {
-        "number" : "006",
+        "number" : "6",
         "title" : "Music To Think By",
         "date" : "Wed, 13 Jun 2012 05:17:58 +0000",
         "filename" : "episode_006_Music_To_Think_By",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-6-music-to-think-by",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-6-music-to-think-by",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -598,11 +598,11 @@
         ]
     },
     {
-        "number" : "007",
+        "number" : "7",
         "title" : "Funky Doo",
         "date" : "Wed, 20 Jun 2012 05:30:52 +0000",
         "filename" : "episode_007_Funky_Doo",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-7",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-7",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -695,11 +695,11 @@
         ]
     },
     {
-        "number" : "008",
+        "number" : "8",
         "title" : "Bumpin' On Sunset",
         "date" : "Wed, 27 Jun 2012 05:11:31 +0000",
         "filename" : "episode_008_Bumpin_On_Sunset.mp3",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-8-bumpin-on-sunset",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-8-bumpin-on-sunset",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -792,11 +792,11 @@
         ]
     },
     {
-        "number" : "009",
+        "number" : "9",
         "title" : "The Dirty Hunch's Birthday Favs!",
         "date" : "Wed, 04 Jul 2012 05:53:25 +0000",
         "filename" : "episode_009_The Dirty_Hunchs_Birthday_Favs",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-9-the-dirty-hunchs-birthday-favs",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-9-the-dirty-hunchs-birthday-favs",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -889,11 +889,11 @@
         ]
     },
     {
-        "number" : "010",
+        "number" : "10",
         "title" : "Lotus Flower",
         "date" : "Wed, 11 Jul 2012 05:15:19 +0000",
         "filename" : "episode_010_Lotus_Flower",
-        "id" : "the-hot-can-all-vinyl-power-hour-episode-10",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-10",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
