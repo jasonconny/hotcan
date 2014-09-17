@@ -6,12 +6,18 @@ hotcan.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             controller: "EpisodeController",
-            templateUrl: "_res/views/all.html",
+            templateUrl: "_res/views/episode.html",
             resolve: {
                 episodes: ['EpisodeLoader', function(EpisodeLoader) {
                     return EpisodeLoader.query();
+                }],
+                index: ['EpisodeIndex', function(EpisodeIndex) {
+                    return EpisodeIndex.index;
                 }]
             }
+        })
+        .when('/all', {
+            templateUrl: "_res/views/all.html"
         })
         .when('/about', {
             templateUrl: "_res/views/about.html"
@@ -20,25 +26,39 @@ hotcan.config(function ($routeProvider) {
             templateUrl: "_res/views/contact.html"
         })
         .when('/podcast/:deeplink', {
-            redirectTo: "/:id"
+            redirectTo: "/:deeplink"
         })
         .when('/:deeplink', {
             controller: "EpisodeController",
-            templateUrl: "_res/views/episode.html"
+            templateUrl: "_res/views/episode.html",
+            resolve: {
+
+            }
         })
 });
 
 // CONTROLLERS
-hotcan.controller('EpisodeController', ['$scope', 'episodes', function($scope, episodes) {
+hotcan.controller('EpisodeController', ['$scope', 'episodes', 'index', function($scope, episodes, index) {
     $scope.episodes = episodes;
-//    console.log(currentEpisode);
-//    var index = 0;
-//    $scope.currentEpisode = episodes[index];
-//    $scope.postDate = new Date($scope.currentEpisode.date);
+    $scope.index = index;
+    $scope.postDate = new Date($scope.episodes[$scope.index].date);
+
+    $scope.decrementIndex = function() {
+        console.log('decrement index');
+    };
+    $scope.incrementIndex = function() {
+        console.log('increment index');
+    };
 }]);
 
 
 // SERVICES
+hotcan.factory('EpisodeIndex', function() {
+    return {
+        index: 0
+    };
+});
+
 hotcan.factory('EpisodeLoader', ['$resource', function($resource) {
     return $resource('_res/json/hotcan.json', {}, {
         query: {method:'GET', isArray:true}

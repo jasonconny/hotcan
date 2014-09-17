@@ -1,14 +1,14 @@
 <article>
-    <h2>The Hot Can All Vinyl Power Hour, episode {{currentEpisode.number}}: "{{currentEpisode.title}}"</h2>
+    <h2>The Hot Can All Vinyl Power Hour, episode {{episodes[index].number}}: "{{episodes[index].title}}"</h2>
     <p class="date">posted on: {{postDate | date:"longDate"}}</p>
-    <a href="/_res/audio/mp3/{{currentEpisode.filename}}.mp3" class="download-link">download this episode</a>
+    <a href="/_res/audio/mp3/{{episodes[index].filename}}.mp3" class="download-link">download this episode</a>
     <ul>
-        <li>intro: <strong>{{currentEpisode.intro.artist}}</strong>, "{{currentEpisode.intro.title}}", <a href="{{currentEpisode.intro.albumURL}}" target="_blank">{{currentEpisode.intro.album}}</a>; {{currentEpisode.intro.label}}, {{currentEpisode.intro.year}}</li>
-        <li ng-repeat="song in currentEpisode.songs"><strong>{{song.artist}}</strong>, "{{song.title}}", <a href="{{song.albumURL}}" target="_blank">{{song.album}}</a>; {{song.label}}, {{song.year}}</li>
+        <li>intro: <strong>{{episodes[index].intro.artist}}</strong>, "{{episodes[index].intro.title}}", <a href="{{episodes[index].intro.albumURL}}" target="_blank">{{episodes[index].intro.album}}</a>; {{episodes[index].intro.label}}, {{episodes[index].intro.year}}</li>
+        <li ng-repeat="song in episodes[index].songs"><strong>{{song.artist}}</strong>, "{{song.title}}", <a href="{{song.albumURL}}" target="_blank">{{song.album}}</a>; {{song.label}}, {{song.year}}</li>
     </ul>
 </article>
 
 <nav class="episode-nav">
-    <a ng-href="#/podcast/{{previousEpisode.deeplink}}" class="previous"></a>
-    <a ng-href="#/podcast/{{nextEpisode.deeplink}}" class="next"></a>
+    <a ng-href="#/{{episodes[index - 1].deeplink}}" ng-click="decrementIndex()" class="previous"></a>
+    <a ng-href="#/{{episodes[index + 1].deeplink}}" ng-click="incrementIndex()" class="next"></a>
 </nav>
