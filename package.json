@@ -1,0 +1,24 @@
+{
+  "name": "hotcan",
+  "version": "1.0.0",
+  "description": "website for The Hot Can All Vinyl Power Hour podcast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonconny/hotcan.git"
+  },
+  "author": "Jason Conny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonconny/hotcan/issues"
+  },
+  "homepage": "https://github.com/jasonconny/hotcan",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
