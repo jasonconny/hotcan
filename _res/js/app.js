@@ -2,7 +2,7 @@ var hotcan = angular.module('hotcan', ['ngRoute', 'ngResource']);
 
 
 // ROUTES
-hotcan.config(function ($routeProvider) {
+hotcan.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
             controller: "EpisodeController",
@@ -30,12 +30,11 @@ hotcan.config(function ($routeProvider) {
         })
         .when('/:deeplink', {
             controller: "EpisodeController",
-            templateUrl: "_res/views/episode.html",
-            resolve: {
+            templateUrl: "_res/views/episode.html"
+        });
 
-            }
-        })
-});
+    $locationProvider.html5Mode(true);
+}]);
 
 // CONTROLLERS
 hotcan.controller('EpisodeController', ['$scope', 'episodes', 'index', function($scope, episodes, index) {
@@ -47,7 +46,8 @@ hotcan.controller('EpisodeController', ['$scope', 'episodes', 'index', function(
         console.log('decrement index');
     };
     $scope.incrementIndex = function() {
-        console.log('increment index');
+        $scope.index = $scope.index++;
+        return $scope.index;
     };
 }]);
 
