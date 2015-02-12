@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html ng-app="hotcan" class="no-js">
 <head>
     <meta charset="utf-8">
     <title>The Hot Can All Vinyl Power Hour</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <base href="/" />
+    <base href="/">
 
     <link rel="stylesheet" href="_res/css/main.css">
     <!--script src="_res/js/vendor/modernizr-2.6.2.min.js"></script-->
@@ -14,10 +14,12 @@
 
 <body>
 
+<div ui-view="app">
+
     <nav class="main-nav">
         <ul>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/contact/">Contact</a></li>
+            <li><a ui-sref="about">About</a></li>
+            <li><a ui-sref="contact">Contact</a></li>
             <li><a href="http://www.facebook.com/hotcandj">Facebook</a></li>
         </ul>
     </nav>
@@ -26,24 +28,21 @@
         <h1><a href="/">Hot Can</a></h1>
     </header>
 
-    <section class="content">
-        <ng-view></ng-view>
+    <section class="content" ui-view="main">
     </section>
 
     <footer>
         footer stuff here
     </footer>
 
-    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>-->
-    <!--<script>window.angular || document.write('<script src="_res/js/vendor/angular-1.2.23.min.js"><\/script>')</script>-->
-    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>-->
-    <!--<script>window.angular || document.write('<script src="_res/js/vendor/angular-route-1.2.23.min.js"><\/script>')</script>-->
-    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-resource.min.js"></script>-->
-    <!--<script>window.angular || document.write('<script src="_res/js/vendor/angular-resource-1.2.23.min.js"><\/script>')</script>-->
+</div>
+
+
 
     <script src="_res/js/libs/angular/angular.js"></script>
     <script src="_res/js/libs/angular-route/angular-route.js"></script>
     <script src="_res/js/libs/angular-resource/angular-resource.js"></script>
+    <script src="_res/js/libs/angular-ui-router/release/angular-ui-router.js"></script>
 
     <script src="_res/js/app.js"></script>
 
@@ -57,5 +56,17 @@
         ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
     -->
+
+<!--
+ __   __  _______  _______    _______  _______  __    _
+|  | |  ||       ||       |  |       ||   _   ||  |  | |
+|  |_|  ||   _   ||_     _|  |       ||  |_|  ||   |_| |
+|       ||  | |  |  |   |    |       ||       ||       |
+|       ||  |_|  |  |   |    |      _||       ||  _    |
+|   _   ||       |  |   |    |     |_ |   _   || | |   |
+|__| |__||_______|  |___|    |_______||__| |__||_|  |__|
+
+-->
+
 </body>
 </html>

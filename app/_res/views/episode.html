@@ -1,4 +1,4 @@
-<article>
+<article ng-controller="EpisodeController as episodeC">
     <h2>The Hot Can All Vinyl Power Hour, episode {{episodes[index].number}}: "{{episodes[index].title}}"</h2>
     <p class="date">posted on: {{postDate | date:"longDate"}}</p>
     <a href="/_res/audio/mp3/{{episodes[index].filename}}.mp3" class="download-link">download this episode</a>
@@ -8,7 +8,4 @@
     </ul>
 </article>
 
-<nav class="episode-nav">
-    <a ng-href="/{{episodes[index - 1].deeplink}}" ng-click="decrementIndex()" class="previous"></a>
-    <a ng-href="/{{episodes[index + 1].deeplink}}" ng-click="incrementIndex()" class="next"></a>
-</nav>
+<episode-nav></episode-nav>

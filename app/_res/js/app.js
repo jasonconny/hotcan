@@ -1,47 +1,53 @@
-var hotcan = angular.module('hotcan', ['ngRoute', 'ngResource']);
-
+var hotcan = angular.module('hotcan', ['ui.router', 'ngResource']);
 
 // ROUTES
-hotcan.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
-    $routeProvider
-        .when('/', {
-            controller: "EpisodeController",
-            templateUrl: "_res/views/episode.html",
-            resolve: {
-                episodes: ['EpisodeLoader', function(EpisodeLoader) {
-                    return EpisodeLoader.query();
-                }],
-                index: ['EpisodeIndex', function(EpisodeIndex) {
-                    return EpisodeIndex.index;
-                }]
-            }
-        })
-        .when('/all', {
-            templateUrl: "_res/views/all.html"
-        })
-        .when('/about', {
-            templateUrl: "_res/views/about.html"
-        })
-        .when('/contact', {
-            templateUrl: "_res/views/contact.html"
-        })
-        .when('/podcast/:deeplink', {
-            redirectTo: "/:deeplink"
-        })
-        .when('/:deeplink', {
-            controller: "EpisodeController",
-            templateUrl: "_res/views/episode.html"
-        });
+hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $locationProvider.html5Mode(true);
+
+    $urlRouterProvider.when('/', ['$state', function($state) {
+        $state.go('episode', {'slug':'beginnings'});
+    }]);
+
+    $stateProvider.state('app', {
+        abstract: true,
+        views: {
+            app: {}
+        }
+    }).state('all', {
+        url: '/all',
+        views: {
+            main: {templateUrl: "_res/views/all.html"}
+        }
+    }).state('about', {
+        url: '/about',
+        parent: 'app',
+        views: {
+            main: {templateUrl: "_res/views/about.html"}
+        }
+    }).state('contact', {
+        url: '/contact',
+        parent: 'app',
+        views: {
+            main: {templateUrl: "_res/views/contact.html"}
+        }
+    }).state('episode', {
+        url: '/:slug',
+        parent: 'app',
+        views: {
+            main: {templateUrl: "_res/views/episode.html"}
+        }
+    });
+
 }]);
 
 // CONTROLLERS
-hotcan.controller('EpisodeController', ['$scope', 'episodes', 'index', function($scope, episodes, index) {
+hotcan.controller('EpisodeController', ['$scope', function($scope) {
     $scope.episodes = episodes;
-    $scope.index = index;
-    $scope.postDate = new Date($scope.episodes[$scope.index].date);
+    $scope.index = 0;
+    //$scope.postDate = new Date($scope.episodes[$scope.index].date);
 
+/*
     $scope.decrementIndex = function() {
         console.log('decrement index');
     };
@@ -49,15 +55,32 @@ hotcan.controller('EpisodeController', ['$scope', 'episodes', 'index', function(
         $scope.index = $scope.index++;
         return $scope.index;
     };
+*/
 }]);
 
 
 // SERVICES
-hotcan.factory('EpisodeIndex', function() {
-    return {
-        index: 0
+hotcan.service('EpisodeService', ['$rootScope', '$http', function($rootScope, $http) {
+
+    var episodes = this;
+
+    this.getIndex = function() {
+        return 0;
     };
-});
+
+    this.getEpisodes = function() {
+        return $resource('_res/json/hotcan.json', {}, {
+            query: {method:'GET', isArray:true}
+        });
+    }
+
+}]);
+
+hotcan.service('EpisodeIndex', ['$rootScope', function($rootScope) {
+    this.getIndex = function() {
+        return 0;
+    };
+}]);
 
 hotcan.factory('EpisodeLoader', ['$resource', function($resource) {
     return $resource('_res/json/hotcan.json', {}, {
@@ -67,4 +90,12 @@ hotcan.factory('EpisodeLoader', ['$resource', function($resource) {
 
 
 // DIRECTIVES
-// episode-nav directive
+hotcan.directive('episodeNav', [function() {
+    return {
+        restrict: "E",
+        templateUrl: "_res/views/_episode-nav.html",
+        link: function(scope, element) {
+
+        }
+    }
+}]);
