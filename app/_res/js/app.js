@@ -1,4 +1,4 @@
-var hotcan = angular.module('hotcan', ['ui.router', 'ngResource']);
+var hotcan = angular.module('hotcan', ['ui.router']);
 
 // ROUTES
 hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -6,34 +6,31 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
     $locationProvider.html5Mode(true);
 
     $urlRouterProvider.when('/', ['$state', function($state) {
-        $state.go('episode', {'slug':'beginnings'});
+        $state.go('episode', {'episodeName':'beginnings'});
     }]);
 
-    $stateProvider.state('app', {
-        abstract: true,
-        views: {
-            app: {}
-        }
-    }).state('all', {
+    $stateProvider.state('all', {
         url: '/all',
         views: {
             main: {templateUrl: "_res/views/all.html"}
         }
     }).state('about', {
         url: '/about',
-        parent: 'app',
         views: {
             main: {templateUrl: "_res/views/about.html"}
         }
     }).state('contact', {
         url: '/contact',
-        parent: 'app',
         views: {
             main: {templateUrl: "_res/views/contact.html"}
         }
     }).state('episode', {
-        url: '/:slug',
-        parent: 'app',
+        url: '/:episodeName',
+        //resolve: {
+        //    episodes: function(EpisodeService) {
+        //        return EpisodeService.getEpisodes();
+        //    }
+        //},
         views: {
             main: {templateUrl: "_res/views/episode.html"}
         }
@@ -42,10 +39,51 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
 }]);
 
 // CONTROLLERS
-hotcan.controller('EpisodeController', ['$scope', function($scope) {
-    $scope.episodes = episodes;
-    $scope.index = 0;
-    //$scope.postDate = new Date($scope.episodes[$scope.index].date);
+hotcan.controller('MainController', [
+    '$scope'
+    , '$state'
+    , 'EpisodeService'
+    , 'UtilityService'
+    , function(
+        $scope
+        , $state
+        , EpisodeService
+        , UtilityService) {
+
+        var main = this;
+
+        this.getData = function() {
+            EpisodeService.getData().then(function(response) {
+                main.episodes = response.data;
+                angular.forEach(main.episodes, function(k) {
+                    var routename = k.title;
+                    k.routename = UtilityService.transformStringToParameter(routename);
+                })
+            });
+        };
+
+        main.getData();
+
+        $scope.MainController = this;
+        return $scope.MainController;
+
+    }]);
+
+hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $state) {
+
+    var episode = this;
+
+    episode.viewName = $state.params.episodeName;
+    episode.key = _.findKey($scope.main.episodes, function(thisEpisode) {
+        return thisEpisode.routename == episode.viewName;
+    });
+    episode.data = $scope.main.episodes[episode.key];
+    $scope.postDate = new Date($scope.main.episodes[episode.key].date);
+    $scope.index = episode.key;
+
+    $scope.DetailController = this;
+    return $scope.DetailController;
+
 
 /*
     $scope.decrementIndex = function() {
@@ -60,33 +98,54 @@ hotcan.controller('EpisodeController', ['$scope', function($scope) {
 
 
 // SERVICES
-hotcan.service('EpisodeService', ['$rootScope', '$http', function($rootScope, $http) {
+hotcan.service('EpisodeService', ['$http', function($http) {
 
-    var episodes = this;
+    var episodes = {};
 
-    this.getIndex = function() {
-        return 0;
+    episodes.getData = function() {
+        return $http
+            .get('./_res/json/hotcan.json')
+            .success(function(response) {
+                return response;
+            });
     };
 
-    this.getEpisodes = function() {
-        return $resource('_res/json/hotcan.json', {}, {
-            query: {method:'GET', isArray:true}
-        });
-    }
+    return episodes;
 
 }]);
 
-hotcan.service('EpisodeIndex', ['$rootScope', function($rootScope) {
-    this.getIndex = function() {
-        return 0;
-    };
-}]);
+hotcan.service('UtilityService', [
+    '$rootScope'
+    , function(
+        $rootScope) {
 
-hotcan.factory('EpisodeLoader', ['$resource', function($resource) {
-    return $resource('_res/json/hotcan.json', {}, {
-        query: {method:'GET', isArray:true}
-    });
-}]);
+        var utility = {};
+
+        utility.transformStringToParameter = function (str) {
+            var rex = /[\W^,]/g;
+
+            function parameterize(str) {
+                str = str.toLowerCase();
+                str = str.replace(rex, "-");
+                return str;
+            }
+
+
+            if (angular.isString(str)) {
+                return parameterize(str);
+            } else if (angular.isArray(str)) {
+                //        return str;
+                return _.map(str, function (i) {
+                    return parameterize(i);
+                });
+            } else {
+                return str;
+            }
+        };
+
+        return utility;
+
+    }]);
 
 
 // DIRECTIVES

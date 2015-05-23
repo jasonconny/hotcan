@@ -14,8 +14,6 @@
 
 <body>
 
-<div ui-view="app">
-
     <nav class="main-nav">
         <ul>
             <li><a ui-sref="about">About</a></li>
@@ -28,19 +26,17 @@
         <h1><a href="/">Hot Can</a></h1>
     </header>
 
-    <section class="content" ui-view="main">
+    <section class="content" ui-view="main" ng-controller="MainController as main">
     </section>
 
     <footer>
         footer stuff here
     </footer>
 
-</div>
-
-
 
     <script src="_res/js/libs/angular/angular.js"></script>
     <script src="_res/js/libs/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="_res/js/libs/lodash/lodash.min.js"></script>
 
     <script src="_res/js/app.js"></script>
 
