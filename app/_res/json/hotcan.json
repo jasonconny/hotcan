@@ -4,7 +4,6 @@
         "title" : "Beginnings",
         "date" : "Tue, 08 May 2012 13:40:18 +0000",
         "filename" : "episode_001_Beginnings",
-        "slug" : "beginnings",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-1",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -118,7 +117,6 @@
         "title": "Groove And Move",
         "date": "Wed, 16 May 2012 06:00:28 +0000",
         "filename": "episode_002_Groove_and_Move",
-        "slug" : "groove-and-move",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-2",
         "intro": {
             "artist": "Booker T and the MG's",
@@ -232,7 +230,6 @@
         "title" : "Maximum Stimulation",
         "date" : "Wed, 23 May 2012 06:00:50 +0000",
         "filename" : "episode_003_Maximum_Stimulation",
-        "slug" : "maximum-stimulation",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-3-maximum-stimulation",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -322,7 +319,6 @@
         "title" : "Y Sharp",
         "date" : "Wed, 30 May 2012 06:00:43 +0000",
         "filename" : "episode_004_Y_Sharp",
-        "slug" : "y-sharp",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-4",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -412,7 +408,6 @@
         "title" : "Functus",
         "date" : "Wed, 06 Jun 2012 06:00:51 +0000",
         "filename" : "episode_005_Functus",
-        "slug" : "functus",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-5-functus",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -510,7 +505,6 @@
         "title" : "Music To Think By",
         "date" : "Wed, 13 Jun 2012 05:17:58 +0000",
         "filename" : "episode_006_Music_To_Think_By",
-        "slug" : "music-to-think-by",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-6-music-to-think-by",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -608,7 +602,6 @@
         "title" : "Funky Doo",
         "date" : "Wed, 20 Jun 2012 05:30:52 +0000",
         "filename" : "episode_007_Funky_Doo",
-        "slug" : "funky-doo",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-7",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -706,7 +699,6 @@
         "title" : "Bumpin' On Sunset",
         "date" : "Wed, 27 Jun 2012 05:11:31 +0000",
         "filename" : "episode_008_Bumpin_On_Sunset.mp3",
-        "slug" : "bumpin-on-sunset",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-8-bumpin-on-sunset",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -804,7 +796,6 @@
         "title" : "The Dirty Hunch's Birthday Favs!",
         "date" : "Wed, 04 Jul 2012 05:53:25 +0000",
         "filename" : "episode_009_The Dirty_Hunchs_Birthday_Favs",
-        "slug" : "the-dirty-hunchs-birthday-favs",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-9-the-dirty-hunchs-birthday-favs",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -902,7 +893,6 @@
         "title" : "Lotus Flower",
         "date" : "Wed, 11 Jul 2012 05:15:19 +0000",
         "filename" : "episode_010_Lotus_Flower",
-        "slug" : "lotus-flower",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-10",
         "intro" : {
             "artist" : "Booker T and the MG's",

@@ -4,7 +4,6 @@
         "title" : "extracted from <title>",
         "date" : "<pubDate>",
         "filename" : "extracted from podPress meta data",
-        "slug" : "title lowercased and hyphen delimited",
         "deeplink" : "<wp:post_name>",
         "intro" : { // can also be Herbie Hancocok's Blind Man, Blind Man
             "artist" : "Booker T and the MG's",
