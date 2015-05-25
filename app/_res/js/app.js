@@ -79,21 +79,11 @@ hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $st
     });
     episode.data = $scope.main.episodes[episode.key];
     $scope.postDate = new Date($scope.main.episodes[episode.key].date);
-    $scope.index = episode.key;
+
+    $scope.index = parseInt(episode.key);
 
     $scope.DetailController = this;
     return $scope.DetailController;
-
-
-/*
-    $scope.decrementIndex = function() {
-        console.log('decrement index');
-    };
-    $scope.incrementIndex = function() {
-        $scope.index = $scope.index++;
-        return $scope.index;
-    };
-*/
 }]);
 
 
@@ -146,15 +136,3 @@ hotcan.service('UtilityService', [
         return utility;
 
     }]);
-
-
-// DIRECTIVES
-hotcan.directive('episodeNav', [function() {
-    return {
-        restrict: "E",
-        templateUrl: "_res/views/_episode-nav.html",
-        link: function(scope, element) {
-
-        }
-    }
-}]);
