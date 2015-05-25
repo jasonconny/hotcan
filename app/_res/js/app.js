@@ -115,8 +115,9 @@ hotcan.service('UtilityService', [
             var rex = /[\W^,]/g;
 
             function parameterize(str) {
-                str = str.toLowerCase();
-                str = str.replace(rex, "-");
+                str = str.toLowerCase().replace(/ /g, "-");
+                str = str.replace(/[^a-z-]/gi,"");
+                //str = str.replace(rex, "-");
                 return str;
             }
 
