@@ -5,6 +5,8 @@
 *.map
 *.log
 *.css
+*.mp3
+*.ogg
 
 app/_res/js/libs/*/
 *node_modules/
