@@ -58,6 +58,8 @@ hotcan.controller('MainController', [
                 angular.forEach(main.episodes, function(k) {
                     var routename = k.title;
                     k.routename = UtilityService.transformStringToParameter(routename);
+                    k.mp3Path = "/_res/audio/mp3/" + k.filename + '.mp3';
+                    k.oggPath = "/_res/audio/ogg/" + k.filename + '.ogg';
                 })
             });
         };

@@ -4,8 +4,8 @@
     <p class="date">posted on: {{postDate | date:"longDate"}}</p>
 
     <audio controls>
-        <source src="_res/audio/mp3/{{episode.data.filename}}.mp3" type="audio/mp3">
-        <source src="_res/audio/ogg/{{episode.data.filename}}.ogg" type="audio/ogg">
+        <source src="{{episode.data.mp3Path}}" type="audio/mp3">
+        <source src="{{episode.data.oggPath}}" type="audio/ogg">
     </audio>
 
     <a href="_res/audio/mp3/{{episode.data.filename}}.mp3" class="download-link">download this episode</a>
@@ -16,8 +16,8 @@
     </ul>
 
     <nav class="episode-nav">
-        <a ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )" class="previous"></a>
-        <a ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )" class="next"></a>
+        <a ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )" class="previous" ng-hide="episode.data.number == 1"></a>
+        <a ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )" class="next" ng-hide="episode.data.number == 100"></a>
     </nav>
 
 </article>
