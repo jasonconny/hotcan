@@ -4,8 +4,9 @@ module.exports = function(grunt) {
      sass: {
          dist: {
              options: {
-                 sourcemap: 'inline',
-                 noCache: true
+                 "style" : "expanded",
+                 "unixNewlines" : true,
+                 "noCache" : true
              },
              files: {
                  'app/_res/css/main.css': 'app/_res/sass/main.scss'
