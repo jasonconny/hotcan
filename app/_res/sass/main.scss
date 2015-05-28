@@ -93,6 +93,10 @@ header {
   }
   a {
     color: $linkText;
+    &.download-link {
+      display: inline-block;
+      margin: 1em 0;
+    }
     &:hover, &:active {
       color: $linkHover
     }
@@ -114,6 +118,9 @@ header {
         font-weight: bold;
       }
     }
+  }
+  audio {
+    display: block;
   }
 }
 
