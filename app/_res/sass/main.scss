@@ -52,6 +52,7 @@ header {
         display: block;
       }
       &:hover, &:active {
+        background-color: transparent;
         color: $logoShadow;
         text-shadow: -.05em .05em 0 $logoTxt;
       }
@@ -148,12 +149,13 @@ header {
     display: block;
     position: fixed;
     background-color: $text;
+    border-bottom: none;
     opacity: .2;
     padding: 1em;
     height: 2em;
     width: 2em;
     top: 50%;
-    margin-top: -3em;
+    margin-top: -2em;
     border-radius: 3em;
     &:hover, &:active {
       opacity: .3;
