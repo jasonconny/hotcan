@@ -1,4 +1,4 @@
-<article ng-controller="EpisodeController as episode">
+<article class="episode" ng-controller="EpisodeController as episode">
 
     <h2>The Hot Can All Vinyl Power Hour, episode {{episode.data.number}}: "{{episode.data.title}}"</h2>
     <p class="date">posted on: {{postDate | date:"longDate"}}</p>
@@ -10,9 +10,9 @@
 
     <a href="_res/audio/mp3/{{episode.data.filename}}.mp3" class="download-link">download this episode</a>
 
-    <ul>
-        <li>intro: <strong>{{episode.data.intro.artist}}</strong>, "{{episode.data.intro.title}}", <a href="{{episode.data.intro.albumURL}}" target="_blank">{{episode.data.intro.album}}</a>; {{episode.data.intro.label}}, {{episode.data.intro.year}}</li>
-        <li ng-repeat="song in episode.data.songs"><strong>{{song.artist}}</strong>, "{{song.title}}", <a href="{{song.albumURL}}" target="_blank">{{song.album}}</a>; {{song.label}}, {{song.year}}</li>
+    <ul class="song-list">
+        <li class="song">intro: <strong>{{episode.data.intro.artist}}</strong>, "{{episode.data.intro.title}}", <a href="{{episode.data.intro.albumURL}}" target="_blank">{{episode.data.intro.album}}</a>; {{episode.data.intro.label}}, {{episode.data.intro.year}}</li>
+        <li class="song" ng-repeat="song in episode.data.songs"><strong>{{song.artist}}</strong>, "{{song.title}}", <a href="{{song.albumURL}}" target="_blank">{{song.album}}</a>; {{song.label}}, {{song.year}}</li>
     </ul>
 
     <nav class="episode-nav">

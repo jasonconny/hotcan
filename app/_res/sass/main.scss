@@ -16,6 +16,16 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+a {
+  color: $linkText;
+  text-decoration: none;
+  &:hover,
+  &:active {
+    background-color: $linkText;
+    color: $bodyBg;
+  }
+}
+
 header {
   background-color: $logoBg;
   position: fixed;
@@ -57,20 +67,15 @@ header {
     margin: 0 auto;
     min-width: 20em;
     text-align: right;
-    li {
-      line-height: 1em;
-      letter-spacing: .132em;
-      text-transform: uppercase;
-      display: inline-block;
-      padding: .444em 0;
-      a {
-        color: $linkText;
-        text-decoration: none;
-        padding: .444em .675em;
-        &:hover, &:active {
-          background-color: $linkHover;
-        }
-      }
+  }
+  li {
+    line-height: 1em;
+    letter-spacing: .132em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .444em 0;
+    a {
+      padding: .444em .675em;
     }
   }
 }
@@ -92,42 +97,44 @@ header {
     }
   }
   a {
-    color: $linkText;
+    border-bottom: .2em solid $linkText;
     &.download-link {
       display: inline-block;
       margin: 1em 0;
     }
-    &:hover, &:active {
-      color: $linkHover
-    }
   }
-  ul {
+  .song-list,
+  .episode-list {
     list-style: none;
     margin: 0;
     padding: 0;
-    li {
-      font-size: 1.5em;
-      letter-spacing: 1px;
-      line-height: 1.5;
-      margin: 0 0 1em;
-      ul {
-        line-height: 1;
-        margin: 0;
-      }
-      li {
-        display: inline;
-        font-size: .5em;
-        line-height: 1.2;
-        margin: 0;
-      }
-      a {
-        font-style: italic;
-      }
-      strong {
-        color: $textStrong;
-        font-weight: bold;
-      }
+  }
+  .song,
+  .episode-info {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0 0 1em;
+    a {
+      font-style: italic;
     }
+    strong {
+      color: $textStrong;
+      font-weight: bold;
+    }
+  }
+  .all {
+    .song-list {
+      line-height: 1;
+      margin: 0;
+    }
+    .song {
+      display: inline;
+      font-size: .5em;
+      line-height: 1.2;
+      margin: 0;
+    }
+
   }
   audio {
     display: block;

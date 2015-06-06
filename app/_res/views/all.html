@@ -1,11 +1,11 @@
-<article>
-<h2>All Episodes</h2>
-    <ul>
-        <li ng-repeat="episode in main.episodes">episode {{episode.number}}: <a ui-sref="episode( {episodeName: episode.routename} )">{{episode.title}}</a>
+<article class="all">
+    <h2>All Episodes</h2>
+    <ul class="episode-list">
+        <li ng-repeat="episode in main.episodes" class="episode-info">episode {{episode.number}}: <a ui-sref="episode( {episodeName: episode.routename} )">{{episode.title}}</a>
 
-            <ul>
-                <li>intro: {{episode.intro.artist}} "{{episode.intro.title}}"; </li>
-                <li ng-repeat="song in episode.songs">{{song.artist}} "{{song.title}}"; </li>
+            <ul class="song-list">
+                <li class="song">intro: {{episode.intro.artist}} "{{episode.intro.title}}"; </li>
+                <li ng-repeat="song in episode.songs" class="song">{{song.artist}} "{{song.title}}"; </li>
             </ul>
 
         </li>
