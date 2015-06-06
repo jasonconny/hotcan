@@ -23,3 +23,4 @@ app/_res/js/libs/*/
 ehthumbs.db
 Thumbs.db
 app/_res/css/main.css
+*.css
