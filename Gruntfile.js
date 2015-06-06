@@ -5,6 +5,7 @@ module.exports = function(grunt) {
          dist: {
              options: {
                  "style" : "expanded",
+                 "sourcemap" : "inline",
                  "unixNewlines" : true,
                  "noCache" : true
              },
