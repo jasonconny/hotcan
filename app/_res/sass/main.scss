@@ -40,6 +40,7 @@ header {
   width: 11em;
   border-radius: 6em;
   padding: 1em 0;
+  z-index: 1000;
   h1 {
     font-size: 3.5em;
     font-weight: bold;
@@ -89,7 +90,6 @@ header {
 .content {
   color: $text;
   margin: 4em auto;
-  padding: 0 2em;
   max-width: 50em;
   h1, h2 {
     font-size: 4em;
@@ -201,4 +201,45 @@ footer {
   margin: 0 auto;
   padding: 1em 0;
   max-width: 50em;
+}
+
+
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 75%;
+  }
+  .content {
+    margin: 0 8em;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    font-size: 62.5%;
+  }
+  .content {
+    margin: 0 6em;
+  }
+}
+
+@media (max-width: 640px) {
+  .content {
+    h1, h2 {
+      font-size: 3em;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    min-width: 20em;
+    h1, h2 {
+      font-size: 2em;
+    }
+  }
+  audio {
+    width: 100%;
+  }
 }
