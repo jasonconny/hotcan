@@ -24,6 +24,11 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
         views: {
             main: {templateUrl: "_res/views/contact.html"}
         }
+    }).state('forContentOwners', {
+        url: '/for-content-owners',
+        views: {
+            main: {templateUrl: "_res/views/forContentOwners.html"}
+        }
     }).state('episode', {
         url: '/:episodeName',
         //resolve: {

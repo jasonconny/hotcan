@@ -24,6 +24,11 @@ a {
     background-color: $linkText;
     color: $bodyBg;
   }
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+  }
 }
 
 header {
@@ -192,5 +197,8 @@ header {
 }
 
 footer {
-  display: none;
+  color: $text;
+  margin: 0 auto;
+  padding: 1em 0;
+  max-width: 50em;
 }
