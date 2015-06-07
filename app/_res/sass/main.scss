@@ -19,6 +19,10 @@ body {
 a {
   color: $linkText;
   text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   &:hover,
   &:active {
     background-color: $linkText;
@@ -136,7 +140,7 @@ header {
     }
     .song {
       display: inline;
-      font-size: .5em;
+      font-size: .75em;
       line-height: 1.2;
       margin: 0;
     }
@@ -153,9 +157,9 @@ header {
   a {
     display: block;
     position: fixed;
-    background-color: $text;
+    background-color: $linkText;
     border-bottom: none;
-    opacity: .2;
+    opacity: .3;
     padding: 1em;
     height: 2em;
     width: 2em;
@@ -163,7 +167,7 @@ header {
     margin-top: -2em;
     border-radius: 3em;
     &:hover, &:active {
-      opacity: .3;
+      opacity: 1;
     }
     &.previous {
       left: 1em;
