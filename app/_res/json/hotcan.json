@@ -1288,7 +1288,7 @@
                 "album" : "No Discrimination",
                 "albumURL" : "http://www.allmusic.com/album/no-accomodation-for-lagos-no-discrimination-afro-strut-p-vine-mw0000775744",
                 "label" : "P-Vine? Strut? Coconut?",
-                "year" : "????"
+                "year" : "19??"
             },
             {
                 "artist" : "King Sunny Ade",
@@ -1636,6 +1636,450 @@
                 "albumURL" : "http://www.allmusic.com/album/i-love-every-little-thing-about-you-mw0000599264",
                 "label" : "Paula Records",
                 "year" : "2003"
+            }
+        ]
+    },
+    {
+        "number" : "17",
+        "title" : "Moisturizer",
+        "date" : "Wed, 29 Aug 2012 05:31:04 +0000",
+        "filename" : "episode_017_Moisturizer",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-17-moisturizer",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Les McCann",
+                "title" : "Sunny",
+                "album" : "Les McCann Plays The Hits",
+                "albumURL" : "http://www.allmusic.com/album/les-mccann-plays-the-hits-mw0000901099",
+                "label" : "Limelight",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Willie Bobo",
+                "title" : "Fried Neckbones And Some Home Fries",
+                "album" : "1-2-3/Uno, Dos, Tres",
+                "albumURL" : "http://www.allmusic.com/album/uno-dos-tres-1-2-3-mw0000903454",
+                "label" : "Verve",
+                "year" : "1966"
+            },
+            {
+                "artist" : "The Johannesburg Street Band",
+                "title" : "What's The Matter Zulu?",
+                "album" : "Dancin' Through The Streets",
+                "albumURL" : "http://www.discogs.com/Johannesburg-Street-Band-Dancin-Through-The-Streets/release/2660332",
+                "label" : "UNI",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Kenny Burrell",
+                "title" : "Love Is The Answer",
+                "album" : "God Bless The Child",
+                "albumURL" : "http://www.allmusic.com/album/god-bless-the-child-mw0000187914",
+                "label" : "CTI",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Chain Of Fools",
+                "album" : "Memphis Underground",
+                "albumURL" : "http://www.allmusic.com/album/memphis-underground-mw0000649626",
+                "label" : "Atlantic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Merl Saunders",
+                "title" : "Chock-Lite Puddin'",
+                "album" : "Fire Up",
+                "albumURL" : "http://www.allmusic.com/album/fire-up-mw0000922389",
+                "label" : "Fantasy",
+                "year" : "1973"
+            },
+            {
+                "artist" : "BLO",
+                "title" : "Scandi Boogie",
+                "album" : "Phases 1972-1982",
+                "albumURL" : "http://www.allmusic.com/album/phases-1972-1982-mw0000216392",
+                "label" : "Strut",
+                "year" : "2002"
+            },
+            {
+                "artist" : "Funk, Inc",
+                "title" : "The Better Half",
+                "album" : "Chicken Lickin'",
+                "albumURL" : "http://www.allmusic.com/album/funk-inc-chicken-lickin-mw0000173752",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Willie Hutch",
+                "title" : "Slick",
+                "album" : "The Mack",
+                "albumURL" : "http://www.allmusic.com/album/the-mack-mw0000313141",
+                "label" : "Motown",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Oneness of Juju",
+                "title" : "Liberation Dues (Instrumental)",
+                "album" : "African Rhythms",
+                "albumURL" : "http://www.allmusic.com/album/african-rhythms-mw0000218629",
+                "label" : "Strut",
+                "year" : "1975"
+            },
+            {
+                "artist" : "O'Donel Levy",
+                "title" : "Moisturizer",
+                "album" : "Windows",
+                "albumURL" : "http://www.allmusic.com/album/windows-mw0000843599",
+                "label" : "Groove Merchant",
+                "year" : "1976"
+            }
+        ]
+    },
+    {
+        "number" : "18",
+        "title" : "Jimmy McGriff",
+        "date" : "Wed, 05 Sep 2012 04:41:26 +0000",
+        "filename" : "episode_018_Jimmy_McGriff",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-18-jimmy-mcgriff",
+        "intro" : {
+            "artist" : "Jimmy McGriff",
+            "title" : "If You're Ready Come Go With Me",
+            "album" : "If You're Ready Come Go With Me: The Super Funk Collection",
+            "albumURL" : "http://www.allmusic.com/album/if-youre-ready-mw0000882187",
+            "label" : "Groove Merchant",
+            "year" : "1973"
+        },
+        "songs" : [
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Splanky",
+                "album" : "The Big Band",
+                "albumURL" : "http://www.allmusic.com/album/big-band-a-tribute-to-basie-mw0000611109",
+                "label" : "Solid State",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "I've Got A Woman",
+                "album" : "I've Got A Woman",
+                "albumURL" : "http://www.allmusic.com/album/ive-got-a-new-woman-mw0000870908",
+                "label" : "Solid State",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Worm",
+                "album" : "The Worm",
+                "albumURL" : "http://www.allmusic.com/album/the-worm-mw0000659896",
+                "label" : "Solid State",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Kiko",
+                "album" : "Portrait",
+                "albumURL" : "http://www.discogs.com/Jimmy-McGriff-Portrait/release/1152455",
+                "label" : "Blue Note/United Artists",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Criss Cross",
+                "album" : "ELectric Funk",
+                "albumURL" : "http://www.allmusic.com/album/electric-funk-mw0000087629",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Bird",
+                "album" : "Groove Grease",
+                "albumURL" : "http://www.allmusic.com/album/groove-grease-mw0000536612",
+                "label" : "Groove Merchant",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Blues For A Broken Down Funky Old Bus",
+                "album" : "Black And Blues",
+                "albumURL" : "http://www.allmusic.com/album/black-and-blues-mw0000909556",
+                "label" : "Groove Merchant",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Now Thing",
+                "album" : "Soul Sugar",
+                "albumURL" : "http://www.allmusic.com/album/soul-sugar-mw0001142981",
+                "label" : "Capitol",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Jimmy McGriff and Richard 'Groove' Holmes",
+                "title" : "Brown Bread",
+                "album" : "Giants Of The Organ In Concert",
+                "albumURL" : "http://www.allmusic.com/album/giants-of-the-organ-in-concert-mw0001593455",
+                "label" : "Groove Merchant",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Jimmy McGriff and Richard 'Groove' Holmes",
+                "title" : "Finger Lickin' Good",
+                "album" : "Giants Of The Organ Come Together",
+                "albumURL" : "http://www.allmusic.com/album/giants-of-the-organ-come-together-mw0000350168",
+                "label" : "Groove Merchant",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Purple Onion",
+                "album" : "Stump Juice",
+                "albumURL" : "http://www.allmusic.com/album/stump-juice-mw0000904580",
+                "label" : "Groove Merchant",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Pogo's Stick",
+                "album" : "The Mean Machine",
+                "albumURL" : "http://www.allmusic.com/album/mean-machine-mw0000884149",
+                "label" : "Groove Merchant",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Free And Foxy",
+                "album" : "Movin' Upside The Blues",
+                "albumURL" : "http://www.allmusic.com/album/movin-upside-the-blues-mw0000874681",
+                "label" : "JAM Records",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "If You're Ready Come Go With Me",
+                "album" : "If You're Ready Come Go With Me: The Super Funk Collection",
+                "albumURL" : "http://www.allmusic.com/album/if-youre-ready-mw0000882187",
+                "label" : "Groove Merchant",
+                "year" : "1973"
+            }
+        ]
+    },
+    {
+        "number" : "19",
+        "title" : "When The Going Is Smooth And Good",
+        "date" : "Wed, 12 Sep 2012 05:22:42 +0000",
+        "filename" : "episode_019_When_The_Going_Is_Smooth_And_Good",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-19-when-the-going-is-smooth-and-good",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Taj Mahal",
+                "title" : "Chevrolet",
+                "album" : "Happy To Be Just Like I Am",
+                "albumURL" : "http://www.allmusic.com/album/happy-just-to-be-like-i-am-mw0000276232",
+                "label" : "Columbia",
+                "year" : "1971"
+            },
+            {
+                "artist" : "B.T. Express",
+                "title" : "Peace Pipe",
+                "album" : "Non Stop",
+                "albumURL" : "http://www.allmusic.com/album/non-stop-mw0000339968",
+                "label" : "Roadshow Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Isaac Hayes",
+                "title" : "Buns O' Plenty",
+                "album" : "Tough Guys",
+                "albumURL" : "http://www.allmusic.com/album/tough-guys-mw0000454580q",
+                "label" : "Enterprise",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Houston Person",
+                "title" : "Put It Where You Want It",
+                "album" : "Sweet Buns And Barbecue",
+                "albumURL" : "http://www.allmusic.com/album/sweet-buns-amp-barbeque-mw0000935906",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Reuben Wilson",
+                "title" : "The Cisco Kid",
+                "album" : "The Cisco Kid",
+                "albumURL" : "http://www.allmusic.com/album/the-cisco-kid-mw0000884973",
+                "label" : "Groove Merchant",
+                "year" : "1974"
+            },
+            {
+                "artist" : "James Brown",
+                "title" : "Funky President",
+                "album" : "Reality",
+                "albumURL" : "http://www.allmusic.com/album/reality-mw0000123635",
+                "label" : "Polydor",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Melvin Jackson",
+                "title" : "Funky Skull - Pars 1 & 2",
+                "album" : "Funky Skull",
+                "albumURL" : "http://www.allmusic.com/album/funky-skull-mw0000576299",
+                "label" : "Limelight Records",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Do The Everybody Get Down",
+                "album" : "Goin' For Another One",
+                "albumURL" : "http://www.discogs.com/Bohannon-Goin-For-Another-One/master/126158",
+                "label" : "Phase II Record",
+                "year" : "1981"
+            },
+            {
+                "artist" : "Stanley Clarke",
+                "title" : "Future",
+                "album" : "Time Exposure",
+                "albumURL" : "http://www.allmusic.com/album/time-exposure-mw0000653614",
+                "label" : "Epic Records",
+                "year" : "1985"
+            },
+            {
+                "artist" : "William Onyeabor",
+                "title" : "When The Going Is Smooth And Good",
+                "album" : "Anything You Sow",
+                "albumURL" : "http://www.allmusic.com/album/anything-you-sow-mw0002173989",
+                "label" : "Wilfilms Records",
+                "year" : "1985"
+            },
+            {
+                "artist" : "Ebo Taylor Jnr. & Wuta Wazuri",
+                "title" : "Mondo Soul Funky",
+                "album" : "Ghana Soundz: Afro-Beat, Funk & Fusion In 70s Ghana, Volume 2",
+                "albumURL" : "http://www.allmusic.com/album/ghana-soundz-vol2-afrobeat-funk-fusion-in-1970s-ghana-mw0000207712",
+                "label" : "Soundway",
+                "year" : "2004"
+            },
+            {
+                "artist" : "The Sugarman 3",
+                "title" : "Jealous Moon",
+                "album" : "What The World Needs Now",
+                "albumURL" : "http://www.allmusic.com/album/what-the-world-needs-now-mw0002330148",
+                "label" : "Daptone",
+                "year" : "2012"
+            }
+        ]
+    },
+    {
+        "number" : "20",
+        "title" : "Welcome New Warmth",
+        "date" : "Wed, 19 Sep 2012 05:12:48 +0000",
+        "filename" : "episode_020_Welcome_New_Warmth",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-20-welcome-new-warmth",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Syl Johnson",
+                "title" : "Take Me To The River",
+                "album" : "7\" single b/w Could I Be Falling In Love",
+                "albumURL" : "",
+                "label" : "Hi Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Sam Cooke",
+                "title" : "Somebody Have Mercy",
+                "album" : "The Man And His Music",
+                "albumURL" : "http://www.allmusic.com/album/the-man-and-his-music-mw0000193383",
+                "label" : "RCA/Abkco",
+                "year" : "1986"
+            },
+            {
+                "artist" : "Dr. John",
+                "title" : "Zu Zu Man (version 1)",
+                "album" : "Zu Zu Man",
+                "albumURL" : "http://www.discogs.com/Dr-John-Zu-Zu-Man/release/724072",
+                "label" : "Trip",
+                "year" : "19??"
+            },
+            {
+                "artist" : "Mel Brown",
+                "title" : "Hobo Flats",
+                "album" : "Chicken Fat",
+                "albumURL" : "http://www.allmusic.com/album/chicken-fat-mw0000335503",
+                "label" : "Euphoria!/Impulse!",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Odell Brown And The Organizers",
+                "title" : "Mellow Yellow",
+                "album" : "Mellow Yellow",
+                "albumURL" : "http://www.allmusic.com/album/mellow-yellow-mw0000902931",
+                "label" : "Cadet",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Lonnie Smith",
+                "title" : "Sunshine Superman",
+                "album" : "Move Your Hand",
+                "albumURL" : "http://www.allmusic.com/album/move-your-hand-mw0000647167",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Al Kooper and Stephen Stills",
+                "title" : "Season Of The Witch",
+                "album" : "Super Session",
+                "albumURL" : "http://www.allmusic.com/album/super-session-mw0000190678",
+                "label" : "Columbia Records",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Palm Grease",
+                "album" : "Thrust",
+                "albumURL" : "http://www.allmusic.com/album/thrust-mw0000311449",
+                "label" : "Columbia Records",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Michael Sardaby",
+                "title" : "Welcome New Warmth",
+                "album" : "Bilongo: A Third Collection Of Modern Afro Rhythms",
+                "albumURL" : "http://www.allmusic.com/album/bilongo-a-third-collection-of-modern-afro-rythms-mw0000443003",
+                "label" : "Comet Records",
+                "year" : "2000"
+            },
+            {
+                "artist" : "Johnny 'Hammond' Smith",
+                "title" : "Wild Horses",
+                "album" : "Wild Horses Rock Steady",
+                "albumURL" : "http://www.allmusic.com/album/wild-horses-rock-steady-mw0000462498",
+                "label" : "Kudu",
+                "year" : "1971"
             }
         ]
     }
