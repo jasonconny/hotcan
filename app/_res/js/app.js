@@ -123,7 +123,7 @@ hotcan.service('UtilityService', [
 
             function parameterize(str) {
                 str = str.toLowerCase().replace(/ /g, "-");
-                str = str.replace(/[^a-z-]/gi,"");
+                str = str.replace(/[^a-z-,0-9]/gi,"");
                 //str = str.replace(rex, "-");
                 return str;
             }
