@@ -1,4 +1,4 @@
-1. responsive styling
+1. deep link redirects of wp urls
 2. page animations: slide left or right depending on nav direction
 3. logo animation: random placement and rotation
 4. finish adding episode data to hotcan.json
