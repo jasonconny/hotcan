@@ -5,7 +5,7 @@
         "date" : "<pubDate>",
         "filename" : "extracted from podPress meta data",
         "deeplink" : "<wp:post_name>",
-        "intro" : { // can also be Herbie Hancocok's Blind Man, Blind Man
+        "intro" : { // can also be Herbie Hancock's Blind Man, Blind Man
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
             "album" : "Hip-Hug Her",
@@ -18,7 +18,7 @@
                 "artist" : "",
                 "title" : "",
                 "album" : "",
-                "albumURL": "",
+                "albumURL" : "",
                 "label" : "",
                 "year" : ""
             },
@@ -26,7 +26,7 @@
                 "artist" : "",
                 "title" : "",
                 "album" : "",
-                "albumURL": "",
+                "albumURL" : "",
                 "label" : "",
                 "year" : ""
             }
