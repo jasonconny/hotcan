@@ -2087,7 +2087,7 @@
         "number" : "21",
         "title" : "Good Old Music",
         "date" : "Wed, 26 Sep 2012 05:38:57 +0000",
-        "filename" : "episode_021_Good_Old_Music.mp3",
+        "filename" : "episode_021_Good_Old_Music",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-21-good-old-music",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -2184,7 +2184,7 @@
         "number" : "22",
         "title" : "Thunderbird",
         "date" : "Wed, 03 Oct 2012 05:41:13 +0000",
-        "filename" : "episode_022_Thunderbird.mp3",
+        "filename" : "episode_022_Thunderbird",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-22-thunderbird",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -2281,7 +2281,7 @@
         "number" : "23",
         "title" : "Bad Walking Woman",
         "date" : "Wed, 10 Oct 2012 05:47:07 +0000",
-        "filename" : "episode_023_Bad_Walking_Woman.mp3",
+        "filename" : "episode_023_Bad_Walking_Woman",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-23-bad-walking-woman",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -2378,7 +2378,7 @@
         "number" : "24",
         "title" : "Hot Mud",
         "date" : "Wed, 17 Oct 2012 05:06:27 +0000",
-        "filename" : "episode_024_Hot_Mud.mp3",
+        "filename" : "episode_024_Hot_Mud",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-24-hot-mud",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -2475,7 +2475,7 @@
         "number" : "25",
         "title" : "I'll Drink To That",
         "date" : "Wed, 24 Oct 2012 05:47:21 +0000",
-        "filename" : "episode_025_Ill_Drink_To_That.mp3",
+        "filename" : "episode_025_Ill_Drink_To_That",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-25-ill-drink-to-that",
         "intro" : {
             "artist" : "Booker T and the MG's",
@@ -2570,10 +2570,10 @@
     },
     {
         "number" : "26",
-        "title" : "extracted from <title>",
-        "date" : "<pubDate>",
-        "filename" : "extracted from podPress meta data",
-        "deeplink" : "<wp:post_name>",
+        "title" : "Do What You Gotta Do",
+        "date" : "Wed, 31 Oct 2012 05:06:15 +0000",
+        "filename" : "episode_026_Do_What_You_Gotta_Do",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-26-do-what-you-gotta-do",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -2584,29 +2584,93 @@
         },
         "songs" : [
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Richard 'Groove' Holmes",
+                "title" : "125th St. And 7th Ave.",
+                "album" : "Theme From Six Million Dollar Man And Other Selections",
+                "albumURL" : "http://www.discogs.com/Richard-Groove-Holmes-Six-Million-Dollar-Man/master/138951",
+                "label" : "Flying Dutchman",
+                "year" : "1975"
             },
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
+                "artist" : "Funk, Inc.",
+                "title" : "Chicken Lickin'",
+                "album" : "Chicken Lickin'",
+                "albumURL" : "http://www.allmusic.com/album/chicken-lickin-mw0000173752",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Deodato",
+                "title" : "September 13",
+                "album" : "Prelude",
+                "albumURL" : "http://www.allmusic.com/album/prelude-mw0000191718",
+                "label" : "CTI",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Ronnie Laws",
+                "title" : "Nothing To Lose",
+                "album" : "Pressure Sensitive",
+                "albumURL" : "http://www.allmusic.com/album/pressure-sensitive-mw0000644599",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Rufus",
+                "title" : "Rags To Rufus",
+                "album" : "7\" single",
                 "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "label" : "MCA",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Experience Unlimited",
+                "title" : "Funky Consciousness",
+                "album" : "Free Yourself",
+                "albumURL" : "http://www.allmusic.com/album/free-yourself-mw0001261327",
+                "label" : "Black Fire Records",
+                "year" : "1977"
+            },
+            {
+                "artist" : "The Sahara All Stars",
+                "title" : "Take Your Soul",
+                "album" : "Nigeria Disco Funk Special: The Sound Of The Underground Lagos Dancefloor 1974-79",
+                "albumURL" : "http://www.allmusic.com/album/nigeria-disco-funk-special-sound-of-the-underground-lagos-dancefloor-1974-1979-mw0000785782",
+                "label" : "Strut",
+                "year" : "2008"
+            },
+            {
+                "artist" : "The Ogyatanaa Show Band",
+                "title" : "Disco Africa",
+                "album" : "Ghana Soundz: Afro-Beat, Funk & Fusion In 70s Ghana, Volume 2",
+                "albumURL" : "http://www.allmusic.com/album/ghana-soundz-vol2-afrobeat-funk-fusion-in-1970s-ghana-mw0000207712",
+                "label" : "Soundway",
+                "year" : "2009"
+            },
+            {
+                "artist" : "The Wellis Band",
+                "title" : "Bindiga",
+                "album" : "Ghana Special: Modern Highlife, Afro Sounds and Ghanaian Blues 1968-81",
+                "albumURL" : "http://www.allmusic.com/album/ghana-special-modern-highlife-afro-sounds-ghanaian-blue-1968-81-mw0000831253",
+                "label" : "Soundway",
+                "year" : "2009"
+            },
+            {
+                "artist" : "Kenny Burrell",
+                "title" : "Do What You Gotta Do",
+                "album" : "God Bless The Child",
+                "albumURL" : "http://www.allmusic.com/album/god-bless-the-child-mw0000187914",
+                "label" : "CTI",
+                "year" : "1971"
             }
         ]
     },
     {
         "number" : "27",
-        "title" : "extracted from <title>",
-        "date" : "<pubDate>",
-        "filename" : "extracted from podPress meta data",
-        "deeplink" : "<wp:post_name>",
+        "title" : "Disco In The Sky",
+        "date" : "Wed, 07 Nov 2012 06:03:48 +0000",
+        "filename" : "episode_027_Disco_In_The_Sky",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-27-disco-in-the-sky",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -2617,29 +2681,93 @@
         },
         "songs" : [
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Kings Go Forth",
+                "title" : "Don't Take My Shadow",
+                "album" : "The Outsiders Are Back",
+                "albumURL" : "http://www.allmusic.com/album/the-outsiders-are-back-mw0001968878",
+                "label" : "Luaka Bop",
+                "year" : "2010"
             },
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Baby Huey",
+                "title" : "California Dreamin'",
+                "album" : "The Baby Huey Story: The Living Legend",
+                "albumURL" : "http://www.allmusic.com/album/the-baby-huey-story-the-living-legend-mw0000245030",
+                "label" : "Curtom",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Marvin Gaye",
+                "title" : "Trouble Man",
+                "album" : "Live At The London Palladium",
+                "albumURL" : "http://www.allmusic.com/album/live-at-the-london-palladium-mw0000650180",
+                "label" : "Tamla",
+                "year" : "1977"
+            },
+            {
+                "artist" : "The Fatback Band",
+                "title" : "Street Dance",
+                "album" : "Let's Do It Again",
+                "albumURL" : "http://www.allmusic.com/album/lets-do-it-again-mw0000090397",
+                "label" : "Perception",
+                "year" : "1972"
+            },
+            {
+                "artist" : "The Jimmy Castor Bunch",
+                "title" : "TR-7",
+                "album" : "Maximum Stimulation",
+                "albumURL" : "http://www.allmusic.com/album/maximum-stimulation-mw0000857652",
+                "label" : "Atlantic",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Zapp",
+                "title" : "Doo Wa Ditty (Blow That Thing)",
+                "album" : "Zapp II",
+                "albumURL" : "http://www.allmusic.com/album/zapp-ii-mw0000199209",
+                "label" : "Warner Brothers",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "One Nation Under A Groove",
+                "album" : "One Nation Under A Groove",
+                "albumURL" : "http://www.allmusic.com/album/one-nation-under-a-groove-mw0000106837",
+                "label" : "Charly Groove",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Parliament",
+                "title" : "Funkentelechy",
+                "album" : "Funkentelechy Vs. The Placebo Syndrome",
+                "albumURL" : "http://www.allmusic.com/album/funkentelechy-vs-the-placebo-syndrome-mw0000203326",
+                "label" : "Casablanca Records",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "(Not Just) Knee Deep",
+                "album" : "Uncle Jam Wants You",
+                "albumURL" : "http://www.allmusic.com/album/uncle-jam-wants-you-mw0000622326",
+                "label" : "Warner Brothers",
+                "year" : "1979"
+            },
+            {
+                "artist" : "Terry Callier",
+                "title" : "Disco In The Sky",
+                "album" : "Fire On Ice",
+                "albumURL" : "http://www.allmusic.com/album/fire-on-ice-mw0000021650",
+                "label" : "Elektra",
+                "year" : "1978"
             }
         ]
     },
     {
         "number" : "28",
-        "title" : "extracted from <title>",
-        "date" : "<pubDate>",
-        "filename" : "extracted from podPress meta data",
-        "deeplink" : "<wp:post_name>",
+        "title" : "2300 Skiddoo",
+        "date" : "Wed, 14 Nov 2012 06:43:44 +0000",
+        "filename" : "episode_028_2300_Skiddoo_",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-28-2300-skiddoo",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -2650,29 +2778,101 @@
         },
         "songs" : [
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Lennie Tristano",
+                "title" : "Turkish Mambo",
+                "album" : "Requiem",
+                "albumURL" : "http://www.allmusic.com/album/requiem-atlantic-mw0000876542",
+                "label" : "Atlantic",
+                "year" : "1981"
             },
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Ahmad Jamal",
+                "title" : "Ahmad's Blues",
+                "album" : "Jamal At The Penthouse",
+                "albumURL" : "http://www.allmusic.com/album/jamal-at-the-penthouse-mw0001882281",
+                "label" : "Argo",
+                "year" : "1959"
+            },
+            {
+                "artist" : "The Bill Evans Trio",
+                "title" : "Blue In Green",
+                "album" : "Portrait In Jazz",
+                "albumURL" : "http://www.allmusic.com/album/portrait-in-jazz-mw0000187984",
+                "label" : "Riverside",
+                "year" : "1959"
+            },
+            {
+                "artist" : "The Dave Brubeck Quartet",
+                "title" : "World's Fair",
+                "album" : "Time Changes",
+                "albumURL" : "http://www.allmusic.com/album/time-changes-mw0000893159",
+                "label" : "Columbia",
+                "year" : "1964"
+            },
+            {
+                "artist" : "Herbie Nichols",
+                "title" : "Blue Chopsticks",
+                "album" : "The Third World",
+                "albumURL" : "http://www.allmusic.com/album/the-third-world-mw0000872057",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Herbie Nichols",
+                "title" : "The Lady Sings The Blues",
+                "album" : "The Third World",
+                "albumURL" : "http://www.allmusic.com/album/the-third-world-mw0000872057",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Herbie Nichols",
+                "title" : "2300 Skiddoo",
+                "album" : "The Third World",
+                "albumURL" : "http://www.allmusic.com/album/the-third-world-mw0000872057",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Herbie Nichols",
+                "title" : "The Spinning Song",
+                "album" : "The Third World",
+                "albumURL" : "http://www.allmusic.com/album/the-third-world-mw0000872057",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Andrew Hill",
+                "title" : "One For One",
+                "album" : "One For One",
+                "albumURL" : "http://www.allmusic.com/album/one-for-one-mw0000881816",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Keith Jarrett, Gary Peacock, Jack DeJohnette",
+                "title" : "Autumn Leaves",
+                "album" : "Still Live",
+                "albumURL" : "http://www.allmusic.com/album/still-live-mw0000195323",
+                "label" : "ECM",
+                "year" : "1986"
+            },
+            {
+                "artist" : "Thelonious Monk",
+                "title" : "Straight, No Chaser",
+                "album" : "Straight, No Chaser",
+                "albumURL" : "http://www.allmusic.com/album/straight-no-chaser-mw0000205937",
+                "label" : "Columbia",
+                "year" : "1967"
             }
         ]
     },
     {
         "number" : "29",
-        "title" : "extracted from <title>",
-        "date" : "<pubDate>",
-        "filename" : "extracted from podPress meta data",
-        "deeplink" : "<wp:post_name>",
+        "title" : "Future Feature",
+        "date" : "Wed, 21 Nov 2012 06:43:39 +0000",
+        "filename" : "episode_029_Future_Feature",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-29-future-feature",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -2683,29 +2883,85 @@
         },
         "songs" : [
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Herbie Hancock",
+                "title" : "Lil' Brother",
+                "album" : "Fat Albert Rotunda",
+                "albumURL" : "http://www.allmusic.com/album/fat-albert-rotunda-mw0000738792",
+                "label" : "Warner Brothers",
+                "year" : "1969"
             },
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "Leon Spencer",
+                "title" : "Mercy, Mercy Me",
+                "album" : "Louisiana Slim",
+                "albumURL" : "http://www.allmusic.com/album/louisiana-slim-mw0001882588",
+                "label" : "Prestige",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Henry Cain",
+                "title" : "Why? (Am I Treated So Bad)",
+                "album" : "The Funky Organ-ization of Henry Cain",
+                "albumURL" : "http://www.allmusic.com/album/the-funky-organ-ization-of-henry-cain-mw0000852823",
+                "label" : "Capitol Records",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Wild Bill Doggett",
+                "title" : "Booga Man",
+                "album" : "Honky Tonk A-La Mod!",
+                "albumURL" : "http://www.discogs.com/Bill-Doggett-Honky-Tonk-A-La-Mod/release/3138818",
+                "label" : "Roulette",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Grant Green",
+                "title" : "Luny Tune",
+                "album" : "Talkin' About!",
+                "albumURL" : "http://www.allmusic.com/album/talkin-about%21-mw0000259010",
+                "label" : "Blue Note",
+                "year" : "1964"
+            },
+            {
+                "artist" : "Grant Green",
+                "title" : "Future Feature",
+                "album" : "The Main Attraction",
+                "albumURL" : "http://www.allmusic.com/album/the-main-attraction-mw0000659887",
+                "label" : "Kudu",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Osibisa",
+                "title" : "La Ila I La La",
+                "album" : "Super Fly T.N.T.",
+                "albumURL" : "http://www.discogs.com/Osibisa-Super-Fly-TNT/master/87909",
+                "label" : "Buddah",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Donald Byrd",
+                "title" : "Flight Time",
+                "album" : "Black Byrd",
+                "albumURL" : "http://www.allmusic.com/album/black-byrd-mw0000082900",
+                "label" : "Blue Note",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Isaac Hayes",
+                "title" : "Walk On By",
+                "album" : "Hot Buttered Soul",
+                "albumURL" : "http://www.allmusic.com/album/hot-buttered-soul-mw0000651407",
+                "label" : "Stax",
+                "year" : "1969"
             }
         ]
     },
     {
         "number" : "30",
-        "title" : "extracted from <title>",
-        "date" : "<pubDate>",
-        "filename" : "extracted from podPress meta data",
-        "deeplink" : "<wp:post_name>",
+        "title" : "Say Won'tcha",
+        "date" : "Wed, 28 Nov 2012 06:45:06 +0000",
+        "filename" : "episode_030_Say_Wontcha",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-30-say-wontcha",
         "intro" : {
             "artist" : "Booker T and the MG's",
             "title" : "Hip-Hug Her",
@@ -2716,20 +2972,92 @@
         },
         "songs" : [
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
-                "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "artist" : "JC Brooks and the Uptown Sound",
+                "title" : "I Am Trying To Break Your Heart",
+                "album" : "Want More",
+                "albumURL" : "http://www.allmusic.com/album/want-more-mw0002216606",
+                "label" : "Bloodshot",
+                "year" : "2011"
             },
             {
-                "artist" : "",
-                "title" : "",
-                "album" : "",
+                "artist" : "Syl Johnson",
+                "title" : "Goodie Goodie Good Times",
+                "album" : "7\" single b/w Love Baby",
                 "albumURL" : "",
-                "label" : "",
-                "year" : ""
+                "label" : "Shama Records",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Jerry Butler",
+                "title" : "I Wanna Do It To You",
+                "album" : "7\" single b/w I Don't Wanna Be Reminded",
+                "albumURL" : "",
+                "label" : "Motown",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Chocolate Milk",
+                "title" : "Say Won'tcha",
+                "album" : "Milky Way",
+                "albumURL" : "http://www.allmusic.com/album/milky-way-mw0000889215",
+                "label" : "RCA",
+                "year" : "1979"
+            },
+            {
+                "artist" : "The Crusaders",
+                "title" : "Cosmic Reign",
+                "album" : "Images",
+                "albumURL" : "http://www.allmusic.com/album/images-mw0000201353",
+                "label" : "ABC/Blue Thumb",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Houston Person",
+                "title" : "Sweet Buns And Barbecue",
+                "album" : "Sweet Buns And Barbecue",
+                "albumURL" : "http://www.allmusic.com/album/sweet-buns-barbeque-mw0000935906",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Jimmy Smith",
+                "title" : "Sista Rebecca",
+                "album" : "Open House",
+                "albumURL" : "http://www.allmusic.com/album/open-house-mw0000958849",
+                "label" : "Blue Note",
+                "year" : "1960"
+            },
+            {
+                "artist" : "Roland Kirk with Jack McDuff",
+                "title" : "Three For Dizzy",
+                "album" : "Funk Underneath",
+                "albumURL" : "http://www.allmusic.com/album/funk-underneath-mw0000894046",
+                "label" : "Prestige",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Weather Report",
+                "title" : "River People",
+                "album" : "Mr. Gone",
+                "albumURL" : "http://www.allmusic.com/album/mr-gone-mw0000194947",
+                "label" : "Columbia",
+                "year" : "1978"
+            },
+            {
+                "artist" : "William Onyeabor",
+                "title" : "Better Change Your Mind",
+                "album" : "World Psychedelic Classics 3: Love's A Real Thing - The Fuzzy Funky Sounds Of West Africa",
+                "albumURL" : "http://www.allmusic.com/album/world-psychedelic-classics-vol-3-loves-a-real-thing-mw0000673313",
+                "label" : "Luaka Bop",
+                "year" : "2005"
+            },
+            {
+                "artist" : "Jeff Beck",
+                "title" : "Cause We Ended As Lovers",
+                "album" : "Blow By Blow",
+                "albumURL" : "http://www.allmusic.com/album/blow-by-blow-mw0000619122",
+                "label" : "Epic Records",
+                "year" : "1975"
             }
         ]
     }
