@@ -487,7 +487,7 @@
                 "title" : "Black Satin",
                 "album" : "On The Corner",
                 "albumURL" : "http://www.allmusic.com/album/on-the-corner-r106173",
-                "label" : "Columbia Records",
+                "label" : "Columbia",
                 "year" : "1972"
             },
             {
@@ -495,7 +495,7 @@
                 "title" : "Bliss: The Eternal Now",
                 "album" : "Illuminations",
                 "albumURL" : "http://www.allmusic.com/album/illuminations-r17352",
-                "label" : "Columbia Records",
+                "label" : "Columbia",
                 "year" : "1974"
             }
         ]
@@ -2054,7 +2054,7 @@
                 "title" : "Season Of The Witch",
                 "album" : "Super Session",
                 "albumURL" : "http://www.allmusic.com/album/super-session-mw0000190678",
-                "label" : "Columbia Records",
+                "label" : "Columbia",
                 "year" : "1968"
             },
             {
@@ -2062,7 +2062,7 @@
                 "title" : "Palm Grease",
                 "album" : "Thrust",
                 "albumURL" : "http://www.allmusic.com/album/thrust-mw0000311449",
-                "label" : "Columbia Records",
+                "label" : "Columbia",
                 "year" : "1974"
             },
             {
@@ -2080,6 +2080,656 @@
                 "albumURL" : "http://www.allmusic.com/album/wild-horses-rock-steady-mw0000462498",
                 "label" : "Kudu",
                 "year" : "1971"
+            }
+        ]
+    },
+    {
+        "number" : "21",
+        "title" : "Good Old Music",
+        "date" : "Wed, 26 Sep 2012 05:38:57 +0000",
+        "filename" : "episode_021_Good_Old_Music.mp3",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-21-good-old-music",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "The Crusaders",
+                "title" : "That's How I Feel",
+                "album" : "1",
+                "albumURL" : "http://www.allmusic.com/album/1-mw0000337111",
+                "label" : "1972",
+                "year" : "Chisa Records"
+            },
+            {
+                "artist" : "J.D. & The Evil's Dynamite Band",
+                "title" : "Flames Of Darkness",
+                "album" : "Explodes Across The Nation",
+                "albumURL" : "http://www.allmusic.com/album/explodes-across-the-nation-mw0000587016",
+                "label" : "Soul Fire",
+                "year" : "2001"
+            },
+            {
+                "artist" : "The Souljazz Orchestra",
+                "title" : "Consecration",
+                "album" : "Rising Sun",
+                "albumURL" : "http://www.allmusic.com/album/rising-sun-mw0001958420",
+                "label" : "Strut",
+                "year" : "2010"
+            },
+            {
+                "artist" : "Coke",
+                "title" : "Na Na",
+                "album" : "Coke",
+                "albumURL" : "http://www.discogs.com/Coke-Coke/master/201333",
+                "label" : "Sound Triangle",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Hugh Masekela",
+                "title" : "Fuzz",
+                "album" : "Masekela",
+                "albumURL" : "http://www.allmusic.com/album/masekela-mw0000895768",
+                "label" : "UNI",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Fela Anikulapo Kuti And The Africa 70",
+                "title" : "Upside Down",
+                "album" : "Upside Down",
+                "albumURL" : "http://www.allmusic.com/album/upside-down-mw0000664594",
+                "label" : "Celluloid",
+                "year" : "1976"
+            },
+            {
+                "artist" : "The Blackbyrds",
+                "title" : "Party Land",
+                "album" : "Unfinished Business",
+                "albumURL" : "http://www.allmusic.com/album/unfinished-business-mw0000863036",
+                "label" : "Fantasy",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Captain Sky",
+                "title" : "Bubble Gum (I Chewz You)",
+                "album" : "Concerned Party No. 1",
+                "albumURL" : "http://www.allmusic.com/album/concerned-party-1-mw0000233668",
+                "label" : "TEC Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "James Brown",
+                "title" : "Rapp Payback (Pt. II) (Where Iz Moses)",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "T.K. Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "Good Old Music",
+                "album" : "Funkadelic",
+                "albumURL" : "http://www.allmusic.com/album/funkadelic-mw0000654220",
+                "label" : "Westbound Records",
+                "year" : "1970"
+            }
+        ]
+    },
+    {
+        "number" : "22",
+        "title" : "Thunderbird",
+        "date" : "Wed, 03 Oct 2012 05:41:13 +0000",
+        "filename" : "episode_022_Thunderbird.mp3",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-22-thunderbird",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Roberta Flack",
+                "title" : "Go Up Moses",
+                "album" : "Quiet Fire",
+                "albumURL" : "http://www.allmusic.com/album/quiet-fire-mw0000318571",
+                "label" : "Atlantic",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Reuben Wilson",
+                "title" : "Together (You And Me)",
+                "album" : "Got To Get Your Own",
+                "albumURL" : "http://www.allmusic.com/album/got-to-get-your-own-mw0000795698",
+                "label" : "Cadet",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Grover Washington, Jr.",
+                "title" : "Funkfoot",
+                "album" : "Live At The Bijou",
+                "albumURL" : "http://www.allmusic.com/album/live-at-the-bijou-mw0000313666",
+                "label" : "Kudu",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Israel 'Popper Stopper' Tolbert",
+                "title" : "Big Leg Woman (With A Short Short Mini Skirt)",
+                "album" : "7\" single b/w I Got Love",
+                "albumURL" : "",
+                "label" : "Warren Records",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Bull & The Matadors",
+                "title" : "The Funky Judge",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Toddlin' Town Records",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Willis 'Gator' Jackson",
+                "title" : "Thunderbird",
+                "album" : "Soul Night/Live!",
+                "albumURL" : "http://www.allmusic.com/album/soul-night-live%21-mw0000661391",
+                "label" : "Prestige",
+                "year" : "1964"
+            },
+            {
+                "artist" : "Los 5-U-4",
+                "title" : "Baila, Ven Y Baila",
+                "album" : "i, Para Usted: The Funky Beats of Revolutionary Cuba, Vol. 1",
+                "albumURL" : "http://www.allmusic.com/album/si-para-usted-the-funky-beats-of-revolutionary-cuba-vol-1-mw0000500019",
+                "label" : "Waxing Deep/Light In The Attic",
+                "year" : "2006"
+            },
+            {
+                "artist" : "Osibisa",
+                "title" : "Music For Gong Gong",
+                "album" : "Osibisa",
+                "albumURL" : "http://www.allmusic.com/album/osibisa-mw0000099024",
+                "label" : "Decca",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Ikenga Super Stars Of Africa",
+                "title" : "Soffry Soffry Catch Monkey",
+                "album" : "Lagos Chop Up: Fuji & Afrobeat, Highlife & Juju",
+                "albumURL" : "http://www.allmusic.com/album/lagos-chop-up-fuji-afrobeat-highlife-juju-mw0000703331",
+                "label" : "Honest Jon's Records",
+                "year" : "2006"
+            },
+            {
+                "artist" : "Roberta Flack",
+                "title" : "Bridge Over Troubled Water",
+                "album" : "Quiet Fire",
+                "albumURL" : "http://www.allmusic.com/album/quiet-fire-mw0000318571",
+                "label" : "Atlantic",
+                "year" : "1971"
+            }
+        ]
+    },
+    {
+        "number" : "23",
+        "title" : "Bad Walking Woman",
+        "date" : "Wed, 10 Oct 2012 05:47:07 +0000",
+        "filename" : "episode_023_Bad_Walking_Woman.mp3",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-23-bad-walking-woman",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Big John Patton",
+                "title" : "Latona",
+                "album" : "Let 'Em Roll",
+                "albumURL" : "http://www.allmusic.com/album/let-em-roll-mw0000101363",
+                "label" : "Blue Note",
+                "year" : "1965"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Red Sails In The Sunset",
+                "album" : "Groove Grease",
+                "albumURL" : "http://www.allmusic.com/album/groove-grease-mw0000536612",
+                "label" : "Groove Merchant",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Ivan 'Boogaloo Joe' Jones",
+                "title" : "Confusion",
+                "album" : "Sweetback",
+                "albumURL" : "http://www.allmusic.com/album/sweetback-mw0000612630",
+                "label" : "Joka Records/Luv N' Haight Recordings",
+                "year" : "1976/1995"
+            },
+            {
+                "artist" : "Leon Spencer",
+                "title" : "Bad Walking Woman",
+                "album" : "Bad Walking Woman",
+                "albumURL" : "http://www.allmusic.com/album/bad-walking-woman-mw0000938034",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Charles Earland",
+                "title" : "In The Alley",
+                "album" : "In The Pocket",
+                "albumURL" : "http://www.allmusic.com/album/in-the-pocket-mw0001881619",
+                "label" : "Muse Records",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Houston Person",
+                "title" : "Preachin' And Teachin'",
+                "album" : "Wild Flower",
+                "albumURL" : "http://www.allmusic.com/album/wildflower-mw0000871269",
+                "label" : "Muse Records",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Brother Jack McDuff",
+                "title" : "Mini Pads",
+                "album" : "Sophisticated Funk",
+                "albumURL" : "http://www.allmusic.com/album/sophisticated-funk-mw0001002142",
+                "label" : "Chess",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Fela Ransome Kuti And The Africa 70",
+                "title" : "You No Go Die… Unless",
+                "album" : "Na Poi",
+                "albumURL" : "http://www.allmusic.com/album/na-poi-mw0001109976",
+                "label" : "Kalkuta Records",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Merl Saunders",
+                "title" : "I Feel Like Dynamite",
+                "album" : "You Can Leave Your Hat On",
+                "albumURL" : "http://www.discogs.com/Merl-Saunders-And-Aunt-Monk-You-Can-Leave-Your-Hat-On/release/1562578",
+                "label" : "Fantasy",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Leroy And The Drivers",
+                "title" : "The Sad Chicken",
+                "album" : "Cold Heat: Heavy Funk Rarities 1968-1971, Volume 1",
+                "albumURL" : "http://www.allmusic.com/album/cold-heat-heavy-funk-rarities-1968-1974-vol-1-mw0000349174",
+                "label" : "Stones Throw",
+                "year" : "2004"
+            }
+        ]
+    },
+    {
+        "number" : "24",
+        "title" : "Hot Mud",
+        "date" : "Wed, 17 Oct 2012 05:06:27 +0000",
+        "filename" : "episode_024_Hot_Mud.mp3",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-24-hot-mud",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Mike Mainieri",
+                "title" : "The Bush",
+                "album" : "Journey Through An Electric Tube",
+                "albumURL" : "http://www.allmusic.com/album/journey-through-an-electric-tube-mw0000901101",
+                "label" : "Solid State",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Hubert Laws",
+                "title" : "Modadji",
+                "album" : "The San Francisco Concert",
+                "albumURL" : "http://www.allmusic.com/album/the-san-francisco-concert-mw0000188285",
+                "label" : "CTI",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Herbie Mann & Rufus Harley",
+                "title" : "Flute Bag",
+                "album" : "The Wailing Dervishes: Recorded Live At The Village Theater",
+                "albumURL" : "http://www.allmusic.com/album/the-wailing-dervishes-mw0000897336",
+                "label" : "Atlantic",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Idris Muhammad",
+                "title" : "Power Of Soul",
+                "album" : "Power Of Soul",
+                "albumURL" : "http://www.allmusic.com/album/power-of-soul-mw0000213654",
+                "label" : "Kudu",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Manu Dibango",
+                "title" : "Mwasa Makossa",
+                "album" : "Makossa Man",
+                "albumURL" : "http://www.discogs.com/Manu-Dibango-Makossa-Man/release/637677",
+                "label" : "Atlantic",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Afrique",
+                "title" : "Hot Mud",
+                "album" : "Soul Makossa",
+                "albumURL" : "http://www.allmusic.com/album/soul-makossa-mw0000864584",
+                "label" : "Mainstream Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Trouble Funk",
+                "title" : "Pump Me Up",
+                "album" : "Drop The Bomb",
+                "albumURL" : "http://www.allmusic.com/album/drop-the-bomb-mw0000196410",
+                "label" : "Sugar Hill Records",
+                "year" : "1982"
+            },
+            {
+                "artist" : "The Isley Brothers",
+                "title" : "Fight The Power (parts 1 & 2)",
+                "album" : "The Heat Is On",
+                "albumURL" : "http://www.allmusic.com/album/the-heat-is-on-mw0000203880",
+                "label" : "T-Neck",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Parliament",
+                "title" : "Gamin' On Ya",
+                "album" : "The Clones Of Dr. Funkenstein",
+                "albumURL" : "http://www.allmusic.com/album/the-clones-of-dr-funkenstein-mw0000689839",
+                "label" : "Casablanca Records",
+                "year" : "1976"
+            },
+            {
+                "artist" : "King Sunny Ade",
+                "title" : "Moti Mo",
+                "album" : "Synchro System",
+                "albumURL" : "http://www.allmusic.com/album/synchro-system-mw0000198569",
+                "label" : "Mango",
+                "year" : "1983"
+            }
+        ]
+    },
+    {
+        "number" : "25",
+        "title" : "I'll Drink To That",
+        "date" : "Wed, 24 Oct 2012 05:47:21 +0000",
+        "filename" : "episode_025_Ill_Drink_To_That.mp3",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-25-ill-drink-to-that",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "Wes Montgomery",
+                "title" : "Missile Blues",
+                "album" : "A Dynamic Sound: Organ/Guitar/Drums",
+                "albumURL" : "http://www.allmusic.com/album/a-dynamic-new-sound-guitar-organ-drums-mw0000649661",
+                "label" : "Original Jazz Classics/Riverside",
+                "year" : "1959"
+            },
+            {
+                "artist" : "Don Patterson",
+                "title" : "Darben The Redd Foxx",
+                "album" : "Mellow Soul",
+                "albumURL" : "http://www.allmusic.com/album/mellow-soul-mw0000871144",
+                "label" : "Prestige",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Jimmy Smith",
+                "title" : "I'll Drink To That",
+                "album" : "Off The Top",
+                "albumURL" : "http://www.allmusic.com/album/off-the-top-mw0000188773",
+                "label" : "Elektra",
+                "year" : "1983"
+            },
+            {
+                "artist" : "Cymande",
+                "title" : "Fug",
+                "album" : "Second Time Round",
+                "albumURL" : "http://www.allmusic.com/album/second-time-round-mw0000841692",
+                "label" : "Janus Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Demon Fuzz",
+                "title" : "Mercy (Version No. 1)",
+                "album" : "Afreaka!",
+                "albumURL" : "http://www.allmusic.com/album/afreaka%21-mw0000348801",
+                "label" : "Janus Records",
+                "year" : "1970"
+            },
+            {
+                "artist" : "WAR",
+                "title" : "Slipping Into Darkness",
+                "album" : "Live",
+                "albumURL" : "http://www.allmusic.com/album/war-live-mw0000614033",
+                "label" : "United Artists Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Earth, Wind And Fire",
+                "title" : "Saturday Nite",
+                "album" : "Sprit",
+                "albumURL" : "http://www.allmusic.com/album/spirit-mw0000189770",
+                "label" : "Columbia",
+                "year" : ""
+            },
+            {
+                "artist" : "The Bar-Kays",
+                "title" : "Shake Your Rump To The Funk",
+                "album" : "7\" single b/w Summer Of Our Love",
+                "albumURL" : "",
+                "label" : "Mercury",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Foot Stompin' Music",
+                "album" : "Insides Out",
+                "albumURL" : "http://www.allmusic.com/album/insides-out-mw0000842203",
+                "label" : "Dakar Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Wheedle's Groove",
+                "title" : "Baddest",
+                "album" : "Kearney Barton",
+                "albumURL" : "http://www.allmusic.com/album/kearney-barton-mw0000829713",
+                "label" : "Light In The Attic",
+                "year" : "2009"
+            }
+        ]
+    },
+    {
+        "number" : "26",
+        "title" : "extracted from <title>",
+        "date" : "<pubDate>",
+        "filename" : "extracted from podPress meta data",
+        "deeplink" : "<wp:post_name>",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            },
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            }
+        ]
+    },
+    {
+        "number" : "27",
+        "title" : "extracted from <title>",
+        "date" : "<pubDate>",
+        "filename" : "extracted from podPress meta data",
+        "deeplink" : "<wp:post_name>",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            },
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            }
+        ]
+    },
+    {
+        "number" : "28",
+        "title" : "extracted from <title>",
+        "date" : "<pubDate>",
+        "filename" : "extracted from podPress meta data",
+        "deeplink" : "<wp:post_name>",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            },
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            }
+        ]
+    },
+    {
+        "number" : "29",
+        "title" : "extracted from <title>",
+        "date" : "<pubDate>",
+        "filename" : "extracted from podPress meta data",
+        "deeplink" : "<wp:post_name>",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            },
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            }
+        ]
+    },
+    {
+        "number" : "30",
+        "title" : "extracted from <title>",
+        "date" : "<pubDate>",
+        "filename" : "extracted from podPress meta data",
+        "deeplink" : "<wp:post_name>",
+        "intro" : {
+            "artist" : "Booker T and the MG's",
+            "title" : "Hip-Hug Her",
+            "album" : "Hip-Hug Her",
+            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+            "label" : "Stax",
+            "year" : "1967"
+        },
+        "songs" : [
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
+            },
+            {
+                "artist" : "",
+                "title" : "",
+                "album" : "",
+                "albumURL" : "",
+                "label" : "",
+                "year" : ""
             }
         ]
     }
