@@ -4,4 +4,3 @@
 4. finish adding episode data to hotcan.json
 5. convert remaining mp3's to ogg
 6. find cdn to host audio files
-7. add xml for feed to current project
