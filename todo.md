@@ -5,4 +5,3 @@
 5. convert remaining mp3's to ogg
 6. find cdn to host audio files
 7. add xml for feed to current project
-8. handle <a> for songs w/o an album URL (7" singles, etc)
