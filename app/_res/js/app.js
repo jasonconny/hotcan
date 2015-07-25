@@ -65,6 +65,8 @@ hotcan.controller('MainController', [
                     k.routename = UtilityService.transformStringToParameter(routename);
                     k.mp3Path = "/_res/audio/mp3/" + k.filename + '.mp3';
                     k.oggPath = "/_res/audio/ogg/" + k.filename + '.ogg';
+
+                    k.intro = EpisodeService.getIntro(k.intro);
                 })
             });
         };
@@ -105,6 +107,44 @@ hotcan.service('EpisodeService', ['$http', function($http) {
             .success(function(response) {
                 return response;
             });
+    };
+
+    episodes.getIntro = function(intro) {
+        switch(intro) {
+            case "If You're Ready Come Go With Me":
+                intro = {
+                    "artist" : "Jimmy McGriff",
+                    "title" : "If You're Ready Come Go With Me",
+                    "album" : "If You're Ready Come Go With Me: The Super Funk Collection",
+                    "albumURL" : "http://www.allmusic.com/album/if-youre-ready-mw0000882187",
+                    "label" : "Groove Merchant",
+                    "year" : "1973"
+                };
+                break;
+            case "Blind Man, Blind Man":
+                intro = {
+                    "artist" : "Herbie Hancock",
+                    "title" : "Blind Man, Blind Man",
+                    "album" : "My Point Of View",
+                    "albumURL" : "http://www.allmusic.com/album/my-point-of-view-mw0000247492",
+                    "label" : "Blue Note",
+                    "year" : "1963"
+                };
+                break;
+            default:
+                intro = {
+                    "artist" : "Booker T and the MG's",
+                    "title" : "Hip-Hug Her",
+                    "album" : "Hip-Hug Her",
+                    "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
+                    "label" : "Stax",
+                    "year" : "1967"
+                };
+                break;
+
+        }
+
+        return intro;
     };
 
     return episodes;

@@ -5,14 +5,7 @@
         "date" : "Tue, 08 May 2012 13:40:18 +0000",
         "filename" : "episode_001_Beginnings",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-1",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Cymande",
@@ -118,14 +111,7 @@
         "date": "Wed, 16 May 2012 06:00:28 +0000",
         "filename": "episode_002_Groove_and_Move",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-2",
-        "intro": {
-            "artist": "Booker T and the MG's",
-            "title": "Hip-Hug Her",
-            "album": "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label": "Stax",
-            "year": "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs": [
             {
                 "artist": "Richard ‘Groove’ Holmes",
@@ -231,14 +217,7 @@
         "date" : "Wed, 23 May 2012 06:00:50 +0000",
         "filename" : "episode_003_Maximum_Stimulation",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-3-maximum-stimulation",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Brick",
@@ -320,14 +299,7 @@
         "date" : "Wed, 30 May 2012 06:00:43 +0000",
         "filename" : "episode_004_Y_Sharp",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-4",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Big John Patton",
@@ -409,14 +381,7 @@
         "date" : "Wed, 06 Jun 2012 06:00:51 +0000",
         "filename" : "episode_005_Functus",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-5-functus",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Experience Unlimited",
@@ -506,14 +471,7 @@
         "date" : "Wed, 13 Jun 2012 05:17:58 +0000",
         "filename" : "episode_006_Music_To_Think_By",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-6-music-to-think-by",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Jimmy Smith",
@@ -552,7 +510,7 @@
                 "title" : "Rapid Shave",
                 "album" : "Queen Of The Organ",
                 "albumURL" : "http://www.allmusic.com/album/queen-of-the-organ-r147123",
-                "label" : "Impulse",
+                "label" : "Impulse!",
                 "year" : "1964"
             },
             {
@@ -603,14 +561,7 @@
         "date" : "Wed, 20 Jun 2012 05:30:52 +0000",
         "filename" : "episode_007_Funky_Doo",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-7",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "The Crusaders",
@@ -700,14 +651,7 @@
         "date" : "Wed, 27 Jun 2012 05:11:31 +0000",
         "filename" : "episode_008_Bumpin_On_Sunset",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-8-bumpin-on-sunset",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Mel Brown",
@@ -722,7 +666,7 @@
                 "title" : "Spellbinder",
                 "album" : "Spellbinder",
                 "albumURL" : "http://www.allmusic.com/album/spellbinder-mw0000389250",
-                "label" : "Impulse",
+                "label" : "Impulse!",
                 "year" : "1966"
             },
             {
@@ -797,14 +741,7 @@
         "date" : "Wed, 04 Jul 2012 05:53:25 +0000",
         "filename" : "episode_009_The Dirty_Hunchs_Birthday_Favs",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-9-the-dirty-hunchs-birthday-favs",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Herbie Hancock",
@@ -894,14 +831,7 @@
         "date" : "Wed, 11 Jul 2012 05:15:19 +0000",
         "filename" : "episode_010_Lotus_Flower",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-10",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Odell Brown and the Organ-izers",
@@ -1007,14 +937,7 @@
         "date" : "Wed, 18 Jul 2012 05:15:01 +0000",
         "filename" : "episode_011_Do_Your_Thing",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-11",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Shirley Scott",
@@ -1120,14 +1043,7 @@
         "date" : "Wed, 25 Jul 2012 05:30:55 +0000",
         "filename" : "episode_012_Open_Country_Joy",
         "deeplink" : "hot-can-all-vinyl-power-hour-episode-12",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Miles Davis",
@@ -1217,14 +1133,7 @@
         "date" : "Wed, 01 Aug 2012 05:30:17 +0000",
         "filename" : "episode_013_Cmon_Git_It",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-13-cmon-git-it",
-        "intro" : {
-            "artist" : "Herbie Hancock",
-            "title" : "Blind Man, Blind Man",
-            "album" : "My Point Of View",
-            "albumURL" : "http://www.allmusic.com/album/my-point-of-view-mw0000247492",
-            "label" : "Blue Note",
-            "year" : "1963"
-        },
+        "intro" : "Blind Man, Blind Man",
         "songs" : [
             {
                 "artist" : "Lonnie Smith",
@@ -1314,14 +1223,7 @@
         "date" : "Wed, 08 Aug 2012 05:36:34 +0000",
         "filename" : "episode_014_Bang_Bang",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-14-bang-bang",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Jimmy Smith",
@@ -1427,14 +1329,7 @@
         "date" : "Wed, 15 Aug 2012 19:30:27 +0000",
         "filename" : "episode_015_Nigeria_70",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-15-nigeria-70",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Orlando Julius And The Afro Sounders",
@@ -1548,14 +1443,7 @@
         "date" : "Wed, 22 Aug 2012 05:44:03 +0000",
         "filename" : "episode_016_Do_Fries_Go_With_That_Shake",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-16-do-fries-go-with-that-shake",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Donald Byrd",
@@ -1645,14 +1533,7 @@
         "date" : "Wed, 29 Aug 2012 05:31:04 +0000",
         "filename" : "episode_017_Moisturizer",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-17-moisturizer",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Les McCann",
@@ -1750,14 +1631,7 @@
         "date" : "Wed, 05 Sep 2012 04:41:26 +0000",
         "filename" : "episode_018_Jimmy_McGriff",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-18-jimmy-mcgriff",
-        "intro" : {
-            "artist" : "Jimmy McGriff",
-            "title" : "If You're Ready Come Go With Me",
-            "album" : "If You're Ready Come Go With Me: The Super Funk Collection",
-            "albumURL" : "http://www.allmusic.com/album/if-youre-ready-mw0000882187",
-            "label" : "Groove Merchant",
-            "year" : "1973"
-        },
+        "intro" : "If You're Ready Come Go With Me",
         "songs" : [
             {
                 "artist" : "Jimmy McGriff",
@@ -1879,14 +1753,7 @@
         "date" : "Wed, 12 Sep 2012 05:22:42 +0000",
         "filename" : "episode_019_When_The_Going_Is_Smooth_And_Good",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-19-when-the-going-is-smooth-and-good",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Taj Mahal",
@@ -1992,14 +1859,7 @@
         "date" : "Wed, 19 Sep 2012 05:12:48 +0000",
         "filename" : "episode_020_Welcome_New_Warmth",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-20-welcome-new-warmth",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Syl Johnson",
@@ -2089,14 +1949,7 @@
         "date" : "Wed, 26 Sep 2012 05:38:57 +0000",
         "filename" : "episode_021_Good_Old_Music",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-21-good-old-music",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "The Crusaders",
@@ -2186,14 +2039,7 @@
         "date" : "Wed, 03 Oct 2012 05:41:13 +0000",
         "filename" : "episode_022_Thunderbird",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-22-thunderbird",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Roberta Flack",
@@ -2283,14 +2129,7 @@
         "date" : "Wed, 10 Oct 2012 05:47:07 +0000",
         "filename" : "episode_023_Bad_Walking_Woman",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-23-bad-walking-woman",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Big John Patton",
@@ -2380,14 +2219,7 @@
         "date" : "Wed, 17 Oct 2012 05:06:27 +0000",
         "filename" : "episode_024_Hot_Mud",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-24-hot-mud",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Mike Mainieri",
@@ -2477,14 +2309,7 @@
         "date" : "Wed, 24 Oct 2012 05:47:21 +0000",
         "filename" : "episode_025_Ill_Drink_To_That",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-25-ill-drink-to-that",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Wes Montgomery",
@@ -2574,14 +2399,7 @@
         "date" : "Wed, 31 Oct 2012 05:06:15 +0000",
         "filename" : "episode_026_Do_What_You_Gotta_Do",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-26-do-what-you-gotta-do",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Richard 'Groove' Holmes",
@@ -2671,14 +2489,7 @@
         "date" : "Wed, 07 Nov 2012 06:03:48 +0000",
         "filename" : "episode_027_Disco_In_The_Sky",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-27-disco-in-the-sky",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Kings Go Forth",
@@ -2768,14 +2579,7 @@
         "date" : "Wed, 14 Nov 2012 06:43:44 +0000",
         "filename" : "episode_028_2300_Skiddoo_",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-28-2300-skiddoo",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Lennie Tristano",
@@ -2873,14 +2677,7 @@
         "date" : "Wed, 21 Nov 2012 06:43:39 +0000",
         "filename" : "episode_029_Future_Feature",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-29-future-feature",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "Herbie Hancock",
@@ -2962,14 +2759,7 @@
         "date" : "Wed, 28 Nov 2012 06:45:06 +0000",
         "filename" : "episode_030_Say_Wontcha",
         "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-30-say-wontcha",
-        "intro" : {
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her",
         "songs" : [
             {
                 "artist" : "JC Brooks and the Uptown Sound",
@@ -3058,6 +2848,898 @@
                 "albumURL" : "http://www.allmusic.com/album/blow-by-blow-mw0000619122",
                 "label" : "Epic Records",
                 "year" : "1975"
+            }
+        ]
+    },
+    {
+        "number" : "31",
+        "title" : "Sleep On It",
+        "date" : "Wed, 05 Dec 2012 06:36:55 +0000",
+        "filename" : "episode_031_Sleep_On_It",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-31-sleep-on-it",
+        "intro" : "Blind Man, Blind Man",
+        "songs" : [
+            {
+                "artist" : "Les McCann and Eddie Harris",
+                "title" : "You Got It In Your Soulness",
+                "album" : "Swiss Movement",
+                "albumURL" : "http://www.allmusic.com/album/swiss-movement-mw0000054231",
+                "label" : "Atlantic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Ramsey Lewis",
+                "title" : "Felicidade",
+                "album" : "The In Crowd",
+                "albumURL" : "http://www.allmusic.com/album/the-in-crowd-mw0000654554",
+                "label" : "Argo",
+                "year" : "1965"
+            },
+            {
+                "artist" : "Cedar Walton",
+                "title" : "Impressions Of Scandanavia",
+                "album" : "The Electric Boogaloo Song",
+                "albumURL" : "http://www.allmusic.com/album/the-electic-boogaloo-song-mw0000900370",
+                "label" : "Prestige",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Aretha Franklin",
+                "title" : "Eleanor Rigby",
+                "album" : "This Girl's In Love With You",
+                "albumURL" : "http://www.allmusic.com/album/this-girls-in-love-with-you-mw0000105942",
+                "label" : "Atlantic",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Booker T and the M.G.'s",
+                "title" : "Something",
+                "album" : "McLemore Avenue",
+                "albumURL" : "http://www.allmusic.com/album/mclemore-avenue-mw0000307863",
+                "label" : "Stax",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Ike and Tina Turner",
+                "title" : "Come Together",
+                "album" : "Come Together",
+                "albumURL" : "http://www.discogs.com/Ike-Tina-Turner-And-Ikettes-Come-Together/master/103287",
+                "label" : "Liberty Records",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Wilson Pickett",
+                "title" : "Hey Jude",
+                "album" : "7\" single b/w Search  Your Heart",
+                "albumURL" : "",
+                "label" : "Atlantic",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Return To Forever",
+                "title" : "Song To The Pharoah Kings",
+                "album" : "Where Have I Known You Before",
+                "albumURL" : "http://www.allmusic.com/album/where-have-i-known-you-before-mw0000191664",
+                "label" : "Polydor",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Tunji Oyelana and the Benders",
+                "title" : "Iwo Ko La Dami",
+                "album" : "Nigeria Special: Volume 2 Modern Highlife, Afro Sounds & Nigerian Blues 1970-6",
+                "albumURL" : "http://www.allmusic.com/album/nigeria-special-vol-2-modern-highlife-afro-sounds-and-nigerianblues-1970-1976-mw0001960977",
+                "label" : "Soundway",
+                "year" : "2010"
+            },
+            {
+                "artist" : "Extra Golden",
+                "title" : "Gimakiny Akia",
+                "album" : "Thank You Very Quickly",
+                "albumURL" : "http://www.allmusic.com/album/thank-you-very-quickly-mw0000811740",
+                "label" : "Thrill Jockey",
+                "year" : "2009"
+            },
+            {
+                "artist" : "Trouble Funk",
+                "title" : "Give Me A Quick One",
+                "album" : "Saturday Night Live! From Washington, DC",
+                "albumURL" : "http://www.allmusic.com/album/saturday-night-live-from-washington-dc-mw0000319660",
+                "label" : "Island",
+                "year" : "1985"
+            },
+            {
+                "artist" : "Trouble Funk",
+                "title" : "Sleep On It",
+                "album" : "Saturday Night Live! From Washington, DC",
+                "albumURL" : "http://www.allmusic.com/album/saturday-night-live-from-washington-dc-mw0000319660",
+                "label" : "Island",
+                "year" : "1985"
+            }
+        ]
+    },
+    {
+        "number" : "32",
+        "title" : "Simizzoke",
+        "date" : "Wed, 12 Dec 2012 06:32:43 +0000",
+        "filename" : "episode_032_Simizzoke",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-32-simizzoke",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Odell Brown",
+                "title" : "Simizzoke",
+                "album" : "I Love Every Little Thing About You",
+                "albumURL" : "http://www.allmusic.com/album/i-love-every-little-thing-about-you-mw0000599264",
+                "label" : "Paula Records",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Charles Earland",
+                "title" : "Black Talk",
+                "album" : "Black Talk!",
+                "albumURL" : "http://www.allmusic.com/album/black-talk!-mw0000674678",
+                "label" : "Prestige",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Deodato",
+                "title" : "Funk Yourself",
+                "album" : "First Cuckoo",
+                "albumURL" : "http://www.allmusic.com/album/first-cuckoo-mw0000739901",
+                "label" : "MCA Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Reuben Wilson And The Cost Of Living",
+                "title" : "In The Booth, In The Back, In The Corner, In The Dark",
+                "album" : "Got To get Your Own",
+                "albumURL" : "http://www.allmusic.com/album/got-to-get-your-own-mw0000795698",
+                "label" : "Cadet",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Johnny 'Hammond' Smith",
+                "title" : "N.Y.P.D.",
+                "album" : "Soul Flowers",
+                "albumURL" : "http://www.allmusic.com/album/soul-flowers-mw0000875561",
+                "label" : "Prestige",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Brother Jack McDuff and David 'Fathead' Newman",
+                "title" : "But It's Alright",
+                "album" : "Double Barrelled Soul",
+                "albumURL" : "http://www.allmusic.com/album/double-barrelled-soul-mw0000765325",
+                "label" : "Atlantic",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Idris Muhammad<",
+                "title" : "Boogie To The Top",
+                "album" : "Boogie To The Top",
+                "albumURL" : "http://www.allmusic.com/album/boogie-to-the-top-mw0000910908",
+                "label" : "Kudu",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Joni Haastrup",
+                "title" : "Greetings",
+                "album" : "Nigeria Disco Funk Special: The Sound Of The Underground Lagos Dancefloor 1974-79",
+                "albumURL" : "http://www.allmusic.com/album/nigeria-disco-funk-special-sound-of-the-underground-lagos-dancefloor-1974-1979-mw0000785782",
+                "label" : "Soundway",
+                "year" : "2008"
+            },
+            {
+                "artist" : "Geraldo Pino And The Heartbeats",
+                "title" : "Black Woman Experience",
+                "album" : "Afro Soco Soul Live",
+                "albumURL" : "http://www.discogs.com/Geraldo-Pino-Heartbeats-Afro-Soco-Soul-Live/release/557734",
+                "label" : "Soundway",
+                "year" : "2005"
+            },
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Can You Dig It",
+                "album" : "Muscle Shoals Nitty Gritty",
+                "albumURL" : "http://www.allmusic.com/album/muscle-shoals-nitty-gritty-mw0000779589",
+                "label" : "Embryo",
+                "year" : "1970"
+            }
+        ]
+    },
+    {
+        "number" : "33",
+        "title" : "Eyes Of A Fawn",
+        "date" : "Wed, 19 Dec 2012 06:45:29 +0000",
+        "filename" : "episode_033_Eyes_Of_A_Fawn",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-33-eyes-of-a-fawn",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Glenn (Ghanababa) Warren",
+                "title" : "Eyes Of A Fawn",
+                "album" : "Rhythms Of Happy Feelings",
+                "albumURL" : "http://www.discogs.com/Glenn-Ghanababa-Warren-Rhythms-Of-Happy-Feelings/release/2170189",
+                "label" : "Safari Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Cymande",
+                "title" : "Willie's Headache",
+                "album" : "Second Time Round",
+                "albumURL" : "http://www.allmusic.com/album/second-time-round-mw0000841692",
+                "label" : "Janus Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Hugh Masekela",
+                "title" : "No Face, No Name, No Number",
+                "album" : "The Promise Of A Future",
+                "albumURL" : "http://www.allmusic.com/album/the-promise-of-a-future-mw0000618880",
+                "label" : "UNI",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Kelenkye Band",
+                "title" : "Jungle Music",
+                "album" : "Bilongo: A Third Collection Of Modern Afro Rythms",
+                "albumURL" : "http://www.allmusic.com/album/bilongo-a-third-collection-of-modern-afro-rythms-mw0000443003",
+                "label" : "Comet Records",
+                "year" : "2000"
+            },
+            {
+                "artist" : "Tidjani Kone & Orchestre Poly-Rythmo",
+                "title" : "Djanfa Magni",
+                "album" : "African Scream Contest: Raw & Psychedelic Afro Sounds from Benin & Togo 70s",
+                "albumURL" : "http://www.allmusic.com/album/african-scream-contest-raw-psychedelic-afro-sounds-mw0000805230",
+                "label" : "Analog Africa",
+                "year" : "2008"
+            },
+            {
+                "artist" : "Sir Victor Uwaifo",
+                "title" : "Dododo (Ekassa Number 1)",
+                "album" : "Guitar-Boy Superstar 1970-76",
+                "albumURL" : "http://www.allmusic.com/album/guitar-boy-superstar-1970-1976-mw0000789082",
+                "label" : "Soundway",
+                "year" : "2008"
+            },
+            {
+                "artist" : "Fela Anikulapo Kuti & Roy Ayers",
+                "title" : "Africa-Center Of The World",
+                "album" : "Music Of Many Colors",
+                "albumURL" : "http://www.allmusic.com/album/music-of-many-colours-mw0000651217",
+                "label" : "Celluloid",
+                "year" : "1986"
+            },
+            {
+                "artist" : "Mulatu Astatke And His Ethiopian Quintet",
+                "title" : "Mulatu's Hideaway",
+                "album" : "Afro-Latin Soul",
+                "albumURL" : "http://www.allmusic.com/album/afro-latin-soul-mw0001001581",
+                "label" : "Worthy Records",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Chief Commander Ebenezer Obey And His Inter Reformers Band",
+                "title" : "Oro Mi Ti Davo",
+                "album" : "Juju Jubilee",
+                "albumURL" : "http://www.allmusic.com/album/juju-jubilee-mw0000198883",
+                "label" : "Shanachie Records",
+                "year" : "1985"
+            }
+        ]
+    },
+    {
+        "number" : "34",
+        "title" : "Stretch Me Ou",
+        "date" : "Wed, 26 Dec 2012 06:02:46 +0000",
+        "filename" : "episode_034_Stretch_Me_Out",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-34-stretch-me-out",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Stretch Me Out",
+                "album" : "Stump Juice",
+                "albumURL" : "http://www.allmusic.com/album/stump-juice-mw0000904580",
+                "label" : "Groove Merchant",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Lonnie Smith",
+                "title" : "Stand",
+                "album" : "Mama Wailer",
+                "albumURL" : "http://www.allmusic.com/album/mama-wailer-mw0000498690",
+                "label" : "Kudu",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Freddie Hubbard",
+                "title" : "Straight Life",
+                "album" : "Straight Life",
+                "albumURL" : "http://www.allmusic.com/album/straight-life-mw0000027166",
+                "label" : "CTI",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Oneness Of Juju",
+                "title" : "Space Jungle Funk",
+                "album" : "Space Jungle Luv",
+                "albumURL" : "http://www.allmusic.com/album/space-jungle-luv-mw0000659687",
+                "label" : "Strut",
+                "year" : "1976/2002"
+            },
+            {
+                "artist" : "Hubert Laws",
+                "title" : "Passacaglia",
+                "album" : "Afro-Classic",
+                "albumURL" : "http://www.allmusic.com/album/afro-classic-mw0000192502",
+                "label" : "CTI",
+                "year" : "1970"
+            },
+            {
+                "artist" : "The Paul Desmond Quartet With Jim Hall",
+                "title" : "Greensleeves",
+                "album" : "The Complete Recordings Of The Paul Desmond Quartet With Jim Hall",
+                "albumURL" : "http://www.allmusic.com/album/complete-recordings-of-the-paul-desmond-quartet-with-jim-hall-mw0001881703",
+                "label" : "Mosaic",
+                "year" : "1987"
+            }
+        ]
+    },
+    {
+        "number" : "35",
+        "title" : "Cold Duck Time",
+        "date" : "Wed, 02 Jan 2013 07:10:57 +0000",
+        "filename" : "episode_035_Cold_Duck_Time",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-35",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Experience Unlimited",
+                "title" : "Free Yourself",
+                "album" : "Experience Unlimited",
+                "albumURL" : "http://www.allmusic.com/album/experience-unlimited-mw0000026462",
+                "label" : "Black Fire Records",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Weather Report",
+                "title" : "Cucumber Slumber",
+                "album" : "Mysterious Traveller",
+                "albumURL" : "http://www.allmusic.com/album/mysterious-traveller-mw0000192681",
+                "label" : "Columbia",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Melvin Jackson",
+                "title" : "Cold Duck Time, parts 1 & 2",
+                "album" : "Funky Skull",
+                "albumURL" : "http://www.allmusic.com/album/funky-skull-mw0000576299",
+                "label" : "Limelight Records",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Odell Brown",
+                "title" : "Hard To Handle",
+                "album" : "Odell Brown Plays Otis Redding",
+                "albumURL" : "http://www.allmusic.com/album/plays-otis-redding-mw0000849301",
+                "label" : "Cadet",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Otis Redding & Carla Thomas",
+                "title" : "Tramp",
+                "album" : "7\" single b/w Ohh Carla, Ohh Otis",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Jimmy McCracklin",
+                "title" : "The Walk",
+                "album" : "7\" single b/w I'm To Blame",
+                "albumURL" : "",
+                "label" : "1958",
+                "year" : "Checker"
+            },
+            {
+                "artist" : "Gene Ammons with Brother Jack McDuff",
+                "title" : "Twistin' The Jug",
+                "album" : "The Best Of Gene Ammons With Brother Jack McDuff",
+                "albumURL" : "http://www.allmusic.com/album/the-best-of-gene-ammons-with-brother-jack-mcduff-mw0000917837",
+                "label" : "Prestige",
+                "year" : "1962"
+            },
+            {
+                "artist" : "Sonny Stitt with Brother Jack McDuff",
+                "title" : "Soul Shack",
+                "album" : "The Best Of Sonny Stitt With Brother Jack McDuff",
+                "albumURL" : "http://www.allmusic.com/album/the-best-of-sonny-stitt-with-brother-jack-mcduff-mw0001881686",
+                "label" : "Prestige",
+                "year" : "1963"
+            },
+            {
+                "artist" : "Brother Jack McDuff &amp; David 'Fathead' Newman",
+                "title" : "Untitled Blues",
+                "album" : "Double Barrelled Soul",
+                "albumURL" : "http://www.allmusic.com/album/double-barrelled-soul-mw0000765325",
+                "label" : "Atlantic",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "I'll Stay",
+                "album" : "Standing On The Verge Of Getting It On",
+                "albumURL" : "http://www.allmusic.com/album/standing-on-the-verge-of-getting-it-on-mw0000274459",
+                "label" : "Westbound",
+                "year" : "1974"
+            }
+        ]
+    },
+    {
+        "number" : "36",
+        "title" : "The Singing Song",
+        "date" : "Wed, 09 Jan 2013 06:13:07 +0000",
+        "filename" : "episode_036_The_Singing_Song",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-36-the-singing-song",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Hank Crawford",
+                "title" : "Hills Of Love",
+                "album" : "It's A Funky Thing To Do",
+                "albumURL" : "http://www.allmusic.com/album/its-a-funky-thing-to-do-mw0000709544",
+                "label" : "Cotillion",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Willie Bobo",
+                "title" : "Nessa",
+                "album" : "Spanish Grease",
+                "albumURL" : "http://www.allmusic.com/album/spanish-grease-mw0000414480",
+                "label" : "Verve",
+                "year" : "1965"
+            },
+            {
+                "artist" : "Chakachas",
+                "title" : "El Canyon Rojo",
+                "album" : "Jungle Fever",
+                "albumURL" : "http://www.allmusic.com/album/jungle-fever-mw0000780618",
+                "label" : "Polydor",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Charlie Byrd",
+                "title" : "Samba Do Avião",
+                "album" : "Brazilian Byrd",
+                "albumURL" : "http://www.allmusic.com/album/brazilian-byrd-mw0000311294",
+                "label" : "Verve",
+                "year" : "1965"
+            },
+            {
+                "artist" : "Stan Getz",
+                "title" : "The Singing Song",
+                "album" : "Getz Au Go Go",
+                "albumURL" : "http://www.allmusic.com/album/getz-au-go-go-mw0000191873",
+                "label" : "Verve",
+                "year" : "1964"
+            },
+            {
+                "artist" : "Bola Sete",
+                "title" : "Morning Rises Through The Mist",
+                "album" : "Jungle Suite",
+                "albumURL" : "http://www.allmusic.com/album/jungle-suite-mw0000650758",
+                "label" : "Dancing Cat Records",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Gabor Szabo",
+                "title" : "Mizrab",
+                "album" : "The Sorcerer",
+                "albumURL" : "http://www.allmusic.com/album/the-sorcerer-mw0000654967",
+                "label" : "Impulse!",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Coke",
+                "title" : "Te Amo Mas",
+                "album" : "Coke",
+                "albumURL" : "http://www.discogs.com/Coke-Coke/master/201333",
+                "label" : "Sound Triangle Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Los Caneyes",
+                "title" : "Suspirando Po El Chikichaka",
+                "album" : "Si Para Usted: The Funky Beats of Revolutionary Cuba, Vol. 2",
+                "albumURL" : "http://www.allmusic.com/album/si-para-usted-the-funky-beats-of-revolutionary-cuba-vol-2-mw0001763487",
+                "label" : "Waxing Deep/Light In The Attic",
+                "year" : "2009"
+            },
+            {
+                "artist" : "Carlos Santana & Buddy Miles",
+                "title" : "Free Form Funkafied Filth",
+                "album" : "Carlos Santana & Buddy Miles Live!",
+                "albumURL" : "http://www.allmusic.com/album/carlos-santana-amp-buddy-miles-live-mw0000691122",
+                "label" : "Columbia",
+                "year" : "1972"
+            }
+        ]
+    },
+    {
+        "number" : "37",
+        "title" : "Gemini Rising",
+        "date" : "Wed, 16 Jan 2013 06:57:06 +0000",
+        "filename" : "episode_037_Gemini_Rising",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-37-gemini-rising",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Roberta Flack",
+                "title" : "Just Like A Woman",
+                "album" : "Chapter Two",
+                "albumURL" : "http://www.allmusic.com/album/chapter-two-mw0000312341",
+                "label" : "Atlantic",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Roberta Flack & Donny Hathaway",
+                "title" : "You've Lost That Loving Feeling",
+                "album" : "Roberta Flack & Donny Hathaway",
+                "albumURL" : "http://www.allmusic.com/album/roberta-flack-donny-hathaway-mw0000203230",
+                "label" : "Atlantic",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Donny Hathaway",
+                "title" : "Jealous Guy",
+                "album" : "Live",
+                "albumURL" : "http://www.allmusic.com/album/live-mw0000460498",
+                "label" : "Atco",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Richard 'Groove' Holmes",
+                "title" : "It's Impossible",
+                "album" : "American Pie",
+                "albumURL" : "http://www.allmusic.com/album/american-pie-mw0000232262",
+                "label" : "Groove Merchant",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Speedometer",
+                "title" : "Rubberneck",
+                "album" : "The Shakedown",
+                "albumURL" : "http://www.allmusic.com/album/the-shakedown-say-yeah-mw0002054978",
+                "label" : "Freestyle Records",
+                "year" : "2010"
+            },
+            {
+                "artist" : "Wild Bill Davis",
+                "title" : "Weasel's Kid",
+                "album" : "Doin' His Thing",
+                "albumURL" : "http://www.allmusic.com/album/doin-his-thing-mw0000865410",
+                "label" : "RCA",
+                "year" : "1967"
+            },
+            {
+                "artist" : "The Crusaders",
+                "title" : "Mosadi (Woman)",
+                "album" : "1",
+                "albumURL" : "http://www.allmusic.com/album/1-mw0000337111",
+                "label" : "Blue Thumb Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Eddie Harris",
+                "title" : "Listen Here",
+                "album" : "The Electrifying Eddie Harris",
+                "albumURL" : "http://www.allmusic.com/album/the-electrifying-eddie-harris-mw0001509928",
+                "label" : "Atlantic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Ramsey Lewis",
+                "title" : "Gemini Rising",
+                "album" : "Sun Goddess",
+                "albumURL" : "http://www.allmusic.com/album/sun-goddess-mw0000192130",
+                "label" : "Columbia",
+                "year" : "1974"
+            },
+            {
+                "artist" : "The Pharoahs",
+                "title" : "Great House",
+                "album" : "Awakening",
+                "albumURL" : "http://www.allmusic.com/album/awakening-mw0000099978",
+                "label" : "Luv N' Haight",
+                "year" : "1972"
+            }
+        ]
+    },
+    {
+        "number" : "38",
+        "title" : "Get That Groove In",
+        "date" : "Wed, 23 Jan 2013 06:29:15 +0000",
+        "filename" : "episode_038_Get_That_Groove_In",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-38-get-that-groove-in",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "King Sunny Ade",
+                "title" : "Synchro System",
+                "album" : "Synchro System",
+                "albumURL" : "http://www.allmusic.com/album/synchro-system-mw0000198569",
+                "label" : "Mango",
+                "year" : "1983"
+            },
+            {
+                "artist" : "BLO",
+                "title" : "Get That Groove In",
+                "album" : "Phases 1972-1982",
+                "albumURL" : "http://www.allmusic.com/album/phases-1972-1982-mw0000216392",
+                "label" : "Strut",
+                "year" : "2002"
+            },
+            {
+                "artist" : "Brick",
+                "title" : "Sister Twister",
+                "album" : "Good High",
+                "albumURL" : "http://www.allmusic.com/album/good-high-mw0000847521",
+                "label" : "Bang Records",
+                "year" : "1976"
+            },
+            {
+                "artist" : "The Isley Brothers",
+                "title" : "People Of Today",
+                "album" : "Harvest For The World",
+                "albumURL" : "http://www.allmusic.com/album/harvest-for-the-world-mw0000318358",
+                "label" : "T-Neck",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Space",
+                "title" : "Carry On, Turn Me On",
+                "album" : "Magic Fly",
+                "albumURL" : "http://www.allmusic.com/album/magic-fly-mw0000874409",
+                "label" : "United Artists",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "The Party Train (parts I & II)",
+                "album" : "12\" single",
+                "albumURL" : "",
+                "label" : "Phase II Records",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Captain Sky",
+                "title" : "Sir Jam A Lot",
+                "album" : "Concerned Party No. 1",
+                "albumURL" : "http://www.allmusic.com/album/concerned-party-1-mw0000233668",
+                "label" : "Tee Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Roger",
+                "title" : "In The Mix",
+                "album" : "The Saga Continues…",
+                "albumURL" : "http://www.allmusic.com/album/the-saga-continues-mw0000751700",
+                "label" : "Warner Brothers",
+                "year" : "1984"
+            },
+            {
+                "artist" : "Zapp",
+                "title" : "Do You Really Want An Answer?",
+                "album" : "Zapp II",
+                "albumURL" : "http://www.allmusic.com/album/zapp-ii-mw0000199209",
+                "label" : "Warner Brothers",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Marvin Gaye",
+                "title" : "Got To Give It Up",
+                "album" : "Live At The London Palladium",
+                "albumURL" : "http://www.allmusic.com/album/live-at-the-london-palladium-mw0000650180",
+                "label" : "Tamla",
+                "year" : "1977"
+            }
+        ]
+    },
+    {
+        "number" : "39",
+        "title" : "Creepin' Home",
+        "date" : "Wed, 30 Jan 2013 06:04:41 +0000",
+        "filename" : "episode_039_Creepin_Home",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-39-creepin-home",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Milt Jackson with Hubert Laws",
+                "title" : "Old Devil Moon",
+                "album" : "Goodbye",
+                "albumURL" : "http://www.allmusic.com/album/goodbye-mw0000213658",
+                "label" : "CTI",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Don Patterson with Sonny Stitt",
+                "title" : "Creepin' Home",
+                "album" : "Brothers-4",
+                "albumURL" : "http://www.allmusic.com/album/brothers-4-mw0000012408",
+                "label" : "Prestige",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Charles Earland",
+                "title" : "Letha",
+                "album" : "Black Drops",
+                "albumURL" : "http://www.allmusic.com/album/black-drops-mw0000228238",
+                "label" : "Prestige",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Leon Spencer",
+                "title" : "5-10-15-20",
+                "album" : "Sneak Preview!",
+                "albumURL" : "http://www.allmusic.com/album/sneak-preview-mw0000944055",
+                "label" : "Prestige",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Reuben Wilson",
+                "title" : "The Sweet Life",
+                "album" : "Bad Stuff!",
+                "albumURL" : "http://www.allmusic.com/album/bad-stuff-mw0001019718",
+                "label" : "Groove Merchant",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Jimmy Smith and Wes Montgomery",
+                "title" : "Down By The Riverside",
+                "album" : "Jimmy & Wes: The Dynamic Duo",
+                "albumURL" : "http://www.allmusic.com/album/jimmy-wes-the-dynamic-duo-mw0000192516",
+                "label" : "Verve",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Big John Patton",
+                "title" : "Country Girl",
+                "album" : "Blue John",
+                "albumURL" : "http://www.allmusic.com/album/blue-john-mw0000200611",
+                "label" : "Blue Note",
+                "year" : "1963"
+            },
+            {
+                "artist" : "Henry Cain",
+                "title" : "Dead End Street",
+                "album" : "The Funky Organ-ization of Henry Cain",
+                "albumURL" : "http://www.allmusic.com/album/the-funky-organ-ization-of-henry-cain-mw0000852823",
+                "label" : "Capitol Records",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Grant Green",
+                "title" : "Street Of Dreams",
+                "album" : "Street Of Dreams",
+                "albumURL" : "http://www.allmusic.com/album/street-of-dreams-mw0000597051",
+                "label" : "Blue Note",
+                "year" : "1964"
+            },
+            {
+                "artist" : "The Ohio Players",
+                "title" : "My Life",
+                "album" : "Contradiction",
+                "albumURL" : "http://www.allmusic.com/album/contradiction-mw0000262989",
+                "label" : "Mercury Records",
+                "year" : "1976"
+            }
+        ]
+    },
+    {
+        "number" : "40",
+        "title" : "Maybe It'll Rub Off",
+        "date" : "Wed, 06 Feb 2013 06:37:46 +0000",
+        "filename" : "episode_040_Maybe_Itll_Rub_Off",
+        "deeplink" : "the-hot-can-all-vinyl-power-hour-episode-40-maybe-itll-rub-off",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "The Lafayette Afro Rock Band",
+                "title" : "Darkest Light",
+                "album" : "Malik",
+                "albumURL" : "http://www.allmusic.com/album/malik-mw0000738149",
+                "label" : "High & Fly Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "The Memphis Horns Band",
+                "title" : "Don't Change It",
+                "album" : "The Memphis Horns Band II",
+                "albumURL" : "http://www.allmusic.com/album/memphis-horns-band-2-mw0000855401",
+                "label" : "RCA",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Tower Of Power",
+                "title" : "Maybe It'll Rub Off",
+                "album" : "Urban Renewal",
+                "albumURL" : "http://www.allmusic.com/album/urban-renewal-mw0000316181",
+                "label" : "Warner Brothers",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Ike Turner And Home Grown Funk",
+                "title" : "Lum Dum",
+                "album" : "The Edge",
+                "albumURL" : "http://www.discogs.com/Ike-Turner-Featuring-Tina-Turner-And-Home-Grown-Funk-The-Edge/master/163987",
+                "label" : "Fantasy",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Afrique",
+                "title" : "Sleepwalkin'",
+                "album" : "Soul Makossa",
+                "albumURL" : "http://www.allmusic.com/album/soul-makossa-mw0000864584",
+                "label" : "Mainstream Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Dick Hyman",
+                "title" : "The Moog And Me",
+                "album" : "The Electric Eclectics Of Dick Hyman",
+                "albumURL" : "http://www.allmusic.com/album/moog-the-electric-eclectics-of-dick-hyman-mw0000097989",
+                "label" : "Command Records",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Merl Saunders",
+                "title" : "Welcome To The Basement",
+                "album" : "Welcome To The Basement: A Spicy Mixture From Black & Latin America",
+                "albumURL" : "http://www.allmusic.com/album/welcome-to-the-basement-mw0001478417",
+                "label" : "Brown Sugar",
+                "year" : "2004"
+            },
+            {
+                "artist" : "J.D. & The Evil's Dynamite Band",
+                "title" : "Beer, (So Nice) Right On",
+                "album" : "Explodes Across The Nation",
+                "albumURL" : "http://www.allmusic.com/album/explodes-across-the-nation-mw0000587016",
+                "label" : "Soul Fire",
+                "year" : "2001"
+            },
+            {
+                "artist" : "Osibisa",
+                "title" : "So So Mi La So",
+                "album" : "Heads",
+                "albumURL" : "http://www.allmusic.com/album/heads-mw0000096613",
+                "label" : "Decca",
+                "year" : "1972"
+            },
+            {
+                "artist" : "James Brown",
+                "title" : "Escape-ism",
+                "album" : "Revolution Of The Mind",
+                "albumURL" : "http://www.allmusic.com/album/revolution-of-the-mind-mw0000094861",
+                "label" : "Polydor",
+                "year" : "1971"
+            },
+            {
+                "artist" : "James Brown",
+                "title" : "Make It Funky",
+                "album" : "Revolution Of The Mind",
+                "albumURL" : "http://www.allmusic.com/album/revolution-of-the-mind-mw0000094861",
+                "label" : "Polydor",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Curtis Mayfield",
+                "title" : "Homeless",
+                "album" : "7\" single b/w People Never Give Up",
+                "albumURL" : "",
+                "label" : "Curtom",
+                "year" : "1990"
             }
         ]
     }

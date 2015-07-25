@@ -5,14 +5,7 @@
         "date" : "<pubDate>",
         "filename" : "extracted from podPress meta data",
         "deeplink" : "<wp:post_name>",
-        "intro" : { // can also be Herbie Hancock's Blind Man, Blind Man
-            "artist" : "Booker T and the MG's",
-            "title" : "Hip-Hug Her",
-            "album" : "Hip-Hug Her",
-            "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
-            "label" : "Stax",
-            "year" : "1967"
-        },
+        "intro" : "Hip-Hug Her", // can also be Herbie Hancock's "Blind Man, Blind Man" or a couple other outliers
         "songs" : [
             { // extracted from <content:encoded>
                 "artist" : "",
