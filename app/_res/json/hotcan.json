@@ -3702,5 +3702,887 @@
                 "year" : "1990"
             }
         ]
+    },
+    {
+        "number" : "41",
+        "title" : "Slow Drag",
+        "date" : "Wed, 13 Feb 2013 06:39:18 +0000",
+        "filename" : "episode_041_Slow_Drag",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Deodato",
+                "title" : "Skyscraper",
+                "album" : "Deodato 2",
+                "albumURL" : "http://www.allmusic.com/album/deodato-2-mw0000194473",
+                "label" : "CTI",
+                "year" : "1973"
+            },
+            {
+                "artist" : "The Bar-Kays",
+                "title" : "Bang, Bang (Stick 'Em Up)",
+                "album" : "Too Hot To Stop",
+                "albumURL" : "http://www.allmusic.com/album/too-hot-to-stop-mw0000185546",
+                "label" : "Mercury Records",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Rick James",
+                "title" : "Fool On The Street",
+                "album" : "Bustin' Out Of L Seven",
+                "albumURL" : "http://www.allmusic.com/album/bustin-out-of-l-seven-mw0000626607",
+                "label" : "Motown",
+                "year" : "1979"
+            },
+            {
+                "artist" : "Cymande",
+                "title" : "Dove",
+                "album" : "Cymande",
+                "albumURL" : "http://www.allmusic.com/album/cymande-mw0000674354",
+                "label" : "Janus Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Original Wings",
+                "title" : "Igba Alusi",
+                "album" : "Nigeria Rock Special: Psychedelic Afro-Rock & Fuzz Funk In 1970s Nigeria",
+                "albumURL" : "http://www.allmusic.com/album/nigeria-rock-special-psychedelic-afro-rock-fuzz-funk-mw0000785698",
+                "label" : "Soundway",
+                "year" : "2008"
+            },
+            {
+                "artist" : "Wild Bill Doggett",
+                "title" : "Nothin' Yet",
+                "album" : "Everybody Dance To The Honky Tonk",
+                "albumURL" : "http://www.allmusic.com/album/everybody-dance-to-the-honky-tonk-mw0000852789",
+                "label" : "King Records",
+                "year" : "1956"
+            },
+            {
+                "artist" : "Lou Donaldson",
+                "title" : "Love Power",
+                "album" : "The Midnight Creeper",
+                "albumURL" : "http://www.allmusic.com/album/the-midnight-creeper-mw0000063286",
+                "label" : "Blue Note",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Shirley Scott",
+                "title" : "Just In Time",
+                "album" : "Queen Of The Organ",
+                "albumURL" : "http://www.allmusic.com/album/queen-of-the-organ-mw0000617897",
+                "label" : "Impulse!",
+                "year" : "1964"
+            },
+            {
+                "artist" : "Donald Byrd",
+                "title" : "Slow Drag",
+                "album" : "Slow Drag",
+                "albumURL" : "http://www.allmusic.com/album/slow-drag-mw0000212333",
+                "label" : "Blue Note",
+                "year" : "1967"
+            }
+        ]
+    },
+    {
+        "number" : "42",
+        "title" : "You'll Know When You Get There",
+        "date" : "Wed, 20 Feb 2013 06:06:05 +0000",
+        "filename" : "episode_042_Youll_Know_When_You_Get_There",
+        "intro" : "Blind Man, Blind Man",
+        "songs" : [
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Maiden Voyage",
+                "album" : "Maiden Voyage",
+                "albumURL" : "http://www.allmusic.com/album/maiden-voyage-mw0000241413",
+                "label" : "Blue Note",
+                "year" : "1965"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "The Sorcerer",
+                "album" : "Sorcerer",
+                "albumURL" : "http://www.allmusic.com/album/sorcerer-mw0000197402",
+                "label" : "Columbia",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Freddie Hubbard",
+                "title" : "The Intrepid Fox",
+                "album" : "Red Clay",
+                "albumURL" : "http://www.allmusic.com/album/red-clay-mw0000188315",
+                "label" : "CTI",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Tell Me Bedtime Story",
+                "album" : "Fat Albert Rotunda",
+                "albumURL" : "http://www.allmusic.com/album/fat-albert-rotunda-mw0000738792",
+                "label" : "Warner Brothers",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "You'll Know When You Get There",
+                "album" : "Mwandishi",
+                "albumURL" : "http://www.allmusic.com/album/mwandishi-mw0000121324",
+                "label" : "Warner Brothers",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Ostinato (Suite For Angela)",
+                "album" : "Mwandishi",
+                "albumURL" : "http://www.allmusic.com/album/mwandishi-mw0000121324",
+                "label" : "Warner Brothers",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Quasar",
+                "album" : "Crossings",
+                "albumURL" : "http://www.allmusic.com/album/crossings-mw0000454536",
+                "label" : "Warner Brothers",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Booker T. And The M.G.'s",
+                "title" : "Soul Limbo",
+                "album" : "7\" single b/w Heads Or Tails",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1965"
+            }
+        ]
+    },
+    {
+        "number" : "43",
+        "title" : "Hornets",
+        "date" : "Wed, 27 Feb 2013 06:32:52 +0000",
+        "filename" : "episode_043_Hornets",
+        "intro" : "Blind Man, Blind Man",
+        "songs" : [
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Water Torture",
+                "album" : "Crossings",
+                "albumURL" : "http://www.allmusic.com/album/crossings-mw0000454536",
+                "label" : "Warner Brothers",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Hornets",
+                "album" : "Sextant",
+                "albumURL" : "http://www.allmusic.com/album/sextant-mw0000039544",
+                "label" : "Columbia",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Eddie Henderson",
+                "title" : "Scorpio-Libra",
+                "album" : "Realization",
+                "albumURL" : "http://www.allmusic.com/album/realization-mw0000903627",
+                "label" : "Capricorn",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "The Spook Who Sat By The Door (Reprise)",
+                "album" : "The Spook Who Sat By The Door",
+                "albumURL" : "http://www.discogs.com/Herbie-Hancock-The-Spook-Who-Sat-By-The-Door/release/635602",
+                "label" : "United Artists",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Chameleon",
+                "album" : "Head Hunters",
+                "albumURL" : "http://www.allmusic.com/album/head-hunters-mw0000649551",
+                "label" : "Columbia",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Booker T. And The M.G.'s",
+                "title" : "Heads Or Tails",
+                "album" : "7\" single, b-side of Soul Limbo",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1965"
+            }
+        ]
+    },
+    {
+        "number" : "44",
+        "title" : "Chicken Fat",
+        "date" : "Wed, 06 Mar 2013 06:23:53 +0000",
+        "filename" : "episode_044_Chicken_Fat",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Charles Kynard",
+                "title" : "Zambezi",
+                "album" : "Your Mama Don't Dance",
+                "albumURL" : "http://www.discogs.com/Charles-Kynard-Your-Mama-Dont-Dance/master/498785",
+                "label" : "Mainstream Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Mel Brown",
+                "title" : "Chicken Fat",
+                "album" : "Chicken Fat",
+                "albumURL" : "http://www.allmusic.com/album/chicken-fat-mw0000335503",
+                "label" : "Euphoria!/Impulse!",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Miss Poopie",
+                "album" : "Electric Funk",
+                "albumURL" : "http://www.allmusic.com/album/electric-funk-mw0000087629",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Syl Johnson",
+                "title" : "Dresses Too Short",
+                "album" : "Dresses Too Short",
+                "albumURL" : "http://www.discogs.com/Syl-Johnson-Dresses-Too-Short/master/456522",
+                "label" : "Twinight/Numero Group",
+                "year" : "1968/2013"
+            },
+            {
+                "artist" : "JC Brooks And The Uptown Sound",
+                "title" : "I Got High",
+                "album" : "Want More",
+                "albumURL" : "http://www.allmusic.com/album/want-more-mw0002216606",
+                "label" : "Bloodshot Records",
+                "year" : "2011"
+            },
+            {
+                "artist" : "The Soul Children",
+                "title" : "Hearsay",
+                "album" : "7\" single b/w Don't Take My Sunshine",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Isaac Hayes",
+                "title" : "I Stand Accused",
+                "album" : "The Isaac Hayes Movement",
+                "albumURL" : "http://www.allmusic.com/album/the-isaac-hayes-movement-mw0000190261",
+                "label" : "Stax",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Betty Davis",
+                "title" : "Anti Love Song",
+                "album" : "Betty Davis",
+                "albumURL" : "http://www.allmusic.com/album/betty-davis-mw0000459304",
+                "label" : "Just Sunshine Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Hi-Jack",
+                "album" : "Discotheque",
+                "albumURL" : "http://www.allmusic.com/album/discotheque-mw0000892058",
+                "label" : "Atlantic",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Idris Muhammad",
+                "title" : "Loran's Dance",
+                "album" : "Power Of Soul",
+                "albumURL" : "http://www.allmusic.com/album/power-of-soul-mw0000213654",
+                "label" : "Kudu",
+                "year" : "1974"
+            }
+        ]
+    },
+    {
+        "number" : "45",
+        "title" : "Let's Get Small",
+        "date" : "Wed, 13 Mar 2013 05:29:55 +0000",
+        "filename" : "episode_045_Lets_Get_Small",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "George Clinton",
+                "title" : "Atomic Dog",
+                "album" : "12\" promo featuring Coolio",
+                "albumURL" : "",
+                "label" : "Capitol Records",
+                "year" : "1996"
+            },
+            {
+                "artist" : "Trouble Funk",
+                "title" : "Let's Get Small",
+                "album" : "12\" single",
+                "albumURL" : "",
+                "label" : "D.E.T.T. Records",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Sugarfoot",
+                "title" : "Fire '85'",
+                "album" : "Sugar \"Kiss\"",
+                "albumURL" : "http://www.allmusic.com/album/sugar-kiss-mw0002116885",
+                "label" : "Warner Brothers",
+                "year" : "1985"
+            },
+            {
+                "artist" : "Con Funk Shun",
+                "title" : "Shake And Dance With Me",
+                "album" : "7\" single b/w I'll Set You Out O.K.",
+                "albumURL" : "",
+                "label" : "Mercury Records",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Minnie Riperton",
+                "title" : "Reasons",
+                "album" : "Perfect Angel",
+                "albumURL" : "http://www.allmusic.com/album/perfect-angel-mw0000202253",
+                "label" : "Epic",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Willie Hutch",
+                "title" : "Brother's Gonna Work It Out",
+                "album" : "The Mack",
+                "albumURL" : "http://www.allmusic.com/album/the-mack-mw0000313141",
+                "label" : "Motown",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Grover Washington, Jr.",
+                "title" : "A Secret Place",
+                "album" : "A Secret Place",
+                "albumURL" : "http://www.allmusic.com/album/a-secret-place-mw0000192712",
+                "label" : "Kudu",
+                "year" : "1976"
+            },
+            {
+                "artist" : "O'Donel Levy",
+                "title" : "I'll Be There",
+                "album" : "Black Velvet",
+                "albumURL" : "http://www.allmusic.com/album/black-velvet-mw0000871172",
+                "label" : "Groove Merchant",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Ronnie Laws",
+                "title" : "Mis' Mary's Place",
+                "album" : "Pressure Sensitive",
+                "albumURL" : "http://www.allmusic.com/album/pressure-sensitive-mw0000644599",
+                "label" : "Liberty Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Sly And The Family Stone",
+                "title" : "Everyday People",
+                "album" : "Stand!",
+                "albumURL" : "http://www.allmusic.com/album/stand%21-mw0000195756",
+                "label" : "Epic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Sly And The Family Stone",
+                "title" : "Sex Machine",
+                "album" : "Stand!",
+                "albumURL" : "http://www.allmusic.com/album/stand%21-mw0000195756",
+                "label" : "Epic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Sly And The Family Stone",
+                "title" : "You Can Make It If You Try",
+                "album" : "Stand!",
+                "albumURL" : "http://www.allmusic.com/album/stand%21-mw0000195756",
+                "label" : "Epic",
+                "year" : "1969"
+            }
+        ]
+    },
+    {
+        "number" : "46",
+        "title" : "Willow Weep For Me",
+        "date" : "Wed, 20 Mar 2013 05:14:48 +0000",
+        "filename" : "episode_046_Willow_Weep_For_Me",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Duke Ellington and Count Basie",
+                "title" : "Take The 'A' Train",
+                "album" : "First Time! The Count Meets The Duke",
+                "albumURL" : "http://www.allmusic.com/album/first-time!-the-count-meets-the-duke-mw0000187813",
+                "label" : "Columbia",
+                "year" : "1961"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Prayer (Oh Doctor Jesus)",
+                "album" : "Porgy And Bess",
+                "albumURL" : "http://www.allmusic.com/album/porgy-and-bess-mw0000191712",
+                "label" : "Columbia",
+                "year" : "1958"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Cherry Point",
+                "album" : "Big Band: A Tribute To Basie",
+                "albumURL" : "http://www.allmusic.com/album/big-band-a-tribute-to-basie-mw0000611109",
+                "label" : "Solid State",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Thad Jones • Mel Lewis And The Jazz Orchestra",
+                "title" : "Willow Weep For Me",
+                "album" : "Presenting Thad Jones • Mel Lewis And The Jazz Orchestra",
+                "albumURL" : "http://www.allmusic.com/album/presenting-thad-jones-mel-lewis-and-the-jazz-orchestra-mw0000877905",
+                "label" : "Solid State",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Thad Jones • Mel Lewis And The Jazz Orchestra",
+                "title" : "Say It Softly",
+                "album" : "Monday Night",
+                "albumURL" : "http://www.allmusic.com/album/monday-night-mw0000897963",
+                "label" : "Solid State",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Jimmy Smith and Wes Montgomery",
+                "title" : "13 (Death March)",
+                "album" : "Jimmy & Wes: The Dynamic Duo",
+                "albumURL" : "http://www.allmusic.com/album/jimmy-wes-the-dynamic-duo-mw0000192516",
+                "label" : "Verve",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Hank Mobley",
+                "title" : "Hank's Other Bag",
+                "album" : "A Slice Of The Top",
+                "albumURL" : "http://www.allmusic.com/album/a-slice-of-the-top-mw0000180575",
+                "label" : "Blue Note",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Roland Kirk",
+                "title" : "Expansions: A. Kirkquest; B. Kingus Mingus; C. Celestialness; D. A Dream Of Beauty Reincarnated; E. Frisco Vibration; F. Classical Jazzical; G. Ellington Psalms; H. Haynes' Brain's Sayin's; I. What's Next-Overture",
+                "album" : "Left And Right",
+                "albumURL" : "http://www.allmusic.com/album/left-and-right-mw0000661555",
+                "label" : "Atlantic",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Frank Sinatra",
+                "title" : "Willow Weep For Me",
+                "album" : "Frank Sinatra Sings For Only The Lonely",
+                "albumURL" : "http://www.allmusic.com/album/only-the-lonely-mw0000194131",
+                "label" : "Capitol Records",
+                "year" : "1958"
+            }
+        ]
+    },
+    {
+        "number" : "47",
+        "title" : "Higher Ground",
+        "date" : "Wed, 27 Mar 2013 05:08:01 +0000",
+        "filename" : "episode_047_Higher_Ground",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Chuck Brown And The Soul Searchers",
+                "title" : "Bustin' Loose part 1",
+                "album" : "12\" promo",
+                "albumURL" : "",
+                "label" : "Source Records",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "Take Your Dead Ass Home",
+                "album" : "Tales Of Kidd Funkadelic",
+                "albumURL" : "http://www.allmusic.com/album/tales-of-kidd-funkadelic-mw0000108436",
+                "label" : "Westbound Records",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Johnny 'Hammond' Smith",
+                "title" : "Higher Ground",
+                "album" : "Higher Ground",
+                "albumURL" : "http://www.allmusic.com/album/higher-ground-mw0000188259",
+                "label" : "Kudu",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Kelenkye Band",
+                "title" : "Brotherhood Of Man",
+                "album" : "Moving World",
+                "albumURL" : "http://www.discogs.com/Kelenkye-Band-Moving-World/master/402535",
+                "label" : "Emporium Records",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Fela Anikulapo Kuti And The Africa 70",
+                "title" : "Dog Eat Dog (Instrumental)",
+                "album" : "No Agreement",
+                "albumURL" : "http://www.allmusic.com/album/no-agreement-mw0000895307",
+                "label" : "Celluloid",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Hubert Laws",
+                "title" : "How Long Will It Be?",
+                "album" : "The Crying Song",
+                "albumURL" : "http://www.allmusic.com/album/crying-song-mw0000198638",
+                "label" : "CTI",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Cal Tjader And Eddie Palmieri",
+                "title" : "Picadillo",
+                "album" : "El Sonido Nuevo: The New Soul Sound",
+                "albumURL" : "http://www.allmusic.com/album/el-sonido-nuevo-the-new-soul-sound-mw0000105014",
+                "label" : "Verve",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Kool And The Gang",
+                "title" : "North, East, South, West",
+                "album" : "7\" single, b side of Jungle Boogie",
+                "albumURL" : "",
+                "label" : "Mercury Records",
+                "year" : "1972"
+            }
+        ]
+    },
+    {
+        "number" : "48",
+        "title" : "Pots & Pans",
+        "date" : "Wed, 03 Apr 2013 15:03:58 +0000",
+        "filename" : "episode_048_Pots_and_Pans",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Eddie Harris",
+                "title" : "Sham Time",
+                "album" : "The Electrifying Eddie Harris",
+                "albumURL" : "http://www.allmusic.com/album/the-electrifying-eddie-harris-mw0001509928",
+                "label" : "Atlantic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Young-Holt Unlimited",
+                "title" : "Baby Your Light Is Out",
+                "album" : "Soulful Strut",
+                "albumURL" : "http://www.allmusic.com/album/soulful-strut-mw0000874146",
+                "label" : "Brunswick",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Ike Turner And The Kings Of Rhythm",
+                "title" : "Black's Alley",
+                "album" : "A Black Man's Soul",
+                "albumURL" : "http://www.allmusic.com/album/a-black-mans-soul-mw0001013271",
+                "label" : "Pompeii Records",
+                "year" : "1969"
+            },
+            {
+                "artist" : "King Curtis",
+                "title" : "Pots & Pans Part I",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Atco",
+                "year" : "1966"
+            },
+            {
+                "artist" : "The Soul Investigators",
+                "title" : "Home Cookin' Part 1",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Timmion Records",
+                "year" : "2002"
+            },
+            {
+                "artist" : "King Curtis",
+                "title" : "Pots & Pans Part II",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Atco",
+                "year" : "1966"
+            },
+            {
+                "artist" : "The Soul Investigators",
+                "title" : "Home Cookin' Part 2",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Timmion Records",
+                "year" : "2002"
+            },
+            {
+                "artist" : "Osibisa",
+                "title" : "Move On",
+                "album" : "Woyaya",
+                "albumURL" : "http://www.allmusic.com/album/woyaya-mw0000098448",
+                "label" : "Decca",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Cymande",
+                "title" : "Breezeman",
+                "album" : "Promised Heights",
+                "albumURL" : "http://www.allmusic.com/album/promised-heights-mw0000488913",
+                "label" : "Janus Records",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Oneness Of Juju",
+                "title" : "Poo Too",
+                "album" : "African Rhythms",
+                "albumURL" : "http://www.allmusic.com/album/african-rhythms-mw0000218629",
+                "label" : "Black Fire/Strut",
+                "year" : "1975/2002"
+            },
+            {
+                "artist" : "The Eleventh House",
+                "title" : "The Funky Waltz",
+                "album" : "Introducing The Eleventh House With Larry Coryell",
+                "albumURL" : "http://www.allmusic.com/album/introducing-the-eleventh-house-with-larry-coryell-mw0000308753",
+                "label" : "Vanguard",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Billy Cobham",
+                "title" : "Snoopy's Search",
+                "album" : "Spectrum",
+                "albumURL" : "http://www.allmusic.com/album/spectrum-mw0000312224",
+                "label" : "Atlantic",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Billy Cobham",
+                "title" : "Red Baron",
+                "album" : "Spectrum",
+                "albumURL" : "http://www.allmusic.com/album/spectrum-mw0000312224",
+                "label" : "Atlantic",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Lenny White",
+                "title" : "Prince Of The Sea",
+                "album" : "Venusian Summer",
+                "albumURL" : "http://www.allmusic.com/album/venusian-summer-mw0000250373",
+                "label" : "Nemperor Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "The Cannonball Adderly Quintet",
+                "title" : "Country Preacher",
+                "album" : "7\" single b/w b side of Hummin'",
+                "albumURL" : "",
+                "label" : "Capitol Records",
+                "year" : "1969"
+            }
+        ]
+    },
+    {
+        "number" : "49",
+        "title" : "Let It Whip",
+        "date" : "Wed, 10 Apr 2013 05:36:21 +0000",
+        "filename" : "episode_049_Let_It_Whip",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Professional Super Bantous",
+                "title" : "Super Negro Bantous",
+                "album" : "Lagos All Routes",
+                "albumURL" : "http://www.allmusic.com/album/lagos-all-routes-mw0000348249",
+                "label" : "Honest Jon's",
+                "year" : "2005"
+            },
+            {
+                "artist" : "Stanley Clarke",
+                "title" : "Spacerunner",
+                "album" : "Time Exposure",
+                "albumURL" : "http://www.allmusic.com/album/time-exposure-mw0000653614",
+                "label" : "Epic",
+                "year" : "1984"
+            },
+            {
+                "artist" : "Dazz Band",
+                "title" : "Let It Whip",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Motown",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Leon Spencer",
+                "title" : "Keeper Of The Castle",
+                "album" : "Where I'm Coming From",
+                "albumURL" : "http://www.allmusic.com/album/where-im-coming-from-mw0000935061",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Hank Crawford",
+                "title" : "The Stripper",
+                "album" : "I Hear A Symphony",
+                "albumURL" : "http://www.allmusic.com/album/i-hear-a-symphony-mw0000528087",
+                "label" : "Kudu",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Lou Donaldson",
+                "title" : "Sanford And Son Theme",
+                "album" : "Sassy Soul Strut",
+                "albumURL" : "http://www.allmusic.com/album/sassy-soul-strut-mw0000921613",
+                "label" : "Blue Note",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Ivan 'Boogaloo' Joe Jones",
+                "title" : "You've Got It Bad Girl",
+                "album" : "Sweetback",
+                "albumURL" : "http://www.allmusic.com/album/sweetback-mw0000612630",
+                "label" : "Luv N'Haight",
+                "year" : "1995"
+            },
+            {
+                "artist" : "Speedometer",
+                "title" : "La Nueva Manera",
+                "album" : "The Shakedown",
+                "albumURL" : "http://www.allmusic.com/album/the-shakedown-say-yeah-mw0002054978",
+                "label" : "Freestyle Records",
+                "year" : "2012"
+            },
+            {
+                "artist" : "Shotgun",
+                "title" : "Get Down With The Get Down",
+                "album" : "Shotgun",
+                "albumURL" : "http://www.allmusic.com/album/shotgun-mw0000849683",
+                "label" : "ABC Records",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Ramsey Lewis",
+                "title" : "Drown In My Own Tears",
+                "album" : "Them Changes",
+                "albumURL" : "http://www.allmusic.com/album/them-changes-mw0000868070",
+                "label" : "Cadet",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Ramsey Lewis",
+                "title" : "Oh Happy Day",
+                "album" : "Them Changes",
+                "albumURL" : "http://www.allmusic.com/album/them-changes-mw0000868070",
+                "label" : "Cadet",
+                "year" : "1970"
+            }
+        ]
+    },
+    {
+        "number" : "50",
+        "title" : "Slop Jar",
+        "date" : "Wed, 17 Apr 2013 04:54:42 +0000",
+        "filename" : "episode_050_Slop_Jar",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Rotary Connection",
+                "title" : "Paper Castles",
+                "album" : "7\" single b/w Teach Me How To Fly",
+                "albumURL" : "",
+                "label" : "Cadet",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Dorothy Morrison",
+                "title" : "Spirit In The Sky",
+                "album" : "7\" single b/w Black California",
+                "albumURL" : "",
+                "label" : "Buddah Records",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Harpers Bizarre",
+                "title" : "59th Street Bridge Song (Feelin' Groovy)",
+                "album" : "7\" single b/w Lost My Love Today",
+                "albumURL" : "",
+                "label" : "Warner Brothers",
+                "year" : "1967"
+            },
+            {
+                "artist" : "The Sweet Inspirations",
+                "title" : "Unchained Melody",
+                "album" : "7\" single b/w Sweet Inspiration",
+                "albumURL" : "",
+                "label" : "Atlantic",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Push Push",
+                "album" : "Push Push",
+                "albumURL" : "http://www.allmusic.com/album/push-push-mw0000203730",
+                "label" : "Embryo",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Brother Jack McDuff",
+                "title" : "The Vibrator",
+                "album" : "Down Home Style",
+                "albumURL" : "http://www.allmusic.com/album/down-home-style-mw0000089767",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Charles Kynard",
+                "title" : "Slop Jar",
+                "album" : "Woga",
+                "albumURL" : "http://www.discogs.com/Charles-Kynard-Woga/master/409342",
+                "label" : "Mainstream Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Stanley Turentine",
+                "title" : "Sister Sanctified",
+                "album" : "Cherry",
+                "albumURL" : "http://www.allmusic.com/album/cherry-mw0000651723",
+                "label" : "CTI",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Ephraim Nzeka",
+                "title" : "Zombie",
+                "album" : "Bilongo: A Third Collection Of Modern Afro Rythms",
+                "albumURL" : "http://www.allmusic.com/album/bilongo-a-third-collection-of-modern-afro-rythms-mw0000443003",
+                "label" : "Comet Records",
+                "year" : "2000"
+            },
+            {
+                "artist" : "Space",
+                "title" : "Flying Nightmare",
+                "album" : "Magic Fly",
+                "albumURL" : "http://www.allmusic.com/album/magic-fly-mw0000874409",
+                "label" : "United Artists",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Curtis Mayfield",
+                "title" : "Stone Junkie",
+                "album" : "Curtis/Live!",
+                "albumURL" : "http://www.allmusic.com/album/curtis-live-mw0000615044",
+                "label" : "Curtom",
+                "year" : "1971"
+            }
+        ]
     }
 ]
