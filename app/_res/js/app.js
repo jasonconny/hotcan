@@ -7,7 +7,41 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
 
     $urlRouterProvider.when('/', ['$state', function($state) {
         $state.go('episode', {'episodeName':'beginnings'});
+    }]).when('/category/podcast/', ['$state', function($state) {
+        $state.go('all');
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-1', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'beginnings'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-2', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'groove-and-move'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-4', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'y-sharp'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-7', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'funky-doo'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-10', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'lotus-flower'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-11', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'do-your-thing'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-12', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'open-country-joy'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-100--never-ending-melody', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'never-ending-melody'});
     }]);
+
+    $urlRouterProvider.rule(function($injector, $location) {
+        var path = $location.path();
+        if (path.indexOf('/podcast/') > -1) {
+            var newRoute,
+                key = path.split('/')[2].split('-')[8];
+
+            if(key > 9) {
+                newRoute = path.split('/')[2].slice(44);
+            } else {
+                newRoute = path.split('/')[2].slice(43);
+            }
+
+            $location.replace().path(newRoute);
+        }
+    });
 
     $stateProvider.state('all', {
         url: '/all',
