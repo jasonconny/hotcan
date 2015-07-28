@@ -23,6 +23,8 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
         $state.go('episode', {'episodeName':'do-your-thing'});
     }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-12', ['$state', function($state) {
         $state.go('episode', {'episodeName':'open-country-joy'});
+    }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-35', ['$state', function($state) {
+        $state.go('episode', {'episodeName':'cold-duck-time'});
     }]).when('/podcast/the-hot-can-all-vinyl-power-hour-episode-100--never-ending-melody', ['$state', function($state) {
         $state.go('episode', {'episodeName':'never-ending-melody'});
     }]);

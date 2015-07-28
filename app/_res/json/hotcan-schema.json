@@ -4,7 +4,6 @@
         "title" : "extracted from <title>",
         "date" : "<pubDate>",
         "filename" : "extracted from podPress meta data",
-        "deeplink" : "<wp:post_name>",
         "intro" : "Hip-Hug Her", // can also be Herbie Hancock's "Blind Man, Blind Man" or a couple other outliers
         "songs" : [
             { // extracted from <content:encoded>
