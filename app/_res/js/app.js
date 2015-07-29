@@ -170,8 +170,8 @@ hotcan.service('EpisodeService', ['$http', function($http) {
             default:
                 intro = {
                     "artist" : "Booker T and the MG's",
-                    "title" : "Hip-Hug Her",
-                    "album" : "Hip-Hug Her",
+                    "title" : "Hip Hug-Her",
+                    "album" : "Hip Hug-Her",
                     "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
                     "label" : "Stax",
                     "year" : "1967"
