@@ -4894,6 +4894,103 @@
     },
     {
         "number" : "54",
+        "title" : "Forest Flower",
+        "date" : "Wed, 15 May 2013 05:43:31 +0000",
+        "filename" : "episode_054_Forest_Flower",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Charles Lloyd",
+                "title" : "Forest Flower - Sunrise",
+                "album" : "Forest Flower: Charles Lloyd At Monterey",
+                "albumURL" : "http://www.allmusic.com/album/forest-flower-charles-lloyd-at-monterey-mw0000120169",
+                "label" : "Atlantic",
+                "year" : "1966"
+            },
+            {
+                "artist" : "The Souljazz Orchestra",
+                "title" : "Awakening",
+                "album" : "Rising Sun",
+                "albumURL" : "http://www.allmusic.com/album/rising-sun-mw0001958420q",
+                "label" : "Strut",
+                "year" : "2010"
+            },
+            {
+                "artist" : "Hubert Laws",
+                "title" : "Farandole",
+                "album" : "The San Francisco Concert",
+                "albumURL" : "http://www.allmusic.com/album/the-san-francisco-concert-mw0000188285",
+                "label" : "CTI",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Bob James",
+                "title" : "The Walkman",
+                "album" : "\"H\"",
+                "albumURL" : "http://www.allmusic.com/album/h-mw0000649580",
+                "label" : "Tappan Zee",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Deodato",
+                "title" : "Super Strut",
+                "album" : "Deodato 2",
+                "albumURL" : "http://www.allmusic.com/album/deodato-2-mw0000194473",
+                "label" : "CTI",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Syl Johnson",
+                "title" : "Double Whammy",
+                "album" : "Syl Johnson Single Box",
+                "albumURL" : "http://www.discogs.com/Syl-Johnson-Syl-Johnson-Single-Box/release/2912002",
+                "label" : "Numero Group",
+                "year" : "2010"
+            },
+            {
+                "artist" : "Marvin Gaye",
+                "title" : "Baby Don't You Do It",
+                "album" : "7\" single b/w Walk On The Wild Side",
+                "albumURL" : "",
+                "label" : "Motown",
+                "year" : "1964"
+            },
+            {
+                "artist" : "The Moon People",
+                "title" : "Land Of Love",
+                "album" : "7\" single b/w Revolt",
+                "albumURL" : "",
+                "label" : "Speed Records",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Popcorn Wylie",
+                "title" : "Funky Rubber Band",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Motown",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Little Milton",
+                "title" : "Lovin' Stick",
+                "album" : "7\" single b/w Revolt",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Charles Lloyd",
+                "title" : "Forest Flower - Sunset",
+                "album" : "Forest Flower: Charles Lloyd At Monterey",
+                "albumURL" : "http://www.allmusic.com/album/forest-flower-charles-lloyd-at-monterey-mw0000120169",
+                "label" : "Atlantic",
+                "year" : "1966"
+            }
+        ]
+    },
+    {
+        "number" : "55",
         "title" : "Peepin",
         "date" : "Wed, 22 May 2013 05:38:40 +0000",
         "filename" : "episode_055_Peepin",
@@ -5006,7 +5103,7 @@
         ]
     },
     {
-        "number" : "55",
+        "number" : "56",
         "title" : "Thunder And Lightning",
         "date" : "Wed, 29 May 2013 05:19:43 +0000",
         "filename" : "episode_056_Thunder_And_Lightning",
@@ -5091,6 +5188,855 @@
                 "albumURL" : "http://www.allmusic.com/album/spellbinder-mw0000389250",
                 "label" : "Impulse!",
                 "year" : "1968"
+            }
+        ]
+    },
+    {
+        "number" : "57",
+        "title" : "Freakshow On The Dance Floor",
+        "date" : "Wed, 05 Jun 2013 05:25:39 +0000",
+        "filename" : "episode_057_Freakshow_On_The_Dance_Floor",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "The J.B.'s International",
+                "title" : "Georgia Disco",
+                "album" : "Jam II Disco Fever",
+                "albumURL" : "http://www.allmusic.com/album/jam-2-disco-fever-mw0000468797",
+                "label" : "Polydor",
+                "year" : "1978"
+            },
+            {
+                "artist" : "B.T. Express",
+                "title" : "Devil's Workshop",
+                "album" : "Non-Stop",
+                "albumURL" : "http://www.allmusic.com/album/non-stop-mw0000339968",
+                "label" : "Roadrunner Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Brick",
+                "title" : "Dazz",
+                "album" : "Good High",
+                "albumURL" : "http://www.allmusic.com/album/good-high-mw0000847521",
+                "label" : "Bang Records",
+                "year" : "1976"
+            },
+            {
+                "artist" : "BLO",
+                "title" : "Dance In A Circle",
+                "album" : "Phases 1972-1982",
+                "albumURL" : "http://www.allmusic.com/album/phases-1972-1982-mw0000216392",
+                "label" : "Strut",
+                "year" : "2002"
+            },
+            {
+                "artist" : "The Jimmy Castor Bunch",
+                "title" : "Troglodyte (Cave Man)",
+                "album" : "7\" single b/w I Promise To Remember",
+                "albumURL" : "",
+                "label" : "RCA",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Manu Dibango",
+                "title" : "Big Blow (Disco Mix)",
+                "album" : "12\" single b/w Aloko Party",
+                "albumURL" : "",
+                "label" : "Island",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Autodrive",
+                "album" : "12\" single b/w Chameleon (Special '83 Dance Remix)",
+                "albumURL" : "",
+                "label" : "Columbia",
+                "year" : "1983"
+            },
+            {
+                "artist" : "The Bar-Kays",
+                "title" : "Freakshow On The Dance Floor",
+                "album" : "Dangerous",
+                "albumURL" : "http://www.allmusic.com/album/dangerous-mw0000836608",
+                "label" : "Mercury Records",
+                "year" : "1984"
+            },
+            {
+                "artist" : "Roger",
+                "title" : "I Heard It Through The Grapevine",
+                "album" : "The Many Faces Of Roger",
+                "albumURL" : "http://www.allmusic.com/album/the-many-facets-of-roger-mw0000212101",
+                "label" : "Warner Brothers",
+                "year" : "1981"
+            },
+            {
+                "artist" : "The Rolling Stones",
+                "title" : "Miss You (Special Disco Version)",
+                "album" : "12\" single b/w Far Away Eyes",
+                "albumURL" : "",
+                "label" : "Rolling Stones Records",
+                "year" : "1978"
+            }
+        ]
+    },
+    {
+        "number" : "58",
+        "title" : "Layin' In The Cut",
+        "date" : "Wed, 12 Jun 2013 05:06:53 +0000",
+        "filename" : "episode_058_Layin_In_The_Cut",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Lou Donaldson",
+                "title" : "Everything I Do Gonh Be Funky",
+                "album" : "Everything I Play Is Funky",
+                "albumURL" : "http://www.allmusic.com/album/everything-i-play-is-funky-mw0000125934",
+                "label" : "Blue Note",
+                "year" : "1970"
+            },
+            {
+                "artist" : "The J.B.'s",
+                "title" : "Damn Right I'm Somebody",
+                "album" : "Damn Right I'm Somebody",
+                "albumURL" : "http://www.allmusic.com/album/damn-right-i-am-somebody-mw0000460454",
+                "label" : "Polydor",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Curtis Mayfield",
+                "title" : "Freddie's Dead (Theme From Superfly)",
+                "album" : "7\" single b/w Underground",
+                "albumURL" : "",
+                "label" : "Curtom",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Lonnie Smith",
+                "title" : "Layin' In The Cut",
+                "album" : "Move Your Hand",
+                "albumURL" : "http://www.allmusic.com/album/move-your-hand-mw0000647167",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Hey Mrs. Jones",
+                "album" : "Black And Blues",
+                "albumURL" : "http://www.discogs.com/Jimmy-McGriff-Black-And-Blues/master/249445",
+                "label" : "Groove Merchant",
+                "year" : "1973"
+            },
+            {
+                "artist" : "The Soul Investigators",
+                "title" : "Pretty Women, part 1",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Nite Club Records/Timmion",
+                "year" : "2007"
+            },
+            {
+                "artist" : "Charles Earland",
+                "title" : "Freedom Jazz Dance",
+                "album" : "Live At The Lighthouse",
+                "albumURL" : "http://www.allmusic.com/album/live-at-the-lighthouse-mw0000338879",
+                "label" : "Prestige",
+                "year" : "1971"
+            },
+            {
+                "artist" : "The Crusaders",
+                "title" : "Eleanor Rigby",
+                "album" : "Scratch",
+                "albumURL" : "http://www.allmusic.com/album/scratch-mw0000197128",
+                "label" : "MCA",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Incense",
+                "album" : "Impressions Of The Middle East",
+                "albumURL" : "http://www.allmusic.com/album/impressions-of-the-middle-east-mw0000877171",
+                "label" : "Atlantic",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Grant Green",
+                "title" : "Creature",
+                "album" : "The Main Attraction",
+                "albumURL" : "http://www.allmusic.com/album/the-main-attraction-mw0000659887",
+                "label" : "CTI",
+                "year" : "1976"
+            }
+        ]
+    },
+    {
+        "number" : "59",
+        "title" : "My Problems Got Problems",
+        "date" : "Wed, 19 Jun 2013 05:52:21 +0000",
+        "filename" : "episode_059_My_Problems_Got_Problems",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Weather Report",
+                "title" : "125th Street Congress",
+                "album" : "Sweetnighter",
+                "albumURL" : "http://www.allmusic.com/album/sweetnighter-mw0000185777",
+                "label" : "Columbia",
+                "year" : "1973"
+            },
+            {
+                "artist" : "E.U.",
+                "title" : "Shake It",
+                "album" : "Go Ju Ju Go",
+                "albumURL" : "http://www.allmusic.com/album/go-ju-ju-go-mw0000922595",
+                "label" : "Unlimited",
+                "year" : "1987"
+            },
+            {
+                "artist" : "E.U.",
+                "title" : "All Right Oh No",
+                "album" : "Go Ju Ju Go",
+                "albumURL" : "http://www.allmusic.com/album/go-ju-ju-go-mw0000922595",
+                "label" : "Unlimited",
+                "year" : "1987"
+            },
+            {
+                "artist" : "Ike & Tina Turner",
+                "title" : "Kay Got Laid (Joe Got Paid)",
+                "album" : "Feel Good",
+                "albumURL" : "http://www.allmusic.com/album/feel-good-mw0000857681",
+                "label" : "United Artists",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Syl Johnson",
+                "title" : "My Funky Band",
+                "album" : "Syl Johnson Single Box",
+                "albumURL" : "http://www.discogs.com/Syl-Johnson-Syl-Johnson-Single-Box/release/2912002",
+                "label" : "Numero Group",
+                "year" : "2011"
+            },
+            {
+                "artist" : "The Leaders",
+                "title" : "Which Way",
+                "album" : "7\" single b/w Anyone Can",
+                "albumURL" : "",
+                "label" : "Volt",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Sly And The Family Stone",
+                "title" : "Chicken",
+                "album" : "Life",
+                "albumURL" : "http://www.allmusic.com/album/life-mw0000651996",
+                "label" : "Epic",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Merl Saunders",
+                "title" : "My Problems Got Problems",
+                "album" : "Heavy Turbulence",
+                "albumURL" : "http://www.allmusic.com/album/heavy-turbulence-mw0000854277",
+                "label" : "Fantasy",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Hank Crawford",
+                "title" : "Take This Job And Shove It",
+                "album" : "Cajun Sunrise",
+                "albumURL" : "http://www.allmusic.com/album/cajun-sunrise-mw0000898765",
+                "label" : "Kudu",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "Funky Dollar Bill",
+                "album" : "Free Your Mind… And Your Ass Will Follow",
+                "albumURL" : "http://www.allmusic.com/album/free-your-mindand-your-ass-will-follow-mw0000203661",
+                "label" : "Westbound Records",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Odell Brown",
+                "title" : "Sittin' On The Dock Of The Bay",
+                "album" : "Odell Brown Plays Otis Redding",
+                "albumURL" : "http://www.allmusic.com/album/plays-otis-redding-mw0000849301",
+                "label" : "Cadet",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Steve Cropper",
+                "title" : "Crop-Dustin'",
+                "album" : "With A Little Help From My Friends",
+                "albumURL" : "http://www.allmusic.com/album/with-a-little-help-from-my-friends-mw0000689844",
+                "label" : "Volt",
+                "year" : "1971"
+            },
+            {
+                "artist" : "The Meters",
+                "title" : "Sophisticated Cissy",
+                "album" : "7\" single b/w Sehorns Farms",
+                "albumURL" : "",
+                "label" : "Josie",
+                "year" : "1969"
+            },
+            {
+                "artist" : "King Curtis",
+                "title" : "The Weight",
+                "album" : "Instant Groove",
+                "albumURL" : "http://www.discogs.com/King-Curtis-Instant-Groove/master/343097",
+                "label" : "Atco",
+                "year" : "1969"
+            }
+        ]
+    },
+    {
+        "number" : "60",
+        "title" : "Ascent",
+        "date" : "Wed, 26 Jun 2013 05:59:31 +0000",
+        "filename" : "episode_060_Ascent",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Miles Davis",
+                "title" : "Dual Mr. Tillman Anthony",
+                "album" : "Water Babies",
+                "albumURL" : "http://www.allmusic.com/album/water-babies-mw0000223904",
+                "label" : "Columbia",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Ascent",
+                "album" : "Directions",
+                "albumURL" : "http://www.allmusic.com/album/directions-mw0000538308",
+                "label" : "Columbia",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Orange Lady",
+                "album" : "Big Fun",
+                "albumURL" : "http://www.allmusic.com/album/big-fun-mw0000615329",
+                "label" : "Columbia",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Yesternow",
+                "album" : "A Tribute To Jack Johnson",
+                "albumURL" : "http://www.allmusic.com/album/a-tribute-to-jack-johnson-mw0000311307",
+                "label" : "Columbia",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Maiysha",
+                "album" : "Get Up With It",
+                "albumURL" : "http://www.allmusic.com/album/get-up-with-it-mw0000086005",
+                "label" : "Columbia",
+                "year" : "1974"
+            }
+        ]
+    },
+    {
+        "number" : "61",
+        "title" : "What I Say",
+        "date" : "Wed, 03 Jul 2013 06:05:28 +0000",
+        "filename" : "episode_061_What_I_Say",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Miles Davis",
+                "title" : "Friday Miles (It's About That Time > I Fall In Love To Easily)",
+                "album" : "iles Davis At Fillmore: Live At The Fillmore East",
+                "albumURL" : "http://www.allmusic.com/album/miles-davis-at-fillmore-live-at-the-fillmore-east-mw0000193913",
+                "label" : "Columbia",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "What I Say",
+                "album" : "Live-Evil",
+                "albumURL" : "http://www.allmusic.com/album/live-evil-mw0000651475",
+                "label" : "Columbia",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Slickaphonics (Ife)",
+                "album" : "In Concert: Live At Philharmonic Hall",
+                "albumURL" : "http://www.allmusic.com/album/in-concert-live-at-philharmonic-hall-mw0000019948",
+                "label" : "Columbia",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Tatu, part 1",
+                "album" : "Dark Magus",
+                "albumURL" : "http://www.allmusic.com/album/dark-magus-mw0000197220",
+                "label" : "Columbia",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Interlude (Theme From Jack Johnson)",
+                "album" : "Agharta",
+                "albumURL" : "http://www.allmusic.com/album/agharta-mw0000187879",
+                "label" : "Columbia",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Betty Davis",
+                "title" : "Git In There",
+                "album" : "hey Say I'm Different",
+                "albumURL" : "http://www.allmusic.com/album/they-say-im-different-mw0000458848",
+                "label" : "Just Sunshine Records",
+                "year" : "1974"
+            }
+        ]
+    },
+    {
+        "number" : "62",
+        "title" : "Summer Breeze",
+        "date" : "Wed, 10 Jul 2013 05:20:29 +0000",
+        "filename" : "episode_062_Summer_Breeze",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Sly And The Family Stone",
+                "title" : "Hot Fun In The Summertime",
+                "album" : "Greatest Hits",
+                "albumURL" : "http://www.allmusic.com/album/greatest-hits-mw0000191777",
+                "label" : "Epic",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Jorge Ben",
+                "title" : "Take It Easy My Brother Charles",
+                "album" : "Tropicalia: A Brazilian Revolution in Sound",
+                "albumURL" : "http://www.allmusic.com/album/soul-jazz-records-presents-tropic%C3%A1lia-a-brazilian-revolution-in-sound-mw0000555203",
+                "label" : "Soul Jazz",
+                "year" : "2006"
+            },
+            {
+                "artist" : "Stanley Turrentine",
+                "title" : "Light My Fire",
+                "album" : "Always Something There",
+                "albumURL" : "http://www.allmusic.com/album/always-something-there-mw0000886768",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Charles Wright And The Watts 103rd Street Rhythm Band",
+                "title" : "Love Land",
+                "album" : "7\" single b/w Sorry Charlie",
+                "albumURL" : "",
+                "label" : "Warner Brothers",
+                "year" : "1970"
+            },
+            {
+                "artist" : "The Ventures",
+                "title" : "Walk Don't Run",
+                "album" : "7\" single reissue b/w Ram-Bunk-Shush",
+                "albumURL" : "",
+                "label" : "Capitol Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "The Soul Survivors",
+                "title" : "Hey Gyp",
+                "album" : "7\" single b side of Expressway To Your Heart",
+                "albumURL" : "",
+                "label" : "Crimson Records",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Brian Auger And The Trinity",
+                "title" : "I Want To Take You Higher",
+                "album" : "7\" single b/w Just You Just Me",
+                "albumURL" : "",
+                "label" : "RCA/Victor",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Freddie Hubbard",
+                "title" : "First Light",
+                "album" : "First Light",
+                "albumURL" : "http://www.allmusic.com/album/first-light-mw0000188197",
+                "label" : "CTI",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Mongo Santamaria",
+                "title" : "Grass Roots",
+                "album" : "Mongo '70",
+                "albumURL" : "http://www.allmusic.com/album/mongo-70-mw0000457852",
+                "label" : "Warner Brothers",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Willie Bobo",
+                "title" : "Fried Neckbones and Some Home Fries",
+                "album" : "Uno Dos Tres/1, 2, 3",
+                "albumURL" : "http://www.allmusic.com/album/uno-dos-tres-1-2-3-mw0000903454",
+                "label" : "",
+                "year" : ""
+            },
+            {
+                "artist" : "Charles Kynard",
+                "title" : "Summer Breeze",
+                "album" : "Your Mama Don't Dance",
+                "albumURL" : "http://www.allmusic.com/album/your-mama-dont-dance-mw0001552714",
+                "label" : "Mainstream Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Tony Allen & Abayomy  Afrobeat Orquestra",
+                "title" : "Meus Filho Afrobeat Rework",
+                "album" : "10\" single ",
+                "albumURL" : "",
+                "label" : "Comet Records",
+                "year" : "2013"
+            },
+            {
+                "artist" : "Kokolo Afrobeat Orchestra",
+                "title" : "Donkey",
+                "album" : "Contemporary Afro Beat",
+                "albumURL" : "",
+                "label" : "Tramp Records",
+                "year" : "2011"
+            },
+            {
+                "artist" : "The Undisputed Truth",
+                "title" : "Down By The River",
+                "album" : "Cosmic Truth",
+                "albumURL" : "http://www.allmusic.com/album/cosmic-truth-mw0000869797",
+                "label" : "Motown/Tamla",
+                "year" : "1975"
+            }
+        ]
+    },
+    {
+        "number" : "63",
+        "title" : "Can You Get To That?",
+        "date" : "Wed, 17 Jul 2013 04:37:59 +0000",
+        "filename" : "episode_063_Can_You_Get_To_That",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Syl Johnson",
+                "title" : "Is It Because I'm Black?",
+                "album" : "7\" single b/w Let Them Hang High",
+                "albumURL" : "",
+                "label" : "Twinight",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Mavis Staples",
+                "title" : "Can You Get To That?",
+                "album" : "One True Vine",
+                "albumURL" : "http://www.allmusic.com/album/one-true-vine-mw0002526498",
+                "label" : "Anti-",
+                "year" : "2013"
+            },
+            {
+                "artist" : "Ike and Tina Turner featuring The Ikettes",
+                "title" : "Everyday People",
+                "album" : "What You Hear Is What You Get: Live At Carnegie Hall",
+                "albumURL" : "http://www.allmusic.com/album/what-you-hear-is-what-you-get-mw0000185199",
+                "label" : "United Artists",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Curtis Mayfield",
+                "title" : "Mighty Mighty, Spade and Whitey",
+                "album" : "Curtis/Live!",
+                "albumURL" : "http://www.allmusic.com/album/curtis-live-mw0000615044",
+                "label" : "Curtom",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Fred Wesley and the J.B.'s",
+                "title" : "Damn Right I Am Somebody",
+                "album" : "Damn Right I Am Somebody",
+                "albumURL" : "http://www.allmusic.com/album/damn-right-i-am-somebody-mw0000460454",
+                "label" : "People",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Fela Anikulapo Kuti and the Africa 70",
+                "title" : "Sorrow, Tears and Blood",
+                "album" : "Sorrow, Tears and Blood",
+                "albumURL" : "http://www.allmusic.com/album/sorrow-tears-and-blood-mw0000951417",
+                "label" : "Kalakuta",
+                "year" : "1977"
+            },
+            {
+                "artist" : "The Pharoahs",
+                "title" : "Black Enuff",
+                "album" : "Awakening",
+                "albumURL" : "http://www.allmusic.com/album/awakening-mw0000099978",
+                "label" : "Luv N' Haight",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Donny Hathaway",
+                "title" : "Voices Inside (Everything Is Everything)",
+                "album" : "Live",
+                "albumURL" : "http://www.allmusic.com/album/live-mw0000460498",
+                "label" : "Atco",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Roland Kirk",
+                "title" : "I Say A Little Prayer",
+                "album" : "Volunteered Slavery",
+                "albumURL" : "http://www.allmusic.com/album/volunteered-slavery-mw0000508533",
+                "label" : "Atlantic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Charles Wright and the Watts 103rd Street Rhythm Band",
+                "title" : "Comment (If All Men Were Truly Brothers)",
+                "album" : "In The Jungle, Babe",
+                "albumURL" : "http://www.allmusic.com/album/in-the-jungle-babe-mw0000670642",
+                "label" : "Warner Brothers",
+                "year" : "1969"
+            }
+        ]
+    },
+    {
+        "number" : "64",
+        "title" : "The Deacon",
+        "date" : "Wed, 24 Jul 2013 05:02:47 +0000",
+        "filename" : "episode_064_The_Deacon",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "João Donato & Eumir Deodato",
+                "title" : "Nighttripper",
+                "album" : "Donato/Deodato",
+                "albumURL" : "http://www.discogs.com/Deodato-featuring-Jo%C3%A3o-Donato-DonatoDeodato/master/156116",
+                "label" : "Muse Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Luiz Bonfá",
+                "title" : "Jacarandá",
+                "album" : "Jacarandá",
+                "albumURL" : "http://www.allmusic.com/album/jacarand%C3%A1-mw0000007231",
+                "label" : "Ranwood Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Marcos Valle",
+                "title" : "Crickets Sing For Anamaria",
+                "album" : "Samba '68",
+                "albumURL" : "http://www.allmusic.com/album/samba-68-mw0000047281",
+                "label" : "Verve",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Oliver Nelson",
+                "title" : "Baja Bossa",
+                "album" : "Skull Session",
+                "albumURL" : "http://www.allmusic.com/album/skull-session-mw0000464566",
+                "label" : "Flying Dutchman",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Brute Force",
+                "title" : "The Deacon",
+                "album" : "Brute Force",
+                "albumURL" : "http://www.allmusic.com/album/brute-force-mw0000337805",
+                "label" : "Embryo Records",
+                "year" : "1970"
+            },
+            {
+                "artist" : "The MG's",
+                "title" : "Blackside",
+                "album" : "The MG's",
+                "albumURL" : "http://www.allmusic.com/album/the-mgs-mw0000094084",
+                "label" : "Stax",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Donald Byrd",
+                "title" : "You Are The World",
+                "album" : "Stepping Into Tomorrow",
+                "albumURL" : "http://www.allmusic.com/album/stepping-into-tomorrow-mw0000057832",
+                "label" : "Blue Note",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Stanley Clarke",
+                "title" : "The Dancer",
+                "album" : "School Days",
+                "albumURL" : "http://www.allmusic.com/album/school-days-mw0000649444",
+                "label" : "Epic",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Young-Holt Unlimited",
+                "title" : "Foodstamps",
+                "album" : "Oh Girl",
+                "albumURL" : "http://www.allmusic.com/album/oh-girl-mw0000722495",
+                "label" : "Atlantic",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Mandrill",
+                "title" : "Two Sisters Of Mystery",
+                "album" : "Just Outside Of Town",
+                "albumURL" : "http://www.allmusic.com/album/just-outside-of-town-mw0000043264",
+                "label" : "Polydor",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Tower Of Power",
+                "title" : "Ebony Jam",
+                "album" : "In The Slot",
+                "albumURL" : "http://www.allmusic.com/album/in-the-slot-mw0000309252",
+                "label" : "Warner Brothers",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Truck Stop",
+                "album" : "Keep On Dancin'",
+                "albumURL" : "http://www.allmusic.com/album/keep-on-dancin-mw0000840650",
+                "label" : "Dakar",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Terry Callier",
+                "title" : "Do It Again",
+                "album" : "Turn You To Love",
+                "albumURL" : "http://www.allmusic.com/album/turn-you-to-love-mw0000022237",
+                "label" : "Elektra",
+                "year" : "1979"
+            }
+        ]
+    },
+    {
+        "number" : "65",
+        "title" : "Pork Chop",
+        "date" : "Wed, 31 Jul 2013 05:42:10 +0000",
+        "filename" : "episode_065_Pork_Chop",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Last Minute (part I)",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Sue Records",
+                "year" : "1963"
+            },
+            {
+                "artist" : "The Sugarman 3",
+                "title" : "Funky So & So (part I)",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Daptone Records",
+                "year" : "2002"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Last Minute (part II)",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Sue Records",
+                "year" : "1963"
+            },
+            {
+                "artist" : "The Sugarman 3",
+                "title" : "Funky So & So (part II)",
+                "album" : "7\" single",
+                "albumURL" : "",
+                "label" : "Daptone Records",
+                "year" : "2002"
+            },
+            {
+                "artist" : "Richard 'Groove' Holmes",
+                "title" : "It's Impossible",
+                "album" : "American Pie",
+                "albumURL" : "http://www.allmusic.com/album/american-pie-mw0000232262",
+                "label" : "Groove Merchant",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Jimmy Smith",
+                "title" : "Pork Chop",
+                "album" : "Rockin' The Boat",
+                "albumURL" : "http://www.allmusic.com/album/rockin-the-boat-mw0000328965",
+                "label" : "Blue Note",
+                "year" : "1963"
+            },
+            {
+                "artist" : "Reuben Wilson",
+                "title" : "Creampuff",
+                "album" : "Bad Stuff!",
+                "albumURL" : "http://www.allmusic.com/album/bad-stuff-mw0001019718",
+                "label" : "Groove Merchant",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Baby Huey",
+                "title" : "Listen To Me",
+                "album" : "he Baby Huey Story/Living Legend",
+                "albumURL" : "http://www.allmusic.com/album/the-baby-huey-story-the-living-legend-mw0000245030",
+                "label" : "Curtom",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Wheedle's Groove",
+                "title" : "Sea Of Grass",
+                "album" : "Kearney Barton",
+                "albumURL" : "http://www.allmusic.com/album/kearney-barton-mw0000829713",
+                "label" : "Light In The Attic",
+                "year" : "2009"
+            },
+            {
+                "artist" : "Cymande",
+                "title" : "Rickshaw",
+                "album" : "Cymande",
+                "albumURL" : "http://www.allmusic.com/album/cymande-mw0000674354",
+                "label" : "Janus Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Little One",
+                "album" : "Stump Juice",
+                "albumURL" : "http://www.allmusic.com/album/stump-juice-mw0000904580",
+                "label" : "Groove Merchant",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Ramsey Lewis",
+                "title" : "Living For The City",
+                "album" : "Sun Goddess",
+                "albumURL" : "http://www.allmusic.com/album/sun-goddess-mw0000192130",
+                "label" : "Columbia",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Stevie Wonder",
+                "title" : "Boogie On Reggae Woman",
+                "album" : "Fullfillingness' First Finale",
+                "albumURL" : "http://www.allmusic.com/album/fulfillingness-first-finale-mw0000196743",
+                "label" : "Motown/Tamla",
+                "year" : "1974"
+            },
+            {
+                "artist" : "J.J. Cale",
+                "title" : "Call Me The Breeze",
+                "album" : "Naturally",
+                "albumURL" : "http://www.allmusic.com/album/naturally-mw0000197440",
+                "label" : "Shelter Records",
+                "year" : "1971"
             }
         ]
     }
