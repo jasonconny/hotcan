@@ -8107,5 +8107,538 @@
                 "year" : "1973"
             }
         ]
+    },
+    {
+        "number" : "86",
+        "title" : "Christmas Time Is Here",
+        "date" : "Mon, 23 Dec 2013 13:42:48 +0000,
+        "filename" : "episode_086_Christmas_Time_Is_Here",
+        "intro" : "Linus And Lucy",
+        "songs" : [
+            {
+                "artist" : "The Drifters",
+                "title" : "White Christmas",
+                "album" : "7\" single b/w The Bells Of St. Mary's",
+                "albumURL" : "",
+                "label" : "Atlantic",
+                "year" : "1954"
+            },
+            {
+                "artist" : "Albert King",
+                "title" : "Santa Claus Wants Some Lovin'",
+                "album" : "7\" single b/w Don't Burn Down The Bridge (Cause You Might Wanna Come Back)",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Elvis Presley",
+                "title" : "Blue Christmas",
+                "album" : "Elvis' Christmas Album",
+                "albumURL" : "http://www.allmusic.com/album/elvis-christmas-album-mw0000191441",
+                "label" : "RCA Victor",
+                "year" : "1957"
+            },
+            {
+                "artist" : "John Fahey",
+                "title" : "medley: Hark The Herald Angels Sing/O Come All Ye Faithful",
+                "album" : "Guitar Christmas, Vol. 1",
+                "albumURL" : "http://www.allmusic.com/album/christmas-guitar-vol-1-mw0000260693",
+                "label" : "Rounder",
+                "year" : "1981"
+            },
+            {
+                "artist" : "David Grisman",
+                "title" : "God Rest Ye Merry Gentlemen",
+                "album" : "Acoustic Christmas",
+                "albumURL" : "http://www.allmusic.com/album/david-grismans-acoustic-christmas-mw0000194039",
+                "label" : "Rounder",
+                "year" : "1983"
+            },
+            {
+                "artist" : "John Fahey",
+                "title" : "The First Noel",
+                "album" : "Guitar Christmas, Vol. 1",
+                "albumURL" : "http://www.allmusic.com/album/christmas-guitar-vol-1-mw0000260693",
+                "label" : "Rounder",
+                "year" : "1981"
+            },
+            {
+                "artist" : "Wynton Marsalis Quintet",
+                "title" : "We Three Kings Of Orient Are",
+                "album" : "God Rest Ye Merry Jazzmen",
+                "albumURL" : "http://www.allmusic.com/album/god-rest-ye-merry-jazzmen-mw0000309129",
+                "label" : "Columbia",
+                "year" : "1981"
+            },
+            {
+                "artist" : "Chet Baker",
+                "title" : "Silent Night",
+                "album" : "Silent Nights",
+                "albumURL" : "http://www.discogs.com/Chet-Baker-Christopher-Mason-Silent-Nights/master/358680",
+                "label" : "GSR",
+                "year" : "1986"
+            },
+            {
+                "artist" : "Paul Desmond & Jim Hall",
+                "title" : "Greensleeves",
+                "album" : "The Complete Recordings Of The Paul Desmond Quartet With Jim Hall",
+                "albumURL" : "http://www.allmusic.com/album/complete-recordings-of-the-paul-desmond-quartet-with-jim-hall-mw0001881703",
+                "label" : "Mosaic",
+                "year" : "1987"
+            },
+            {
+                "artist" : "Johnny Mathis",
+                "title" : "Do You Hear What I Hear?",
+                "album" : "Give Me Your Love For Christmas",
+                "albumURL" : "http://www.allmusic.com/album/give-me-your-love-for-christmas-mw0000190859",
+                "label" : "Columbia",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Johnny Mathis",
+                "title" : "Calypso Noel",
+                "album" : "Give Me Your Love For Christmas",
+                "albumURL" : "http://www.allmusic.com/album/give-me-your-love-for-christmas-mw0000190859",
+                "label" : "Columbia",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Johnny Mathis",
+                "title" : "The Little Drummer Boy",
+                "album" : "Give Me Your Love For Christmas",
+                "albumURL" : "http://www.allmusic.com/album/give-me-your-love-for-christmas-mw0000190859",
+                "label" : "Columbia",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Johnny Mathis",
+                "title" : "Christmas Day",
+                "album" : "Give Me Your Love For Christmas",
+                "albumURL" : "http://www.allmusic.com/album/give-me-your-love-for-christmas-mw0000190859",
+                "label" : "Columbia",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Johnny Mathis",
+                "title" : "The Lord's Prayer",
+                "album" : "Give Me Your Love For Christmas",
+                "albumURL" : "http://www.allmusic.com/album/give-me-your-love-for-christmas-mw0000190859",
+                "label" : "Columbia",
+                "year" : "1969"
+            },
+            {
+                "artist" : "The Vince Guaraldi Trio",
+                "title" : "Christmas Time Is Here",
+                "album" : "A Charlie Brown Christmas",
+                "albumURL" : "http://www.allmusic.com/album/a-charlie-brown-christmas-mw0000649547",
+                "label" : "Fantasy",
+                "year" : "1965"
+            }
+        ]
+    },
+    {
+        "number" : "87",
+        "title" : "Skull Session",
+        "date" : "Wed, 01 Jan 2014 06:10:36 +0000",
+        "filename" : "episode_087_Skull_Session",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Donald Byrd",
+                "title" : "Science Funktion",
+                "album" : "Caricatures",
+                "albumURL" : "http://www.allmusic.com/album/caricatures-mw0000595396",
+                "label" : "Blue Note",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Oliver Nelson",
+                "title" : "Skull Session",
+                "album" : "Skull Session",
+                "albumURL" : "http://www.allmusic.com/album/skull-session-mw0000464566",
+                "label" : "Flying Dutchman",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Johnny 'Hammond' Smith",
+                "title" : "Star Borne",
+                "album" : "Gambler's Life",
+                "albumURL" : "http://www.allmusic.com/album/gamblers-life-mw0000455312",
+                "label" : "Salvation",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Hubert Laws",
+                "title" : "Mean Lene",
+                "album" : "In The Beginning",
+                "albumURL" : "http://www.allmusic.com/album/in-the-beginning-mw0000027167",
+                "label" : "CTI",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Willie Bobo",
+                "title" : "Shing-A-Ling Baby",
+                "album" : "Juicy",
+                "albumURL" : "http://www.allmusic.com/album/juicy-mw0000040136",
+                "label" : "Verve",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Ronnie Foster",
+                "title" : "Chunky",
+                "album" : "The Two Headed Freap",
+                "albumURL" : "http://www.allmusic.com/album/the-two-headed-freap-mw0000125936",
+                "label" : "Blue Note",
+                "year" : "1973"
+            },
+            {
+                "artist" : "The Staple Singers",
+                "title" : "I'll Take You There",
+                "album" : "7\" single b/w I'm Just Another Soldier",
+                "albumURL" : "",
+                "label" : "Stax",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Al Green",
+                "title" : "Oh Me Oh My (Dreams In My Arms)",
+                "album" : "7\" single b/w Strong As Death (Sweet As Love)",
+                "albumURL" : "",
+                "label" : "Hi Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Joe Simon",
+                "title" : "Get Down, Get Down (Get On The Floor)",
+                "album" : "7\" single b/w In My Baby's Arms",
+                "albumURL" : "",
+                "label" : "Spring Records",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Tyrone Davis",
+                "title" : "You Wouldn't Believe",
+                "album" : "7\" single b side of I Had It All The Time",
+                "albumURL" : "",
+                "label" : "Dakar",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Willie Bobo",
+                "title" : "Mercy Mercy Mercy",
+                "album" : "Juicy",
+                "albumURL" : "http://www.allmusic.com/album/juicy-mw0000040136",
+                "label" : "Verve",
+                "year" : "1967"
+            }
+        ]
+    },
+    {
+        "number" : "88",
+        "title" : "Baby, It's Cold Outside",
+        "date" : "Wed, 08 Jan 2014 06:29:03 +0000",
+        "filename" : "episode_088_Baby_Its_Cold_Outside",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Jimmy Smith and Wes Montgomery",
+                "title" : "Baby, It's Cold Outside",
+                "album" : "Jimmy & Wes: The Dynamic Duo",
+                "albumURL" : "http://www.allmusic.com/album/jimmy-wes-the-dynamic-duo-mw0000192516",
+                "label" : "Verve",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Jimmy McGriff and Richard 'Groove' Holmes",
+                "title" : "Out Of Nowhere",
+                "album" : "Giants Of The Organ Come Together",
+                "albumURL" : "http://www.allmusic.com/album/giants-of-the-organ-come-together-mw0000350168",
+                "label" : "Groove Merchant",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Odell Brown And The Organ-izers",
+                "title" : "Day Tripper",
+                "album" : "Raising The Roof",
+                "albumURL" : "http://www.allmusic.com/album/raising-the-roof-mw0001014487",
+                "label" : "Cadet",
+                "year" : "1966"
+            },
+            {
+                "artist" : "Leon Spencer",
+                "title" : "Hip Shaker",
+                "album" : "Bad Walking Woman",
+                "albumURL" : "http://www.allmusic.com/album/bad-walking-woman-mw0000938034",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "The Sugarman 3",
+                "title" : "Rudy's Intervention",
+                "album" : "What The World Needs Now",
+                "albumURL" : "http://www.allmusic.com/album/what-the-world-needs-now-mw0002330148",
+                "label" : "Daptone",
+                "year" : "2012"
+            },
+            {
+                "artist" : "Lonnie Smith",
+                "title" : "Move Your Hand",
+                "album" : "Move Your Hand",
+                "albumURL" : "http://www.allmusic.com/album/move-your-hand-mw0000647167",
+                "label" : "Blue Note",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Ooh Baby",
+                "album" : "Live At The Whiskey A Go Go",
+                "albumURL" : "http://www.allmusic.com/album/live-at-the-whisky-a-go-go-mw0000882547",
+                "label" : "Atlantic",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Brian Auger's Oblivion Express",
+                "title" : "Total Eclipse",
+                "album" : "Brian Auger's Oblivion Express",
+                "albumURL" : "http://www.allmusic.com/album/brian-augers-oblivion-express-mw0000178832",
+                "label" : "RCA",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Bill Black's Combo",
+                "title" : "Rollin'",
+                "album" : "7\" single b side of Don't Be Cruel",
+                "albumURL" : "",
+                "label" : "Hi Records",
+                "year" : "1960"
+            }
+        ]
+    },
+    {
+        "number" : "89",
+        "title" : "Mango Meat",
+        "date" : "Wed, 15 Jan 2014 06:31:41 +0000",
+        "filename" : "episode_089_Mango_Meat",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Ike & Tina Turner",
+                "title" : "Keep On Pushing",
+                "album" : "Ooh Poo Pah Doo",
+                "albumURL" : "http://www.allmusic.com/album/ooh-poo-pah-doo-mw0000839581",
+                "label" : "Columbia",
+                "year" : "1965"
+            },
+            {
+                "artist" : "J.D. & The Evil's Dynamite Band",
+                "title" : "My Beach, My Waves, Fuck Off!",
+                "album" : "Explodes Across The Nation",
+                "albumURL" : "http://www.allmusic.com/album/explodes-across-the-nation-mw0000587016",
+                "label" : "Soul Fire",
+                "year" : "2001"
+            },
+            {
+                "artist" : "Kings Go Forth",
+                "title" : "I Don't Love You No More",
+                "album" : "The Outsiders Are Back",
+                "albumURL" : "http://www.allmusic.com/album/the-outsiders-are-back-mw000196887",
+                "label" : "Luaka Bop",
+                "year" : "2010"
+            },
+            {
+                "artist" : "The Undisputed Truth",
+                "title" : "1990",
+                "album" : "Cosmic Truth",
+                "albumURL" : "http://www.allmusic.com/album/cosmic-truth-mw0000869797",
+                "label" : "Tamla",
+                "year" : "1975"
+            },
+            {
+                "artist" : "The Bar-Kays",
+                "title" : "You're So Sexy",
+                "album" : "Too Hot To Stop",
+                "albumURL" : "http://www.allmusic.com/album/too-hot-to-stop-mw0000185546",
+                "label" : "Mercury",
+                "year" : "1976"
+            },
+            {
+                "artist" : "The Isley Brothers",
+                "title" : "You Still Feel The Need",
+                "album" : "Harvest For The World",
+                "albumURL" : "http://www.allmusic.com/album/harvest-for-the-world-mw0000318358",
+                "label" : "T-Neck",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Dexter Wansel",
+                "title" : "Disco Lights",
+                "album" : "What Is The World Coming To",
+                "albumURL" : "http://www.allmusic.com/album/what-the-world-is-coming-to-mw0000876714",
+                "label" : "Philadelphia International",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Rick James",
+                "title" : "Be My Lady",
+                "album" : "Be My Lady",
+                "albumURL" : "http://www.allmusic.com/album/come-get-it%21-mw0000691641",
+                "label" : "Gordy",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Terry Callier",
+                "title" : "Street Fever",
+                "album" : "Fire On Ice",
+                "albumURL" : "http://www.allmusic.com/album/fire-on-ice-mw0000021650",
+                "label" : "Elektra",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Mandrill",
+                "title" : "Mango Meat",
+                "album" : "Just Outside Of Town",
+                "albumURL" : "http://www.allmusic.com/album/just-outside-of-town-mw0000043264",
+                "label" : "Polydor",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Eric Burdon and WAR",
+                "title" : "Gun",
+                "album" : "The Black-Man's Burdon",
+                "albumURL" : "http://www.allmusic.com/album/the-black-mans-burdon-mw0000189263",
+                "label" : "Liberty",
+                "year" : "1971"
+            },
+            {
+                "artist" : "The Lafayette Afro Rock Band",
+                "title" : "Avi Vo",
+                "album" : "Malik",
+                "albumURL" : "http://www.allmusic.com/album/malik-mw0000738149",
+                "label" : "Hi & Fly Records",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Os Mutantes",
+                "title" : "A Minha Menina",
+                "album" : "Everything Is Possible",
+                "albumURL" : "http://www.allmusic.com/album/everything-is-possible-the-best-of-os-mutantes-mw0000244939",
+                "label" : "Luaka Bop",
+                "year" : "1999"
+            }
+        ]
+    },
+    {
+        "number" : "90",
+        "title" : "Kool To Be Uncool",
+        "date" : "Wed, 22 Jan 2014 07:13:31 +0000",
+        "filename" : "episode_090_Kool_To_Be_Uncool",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Space",
+                "title" : "Magic Fly",
+                "album" : "Magic Fly",
+                "albumURL" : "http://www.allmusic.com/album/magic-fly-mw0000874409",
+                "label" : "United Artists",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Donna Summer",
+                "title" : "Sunset People",
+                "album" : "Bad Girls",
+                "albumURL" : "http://www.allmusic.com/album/bad-girls-mw0000650846",
+                "label" : "Casablanca",
+                "year" : "1979"
+            },
+            {
+                "artist" : "Manu Dibango",
+                "title" : "Soul Makossa",
+                "album" : "Soul Makossa",
+                "albumURL" : "http://www.allmusic.com/album/soul-makossa-mw0000234058",
+                "label" : "Atlantic",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Speedometer",
+                "title" : "Kool To Be Uncool",
+                "album" : "The Shakedown",
+                "albumURL" : "http://www.allmusic.com/album/the-shakedown-say-yeah-mw0002054978",
+                "label" : "Freestyle",
+                "year" : "2012"
+            },
+            {
+                "artist" : "George Freeman",
+                "title" : "New Improved Funk",
+                "album" : "New Improved Funk",
+                "albumURL" : "http://www.allmusic.com/album/new-improved-funk-mw0000912284",
+                "label" : "Groove Merchant",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Jr. Walker & The All-Stars",
+                "title" : "Holly Holy",
+                "album" : "A Gasssss",
+                "albumURL" : "http://www.allmusic.com/album/a-gasss-mw0000845429",
+                "label" : "Soul",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Rotary Connection",
+                "title" : "Like A Rolling Stone",
+                "album" : "Rotary Connection",
+                "albumURL" : "http://www.allmusic.com/album/rotary-connection-mw0000691742",
+                "label" : "Cadet",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Les McCann and Eddie Harris",
+                "title" : "Compared To What",
+                "album" : "Swiss Movement",
+                "albumURL" : "http://www.allmusic.com/album/swiss-movement-mw0000054231",
+                "label" : "Atlantic",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Stormy",
+                "title" : "The Devastator",
+                "album" : "Eccentric Soul: Twinight's Lunar Rotation",
+                "albumURL" : "http://www.allmusic.com/album/eccentric-soul-twinights-lunar-rotation-mw0000478791",
+                "label" : "Numero Group",
+                "year" : "2007"
+            },
+            {
+                "artist" : "Johnny Robinson",
+                "title" : "Person To Person",
+                "album" : "Memphis High",
+                "albumURL" : "http://www.allmusic.com/album/memphis-high-mw0001099650",
+                "label" : "Epic",
+                "year" : "1970"
+            },
+            {
+                "artist" : "The Soul Survivors",
+                "title" : "Explosion In Your Soul",
+                "album" : "7\" single b/w Dathon's Theme",
+                "albumURL" : "",
+                "label" : "Crimson Records",
+                "year" : "1967"
+            },
+            {
+                "artist" : "Don 'Sugarcane' Harris",
+                "title" : "I'm On Your Case",
+                "album" : "I'm On Your Case",
+                "albumURL" : "http://www.allmusic.com/album/im-on-your-case-mw0001883150",
+                "label" : "MPS",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Tim Maia",
+                "title" : "Rational Culture",
+                "album" : "Nobody Can Live Forever: The Existential Soul Of Tim Maia",
+                "albumURL" : "http://www.allmusic.com/album/world-psychedelic-classics-vol-4-the-existential-soul-of-tim-maia-nobody-can-live-forever-mw0001638049",
+                "label" : "Luaka Bop",
+                "year" : "2012"
+            }
+        ]
     }
 ]

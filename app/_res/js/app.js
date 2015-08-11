@@ -147,6 +147,16 @@ hotcan.service('EpisodeService', ['$http', function($http) {
 
     episodes.getIntro = function(intro) {
         switch(intro) {
+            case "Linus And Lucy":
+                intro = {
+                    "artist" : "The Vince Guaraldi Trio",
+                    "title" : "Linus And Lucy",
+                    "album" : "A Charlie Brown Christmas",
+                    "albumURL" : "http://www.allmusic.com/album/a-charlie-brown-christmas-mw0000649547",
+                    "label" : "Fantasy",
+                    "year" : "1965"
+                };
+                break;
             case "If You're Ready Come Go With Me":
                 intro = {
                     "artist" : "Jimmy McGriff",
