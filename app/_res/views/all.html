@@ -4,8 +4,8 @@
         <li ng-repeat="episode in main.episodes" class="episode-info">episode {{episode.number}}: <a ui-sref="episode( {episodeName: episode.routename} )">{{episode.title}}</a>
 
             <ul class="song-list">
-                <li class="song">intro: {{episode.intro.artist}} "{{episode.intro.title}}"; </li>
-                <li ng-repeat="song in episode.songs" class="song">{{song.artist}} "{{song.title}}"; </li>
+                <li class="song">intro: <strong>{{episode.intro.artist}}</strong> "{{episode.intro.title}}"; </li>
+                <li ng-repeat="song in episode.songs" class="song"><strong>{{song.artist}}</strong> "{{song.title}}"; </li>
             </ul>
 
         </li>
