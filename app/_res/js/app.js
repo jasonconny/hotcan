@@ -196,7 +196,7 @@ hotcan.service('EpisodeService', ['$http', function($http) {
                 break;
             default:
                 intro = {
-                    "artist" : "Booker T and the MG's",
+                    "artist" : "Booker T & The M.G.s",
                     "title" : "Hip Hug-Her",
                     "album" : "Hip Hug-Her",
                     "albumURL" : "http://www.allmusic.com/album/hip-hug-her-r2306",
