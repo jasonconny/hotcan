@@ -8111,7 +8111,7 @@
     {
         "number" : "86",
         "title" : "Christmas Time Is Here",
-        "date" : "Mon, 23 Dec 2013 13:42:48 +0000,
+        "date" : "Mon, 23 Dec 2013 13:42:48 +0000",
         "filename" : "episode_086_Christmas_Time_Is_Here",
         "intro" : "Linus And Lucy",
         "songs" : [
@@ -8638,6 +8638,936 @@
                 "albumURL" : "http://www.allmusic.com/album/world-psychedelic-classics-vol-4-the-existential-soul-of-tim-maia-nobody-can-live-forever-mw0001638049",
                 "label" : "Luaka Bop",
                 "year" : "2012"
+            }
+        ]
+    },
+    {
+        "number" : "91",
+        "title" : "I Got So Much Trouble",
+        "date" : "Tue, 28 Jan 2014 06:22:39 +0000",
+        "filename" : "episode_091_I_Got_So_Much_Trouble",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Larry Young's Fuel",
+                "title" : "Spaceball",
+                "album" : "Spaceball",
+                "albumURL" : "http://www.allmusic.com/album/spaceball-mw0000878737",
+                "label" : "Arista",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Chakachas",
+                "title" : "Jungle Fever",
+                "album" : "Jungle Fever",
+                "albumURL" : "http://www.allmusic.com/album/jungle-fever-mw0000780618",
+                "label" : "Polydor",
+                "year" : "1971"
+            },
+            {
+                "artist" : "The Blackbyrds",
+                "title" : "Ham And Eggs",
+                "album" : "City Life",
+                "albumURL" : "http://www.allmusic.com/album/city-life-mw0002068780",
+                "label" : "Fantasy",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Houston Person",
+                "title" : "Groove Thang",
+                "album" : "Sweet Buns And Barbecue",
+                "albumURL" : "http://www.allmusic.com/album/sweet-buns-barbeque-mw0000935906",
+                "label" : "Prestige",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Charles Kynard",
+                "title" : "I Got So Much Trouble",
+                "album" : "Your Mama Don't Dance",
+                "albumURL" : "http://www.allmusic.com/album/your-mama-dont-dance-mw0001552714",
+                "label" : "Mainstream Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "Stump Juice",
+                "album" : "Stump Juice",
+                "albumURL" : "http://www.allmusic.com/album/stump-juice-mw0000904580",
+                "label" : "Groove Merchant",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Grant Green",
+                "title" : "The Main Attraction",
+                "album" : "The Main Attraction",
+                "albumURL" : "http://www.allmusic.com/album/the-main-attraction-mw0000659887",
+                "label" : "Kudu",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Lou Donaldson",
+                "title" : "Peepin'",
+                "album" : "Sweet Lou",
+                "albumURL" : "http://www.allmusic.com/album/sweet-lou-mw0000890375",
+                "label" : "Blue Note",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Bob James",
+                "title" : "Dream Journey",
+                "album" : "Two",
+                "albumURL" : "http://www.allmusic.com/album/two-mw0000649582",
+                "label" : "CTI",
+                "year" : "1975"
+            }
+        ]
+    },
+    {
+        "number" : "92",
+        "title" : "Vampin'",
+        "date" : "Wed, 05 Feb 2014 06:02:36 +0000",
+        "filename" : "episode_092_Vampin",
+        "intro" : "Blind Man, Blind Man",
+        "songs" : [
+            {
+                "artist" : "Booker T. and the M.G.'s",
+                "title" : "Time Is Tight",
+                "album" : "Uptight",
+                "albumURL" : "http://www.allmusic.com/album/uptight-mw0000654810",
+                "label" : "Stax",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Isaac Hayes",
+                "title" : "Theme From Shaft",
+                "album" : "Shaft",
+                "albumURL" : "http://www.allmusic.com/album/shaft-mw0000608481",
+                "label" : "Stax",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Curtis Mayfield",
+                "title" : "Freddie's Dead",
+                "album" : "Superfly",
+                "albumURL" : "http://www.allmusic.com/album/super-fly-original-soundtrack-mw0000199890",
+                "label" : "Curtom",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Marvin Gaye",
+                "title" : "'T' Stands For Trouble",
+                "album" : "Trouble Man",
+                "albumURL" : "http://www.allmusic.com/album/trouble-man-mw0000653759",
+                "label" : "Motown",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Willie Hutch",
+                "title" : "Vampin'",
+                "album" : "The Mack",
+                "albumURL" : "http://www.allmusic.com/album/the-mack-mw0000313141",
+                "label" : "Motown",
+                "year" : "1973"
+            },
+            {
+                "artist" : "James Brown",
+                "title" : "Down And Out In New York City",
+                "album" : "Black Caesar",
+                "albumURL" : "http://www.allmusic.com/album/black-caesar-mw0000086834",
+                "label" : "Polydor",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Roy Ayers",
+                "title" : "Coffy Is The Color",
+                "album" : "Coffy",
+                "albumURL" : "http://www.allmusic.com/album/coffy-mw0000001084",
+                "label" : "Polydor",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Barry White and The Love Unlimited Orchestra",
+                "title" : "People Of Tomorrow Are The Children Of Today",
+                "album" : "Together Brothers",
+                "albumURL" : "http://www.allmusic.com/album/together-brothers-mw0000667082",
+                "label" : "Mercury",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Rose Royce",
+                "title" : "Doin' What Comes Naturally",
+                "album" : "Car Wash",
+                "albumURL" : "http://www.allmusic.com/album/car-wash-mw0000076911",
+                "label" : "MCA",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Isaac Hayes",
+                "title" : "Randolph & Dearborn",
+                "album" : "Tough Guys",
+                "albumURL" : "http://www.allmusic.com/album/tough-guys-mw0000454580",
+                "label" : "Stax",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Aretha Franklin",
+                "title" : "Something He Can Feel",
+                "album" : "Sparkle",
+                "albumURL" : "http://www.allmusic.com/album/sparkle-mw0000616035",
+                "label" : "Atlantic",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Osibisa",
+                "title" : "Prophets",
+                "album" : "Superfly T.N.T.",
+                "albumURL" : "http://www.allmusic.com/album/super-fly-tnt-mw0000902004",
+                "label" : "Red Steel Music",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Larry Young's Fuel",
+                "title" : "Moonwalk",
+                "album" : "Spaceball",
+                "albumURL" : "http://www.allmusic.com/album/spaceball-mw0000878737",
+                "label" : "Arista",
+                "year" : "1976"
+            }
+        ]
+    },
+    {
+        "number" : "93",
+        "title" : "Psychedelic Shack",
+        "date" : "Wed, 12 Feb 2014 06:01:44 +0000",
+        "filename" : "episode_093_Psychedelic_Shack",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "The Temptations",
+                "title" : "Psychedelic Shack",
+                "album" : "Psychedelic Shack",
+                "albumURL" : "http://www.allmusic.com/album/psychedelic-shack-mw0000654092",
+                "label" : "Motown",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Sly And The Family Stone",
+                "title" : "M'Lady",
+                "album" : "Life",
+                "albumURL" : "http://www.allmusic.com/album/life-mw0000651996",
+                "label" : "Epic",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Ike &amp; Tina Turner",
+                "title" : "It Ain't Right (Lovin' To Be Lovin')",
+                "album" : "Come Together",
+                "albumURL" : "http://www.allmusic.com/album/come-together-mw0000842633",
+                "label" : "Liberty",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Funkadelic",
+                "title" : "Music For My Mother",
+                "album" : "Funkadelic",
+                "albumURL" : "http://www.allmusic.com/album/funkadelic-mw0000654220",
+                "label" : "Westbound",
+                "year" : "1970"
+            },
+            {
+                "artist" : "BLO",
+                "title" : "Preacher Man",
+                "album" : "Phases 1972-1982",
+                "albumURL" : "http://www.allmusic.com/album/phases-1972-1982-mw0000216392",
+                "label" : "Strut",
+                "year" : "2002"
+            },
+            {
+                "artist" : "Roberta Flack",
+                "title" : "Go Up Moses",
+                "album" : "Quiet Fire",
+                "albumURL" : "http://www.allmusic.com/album/quiet-fire-mw0000318571",
+                "label" : "Atlantic",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Fela Anikulapo Kuti and the Africa 70",
+                "title" : "Authority Stealing (part 1)",
+                "album" : "Authority Stealing",
+                "albumURL" : "http://www.allmusic.com/album/authority-stealing-mw0000996122",
+                "label" : "Kalakuta Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Tony Allen Plays With Africa 70",
+                "title" : "No Discrimination",
+                "album" : "No Discrimination",
+                "albumURL" : "http://www.allmusic.com/album/no-discrimination-mw0000955246",
+                "label" : "Coconut Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Fela Anikulapo Kuti and the Africa 70",
+                "title" : "Authority Stealing (part 2)",
+                "album" : "Authority Stealing",
+                "albumURL" : "http://www.allmusic.com/album/authority-stealing-mw0000996122",
+                "label" : "Kalakuta Records",
+                "year" : "1980"
+            },
+            {
+                "artist" : "Syl Johnson",
+                "title" : "I'm Talking 'Bout Freedom",
+                "album" : "Is It Because I'm Black?",
+                "albumURL" : "http://www.allmusic.com/album/is-it-because-im-black-mw0000962056",
+                "label" : "Twinight/Numero Group",
+                "year" : "1970/2013"
+            }
+        ]
+    },
+    {
+        "number" : "94",
+        "title" : "Just Plain Luther",
+        "date" : "Wed, 19 Feb 2014 14:10:31 +0000",
+        "filename" : "episode_094_Just_Plain_Luther",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Bobby Womack",
+                "title" : "Across 110th Street",
+                "album" : "Across 110th Street",
+                "albumURL" : "http://www.allmusic.com/album/across-110th-street-mw0000055960",
+                "label" : "United Artists",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Grant Green",
+                "title" : "Battle Scene",
+                "album" : "The Final Comedown",
+                "albumURL" : "http://www.allmusic.com/album/the-final-comedown-mw0000532480",
+                "label" : "Blue Note",
+                "year" : "1971"
+            },
+            {
+                "artist" : "The Final Solution",
+                "title" : "Girl In My Life",
+                "album" : "Brotherman",
+                "albumURL" : "http://www.allmusic.com/album/brotherman-mw0000797140",
+                "label" : "Numero Group",
+                "year" : "1973/2008"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Revolution",
+                "album" : "The Spook Who Sat By The Door",
+                "albumURL" : "http://www.allmusic.com/song/the-spook-who-sat-by-the-door-mt0005622747",
+                "label" : "United Artists",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Dennis Coffey and Luchi De Jesus",
+                "title" : "Dragon Style",
+                "album" : "Black Belt Jones",
+                "albumURL" : "http://www.allmusic.com/album/black-belt-jones-mw0001138766",
+                "label" : "Warner Brothers",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Badder Than Evil",
+                "title" : "Hot Wheel's (The Chase)",
+                "album" : "Gordon's War",
+                "albumURL" : "http://www.allmusic.com/album/gordons-war-mw0000836967",
+                "label" : "Buddah Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "The Big Rip Off",
+                "album" : "The Spook Who Sat By The Door",
+                "albumURL" : "http://www.allmusic.com/song/the-spook-who-sat-by-the-door-mt0005622747",
+                "label" : "United Artists",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Dennis Coffey and Luchi De Jesus",
+                "title" : "Sydney's Theme",
+                "album" : "Black Belt Jones",
+                "albumURL" : "http://www.allmusic.com/album/black-belt-jones-mw0001138766",
+                "label" : "Warner Brothers",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Badder Than Evil",
+                "title" : "Just Plain Luther",
+                "album" : "Gordon's War",
+                "albumURL" : "http://www.allmusic.com/album/gordons-war-mw0000836967",
+                "label" : "Buddah Records",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Gerald Lee",
+                "title" : "The BBQ",
+                "album" : "Black Shampoo",
+                "albumURL" : "http://www.discogs.com/Gerald-Lee-Black-Shampoo-OST/release/2836469",
+                "label" : "Dimension Pictures Inc.",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Dennis Coffey and Luchi De Jesus",
+                "title" : "Sexy (Love Theme part 2)",
+                "album" : "Black Belt Jones",
+                "albumURL" : "http://www.allmusic.com/album/black-belt-jones-mw0001138766",
+                "label" : "Warner Brothers",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Isaac Hayes",
+                "title" : "Walk To Regio's",
+                "album" : "Shaft",
+                "albumURL" : "http://www.allmusic.com/album/shaft-mw0000608481",
+                "label" : "Stax",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Herbie Hancock",
+                "title" : "Recruiting",
+                "album" : "The Spook Who Sat By The Door",
+                "albumURL" : "http://www.allmusic.com/song/the-spook-who-sat-by-the-door-mt0005622747",
+                "label" : "United Artists",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Rose Royce",
+                "title" : "6 O'Clock DJ (Let's Rock)",
+                "album" : "Car Wash",
+                "albumURL" : "http://www.allmusic.com/album/car-wash-mw0000076911",
+                "label" : "MCA",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Gerald Lee",
+                "title" : "Main Theme",
+                "album" : "Black Shampoo",
+                "albumURL" : "http://www.discogs.com/Gerald-Lee-Black-Shampoo-OST/release/2836469",
+                "label" : "Dimension Pictures Inc.",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Charles Earland",
+                "title" : "Kungfusion",
+                "album" : "The Dynamite Brothers",
+                "albumURL" : "http://www.allmusic.com/album/the-dynamite-brothers-mw0000339589",
+                "label" : "Prestige",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Edwin Starr",
+                "title" : "Ain't It Hell Up In Harlem",
+                "album" : "Hell Up In Harlem",
+                "albumURL" : "http://www.allmusic.com/album/hell-up-in-harlem-mw0000001040",
+                "label" : "Motown",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Larry Young's Fuel",
+                "title" : "Flytime",
+                "album" : "Spaceball",
+                "albumURL" : "http://www.allmusic.com/album/spaceball-mw0000878737",
+                "label" : "Arista",
+                "year" : "1976"
+            }
+        ]
+    },
+    {
+        "number" : "95",
+        "title" : "Tell Me Something Good",
+        "date" : "Wed, 26 Feb 2014 06:52:29 +0000",
+        "filename" : "episode_095_Tell_Me_Something_Good",
+        "intro" : "Blind Man, Blind Man",
+        "songs" : [
+            {
+                "artist" : "Lalo Schifrin",
+                "title" : "Jaws",
+                "album" : "Black Widow",
+                "albumURL" : "http://www.allmusic.com/album/black-widow-mw0000595342",
+                "label" : "CTI",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Meco",
+                "title" : "Theme From Close Encounters",
+                "album" : "Encounters Of Every Kind",
+                "albumURL" : "http://www.allmusic.com/album/encounters-of-every-kind-mw0000862766",
+                "label" : "Casablanca",
+                "year" : "1978"
+            },
+            {
+                "artist" : "Booker T. and the M.G.'s",
+                "title" : "Mrs. Robinson",
+                "album" : "The Booker T Set",
+                "albumURL" : "http://www.allmusic.com/album/the-booker-t-set-mw0000193708",
+                "label" : "Stax",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Cal Tjader",
+                "title" : "Afro-Blue",
+                "album" : "Soul Sauce",
+                "albumURL" : "http://www.allmusic.com/album/soul-sauce-mw0000319658",
+                "label" : "Verve",
+                "year" : "1964"
+            },
+            {
+                "artist" : "Willie Colón",
+                "title" : "Eso Se Baila Asi",
+                "album" : "The Hustler",
+                "albumURL" : "http://www.allmusic.com/album/the-hustler-mw0000172353",
+                "label" : "Fania",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Mongo Santamaria",
+                "title" : "Watermelon Man",
+                "album" : "Mongo Santamaria's Greatest Hits",
+                "albumURL" : "http://www.allmusic.com/album/mongo-santamarias-greatest-hits-mw0000196767",
+                "label" : "Columbia",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Jimmy McGriff",
+                "title" : "The Mean Machine",
+                "album" : "The Mean Machine",
+                "albumURL" : "http://www.allmusic.com/album/mean-machine-mw0000884149",
+                "label" : "Groove Merchant",
+                "year" : "1976"
+            },
+            {
+                "artist" : "James Brown",
+                "title" : "Hot Pants (She Got To Use What She Got To Get What She Wants)",
+                "album" : "Hot Pants",
+                "albumURL" : "http://www.allmusic.com/album/hot-pants-mw0000096882",
+                "label" : "Polydor",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Ronnie Laws",
+                "title" : "Tell Me Something Good",
+                "album" : "Pressure Sensitive",
+                "albumURL" : "http://www.allmusic.com/album/pressure-sensitive-mw0000644599",
+                "label" : "Liberty",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Hubert Laws",
+                "title" : "Rite Of Spring",
+                "album" : "Rite Of Spring",
+                "albumURL" : "http://www.allmusic.com/album/the-rite-of-spring-mw0000649611",
+                "label" : "CTI",
+                "year" : "1971"
+            }
+        ]
+    },
+    {
+        "number" : "96",
+        "title" : "Yesterday Was Cool",
+        "date" : "Wed, 05 Mar 2014 05:44:47 +0000",
+        "filename" : "episode_096_Yesterday_Was_Cool",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Donald Byrd",
+                "title" : "Black Byrd",
+                "album" : "Black Byrd",
+                "albumURL" : "http://www.allmusic.com/album/black-byrd-mw0000082900",
+                "label" : "Blue Note",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Bobbi Humphrey",
+                "title" : "Chicago, Damn",
+                "album" : "Blacks And Blues",
+                "albumURL" : "http://www.allmusic.com/album/blacks-and-blues-mw0000048693",
+                "label" : "Blue Note",
+                "year" : "1973"
+            },
+            {
+                "artist" : "The Blackbyrds",
+                "title" : "Funky Junkie",
+                "album" : "The Blackbyrds",
+                "albumURL" : "http://www.allmusic.com/album/the-blackbyrds-mw0000186705",
+                "label" : "Fantasy",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Donald Byrd",
+                "title" : "Think Twice",
+                "album" : "Steppin Into Tomorrow",
+                "albumURL" : "http://www.allmusic.com/album/stepping-into-tomorrow-mw0000057832",
+                "label" : "Blue Note",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Bobbi Humphrey",
+                "title" : "Ladies Day",
+                "album" : "Satin Doll",
+                "albumURL" : "http://www.allmusic.com/album/satin-doll-mw0000219234",
+                "label" : "Blue Note",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Johnny 'Hammond' Smith",
+                "title" : "Yesterday Was Cool",
+                "album" : "Gambler's Life",
+                "albumURL" : "http://www.allmusic.com/album/gamblers-life-mw0000455312",
+                "label" : "Salvation",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Edwin Starr",
+                "title" : "Runnin'",
+                "album" : "Hell Up In Harlem",
+                "albumURL" : "http://www.allmusic.com/album/hell-up-in-harlem-mw0000001040",
+                "label" : "Motown",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Donald Byrd",
+                "title" : "Return Of The King",
+                "album" : "Caricatures",
+                "albumURL" : "http://www.allmusic.com/album/caricatures-mw0000595396",
+                "label" : "Blue Note",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Bobbi Humphrey",
+                "title" : "Harlem River Drive",
+                "album" : "Blacks And Blues",
+                "albumURL" : "http://www.allmusic.com/album/blacks-and-blues-mw0000048693",
+                "label" : "Blue Note",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Harold Faltermeyer",
+                "title" : "Axel F",
+                "album" : "7\" single b/w Shoot Out",
+                "albumURL" : "",
+                "label" : "MCA",
+                "year" : "1984"
+            }
+        ]
+    },
+    {
+        "number" : "97",
+        "title" : "His Last Journey",
+        "date" : "Wed, 12 Mar 2014 05:33:51 +0000",
+        "filename" : "episode_097_His_Last_Journey",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Herbie Mann",
+                "title" : "Don't You Know The Way (How I Feel About You)",
+                "album" : "Stone Flute",
+                "albumURL" : "http://www.allmusic.com/album/stone-flute-mw0000604235",
+                "label" : "Embryo",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Joe Zawinul",
+                "title" : "His Last Journey",
+                "album" : "Zawinul",
+                "albumURL" : "http://www.allmusic.com/album/zawinul-mw0000193409",
+                "label" : "Columbia",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Miles Davis",
+                "title" : "Dual Mr. Tillman Anthony",
+                "album" : "Water Babies",
+                "albumURL" : "http://www.allmusic.com/album/water-babies-mw0000223904",
+                "label" : "Columbia",
+                "year" : "1976"
+            },
+            {
+                "artist" : "The Pharoahs",
+                "title" : "Damballa",
+                "album" : "Awakening",
+                "albumURL" : "http://www.allmusic.com/album/awakening-mw0000099978",
+                "label" : "Luv 'N Haight",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Batsumi",
+                "title" : "Lisonhile",
+                "album" : "Ouelele: Another Collection of Afro Rythms",
+                "albumURL" : "http://www.allmusic.com/album/ouelele-another-collection-of-afro-rythms-mw0000726876",
+                "label" : "Comet Records",
+                "year" : "1999"
+            },
+            {
+                "artist" : "The Souljazz Orchestra",
+                "title" : "Serenity",
+                "album" : "Rising Sun",
+                "albumURL" : "http://www.allmusic.com/album/rising-sun-mw0001958420",
+                "label" : "Strut",
+                "year" : "2010"
+            },
+            {
+                "artist" : "Orchestre Poly-Rythmo de Cotonou",
+                "title" : "N'Goua",
+                "album" : "The Skeletal Essences Of Afro Funk, Vol 3: 1969-1980",
+                "albumURL" : "http://www.allmusic.com/album/the-skeletal-essences-of-afro-funk-vol-3-1969-1980-mw0002507255",
+                "label" : "Analog Africa",
+                "year" : "2013"
+            }
+        ]
+    },
+    {
+        "number" : "98",
+        "title" : "Everybody Do The Disco Stomp",
+        "date" : "Wed, 19 Mar 2014 05:29:17 +0000",
+        "filename" : "episode_098_Everybody_Do_The_Disco_Stomp",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Bohannon",
+                "title" : "Run It On Down Mr. D.J.",
+                "album" : "Stop & Go",
+                "albumURL" : "http://www.allmusic.com/album/stop-and-go-mw0000847684",
+                "label" : "Dakar",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "South Africa Man",
+                "album" : "Keep On Dancin'",
+                "albumURL" : "http://www.allmusic.com/album/keep-on-dancin-mw0000840650",
+                "label" : "Dakar",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Disco Stomp",
+                "album" : "Insides Out",
+                "albumURL" : "http://www.allmusic.com/album/insides-out-mw0000842203",
+                "label" : "Dakar",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Bohannon's Beat",
+                "album" : "Bohannon",
+                "albumURL" : "http://www.discogs.com/Bohannon-Bohannon/master/14991",
+                "label" : "Dakar",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Foot Stompin' Music",
+                "album" : "Insides Out",
+                "albumURL" : "http://www.allmusic.com/album/insides-out-mw0000842203",
+                "label" : "Dakar",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Trying To Be Slick",
+                "album" : "Dance Your Ass Off",
+                "albumURL" : "http://www.allmusic.com/album/dance-your-ass-off-mw0000848943",
+                "label" : "Dakar",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Dance Your Ass Off",
+                "album" : "Dance Your Ass Off",
+                "albumURL" : "http://www.allmusic.com/album/dance-your-ass-off-mw0000848943",
+                "label" : "Dakar",
+                "year" : "1976"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "The Symphonic March",
+                "album" : "Goin' For Another One",
+                "albumURL" : "http://www.allmusic.com/album/goin-for-another-one-mw0000841847",
+                "label" : "Phase II",
+                "year" : "1981"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "The Party Train (parts I, II & III) (long version)",
+                "album" : "12\" single",
+                "albumURL" : "",
+                "label" : "Phase II",
+                "year" : "1982"
+            },
+            {
+                "artist" : "Bohannon",
+                "title" : "Bohannon's Theme",
+                "album" : "Dance Your Ass Off",
+                "albumURL" : "http://www.allmusic.com/album/dance-your-ass-off-mw0000848943",
+                "label" : "Dakar",
+                "year" : "1976"
+            }
+        ]
+    },
+    {
+        "number" : "99",
+        "title" : "Time Bomb",
+        "date" : "Wed, 26 Mar 2014 05:39:05 +0000",
+        "filename" : "episode_099_Time_Bomb",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Luiz Bonfá",
+                "title" : "Don Quixote",
+                "album" : "Jacarandá",
+                "albumURL" : "http://www.allmusic.com/album/jacarand%C3%A1-mw0000007231",
+                "label" : "Ranwood",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Mongo Santamaria",
+                "title" : "Adobo Criollo",
+                "album" : "Mongo '70",
+                "albumURL" : "http://www.allmusic.com/album/mongo-70-mw0000457852",
+                "label" : "Atlantic",
+                "year" : "1970"
+            },
+            {
+                "artist" : "The Crusaders",
+                "title" : "Time Bomb",
+                "album" : "Southern Comfort",
+                "albumURL" : "http://www.allmusic.com/album/southern-comfort-mw0000187875",
+                "label" : "Blue Thumb Records",
+                "year" : "1974"
+            },
+            {
+                "artist" : "The Jimmy Castor Bunch",
+                "title" : "The Return of Leroy Pt 1",
+                "album" : "Maximum Stimulation",
+                "albumURL" : "http://www.allmusic.com/album/maximum-stimulation-mw0000857652",
+                "label" : "Atlantic",
+                "year" : "1977"
+            },
+            {
+                "artist" : "Shotgun",
+                "title" : "Mutha Funk",
+                "album" : "Shotgun",
+                "albumURL" : "http://www.allmusic.com/album/shotgun-mw0000849683",
+                "label" : "ABC",
+                "year" : "1977"
+            },
+            {
+                "artist" : "The Ohio Players",
+                "title" : "Player's Balling (Players Doin' Their Own Things)",
+                "album" : "Pain",
+                "albumURL" : "http://www.allmusic.com/album/pain-mw0000202915",
+                "label" : "Westbound",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Brother Jack McDuff",
+                "title" : "Get It Up",
+                "album" : "Gin And Orange",
+                "albumURL" : "http://www.allmusic.com/album/gin-and-orange-mw0000805051",
+                "label" : "Cadet",
+                "year" : "1969"
+            },
+            {
+                "artist" : "Charles Wright and the Watts 103rd Street Rhythm Band",
+                "title" : "Do Your Thing",
+                "album" : "Together",
+                "albumURL" : "http://www.allmusic.com/album/together-mw0002066126",
+                "label" : "Warner Brothers",
+                "year" : "1968"
+            },
+            {
+                "artist" : "Syl Johnson",
+                "title" : "Right On (Pt 1)",
+                "album" : "Syl Johnson Single Box",
+                "albumURL" : "http://www.discogs.com/Syl-Johnson-Syl-Johnson-Single-Box/release/2912002",
+                "label" : "Numero Group",
+                "year" : "2011"
+            },
+            {
+                "artist" : "Ronnie Foster",
+                "title" : "Kentucky Fried Chicken",
+                "album" : "The Two Headed Freap",
+                "albumURL" : "http://www.allmusic.com/album/the-two-headed-freap-mw0000125936",
+                "label" : "Blue Note",
+                "year" : "1973"
+            },
+            {
+                "artist" : "Joe Farrell",
+                "title" : "Great Gorge",
+                "album" : "Moon Germs",
+                "albumURL" : "http://www.allmusic.com/album/moon-germs-mw0000198639",
+                "label" : "CTI",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Joe Simon",
+                "title" : "The Best Time Of My Life",
+                "album" : "Mood, Heart and Soul",
+                "albumURL" : "http://www.allmusic.com/album/mood-heart-and-soul-mw0000850826",
+                "label" : "Spring Records",
+                "year" : "1974"
+            }
+        ]
+    },
+    {
+        "number" : "100",
+        "title" : "Never Ending Melody",
+        "date" : "Wed, 02 Apr 2014 05:06:38 +0000",
+        "filename" : "episode_100_Never_Ending_Melody",
+        "intro" : "Hip-Hug Her",
+        "songs" : [
+            {
+                "artist" : "Idris Muhammad",
+                "title" : "Super Bad",
+                "album" : "Black Rhythm Revolution!",
+                "albumURL" : "http://www.discogs.com/Idris-Muhammad-Black-Rhythm-Revolution/release/884663",
+                "label" : "Prestige",
+                "year" : "1971"
+            },
+            {
+                "artist" : "Young-Holt Unlimited",
+                "title" : "Rubber Lips",
+                "album" : "Oh Girl",
+                "albumURL" : "http://www.allmusic.com/album/oh-girl-mw0000722495",
+                "label" : "Atlantic",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Johnny Jenkins",
+                "title" : "Walk On Gilded Splinters",
+                "album" : "Ton-Ton Macoute!",
+                "albumURL" : "http://www.allmusic.com/album/ton-ton-macoute%21-mw0000649091",
+                "label" : "Capricorn",
+                "year" : "1970"
+            },
+            {
+                "artist" : "Charles Earland",
+                "title" : "Never Ending Melody",
+                "album" : "The Dynamite Brothers",
+                "albumURL" : "http://www.allmusic.com/album/the-dynamite-brothers-mw0000339589",
+                "label" : "Fantasy",
+                "year" : "1974"
+            },
+            {
+                "artist" : "Reuben Wilson",
+                "title" : "Together (You and Me)",
+                "album" : "Got To Get Your Own",
+                "albumURL" : "http://www.allmusic.com/album/got-to-get-your-own-mw0000795698",
+                "label" : "Cadet",
+                "year" : "1975"
+            },
+            {
+                "artist" : "Richard 'Groove' Holmes",
+                "title" : "American Pie",
+                "album" : "American Pie",
+                "albumURL" : "http://www.allmusic.com/album/american-pie-mw0000232262",
+                "label" : "Groove Merchant",
+                "year" : "1972"
             }
         ]
     }
