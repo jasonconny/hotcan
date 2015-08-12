@@ -211,36 +211,30 @@ hotcan.service('EpisodeService', ['$http', function($http) {
 
 }]);
 
-hotcan.service('UtilityService', [
-    '$rootScope'
-    , function(
-        $rootScope) {
+hotcan.service('UtilityService', function() {
 
-        var utility = {};
+    var utility = {};
 
-        utility.transformStringToParameter = function (str) {
-            var rex = /[\W^,]/g;
+    utility.transformStringToParameter = function (str) {
 
-            function parameterize(str) {
-                str = str.toLowerCase().replace(/ /g, "-");
-                str = str.replace(/[^a-z-,0-9]/gi,"");
-                //str = str.replace(rex, "-");
-                return str;
-            }
+        function parameterize(str) {
+            str = str.toLowerCase().replace(/ /g, "-");
+            str = str.replace(/[^a-z-,0-9]/gi,"");
+            return str;
+        }
 
 
-            if (angular.isString(str)) {
-                return parameterize(str);
-            } else if (angular.isArray(str)) {
-                //        return str;
-                return _.map(str, function (i) {
-                    return parameterize(i);
-                });
-            } else {
-                return str;
-            }
-        };
+        if (angular.isString(str)) {
+            return parameterize(str);
+        } else if (angular.isArray(str)) {
+            return _.map(str, function (i) {
+                return parameterize(i);
+            });
+        } else {
+            return str;
+        }
+    };
 
-        return utility;
+    return utility;
 
-    }]);
+});
