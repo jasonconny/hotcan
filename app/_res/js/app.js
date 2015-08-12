@@ -5,6 +5,7 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
 
     $locationProvider.html5Mode(true);
 
+    // URL rewrite exceptions for legacy URLs that don't conform to the pattern
     $urlRouterProvider.when('/', ['$state', function($state) {
         $state.go('episode', {'episodeName':'beginnings'});
     }]).when('/category/podcast/', ['$state', function($state) {
@@ -29,6 +30,8 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
         $state.go('episode', {'episodeName':'never-ending-melody'});
     }]);
 
+
+    // General URL rewrite rule for legacy URLs
     $urlRouterProvider.rule(function($injector, $location) {
         var path = $location.path();
         if (path.indexOf('/podcast/') > -1) {
