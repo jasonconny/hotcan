@@ -2,3 +2,5 @@
 2. logo animation: random placement and rotation
 3. convert remaining mp3's to ogg
 4. find cdn to host audio files
+5. 404 view
+6. fix data resolve on page load
