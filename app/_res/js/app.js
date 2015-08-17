@@ -70,11 +70,11 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
         }
     }).state('episode', {
         url: '/:episodeName',
-        //resolve: {
-        //    episodes: function(EpisodeService) {
-        //        return EpisodeService.getEpisodes();
-        //    }
-        //},
+        resolve: {
+            episodes: function(EpisodeService) {
+                return EpisodeService.getData();
+            }
+        },
         views: {
             main: {templateUrl: "_res/views/episode.html"}
         }
