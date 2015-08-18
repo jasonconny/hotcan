@@ -80,6 +80,11 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
         views: {
             content: {templateUrl: "_res/views/forContentOwners.html"}
         }
+    }).state('notfound', {
+        url: '/uhoh',
+        views: {
+            content: {templateUrl: "_res/views/notfound.html"}
+        }
     }).state('episode', {
         url: '/:episodeName',
         parent: 'main',
@@ -90,7 +95,7 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
 
 }]);
 
-hotcan.run(function($anchorScroll, $window) {
+hotcan.run(['$state', '$anchorScroll', '$window', function($state, $anchorScroll, $window) {
     // hack to scroll to top when navigating to new URLS but not back/forward
     var wrap = function(method) {
         var orig = $window.window.history[method];
@@ -102,7 +107,7 @@ hotcan.run(function($anchorScroll, $window) {
     };
     wrap('pushState');
     wrap('replaceState');
-});
+}]);
 
 // CONTROLLERS
 hotcan.controller('MainController', [
@@ -147,6 +152,11 @@ hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $st
     episode.key = _.findKey($scope.main.episodes, function(thisEpisode) {
         return thisEpisode.routename == episode.viewName;
     });
+    if (!episode.key) {
+        // if there's no episode key it's likely because a matching route name wasn't found for the current view name
+        // in this case redirect to not found view
+        $state.go('notfound');
+    }
     episode.data = $scope.main.episodes[episode.key];
     $scope.postDate = new Date($scope.main.episodes[episode.key].date);
 
