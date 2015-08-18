@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html ng-app="hotcan">
 <head>
     <meta charset="utf-8">
     <title>The Hot Can All Vinyl Power Hour</title>
@@ -17,7 +17,7 @@
 
 </head>
 
-<body ng-app="hotcan">
+<body ui-view="main" ng-controller="MainController as main">
 
     <nav class="main-nav">
         <ul>
@@ -31,7 +31,7 @@
         <h1><a href="/">Hot Can</a></h1>
     </header>
 
-    <section class="content" ui-view="main" ng-controller="MainController as main">
+    <section class="content" ui-view="content">
     </section>
 
     <footer>

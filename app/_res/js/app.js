@@ -48,35 +48,43 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
         }
     });
 
-    $stateProvider.state('all', {
-        url: '/all',
-        views: {
-            main: {templateUrl: "_res/views/all.html"}
-        }
-    }).state('about', {
-        url: '/about',
-        views: {
-            main: {templateUrl: "_res/views/about.html"}
-        }
-    }).state('contact', {
-        url: '/contact',
-        views: {
-            main: {templateUrl: "_res/views/contact.html"}
-        }
-    }).state('forContentOwners', {
-        url: '/for-content-owners',
-        views: {
-            main: {templateUrl: "_res/views/forContentOwners.html"}
-        }
-    }).state('episode', {
-        url: '/:episodeName',
+    $stateProvider.state('main', {
+        url: '',
+        abstract: true,
         resolve: {
-            episodes: function(EpisodeService) {
+            episodeData: function(EpisodeService) {
                 return EpisodeService.getData();
             }
         },
         views: {
-            main: {templateUrl: "_res/views/episode.html"}
+            main: {}
+        }
+    }).state('all', {
+        url: '/all',
+        parent: 'main',
+        views: {
+            content: {templateUrl: "_res/views/all.html"}
+        }
+    }).state('about', {
+        url: '/about',
+        views: {
+            content: {templateUrl: "_res/views/about.html"}
+        }
+    }).state('contact', {
+        url: '/contact',
+        views: {
+            content: {templateUrl: "_res/views/contact.html"}
+        }
+    }).state('forContentOwners', {
+        url: '/for-content-owners',
+        views: {
+            content: {templateUrl: "_res/views/forContentOwners.html"}
+        }
+    }).state('episode', {
+        url: '/:episodeName',
+        parent: 'main',
+        views: {
+            content: {templateUrl: "_res/views/episode.html"}
         }
     });
 
