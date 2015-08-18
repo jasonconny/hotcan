@@ -224,7 +224,8 @@ footer {
   body {
     font-size: 75%;
   }
-  .content {
+  .content,
+  footer {
     margin: 0 8em;
     max-width: 100%;
   }
@@ -234,7 +235,8 @@ footer {
   body {
     font-size: 62.5%;
   }
-  .content {
+  .content,
+  footer {
     margin: 0 6em;
   }
 }
@@ -248,7 +250,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .content {
+  .content,
+  footer {
     min-width: 20em;
     h1, h2 {
       font-size: 2em;
