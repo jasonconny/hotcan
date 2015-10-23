@@ -14,7 +14,7 @@
         <atom:link href="http://www.hotcan.info/feed/podcast/" rel="self" type="application/rss+xml" />
         <link>http://www.hotcan.info</link>
         <description>A weekly hour long mix of Funk, Soul, R &#38; B, Jazz, Disco, Afrobeat and whatever else we decide to throw in the mix.</description>
-        <lastBuildDate>Wed, 02 Apr 2014 05:06:38 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2015 05:06:38 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
@@ -25,7 +25,7 @@
         <category>Music</category>
         <ttl>1440</ttl>
         <image>
-            <url>http://www.hotcan.info/wp-content/themes/hotcan/_res/img/hotcan-logo-small.jpg</url>
+            <url>http://www.hotcan.info/_res/img/hotcan-logo-small.jpg</url>
             <title>The Hot Can All Vinyl Power Hour</title>
             <link>http://www.hotcan.info</link>
             <width>144</width>
@@ -42,7 +42,7 @@
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="http://www.hotcan.info/wp-content/themes/hotcan/_res/img/hotcan-logo-1400x1400.png" />
+        <itunes:image href="http://www.hotcan.info/_res/img/hotcan-logo-1400x1400.png" />
         <item>
             <title>The Hot Can All Vinyl Power Hour, episode 100: &#8220;Never Ending Melody&#8221;</title>
             <link>http://www.hotcan.info/podcast/the-hot-can-all-vinyl-power-hour-episode-100-never-ending-melody/</link>
