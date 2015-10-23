@@ -4676,4 +4676,12 @@ personnel: Miles Davis — electric trumpet w/ wah-wah and organ; Sonny Fortune 
             <slash:comments>0</slash:comments>
             <enclosure url="http://www.hotcan.info/podpress_trac/feed/90/0/episode_020_Welcome_New_Warmth.mp3" length="87954389" type="audio/mpeg" />
             <itunes:duration>1:01:03</itunes:duration>
-            <itunes:subtitle>Syl Johnson, Sam Cooke, Dr. John, Mel Brown, Odell Brown and the Organ-izers, L
+            <itunes:subtitle>Syl Johnson, Sam Cooke, Dr. John, Mel Brown, Odell Brown and the Organ-izers, Lonnie Smith, Al Kooper adn Stephen Stills, Herbie Hancock, Michael Sardaby, Johnny 'Hammond' Smith</itunes:subtitle>
+            <itunes:summary>Syl Johnson, Sam Cooke, Dr. John, Mel Brown, Odell Brown and the Organ-izers, Lonnie Smith, Al Kooper adn Stephen Stills, Herbie Hancock, Michael Sardaby, Johnny 'Hammond' Smith</itunes:summary>
+            <itunes:keywords>Podcast</itunes:keywords>
+            <itunes:author>Hot Can</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+    </channel>
+</rss>
