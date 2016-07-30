@@ -1,4 +1,4 @@
-var hotcan = angular.module('hotcan', ['ui.router']);
+var hotcan = angular.module('hotcan', ['ui.router', 'ngAnimate']);
 
 // ROUTES
 hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
