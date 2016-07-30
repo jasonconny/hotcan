@@ -118,6 +118,14 @@ hotcan.controller('MainController', [
 
         var main = this;
 
+        main.previous = function() {
+            console.log('slide right');
+        };
+
+        main.next = function() {
+            console.log('slide left');
+        };
+
         this.getData = function() {
             EpisodeService.getData().then(function(response) {
                 main.episodes = response.data;
@@ -156,14 +164,6 @@ hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $st
     $scope.postDate = new Date($scope.main.episodes[episode.key].date);
 
     $scope.index = parseInt(episode.key);
-
-    episode.previous = function() {
-        console.log('slide right');
-    };
-
-    episode.next = function() {
-        console.log('slide left');
-    };
 
     $scope.DetailController = this;
     return $scope.DetailController;
