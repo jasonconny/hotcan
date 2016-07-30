@@ -7,6 +7,9 @@
 *.mp3
 *.ogg
 
+dist/*
+!dist/.keep
+
 src/_res/js/libs/*/
 *node_modules/
 
