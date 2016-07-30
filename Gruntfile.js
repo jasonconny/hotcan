@@ -32,8 +32,33 @@ module.exports = function(grunt) {
                     "noCache" : true
                 },
                 files: {
-                    './dist/_res/css/main.css': './src/_res/sass/main.scss'
+                    './dist/_res/css/main.min.css': './src/_res/sass/main.scss'
                 }
+            }
+        },
+        uglify: {
+            options: {
+                mangle: false,
+                compress: true
+            },
+            my_target: {
+                files: {
+                    './src/_res/js/app.min.js' : ['./src/_res/js/app.js']
+                }
+            }
+        },
+        concat: {
+            options: {
+                separator: ';'
+            },
+            dist: {
+                src: [
+                      '**/angular.min.js'
+                    , '**/angular-ui-router.min.js'
+                    , '**/lodash.min.js'
+                    , '**/app.min.js'
+                ],
+                dest: './dist/_res/js/<%= pkg.name %>.min.js'
             }
         },
         watch: {
@@ -60,6 +85,27 @@ module.exports = function(grunt) {
         clean: {
             dist: ['./dist/*']
         },
+        copy: {
+            dev: {
+                expand: true,
+                cwd: './src/',
+                src: ['**/*', '.htaccess', '!**/audio/**', '!**/css/**', '!**/sass/**'],
+                dest: './dist/'
+            },
+            prod: {
+                expand: true,
+                cwd: './src/',
+                src: ['**/*', '.htaccess', '!**/audio/**', '!**/css/**', '!**/sass/**', '!**/js/**'],
+                dest: './dist/'
+            },
+            angularMap: {
+                expand: true,
+                flatten: true,
+                cwd: './src/',
+                src: ['**/angular.min.js.map'],
+                dest: './dist/_res/js/'
+            }
+        },
         targethtml: {
             dev: {
                 options: {
@@ -74,7 +120,7 @@ module.exports = function(grunt) {
             prod: {
                 options: {
                     curlyTags: {
-                        version: '<%= pkg.version =>'
+                        version: '<%= pkg.version %>'
                     }
                 },
                 files: {
@@ -93,6 +139,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-targethtml');
 
     grunt.registerTask('default', ['watch']);
-    grunt.registerTask('dev', ['clean', 'sass:dev', 'targethtml:dev']);
-    grunt.registerTask('prod', ['clean', 'sass:prod', 'targethtml:prod']);
+    grunt.registerTask('dev', ['clean', 'uglify', 'copy:dev', 'sass:dev', 'targethtml:dev']);
+    grunt.registerTask('prod', ['clean', 'copy:prod', 'copy:angularMap', 'sass:prod', 'uglify', 'concat', 'targethtml:prod']);
 };
