@@ -157,6 +157,14 @@ hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $st
 
     $scope.index = parseInt(episode.key);
 
+    episode.previous = function() {
+        console.log('slide right');
+    };
+
+    episode.next = function() {
+        console.log('slide left');
+    };
+
     $scope.DetailController = this;
     return $scope.DetailController;
 }]);
