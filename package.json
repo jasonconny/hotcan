@@ -1,6 +1,6 @@
 {
   "name": "hotcan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "website for The Hot Can All Vinyl Power Hour podcast",
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-sass": "^1.2.0"
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-sass": "^1.2.0",
+    "grunt-targethtml": "^0.2.6"
   }
 }

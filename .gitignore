@@ -6,7 +6,11 @@
 *.css
 *.mp3
 *.ogg
+*.min*
 
-app/_res/js/libs/*/
+dist/*
+!dist/.keep
+
+src/_res/js/libs/*/
 *node_modules/
 
