@@ -3,3 +3,4 @@
 3. find cdn to host audio files
 4. fix resolve for EpisodeService.getData() to eliminate duplicate requests once site is initiated
 5. set up proper build tasks
+6. add Search
