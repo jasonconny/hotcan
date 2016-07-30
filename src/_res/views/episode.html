@@ -8,7 +8,12 @@
         <source src="{{episode.data.oggPath}}" type="audio/ogg">
     </audio>
 
-    <a href="{{episode.data.mp3Path}}" class="download-link" target="_blank">download this episode</a>
+    <a
+        href="{{episode.data.mp3Path}}"
+        class="download-link" target="_blank"
+        title="download this episode">
+        download this episode
+    </a>
 
     <ul class="song-list">
         <li class="song">
@@ -33,6 +38,7 @@
         <a
             ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )"
             class="previous"
+            title="Previous Episode: {{main.episodes[index - 1].title}}"
             ng-click="episode.previous()"
             ng-hide="episode.data.number == 1">
             Previous Episode: {{main.episodes[index - 1].title}}
@@ -40,6 +46,7 @@
         <a
             ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )"
             class="next"
+            title="Next Episode: {{main.episodes[index + 1].title}}"
             ng-click="episode.next()"
             ng-hide="episode.data.number == 100">
             Next Episode: {{main.episodes[index + 1].title}}
