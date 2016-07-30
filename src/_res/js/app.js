@@ -171,7 +171,6 @@ hotcan.service('EpisodeService', ['$http', function($http) {
         return $http
             .get('./_res/json/hotcan.json')
             .success(function(response) {
-                console.log('data retrieved');
                 return response;
             });
     };
