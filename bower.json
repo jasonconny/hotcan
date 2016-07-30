@@ -4,8 +4,9 @@
   "description": "website for The Hot Can All Vinyl Power Hour podcast",
   "private": true,
   "dependencies": {
-    "angular": "1.4.x",
+    "angular": "1.5.x",
     "angular-ui-router": "~0.2.13",
-    "lodash": "~3.9.0"
+    "lodash": "~3.9.0",
+    "angular-animate": "^1.5.8"
   }
 }
