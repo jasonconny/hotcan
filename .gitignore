@@ -7,6 +7,6 @@
 *.mp3
 *.ogg
 
-app/_res/js/libs/*/
+src/_res/js/libs/*/
 *node_modules/
 
