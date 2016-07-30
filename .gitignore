@@ -1,23 +1,16 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 
-.idea/**
 *.map
 *.log
 *.css
 *.mp3
 *.ogg
+*.min*
 
-app/_res/js/libs/*/
+dist/*
+!dist/.keep
+
+src/_res/js/libs/*/
 *node_modules/
 
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db

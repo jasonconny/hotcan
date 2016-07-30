@@ -12,8 +12,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="_res/img/touch-icon-iphone-6-plus.png">
 
     <base href="/">
-
+    <!--(if target local)><!-->
     <link rel="stylesheet" href="_res/css/main.css">
+    <!--<!(endif)-->
+    <!--(if target dev)>
+    <link rel="stylesheet" href="_res/css/main.css?v={{version}}">
+    <!(endif)-->
+    <!--(if target prod)>
+    <link rel="stylesheet" href="_res/css/main.min.css?v={{version}}">
+    <!(endif)-->
 
 </head>
 
@@ -38,21 +45,35 @@
         &copy; Copyright Hot Can 2012-2014 | <a ui-sref="forContentOwners">For Content Owners</a>
     </footer>
 
-
+    <!--(if target local)><!-->
     <script src="_res/js/libs/angular/angular.js"></script>
     <script src="_res/js/libs/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="_res/js/libs/lodash/lodash.min.js"></script>
+    <script src="_res/js/libs/lodash/lodash.js"></script>
 
     <script src="_res/js/app.js"></script>
+    <!--<!(endif)-->
+    <!--(if target dev)>
+
+    <script src="_res/js/libs/angular/angular.min.js"></script>
+    <script src="_res/js/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="_res/js/libs/lodash/lodash.min.js"></script>
+
+    <script src="_res/js/app.min.js?v={{version}}"></script>
+    <!(endif)-->
+    <!--(if target prod)>
+    <script src="_res/js/hotcan.min.js?v={{version}}"></script>
 
     <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-2569982-7');ga('send','pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-2569982-7', 'auto');
+        ga('send', 'pageview');
+
     </script>
+    <!(endif)-->
 
 <!--
  __   __  _______  _______    _______  _______  __    _
