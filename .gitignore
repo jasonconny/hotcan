@@ -6,6 +6,7 @@
 *.css
 *.mp3
 *.ogg
+*.min*
 
 dist/*
 !dist/.keep
