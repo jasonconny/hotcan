@@ -118,14 +118,6 @@ hotcan.controller('MainController', [
 
         var main = this;
 
-        main.previous = function() {
-            console.log('slide right');
-        };
-
-        main.next = function() {
-            console.log('slide left');
-        };
-
         this.getData = function() {
             EpisodeService.getData().then(function(response) {
                 main.episodes = response.data;

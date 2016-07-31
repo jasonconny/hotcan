@@ -11,9 +11,9 @@
         </audio>
 
         <a
-                href="{{episode.data.mp3Path}}"
-                class="download-link" target="_blank"
-                title="download this episode">
+            href="{{episode.data.mp3Path}}"
+            class="download-link" target="_blank"
+            title="download this episode">
             download this episode
         </a>
 
@@ -40,19 +40,17 @@
 
     <nav class="episode-nav">
         <a
-                ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )"
-                class="previous"
-                title="Previous Episode: {{main.episodes[index - 1].title}}"
-                ng-click="main.previous()"
-                ng-hide="episode.data.number == 1">
+            ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )"
+            class="previous"
+            title="Previous Episode: {{main.episodes[index - 1].title}}"
+            ng-hide="episode.data.number == 1">
             Previous Episode: {{main.episodes[index - 1].title}}
         </a>
         <a
-                ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )"
-                class="next"
-                title="Next Episode: {{main.episodes[index + 1].title}}"
-                ng-click="main.next()"
-                ng-hide="episode.data.number == 100">
+            ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )"
+            class="next"
+            title="Next Episode: {{main.episodes[index + 1].title}}"
+            ng-hide="episode.data.number == 100">
             Next Episode: {{main.episodes[index + 1].title}}
         </a>
     </nav>
