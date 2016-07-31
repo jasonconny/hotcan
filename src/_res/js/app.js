@@ -1,4 +1,4 @@
-var hotcan = angular.module('hotcan', ['ui.router']);
+var hotcan = angular.module('hotcan', ['ui.router', 'ngAnimate']);
 
 // ROUTES
 hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -117,6 +117,14 @@ hotcan.controller('MainController', [
         , UtilityService) {
 
         var main = this;
+
+        main.previous = function() {
+            console.log('slide right');
+        };
+
+        main.next = function() {
+            console.log('slide left');
+        };
 
         this.getData = function() {
             EpisodeService.getData().then(function(response) {

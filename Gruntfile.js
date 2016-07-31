@@ -55,6 +55,7 @@ module.exports = function(grunt) {
                 src: [
                       '**/angular.min.js'
                     , '**/angular-ui-router.min.js'
+                    , '**/angular-animate.min.js'
                     , '**/lodash.min.js'
                     , '**/app.min.js'
                 ],
@@ -98,11 +99,11 @@ module.exports = function(grunt) {
                 src: ['**/*', '.htaccess', '!**/audio/**', '!**/css/**', '!**/sass/**', '!**/js/**'],
                 dest: './dist/'
             },
-            angularMap: {
+            jsMaps: {
                 expand: true,
                 flatten: true,
-                cwd: './src/',
-                src: ['**/angular.min.js.map'],
+                cwd: './src/_res/js/',
+                src: ['**/*.js.map'],
                 dest: './dist/_res/js/'
             }
         },
@@ -140,5 +141,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['watch']);
     grunt.registerTask('dev', ['clean', 'uglify', 'copy:dev', 'sass:dev', 'targethtml:dev']);
-    grunt.registerTask('prod', ['clean', 'copy:prod', 'copy:angularMap', 'sass:prod', 'uglify', 'concat', 'targethtml:prod']);
+    grunt.registerTask('prod', ['clean', 'copy:prod', 'copy:jsMaps', 'sass:prod', 'uglify', 'concat', 'targethtml:prod']);
 };
