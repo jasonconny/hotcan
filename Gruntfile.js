@@ -55,7 +55,6 @@ module.exports = function(grunt) {
                 src: [
                       '**/angular.min.js'
                     , '**/angular-ui-router.min.js'
-                    , '**/angular-animate.min.js'
                     , '**/lodash.min.js'
                     , '**/app.min.js'
                 ],
