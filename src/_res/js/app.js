@@ -137,28 +137,34 @@ hotcan.controller('MainController', [
         $scope.MainController = this;
         return $scope.MainController;
 
-    }]);
+}]);
 
-hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $state) {
+hotcan.controller('EpisodeController', [
+    '$scope'
+    , '$state'
+    , function(
+        $scope
+        , $state) {
 
-    var episode = this;
+        var episode = this;
 
-    episode.viewName = $state.params.episodeName;
-    episode.key = _.findKey($scope.main.episodes, function(thisEpisode) {
-        return thisEpisode.routename == episode.viewName;
-    });
-    if (!episode.key) {
-        // if there's no episode key it's likely because a matching route name wasn't found for the current view name
-        // in this case redirect to not found view
-        $state.go('notfound');
-    }
-    episode.data = $scope.main.episodes[episode.key];
-    $scope.postDate = new Date($scope.main.episodes[episode.key].date);
+        episode.viewName = $state.params.episodeName;
+        episode.key = _.findKey($scope.main.episodes, function(thisEpisode) {
+            return thisEpisode.routename == episode.viewName;
+        });
+        if (!episode.key) {
+            // if there's no episode key it's likely because a matching route name wasn't found for the current view name
+            // in this case redirect to not found view
+            $state.go('notfound');
+        }
+        episode.data = $scope.main.episodes[episode.key];
+        $scope.postDate = new Date($scope.main.episodes[episode.key].date);
 
-    $scope.index = parseInt(episode.key);
+        $scope.index = parseInt(episode.key);
 
-    $scope.DetailController = this;
-    return $scope.DetailController;
+        $scope.DetailController = this;
+        return $scope.DetailController;
+
 }]);
 
 
