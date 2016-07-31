@@ -5,7 +5,7 @@ module.exports = function(grunt) {
             local: {
                 options: {
                     "style" : "expanded",
-                    "sourcemap" : true,
+                    "sourceMap" : true,
                     "unixNewlines" : true,
                     "noCache" : true
                 },
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
             prod: {
                 options: {
                     "style" : "compressed",
-                    "sourcemap" : false,
+                    "sourceMap" : false,
                     "unixNewlines" : true,
                     "noCache" : true
                 },
