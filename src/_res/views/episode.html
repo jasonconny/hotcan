@@ -3,7 +3,7 @@
     <article class="episode">
 
         <h2>The Hot Can All Vinyl Power Hour, episode {{episode.data.number}}: <strong>"{{episode.data.title}}"</strong></h2>
-        <p class="date">posted on: {{postDate | date:"longDate"}}</p>
+        <p class="date">posted on: {{episode.postDate | date:"longDate"}}</p>
 
         <audio controls>
             <source src="{{episode.data.mp3Path}}" type="audio/mp3">

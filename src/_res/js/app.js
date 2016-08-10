@@ -158,7 +158,7 @@ hotcan.controller('EpisodeController', [
             $state.go('notfound');
         }
         episode.data = $scope.main.episodes[episode.key];
-        $scope.postDate = new Date($scope.main.episodes[episode.key].date);
+        episode.postDate = new Date($scope.main.episodes[episode.key].date);
 
         $scope.index = parseInt(episode.key);
 
