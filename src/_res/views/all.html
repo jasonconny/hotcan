@@ -3,6 +3,10 @@
 
     <input type="text" class="search-box" ng-model="main.searchTerm" placeholder="Search">
 
+    <h3 ng-show="main.searchTerm && (main.episodes|filter:main.searchTerm).length === 0">"{{main.searchTerm}}" produced no results</h3>
+
+    <h3 ng-show="main.searchTerm && (main.episodes|filter:main.searchTerm).length">showing {{(main.episodes|filter:main.searchTerm).length}} of {{main.episodes.length}} episodes</h3>
+
     <ul class="episode-list all-episodes" ng-hide="main.searchTerm">
         <li ng-repeat="episode in main.episodes"
             class="episode">
