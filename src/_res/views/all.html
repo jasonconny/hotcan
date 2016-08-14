@@ -34,8 +34,8 @@
         <li ng-repeat="episode in main.episodes | filter:main.searchTerm"
             class="episode">
             <span ng-bind-html="episode.titlePrefix | HighlightFilter:main.searchTerm">
-                {{episode.titlePrefix}}:
-            </span>
+                {{episode.titlePrefix}}
+            </span>:
             <a ui-sref="episode( {episodeName: episode.routename} )"
                ng-bind-html="episode.title | HighlightFilter:main.searchTerm">
                 {{episode.title}}:
