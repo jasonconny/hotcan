@@ -128,6 +128,7 @@ hotcan.controller('MainController', [
                     k.oggPath = "/_res/audio/ogg/" + k.filename + '.ogg';
 
                     k.intro = EpisodeService.getIntro(k.intro);
+                    k.titlePrefix = 'episode ' + k.number;
                 })
             });
         };
@@ -162,8 +163,21 @@ hotcan.controller('EpisodeController', [
 
         $scope.index = parseInt(episode.key);
 
-        $scope.DetailController = this;
-        return $scope.DetailController;
+        $scope.EpisodeController = this;
+        return $scope.EpisodeController;
+
+}]);
+
+hotcan.controller('SearchController', [
+    '$scope'
+    , function($scope) {
+
+        var search = this;
+
+        search.searchTerm = '';
+
+        $scope.SearchController = this;
+        return $scope.SearchController;
 
 }]);
 
@@ -260,3 +274,12 @@ hotcan.service('UtilityService', function() {
     return utility;
 
 });
+
+
+// FILTERS
+hotcan.filter('HighlightFilter', ['$sce', function($sce) {
+    return function(text, phrase) {
+        if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<em class="highlighted">$1</em>');
+        return $sce.trustAsHtml(text);
+    }
+}]);
