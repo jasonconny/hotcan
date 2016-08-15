@@ -168,19 +168,6 @@ hotcan.controller('EpisodeController', [
 
 }]);
 
-hotcan.controller('SearchController', [
-    '$scope'
-    , function($scope) {
-
-        var search = this;
-
-        search.searchTerm = '';
-
-        $scope.SearchController = this;
-        return $scope.SearchController;
-
-}]);
-
 
 // SERVICES
 hotcan.service('EpisodeService', ['$http', function($http) {
