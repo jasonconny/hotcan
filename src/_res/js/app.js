@@ -51,6 +51,11 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
     $stateProvider.state('main', {
         url: '',
         abstract: true,
+        resolve: {
+            episodeData: function(EpisodeService) {
+                return EpisodeService.getData();
+            }
+        },
         views: {
             main: {}
         }
@@ -174,6 +179,7 @@ hotcan.service('EpisodeService', ['$http', function($http) {
     var episodes = {};
 
     episodes.getData = function() {
+        console.log('getData');
         return $http
             .get('./_res/json/hotcan.json')
             .success(function(response) {
