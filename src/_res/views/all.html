@@ -9,7 +9,7 @@
         <h3 ng-show="searchTerm && (main.episodes|filter:searchTerm).length">showing {{(main.episodes|filter:searchTerm).length}} of {{main.episodes.length}} episodes</h3>
 
         <ul class="episode-list all-episodes" ng-hide="searchTerm">
-            <li ng-repeat="episode in main.episodes"
+            <li ng-repeat="episode in allEpisodes.list"
                 class="episode">
                 episode {{episode.number}}:
                 <a ui-sref="episode( {episodeName: episode.routename} )">

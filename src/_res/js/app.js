@@ -197,6 +197,8 @@ hotcan.controller('AllEpisodesController', [
                 angular.forEach(j.songs, function(s) {
                     parsedEpisode.songs.push(UtilityService.parseSong(s));
                 });
+
+                allEpisodes.list.push(parsedEpisode);
             })
         };
 
