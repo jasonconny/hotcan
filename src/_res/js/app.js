@@ -175,8 +175,10 @@ hotcan.controller('EpisodeController', [
 
 hotcan.controller('AllEpisodesController', [
     '$scope'
+    , 'UtilityService'
     , function(
-        $scope) {
+        $scope
+        , UtilityService) {
 
         var allEpisodes = this;
 
@@ -187,7 +189,7 @@ hotcan.controller('AllEpisodesController', [
                 var parsedEpisode = {};
                 parsedEpisode.number = j.number;
                 parsedEpisode.title = j.title;
-
+                parsedEpisode.routename = UtilityService.transformStringToParameter(j.title);
                 parsedEpisode.intro = parseSong(j.intro);
 
                 parsedEpisode.songs = [];
