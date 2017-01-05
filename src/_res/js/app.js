@@ -175,10 +175,8 @@ hotcan.controller('EpisodeController', [
 
 hotcan.controller('AllEpisodesController', [
     '$scope'
-    , 'UtilityService'
     , function(
-        $scope
-        , UtilityService) {
+        $scope) {
 
         var allEpisodes = this;
 
@@ -190,12 +188,12 @@ hotcan.controller('AllEpisodesController', [
                 parsedEpisode.number = j.number;
                 parsedEpisode.title = j.title;
 
-                parsedEpisode.intro = UtilityService.parseSong(j.intro);
+                parsedEpisode.intro = parseSong(j.intro);
 
                 parsedEpisode.songs = [];
 
                 angular.forEach(j.songs, function(s) {
-                    parsedEpisode.songs.push(UtilityService.parseSong(s));
+                    parsedEpisode.songs.push(parseSong(s));
                 });
 
                 allEpisodes.list.push(parsedEpisode);
@@ -203,6 +201,17 @@ hotcan.controller('AllEpisodesController', [
         };
 
         allEpisodes.parseData();
+
+        function parseSong(song) {
+            var parsedSong = {};
+            parsedSong.artist = song.artist;
+            parsedSong.title = song.title;
+            parsedSong.album = song.album;
+            parsedSong.label = song.label;
+            parsedSong.year = song.year;
+
+            return parsedSong;
+        }
 
         $scope.AllEpisodesController = this;
         return $scope.AllEpisodesController;
@@ -297,17 +306,6 @@ hotcan.service('UtilityService', function() {
         } else {
             return str;
         }
-    };
-
-    utility.parseSong = function(song) {
-        var parsedSong = {};
-        parsedSong.artist = song.artist;
-        parsedSong.title = song.title;
-        parsedSong.album = song.album;
-        parsedSong.label = song.label;
-        parsedSong.year = song.year;
-
-        return parsedSong;
     };
 
     return utility;
