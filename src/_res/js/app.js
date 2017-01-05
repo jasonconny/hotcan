@@ -175,16 +175,19 @@ hotcan.controller('EpisodeController', [
 
 hotcan.controller('AllEpisodesController', [
     '$scope'
+    , '$filter'
     , 'UtilityService'
     , function(
         $scope
+        , $filter
         , UtilityService) {
 
         var allEpisodes = this;
 
-        allEpisodes.list = [];
+        allEpisodes.searchTerm = '';
 
         this.parseData = function() {
+            allEpisodes.parsedList = [];
             angular.forEach($scope.main.episodes, function(j) {
                 var parsedEpisode = {};
                 parsedEpisode.number = j.number;
@@ -198,11 +201,23 @@ hotcan.controller('AllEpisodesController', [
                     parsedEpisode.songs.push(parseSong(s));
                 });
 
-                allEpisodes.list.push(parsedEpisode);
+                allEpisodes.parsedList.push(parsedEpisode);
             })
         };
 
         allEpisodes.parseData();
+
+        $scope.$watch('allEpisodes.searchTerm', function() {
+            allEpisodes.filteredArray = $filter('filter')(allEpisodes.parsedList, allEpisodes.searchTerm);
+            allEpisodes.filteredKeys = [];
+            allEpisodes.filteredList = [];
+            angular.forEach(allEpisodes.filteredArray, function(i) {
+                allEpisodes.filteredKeys.push(i.number);
+            });
+            angular.forEach(allEpisodes.filteredKeys, function(k) {
+                allEpisodes.filteredList.push($scope.main.episodes[k-1]);
+            });
+        });
 
         function parseSong(song) {
             var parsedSong = {};
