@@ -180,7 +180,6 @@ hotcan.service('EpisodeService', ['$http', function($http) {
     var episodes = {};
 
     episodes.getData = function() {
-        console.log('getData');
         return $http
             .get('./_res/json/hotcan.json')
             .success(function(response) {
