@@ -173,6 +173,40 @@ hotcan.controller('EpisodeController', [
 
 }]);
 
+hotcan.controller('AllEpisodesController', [
+    '$scope'
+    , 'UtilityService'
+    , function(
+        $scope
+        , UtilityService) {
+
+        var allEpisodes = this;
+
+        allEpisodes.list = [];
+
+        this.parseData = function() {
+            angular.forEach($scope.main.episodes, function(j) {
+                var parsedEpisode = {};
+                parsedEpisode.number = j.number;
+                parsedEpisode.title = j.title;
+
+                parsedEpisode.intro = UtilityService.parseSong(j.intro);
+
+                parsedEpisode.songs = [];
+
+                angular.forEach(j.songs, function(s) {
+                    parsedEpisode.songs.push(UtilityService.parseSong(s));
+                });
+            })
+        };
+
+        allEpisodes.parseData();
+
+        $scope.AllEpisodesController = this;
+        return $scope.AllEpisodesController;
+
+}]);
+
 
 // SERVICES
 hotcan.service('EpisodeService', ['$http', function($http) {
@@ -263,12 +297,31 @@ hotcan.service('UtilityService', function() {
         }
     };
 
+    utility.parseSong = function(song) {
+        var parsedSong = {};
+        parsedSong.artist = song.artist;
+        parsedSong.title = song.title;
+        parsedSong.album = song.album;
+        parsedSong.label = song.label;
+        parsedSong.year = song.year;
+
+        return parsedSong;
+    };
+
     return utility;
 
 });
 
 
 // FILTERS
+hotcan.filter('SearchFilter', function() {
+    return function(searchTerm) {
+        var filtered = [];
+
+        return filtered;
+    }
+});
+
 hotcan.filter('HighlightFilter', ['$sce', function($sce) {
     return function(text, phrase) {
         if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<em class="highlighted">$1</em>');
