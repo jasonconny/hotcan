@@ -7987,6 +7987,14 @@
             },
             {
                 "artist" : "Weather Report",
+                "title" : "Directions",
+                "album" : "I Sing The Body Electric",
+                "albumURL" : "http://www.allmusic.com/album/i-sing-the-body-electric-mw0000188920",
+                "label" : "Columbia",
+                "year" : "1972"
+            },
+            {
+                "artist" : "Weather Report",
                 "title" : "Boogie Woogie Waltz",
                 "album" : "Sweetnighter",
                 "albumURL" : "http://www.allmusic.com/album/sweetnighter-mw0000185777",
@@ -8011,7 +8019,7 @@
             },
             {
                 "artist" : "Weather Report",
-                "title" : "",
+                "title" : "Scarlet Woman",
                 "album" : "Mysterious Traveller",
                 "albumURL" : "http://www.allmusic.com/album/mysterious-traveller-mw0000192681",
                 "label" : "Columbia",
