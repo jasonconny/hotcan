@@ -331,14 +331,6 @@ hotcan.service('UtilityService', function() {
 
 
 // FILTERS
-hotcan.filter('SearchFilter', function() {
-    return function(searchTerm) {
-        var filtered = [];
-
-        return filtered;
-    }
-});
-
 hotcan.filter('HighlightFilter', ['$sce', function($sce) {
     return function(text, phrase) {
         if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<em class="highlighted">$1</em>');
