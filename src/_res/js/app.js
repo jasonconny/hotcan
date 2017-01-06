@@ -51,6 +51,11 @@ hotcan.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', func
     $stateProvider.state('main', {
         url: '',
         abstract: true,
+        resolve: {
+            episodeData: function(EpisodeService) {
+                return EpisodeService.getData();
+            }
+        },
         views: {
             main: {}
         }
@@ -128,6 +133,7 @@ hotcan.controller('MainController', [
                     k.oggPath = "/_res/audio/ogg/" + k.filename + '.ogg';
 
                     k.intro = EpisodeService.getIntro(k.intro);
+                    k.titlePrefix = 'episode ' + k.number;
                 })
             });
         };
@@ -137,28 +143,96 @@ hotcan.controller('MainController', [
         $scope.MainController = this;
         return $scope.MainController;
 
-    }]);
+}]);
 
-hotcan.controller('EpisodeController', ['$scope', '$state', function($scope, $state) {
+hotcan.controller('EpisodeController', [
+    '$scope'
+    , '$state'
+    , function(
+        $scope
+        , $state) {
 
-    var episode = this;
+        var episode = this;
 
-    episode.viewName = $state.params.episodeName;
-    episode.key = _.findKey($scope.main.episodes, function(thisEpisode) {
-        return thisEpisode.routename == episode.viewName;
-    });
-    if (!episode.key) {
-        // if there's no episode key it's likely because a matching route name wasn't found for the current view name
-        // in this case redirect to not found view
-        $state.go('notfound');
-    }
-    episode.data = $scope.main.episodes[episode.key];
-    $scope.postDate = new Date($scope.main.episodes[episode.key].date);
+        episode.viewName = $state.params.episodeName;
+        episode.key = _.findKey($scope.main.episodes, function(thisEpisode) {
+            return thisEpisode.routename == episode.viewName;
+        });
+        if (!episode.key) {
+            // if there's no episode key it's likely because a matching route name wasn't found for the current view name
+            // in this case redirect to not found view
+            $state.go('notfound');
+        }
+        episode.data = $scope.main.episodes[episode.key];
+        episode.postDate = new Date($scope.main.episodes[episode.key].date);
 
-    $scope.index = parseInt(episode.key);
+        $scope.index = parseInt(episode.key);
 
-    $scope.DetailController = this;
-    return $scope.DetailController;
+        $scope.EpisodeController = this;
+        return $scope.EpisodeController;
+
+}]);
+
+hotcan.controller('AllEpisodesController', [
+    '$scope'
+    , '$filter'
+    , 'UtilityService'
+    , function(
+        $scope
+        , $filter
+        , UtilityService) {
+
+        var allEpisodes = this;
+
+        allEpisodes.searchTerm = '';
+
+        this.parseData = function() {
+            allEpisodes.parsedList = [];
+            angular.forEach($scope.main.episodes, function(j) {
+                var parsedEpisode = {};
+                parsedEpisode.number = j.number;
+                parsedEpisode.title = j.title;
+                parsedEpisode.routename = UtilityService.transformStringToParameter(j.title);
+                parsedEpisode.intro = parseSong(j.intro);
+
+                parsedEpisode.songs = [];
+
+                angular.forEach(j.songs, function(s) {
+                    parsedEpisode.songs.push(parseSong(s));
+                });
+
+                allEpisodes.parsedList.push(parsedEpisode);
+            })
+        };
+
+        allEpisodes.parseData();
+
+        $scope.$watch('allEpisodes.searchTerm', function() {
+            allEpisodes.filteredArray = $filter('filter')(allEpisodes.parsedList, allEpisodes.searchTerm);
+            allEpisodes.filteredKeys = [];
+            allEpisodes.filteredList = [];
+            angular.forEach(allEpisodes.filteredArray, function(i) {
+                allEpisodes.filteredKeys.push(i.number);
+            });
+            angular.forEach(allEpisodes.filteredKeys, function(k) {
+                allEpisodes.filteredList.push($scope.main.episodes[k-1]);
+            });
+        });
+
+        function parseSong(song) {
+            var parsedSong = {};
+            parsedSong.artist = song.artist;
+            parsedSong.title = song.title;
+            parsedSong.album = song.album;
+            parsedSong.label = song.label;
+            parsedSong.year = song.year;
+
+            return parsedSong;
+        }
+
+        $scope.AllEpisodesController = this;
+        return $scope.AllEpisodesController;
+
 }]);
 
 
@@ -171,7 +245,6 @@ hotcan.service('EpisodeService', ['$http', function($http) {
         return $http
             .get('./_res/json/hotcan.json')
             .success(function(response) {
-                console.log('data retrieved');
                 return response;
             });
     };
@@ -255,3 +328,12 @@ hotcan.service('UtilityService', function() {
     return utility;
 
 });
+
+
+// FILTERS
+hotcan.filter('HighlightFilter', ['$sce', function($sce) {
+    return function(text, phrase) {
+        if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<em class="highlighted">$1</em>');
+        return $sce.trustAsHtml(text);
+    }
+}]);

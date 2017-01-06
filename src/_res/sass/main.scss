@@ -120,6 +120,9 @@ header {
       margin: 1em 0 2em;
     }
   }
+  audio {
+    display: block;
+  }
   .song-list,
   .episode-list {
     list-style: none;
@@ -128,7 +131,7 @@ header {
   }
   p,
   .song,
-  .episode-info {
+  .episode {
     font-size: 1.5em;
     font-weight: 300;
     letter-spacing: 1px;
@@ -136,6 +139,9 @@ header {
     margin: 0 0 1em;
     a {
       font-style: italic;
+      em {
+        font-style: italic;
+      }
     }
     strong {
       color: $textStrong;
@@ -143,23 +149,47 @@ header {
     }
   }
   .all {
+    h3 {
+      float: right;
+      font-size: 2em;
+      font-weight: 100;
+      margin-top: 0;
+    }
+    em {
+      font-style: normal;
+    }
+    .search-box {
+      border: 2px solid $logoBg;
+      color: $bodyBg;
+      font-size: 1.5em;
+      margin: 0 0 1em;
+      padding: .5em 1em;
+      &:focus {
+        outline: none;
+      }
+    }
     .song-list {
       line-height: 1;
-      margin: 0;
+      margin: .5em 0 0;
     }
     .song {
-      display: inline;
       font-size: .75em;
       line-height: 1.2;
       margin: 0;
     }
-    .episode-info {
+    .episode {
       margin-bottom: 2.5em;
     }
-
   }
-  audio {
-    display: block;
+  .all-episodes {
+    .song {
+      display: inline;
+    }
+  }
+  .search-results {
+    .song {
+      margin-bottom: .5em;
+    }
   }
 }
 
@@ -178,6 +208,8 @@ header {
     top: 50%;
     margin-top: -2em;
     border-radius: 3em;
+    text-indent: -100%;
+    overflow: hidden;
     &:hover, &:active {
       opacity: 1;
     }
@@ -210,6 +242,10 @@ header {
       }
     }
   }
+}
+
+.highlighted {
+  background-color: $logoBg;
 }
 
 footer {
@@ -246,6 +282,11 @@ footer {
   .content {
     h1, h2 {
       font-size: 3em;
+    }
+    .all {
+      h3 {
+        float: none;
+      }
     }
   }
 }
