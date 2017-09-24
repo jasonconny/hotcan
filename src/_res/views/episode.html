@@ -1,58 +1,56 @@
 <div ng-controller="EpisodeController as episode">
-    
-    <article class="episode">
+	<article class="episode">
+		<h1 class="episode__title">The Hot Can All Vinyl Power Hour, episode {{episode.data.number}}: <strong>"{{episode.data.title}}"</strong></h1>
 
-        <h2>The Hot Can All Vinyl Power Hour, episode {{episode.data.number}}: <strong>"{{episode.data.title}}"</strong></h2>
-        <p class="date">posted on: {{episode.postDate | date:"longDate"}}</p>
+		<p class="episode__date">posted on: {{episode.postDate | date:"longDate"}}</p>
 
-        <audio controls>
-            <source src="{{episode.data.mp3Path}}" type="audio/mp3">
-            <source src="{{episode.data.oggPath}}" type="audio/ogg">
-        </audio>
+		<audio class="episode__audio" controls>
+			<source src="{{episode.data.mp3Path}}" type="audio/mp3">
+			<source src="{{episode.data.oggPath}}" type="audio/ogg">
+		</audio>
 
-        <a
-            href="{{episode.data.mp3Path}}"
-            class="download-link" target="_blank"
-            title="download this episode">
-            download this episode
-        </a>
+		<a
+			href="{{episode.data.mp3Path}}"
+			class="episode__link-download"
+			target="_blank" title="download this episode">
+				download this episode
+		</a>
 
-        <ul class="song-list">
-            <li class="song">
-                intro:
-                <strong>{{episode.data.intro.artist}}</strong>,
-                "{{episode.data.intro.title}}",
-                <a href="{{episode.data.intro.albumURL}}" target="_blank">{{episode.data.intro.album}}</a>;
-                {{episode.data.intro.label}},
-                {{episode.data.intro.year}}
-            </li>
-            <li class="song" ng-repeat="song in episode.data.songs">
-                <strong>{{song.artist}}</strong>,
-                "{{song.title}}",
-                <a href="{{song.albumURL}}" target="_blank" ng-if="song.albumURL">{{song.album}}</a>
-                <em ng-if="!song.albumURL">{{song.album}}</em>;
-                {{song.label}},
-                {{song.year}}
-            </li>
-        </ul>
-
-    </article>
+		<ul class="song-list">
+			<li class="song-list__item">
+				intro:
+				<strong>{{episode.data.intro.artist}}</strong>,
+				"{{episode.data.intro.title}}",
+				<a href="{{episode.data.intro.albumURL}}" target="_blank">{{episode.data.intro.album}}</a>;
+				{{episode.data.intro.label}},
+				{{episode.data.intro.year}}
+			</li>
+			<li class="song-list__item" ng-repeat="song in episode.data.songs">
+				<strong>{{song.artist}}</strong>,
+				"{{song.title}}",
+				<a href="{{song.albumURL}}" target="_blank" ng-if="song.albumURL">{{song.album}}</a>
+				<em ng-if="!song.albumURL">{{song.album}}</em>;
+				{{song.label}},
+				{{song.year}}
+			</li>
+		</ul>
+	</article>
 
     <nav class="episode-nav">
-        <a
-            ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )"
-            class="previous"
-            title="Previous Episode: {{main.episodes[index - 1].title}}"
-            ng-hide="episode.data.number == 1">
-            Previous Episode: {{main.episodes[index - 1].title}}
-        </a>
-        <a
-            ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )"
-            class="next"
-            title="Next Episode: {{main.episodes[index + 1].title}}"
-            ng-hide="episode.data.number == 100">
-            Next Episode: {{main.episodes[index + 1].title}}
-        </a>
-    </nav>
+		<a
+			ui-sref="episode( {episodeName: main.episodes[index - 1].routename} )"
+			class="episode-nav__link episode-nav__link--previous"
+			title="Previous Episode: {{main.episodes[index - 1].title}}"
+			ng-hide="episode.data.number == 1">
+				Previous Episode: {{main.episodes[index - 1].title}}
+		</a>
 
+		<a
+			ui-sref="episode( {episodeName: main.episodes[index + 1].routename} )"
+			class="episode-nav__link episode-nav__link--next"
+			title="Next Episode: {{main.episodes[index + 1].title}}"
+	 		ng-hide="episode.data.number == 100">
+				Next Episode: {{main.episodes[index + 1].title}}
+		</a>
+    </nav>
 </div>

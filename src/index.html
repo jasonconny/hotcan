@@ -1,78 +1,61 @@
 <!doctype html>
 <html ng-app="hotcan">
 <head>
-    <meta charset="utf-8">
-    <title>The Hot Can All Vinyl Power Hour</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>The Hot Can All Vinyl Power Hour</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="_res/img/touch-icon-iphone.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="_res/img/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="_res/img/touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="_res/img/touch-icon-ipad-retina.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="_res/img/touch-icon-iphone-6-plus.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="_res/img/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="_res/img/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="_res/img/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="_res/img/touch-icon-ipad-retina.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="_res/img/touch-icon-iphone-6-plus.png">
 
-    <base href="/">
-    <!--(if target local)><!-->
-    <link rel="stylesheet" href="_res/css/main.css">
-    <!--<!(endif)-->
-    <!--(if target dev)>
-    <link rel="stylesheet" href="_res/css/main.css?v={{version}}">
-    <!(endif)-->
-    <!--(if target prod)>
-    <link rel="stylesheet" href="_res/css/main.min.css?v={{version}}">
-    <!(endif)-->
+	<base href="/">
+	<!-- inject:css -->
+	<link rel="stylesheet" href="_res/css/main.css">
+	<!-- endinject -->
 
 </head>
 
 <body ui-view="main" ng-controller="MainController as main">
 
-    <nav class="main-nav">
-        <ul>
-            <li><a ui-sref="about">About</a></li>
-            <li><a ui-sref="all">All Episodes</a></li>
-            <li><a href="http://www.facebook.com/hotcandj">Facebook</a></li>
-        </ul>
-    </nav>
+	<header class="logo">
+		<h1 class="logo__text"><a href="/">Hot Can</a></h1>
+	</header>
 
-    <header>
-        <h1><a href="/">Hot Can</a></h1>
-    </header>
+	<nav class="main-nav">
+		<ul class="main-nav__list">
+			<li class="main-nav__list-item">
+				<a ui-sref="about">About</a>
+			</li>
 
-    <section class="content" ui-view="content">
-    </section>
+			<li class="main-nav__list-item">
+				<a ui-sref="all">All Episodes</a>
+			</li>
 
-    <footer>
-        &copy; Copyright Hot Can 2012-2014 | <a ui-sref="forContentOwners">For Content Owners</a>
-    </footer>
+			<li class="main-nav__list-item">
+				<a href="http://www.facebook.com/hotcandj">Facebook</a>
+			</li>
+		</ul>
+	</nav>
 
-    <!--(if target local)><!-->
-    <script src="_res/js/libs/angular/angular.js"></script>
-    <script src="_res/js/libs/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="_res/js/libs/lodash/lodash.js"></script>
+	<section class="content" ui-view="content">
+	</section>
 
-    <script src="_res/js/app.js"></script>
-    <!--<!(endif)-->
-    <!--(if target dev)>
-    <script src="_res/js/libs/angular/angular.min.js"></script>
-    <script src="_res/js/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="_res/js/libs/lodash/lodash.min.js"></script>
+	<footer class="footer">
+		&copy; Copyright Hot Can 2012-2014 | <a ui-sref="forContentOwners">For Content Owners</a>
+	</footer>
 
-    <script src="_res/js/app.min.js?v={{version}}"></script>
-    <!(endif)-->
-    <!--(if target prod)>
-    <script src="_res/js/hotcan.min.js?v={{version}}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+	<!-- inject:js -->
+	<script src="_res/js/app.js"></script>
+	<!-- endinject -->
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-2569982-7', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-    <!(endif)-->
+	<!-- inject:tracking:js -->
+	<!-- endinject -->
 
 <!--
  __   __  _______  _______    _______  _______  __    _
