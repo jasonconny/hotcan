@@ -1,24 +1,26 @@
 <div ng-controller="AllEpisodesController as allEpisodes">
-	<article class="all">
+	<article class="all-episodes">
 		<h1>All Episodes</h1>
 
-		<input type="text" class="search-box" ng-model="allEpisodes.searchTerm" placeholder="Search">
+		<div class="search">
+			<input type="text" class="search__input" ng-model="allEpisodes.searchTerm" placeholder="Search">
 
-		<h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length === 0">
-			"{{allEpisodes.searchTerm}}" produced no results
-		</h3>
+			<h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length === 0">
+				"{{allEpisodes.searchTerm}}" produced no results
+			</h3>
 
-		<h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length">
-			showing {{allEpisodes.filteredList.length}} of {{main.episodes.length}} episodes
-		</h3>
+			<h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length">
+				showing {{allEpisodes.filteredList.length}} of {{main.episodes.length}} episodes
+			</h3>
+		</div>
 
 		<ul
-			class="episode-list all-episodes"
+			class="episode-list episode-list--all"
 			ng-hide="allEpisodes.searchTerm"
 		>
 			<li
 				ng-repeat="episode in allEpisodes.parsedList"
-				class="episode"
+				class="episode-list__item"
 			>
 				episode {{episode.number}}:
 
@@ -27,14 +29,14 @@
 				</a>
 
 				<ul class="song-list">
-					<li class="song">
+					<li class="song-list__item">
 						intro:
 						<strong>{{episode.intro.artist}}</strong>
 						"{{episode.intro.title}}";
 					</li>
 					<li
 						ng-repeat="song in episode.songs"
-						class="song"
+						class="song-list__item"
 					>
 						<strong>{{song.artist}}</strong>
 						"{{song.title}}";
@@ -44,12 +46,12 @@
 		</ul>
 
 		<ul
-			class="episode-list search-results"
+			class="episode-list episode-list--results"
 			ng-show="allEpisodes.searchTerm"
 		>
 			<li
 				ng-repeat="episode in allEpisodes.filteredList"
-				class="episode"
+				class="episode-list__item"
 			>
 				<span ng-bind-html="episode.titlePrefix | HighlightFilter:allEpisodes.searchTerm">
 					{{episode.titlePrefix}}
@@ -62,7 +64,7 @@
 				</a>
 
 				<ul class="song-list">
-					<li class="song">
+					<li class="song-list__item">
 						intro:
 						<strong ng-bind-html="episode.intro.artist | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.artist}}</strong>
 						"<span ng-bind-html="episode.intro.title | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.title}}</span>",
@@ -79,7 +81,7 @@
 
 					<li
 						ng-repeat="song in episode.songs"
-						class="song"
+						class="song-list__item"
 					>
 						<strong ng-bind-html="song.artist | HighlightFilter:allEpisodes.searchTerm">{{song.artist}}</strong>
 						"<span ng-bind-html="song.title | HighlightFilter:allEpisodes.searchTerm">{{song.title}}</span>",

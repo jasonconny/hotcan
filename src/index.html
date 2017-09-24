@@ -20,22 +20,30 @@
 
 <body ui-view="main" ng-controller="MainController as main">
 
+	<header class="logo">
+		<h1 class="logo__text"><a href="/">Hot Can</a></h1>
+	</header>
+
 	<nav class="main-nav">
-		<ul>
-			<li><a ui-sref="about">About</a></li>
-			<li><a ui-sref="all">All Episodes</a></li>
-			<li><a href="http://www.facebook.com/hotcandj">Facebook</a></li>
+		<ul class="main-nav__list">
+			<li class="main-nav__list-item">
+				<a ui-sref="about">About</a>
+			</li>
+
+			<li class="main-nav__list-item">
+				<a ui-sref="all">All Episodes</a>
+			</li>
+
+			<li class="main-nav__list-item">
+				<a href="http://www.facebook.com/hotcandj">Facebook</a>
+			</li>
 		</ul>
 	</nav>
-
-	<header>
-		<h1><a href="/">Hot Can</a></h1>
-	</header>
 
 	<section class="content" ui-view="content">
 	</section>
 
-	<footer>
+	<footer class="footer">
 		&copy; Copyright Hot Can 2012-2014 | <a ui-sref="forContentOwners">For Content Owners</a>
 	</footer>
 

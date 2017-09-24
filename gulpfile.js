@@ -117,7 +117,7 @@ gulp.task('watch', function() {
 
 	gulp.watch(src + '_res/sass/*.scss', ['sass:dev']);
 	gulp.watch(src + '_res/views/*.html').on('change', bs.reload);
-	gulp.watch(src + '_res/js/*.js').on('change', bs.reload);
+	gulp.watch([src + 'index.html', src + '_res/js/*.js']).on('change', bs.reload);
 });
 
 gulp.task('build:prod', ['copy:res', 'build:index' ], function() {

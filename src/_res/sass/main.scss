@@ -10,6 +10,9 @@ $linkHover: #90f;
 $text: #dcc3e1;
 $textStrong: #F6DBFC;
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: $bodyBg;
@@ -19,15 +22,14 @@ body {
 a {
   color: $linkText;
   text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
+
   &:hover,
   &:active {
     background-color: $linkText;
     color: $bodyBg;
   }
+
   &:hover,
   &:active,
   &:focus {
@@ -35,59 +37,91 @@ a {
   }
 }
 
-header {
+h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: .125em;
+  line-height: 1;
+  margin: .444em 0 1em;
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+p,
+li {
+  font-size: 2.25em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0 0 1em;
+
+  strong {
+    color: $textStrong;
+    font-weight: 400;
+  }
+}
+
+.logo {
   background-color: $logoBg;
+  border-radius: 5.5em;
+  height: 11em;
+  left: 3em;
+  padding: 1em 0;
   position: fixed;
   top: 1em;
-  left: 3em;
-  height: 9em;
   width: 11em;
-  border-radius: 6em;
-  padding: 1em 0;
   z-index: 1000;
-  h1 {
-    font-size: 3.5em;
-    font-weight: bold;
-    line-height: 1em;
-    text-align: center;
-    text-shadow: -.05em .05em 0 $logoShadow;
-    text-transform: uppercase;
-    margin: .25em 0 0;
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-    a {
-      &:link, &:visited {
-        color: $logoTxt;
-        text-decoration: none;
-        display: block;
-      }
-      &:hover, &:active {
-        background-color: transparent;
-        color: $logoShadow;
-        text-shadow: -.05em .05em 0 $logoTxt;
-      }
+}
+
+.logo__text {
+  font-size: 3.5em;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin: .25em 0 0;
+  text-align: center;
+  text-shadow: -.05em .05em 0 $logoShadow;
+  transform: rotate(-15deg);
+
+  a {
+    &:link,
+    &:visited {
+      display: block;
+      color: $logoTxt;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      background-color: transparent;
+      color: $logoShadow;
+      text-shadow: -.05em .05em 0 $logoTxt;
     }
   }
 }
 
-.main-nav {
-  top: 0;
-  left: 0;
-  width: 100%;
-  ul {
-    margin: 0 auto;
-    min-width: 20em;
-    text-align: right;
-  }
-  li {
-    line-height: 1em;
-    letter-spacing: .132em;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: .444em 0;
-    a {
-      padding: .444em .675em;
-    }
+.main-nav__list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  min-width: 20em;
+  padding: 0;
+}
+
+.main-nav__list-item {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: .132em;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 0;
+
+  a {
+    display: block;
+    padding: .444em .675em;
   }
 }
 
@@ -95,97 +129,16 @@ header {
   color: $text;
   margin: 4em auto;
   max-width: 50em;
-  h1, h2 {
-    font-size: 4em;
-    font-weight: 300;
-    letter-spacing: .125em;
-    line-height: 1em;
-    text-transform: uppercase;
-    margin: .444em 0 1em;
-    a {
-      text-decoration: none;
-    }
-  }
-  h2 {
-    font-weight: 100;
-    strong {
-      display: block;
-      font-weight: 300;
-    }
-  }
+
   a {
     border-bottom: .2em solid $linkText;
-    &.download-link {
-      display: inline-block;
-      margin: 1em 0 2em;
-    }
-  }
-  audio {
-    display: block;
-  }
-  .song-list,
-  .episode-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  p,
-  .song,
-  .episode {
-    font-size: 1.5em;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    margin: 0 0 1em;
-    a {
-      font-style: italic;
-      em {
-        font-style: italic;
-      }
-    }
-    strong {
-      color: $textStrong;
-      font-weight: 400;
-    }
-  }
-  .all {
-    h3 {
-      float: right;
-      font-size: 2em;
-      font-weight: 100;
-      margin-top: 0;
-    }
+    font-style: italic;
+
     em {
-      font-style: normal;
-    }
-    .search-box {
-      border: 2px solid $logoBg;
-      color: $bodyBg;
-      font-size: 1.5em;
-      margin: 0 0 1em;
-      padding: .5em 1em;
-      &:focus {
-        outline: none;
-      }
-    }
-    .song-list {
-      line-height: 1;
-      margin: .5em 0 0;
-    }
-    .song {
-      font-size: .75em;
-      line-height: 1.2;
-      margin: 0;
-    }
-    .episode {
-      margin-bottom: 2.5em;
+      font-style: italic;
     }
   }
-  .all-episodes {
-    .song {
-      display: inline;
-    }
-  }
+
   .search-results {
     .song {
       margin-bottom: .5em;
@@ -193,54 +146,147 @@ header {
   }
 }
 
+.episode__title {
+  font-size: 6em;
+  font-weight: 100;
+
+  strong {
+    color: $textStrong;
+    font-weight: 400;
+  }
+}
+
+.episode__audio {
+  display: block;
+}
+
+.episode__link-download {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 1em 0 2em;
+}
+
 .episode-nav {
   position: relative;
   width: 100%;
-  a {
+}
+
+.episode-nav__link {
+  background-color: $linkText;
+  border-bottom: none;
+  border-radius: 3em;
+  display: block;
+  height: 4em;
+  margin-top: -2em;
+  opacity: .3;
+  overflow: hidden;
+  position: fixed;
+  padding: 1em;
+  text-indent: -100%;
+  top: 50%;
+  width: 4em;
+
+  &:hover,
+  &:active {
+    opacity: 1;
+  }
+}
+
+.episode-nav__link--previous {
+  left: 1em;
+
+  &::before {
     display: block;
-    position: fixed;
-    background-color: $linkText;
-    border-bottom: none;
-    opacity: .3;
-    padding: 1em;
-    height: 2em;
-    width: 2em;
-    top: 50%;
-    margin-top: -2em;
-    border-radius: 3em;
-    text-indent: -100%;
-    overflow: hidden;
-    &:hover, &:active {
-      opacity: 1;
-    }
-    &.previous {
-      left: 1em;
-      &:before {
-        display: block;
-        content: '';
-        border-top: 1em solid transparent;
-        border-right: 1em solid $bodyBg;
-        border-bottom: 1em solid transparent;
-        border-left: 1em solid transparent;
-        position: absolute;
-        top: 1em;
-        left: .25em;
-      }
-    }
-    &.next {
-      right: 1em;
-      &:before {
-        display: block;
-        content: '';
-        border-top: 1em solid transparent;
-        border-right: 1em solid transparent;
-        border-bottom: 1em solid transparent;
-        border-left: 1em solid $bodyBg;
-        position: absolute;
-        top: 1em;
-        left: 1.75em;
-      }
-    }
+    content: '';
+    border-top: 1em solid transparent;
+    border-right: 1em solid $bodyBg;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid transparent;
+    position: absolute;
+    top: 1em;
+    left: .25em;
+  }
+}
+
+.episode-nav__link--next {
+  right: 1em;
+
+  &::before {
+    display: block;
+    content: '';
+    border-top: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid $bodyBg;
+    position: absolute;
+    top: 1em;
+    left: 1.75em;
+  }
+}
+
+.song-list,
+.episode-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.episode-list__item {
+  .episode-list--all &,
+  .episode-list--results & {
+    font-size: 1.5em;
+    margin-bottom: 2.5em;
+  }
+}
+
+.song-list {
+  .episode-list--all &,
+  .episode-list--results & {
+    line-height: 1;
+    margin: .5em 0 0;
+  }
+}
+
+.song-list__item {
+  .episode-list--all &,
+  .episode-list--results & {
+    font-size: .75em;
+    line-height: 1.2;
+  }
+
+  .episode-list--all & {
+    display: inline;
+    margin: 0;
+  }
+
+  .episode-list--results & {
+    margin: 0 0 .5em;
+  }
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 0;
+  }
+}
+
+.search__input {
+  border: 2px solid $logoBg;
+  color: $bodyBg;
+  font-size: 1.5em;
+  margin: 0 0 1em;
+  padding: .5em 1em;
+
+  &:focus {
+    outline: none;
   }
 }
 
@@ -248,7 +294,7 @@ header {
   background-color: $logoBg;
 }
 
-footer {
+.footer {
   color: $text;
   margin: 0 auto;
   padding: 1em 0;
@@ -256,13 +302,13 @@ footer {
 }
 
 
-
 @media (max-width: 1000px) {
   body {
     font-size: 75%;
   }
+
   .content,
-  footer {
+  .footer {
     margin: 0 8em;
     max-width: 100%;
   }
@@ -272,34 +318,34 @@ footer {
   body {
     font-size: 62.5%;
   }
+
   .content,
-  footer {
+  .footer {
     margin: 0 6em;
   }
 }
 
 @media (max-width: 640px) {
-  .content {
-    h1, h2 {
-      font-size: 3em;
-    }
-    .all {
-      h3 {
-        float: none;
-      }
-    }
+  h1 {
+    font-size: 3em;
+  }
+
+  .search {
+    display: block;
   }
 }
 
 @media (max-width: 480px) {
-  .content,
-  footer {
-    min-width: 20em;
-    h1, h2 {
-      font-size: 2em;
-    }
+  h1 {
+    font-size: 2em;
   }
-  audio {
+
+  .content,
+  .footer {
+    min-width: 20em;
+  }
+
+  .episode__audio {
     width: 100%;
   }
 }
