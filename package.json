@@ -7,21 +7,22 @@
     "url": "https://github.com/jasonconny/hotcan.git"
   },
   "author": "Jason Conny",
-  "bugs": {
-    "url": "https://github.com/jasonconny/hotcan/issues"
-  },
-  "homepage": "https://github.com/jasonconny/hotcan",
+  "homepage": "http://hotcan.info",
+  "license": "UNLICENSED",
   "devDependencies": {
-    "grunt-contrib-watch": "^0.6.1"
+    "autoprefixer": "^7.1.4",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-inject": "^4.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
   },
-  "dependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-sass": "^1.2.0",
-    "grunt-targethtml": "^0.2.6"
-  }
+  "dependencies": {}
 }
