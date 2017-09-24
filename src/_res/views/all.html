@@ -1,74 +1,100 @@
 <div ng-controller="AllEpisodesController as allEpisodes">
-    <article class="all">
-        <h1>All Episodes</h1>
+	<article class="all">
+		<h1>All Episodes</h1>
 
-        <input type="text" class="search-box" ng-model="allEpisodes.searchTerm" placeholder="Search">
+		<input type="text" class="search-box" ng-model="allEpisodes.searchTerm" placeholder="Search">
 
-        <h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length === 0">"{{allEpisodes.searchTerm}}" produced no results</h3>
+		<h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length === 0">
+			"{{allEpisodes.searchTerm}}" produced no results
+		</h3>
 
-        <h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length">showing {{allEpisodes.filteredList.length}} of {{main.episodes.length}} episodes</h3>
+		<h3 ng-show="allEpisodes.searchTerm && allEpisodes.filteredList.length">
+			showing {{allEpisodes.filteredList.length}} of {{main.episodes.length}} episodes
+		</h3>
 
-        <ul class="episode-list all-episodes" ng-hide="allEpisodes.searchTerm">
-            <li ng-repeat="episode in allEpisodes.parsedList"
-                class="episode">
-                episode {{episode.number}}:
-                <a ui-sref="episode( {episodeName: episode.routename} )">
-                    {{episode.title}}
-                </a>
+		<ul
+			class="episode-list all-episodes"
+			ng-hide="allEpisodes.searchTerm"
+		>
+			<li
+				ng-repeat="episode in allEpisodes.parsedList"
+				class="episode"
+			>
+				episode {{episode.number}}:
 
-                <ul class="song-list">
-                    <li class="song">
-                        intro:
-                        <strong>{{episode.intro.artist}}</strong>
-                        "{{episode.intro.title}}";
-                    </li>
-                    <li ng-repeat="song in episode.songs"
-                        class="song">
-                        <strong>{{song.artist}}</strong>
-                        "{{song.title}}";
-                    </li>
-                </ul>
-            </li>
-        </ul>
+				<a ui-sref="episode( {episodeName: episode.routename} )">
+					{{episode.title}}
+				</a>
 
-        <ul class="episode-list search-results" ng-show="allEpisodes.searchTerm">
-            <li ng-repeat="episode in allEpisodes.filteredList"
-                class="episode">
-                <span ng-bind-html="episode.titlePrefix | HighlightFilter:allEpisodes.searchTerm">
-                    {{episode.titlePrefix}}
-                </span>:
+				<ul class="song-list">
+					<li class="song">
+						intro:
+						<strong>{{episode.intro.artist}}</strong>
+						"{{episode.intro.title}}";
+					</li>
+					<li
+						ng-repeat="song in episode.songs"
+						class="song"
+					>
+						<strong>{{song.artist}}</strong>
+						"{{song.title}}";
+					</li>
+				</ul>
+			</li>
+		</ul>
 
-                <a ui-sref="episode( {episodeName: episode.routename} )"
-                   ng-bind-html="episode.title | HighlightFilter:allEpisodes.searchTerm">
-                    {{episode.title}}:
-                </a>
+		<ul
+			class="episode-list search-results"
+			ng-show="allEpisodes.searchTerm"
+		>
+			<li
+				ng-repeat="episode in allEpisodes.filteredList"
+				class="episode"
+			>
+				<span ng-bind-html="episode.titlePrefix | HighlightFilter:allEpisodes.searchTerm">
+					{{episode.titlePrefix}}
+				</span>:
 
-                <ul class="song-list">
-                    <li class="song">intro:
-                        <strong ng-bind-html="episode.intro.artist | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.artist}}</strong>
-                        "<span ng-bind-html="episode.intro.title | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.title}}</span>",
-                        <a href="{{episode.intro.albumURL}}"
-                           ng-bind-html="episode.intro.album | HighlightFilter:allEpisodes.searchTerm"
-                           target="_blank">
-                            {{episode.intro.album}}
-                        </a>;
-                        <span ng-bind-html="episode.intro.label | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.label}}</span>,
-                        <span ng-bind-html="episode.intro.year | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.year}}</span>
-                    </li>
-                    <li ng-repeat="song in episode.songs"
-                        class="song">
-                        <strong ng-bind-html="song.artist | HighlightFilter:allEpisodes.searchTerm">{{song.artist}}</strong>
-                        "<span ng-bind-html="song.title | HighlightFilter:allEpisodes.searchTerm">{{song.title}}</span>",
-                        <a href="{{song.albumURL}}"
-                           ng-bind-html="song.album | HighlightFilter:allEpisodes.searchTerm"
-                           target="_blank">
-                            {{song.album}}
-                        </a>;
-                        <span ng-bind-html="song.label | HighlightFilter:allEpisodes.searchTerm">{{song.label}}</span>,
-                        <span ng-bind-html="song.year | HighlightFilter:allEpisodes.searchTerm">{{song.year}}</span>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+				<a
+					ui-sref="episode( {episodeName: episode.routename} )" 				ng-bind-html="episode.title | HighlightFilter:allEpisodes.searchTerm"
+				>
+					{{episode.title}}:
+				</a>
+
+				<ul class="song-list">
+					<li class="song">
+						intro:
+						<strong ng-bind-html="episode.intro.artist | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.artist}}</strong>
+						"<span ng-bind-html="episode.intro.title | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.title}}</span>",
+						<a
+							href="{{episode.intro.albumURL}}"
+							ng-bind-html="episode.intro.album | HighlightFilter:allEpisodes.searchTerm"
+							target="_blank"
+						>
+							{{episode.intro.album}}
+						</a>;
+					<span ng-bind-html="episode.intro.label | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.label}}</span>,
+					<span ng-bind-html="episode.intro.year | HighlightFilter:allEpisodes.searchTerm">{{episode.intro.year}}</span>
+					</li>
+
+					<li
+						ng-repeat="song in episode.songs"
+						class="song"
+					>
+						<strong ng-bind-html="song.artist | HighlightFilter:allEpisodes.searchTerm">{{song.artist}}</strong>
+						"<span ng-bind-html="song.title | HighlightFilter:allEpisodes.searchTerm">{{song.title}}</span>",
+						<a
+							href="{{song.albumURL}}"
+							ng-bind-html="song.album | HighlightFilter:allEpisodes.searchTerm"
+							target="_blank"
+						>
+							{{song.album}}
+						</a>;
+						<span ng-bind-html="song.label | HighlightFilter:allEpisodes.searchTerm">{{song.label}}</span>,
+						<span ng-bind-html="song.year | HighlightFilter:allEpisodes.searchTerm">{{song.year}}</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
     </article>
 </div>
