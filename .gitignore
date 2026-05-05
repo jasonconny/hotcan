@@ -15,3 +15,4 @@ dist/*
 src/_res/js/libs/*/
 *node_modules/
 
+.claude/
