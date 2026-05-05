@@ -19,15 +19,6 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
 cd "${REPO_ROOT}"
 
-# Load nvm and switch to the Node version in .nvmrc (Gulp 3 requires Node <=16)
-export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
-if [ -s "$NVM_DIR/nvm.sh" ]; then
-  \. "$NVM_DIR/nvm.sh"
-  nvm use
-else
-  echo "Warning: nvm not found. Build may fail on Node >16 due to Gulp 3 compatibility."
-fi
-
 echo "==> Installing npm dependencies..."
 npm install
 
