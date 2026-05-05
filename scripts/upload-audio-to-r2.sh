@@ -32,7 +32,7 @@ WRANGLER="${REPO_ROOT}/node_modules/.bin/wrangler"
 
 upload_file() {
   echo "  Uploading: $2"
-  ${WRANGLER} r2 object put "${R2_BUCKET_NAME}/$2" --file="$1" --content-type="$3"
+  ${WRANGLER} r2 object put "${R2_BUCKET_NAME}/$2" --file="$1" --content-type="$3" --remote
 }
 
 echo "==> Uploading MP3 files..."
