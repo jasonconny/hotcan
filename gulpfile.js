@@ -123,7 +123,8 @@ gulp.task('watch', function() {
 gulp.task('build:prod', ['copy:res', 'build:index' ], function() {
 	return gulp.src([
 			src + '.htaccess',
-			src + 'favicon.ico'
+			src + 'favicon.ico',
+			src + '_redirects'
 		])
 		.pipe(gulp.dest(dist));
 });
