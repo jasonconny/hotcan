@@ -53,7 +53,7 @@ export default function App() {
             <Link to="/all">All Episodes</Link>
           </li>
           <li className="main-nav__list-item">
-            <a href="http://www.facebook.com/hotcandj">Facebook</a>
+            <a href="http://www.facebook.com/hotcandj" target="_blank" rel="noopener noreferrer">Facebook</a>
           </li>
         </ul>
       </nav>
