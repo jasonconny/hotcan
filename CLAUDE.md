@@ -34,7 +34,7 @@ Declarative React Router (`BrowserRouter` in `src/main.tsx`). `/` redirects to t
 **Legacy URL redirects** (`src/lib/legacyRedirects.ts`) preserve old WordPress inbound links: `/category/podcast` → `/all`, and `/podcast/the-hot-can-all-vinyl-power-hour-episode-<n>-<slug>` → the episode. An explicit map handles special cases; a general rule slices the fixed prefix off the rest. Don't "simplify" the slice offsets (43/44) — they're load-bearing.
 
 ### Audio + hosting
-Audio `<source>` paths point at `/_res/audio/*`. In production, `public/_redirects` issues a **301 to R2** for those paths, and a `/* → index.html 200` catch-all enables SPA routing. The Vite dev server does **not** honor `_redirects`, so audio 404s locally unless files are placed in `public/_res/audio/`. `public/` is copied verbatim into `dist/` by Vite.
+Audio `<source>` paths point at `/_res/audio/*`. In production, `public/_redirects` issues a **301 to R2** for those paths, and a `/* → index.html 200` catch-all enables SPA routing. The ~24GB of audio lives in the gitignored `audio/` dir at the repo root — **outside `public/`**, so it is never built into `dist/`. The `serveLocalAudio` plugin in `vite.config.ts` serves it at `/_res/audio/*` during `dev`/`preview` (with HTTP Range support for seeking). `scripts/upload-audio-to-r2.sh` uploads from `audio/` to R2. Don't move audio into `public/` — that would copy 24GB into every build and exceed Pages' 25MB per-file limit on deploy.
 
 ### Search (`src/pages/AllEpisodesPage.tsx`)
 Client-side substring filter over a precomputed haystack of each episode's text fields (replicates AngularJS's default `filter`). Matches are highlighted via `src/lib/highlight.tsx`, which returns React `<mark>` nodes (no `dangerouslySetInnerHTML`).

@@ -18,10 +18,12 @@ The `_redirects` file also handles SPA routing: any path that doesn't match a
 real file is rewritten to `index.html` so React Router can resolve the route
 client-side.
 
-Note: the local Vite dev server (`npm run dev`) does not honor `_redirects`, so
-audio will 404 locally unless you drop the files into `public/_res/audio/`. Audio
-plays correctly in production (and in `npm run preview` is still subject to the
-same caveat). The site otherwise works fully offline.
+The audio files live in the gitignored `audio/` directory at the repo root —
+deliberately *outside* `public/`, so they are never copied into the build. A small
+Vite plugin (`serveLocalAudio` in `vite.config.ts`) serves them at `/_res/audio/*`
+during `npm run dev` and `npm run preview`, with HTTP Range support so the player can
+seek. In production those paths 301 to R2 instead. This keeps the Pages deploy tiny;
+the audio (too large for Pages' 25MB per-file limit) lives only on R2.
 
 ---
 
@@ -91,8 +93,8 @@ Commit this change before deploying.
 ### 8. Upload Audio Files to R2 (One-Time)
 
 Place your audio files at:
-- `src/_res/audio/mp3/*.mp3`
-- `src/_res/audio/ogg/*.ogg`
+- `public/_res/audio/mp3/*.mp3`
+- `public/_res/audio/ogg/*.ogg`
 
 Then run:
 

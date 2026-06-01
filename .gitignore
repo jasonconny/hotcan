@@ -21,6 +21,8 @@ npm-debug.log*
 # Claude
 .claude/
 
-# Podcast audio — hosted on Cloudflare R2, not committed (see DEPLOY.md)
+# Podcast audio — served locally from /audio in dev, hosted on Cloudflare R2 in
+# production, never committed or built into dist/ (see DEPLOY.md)
+/audio/
 *.mp3
 *.ogg

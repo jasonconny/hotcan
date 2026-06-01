@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Uploads podcast audio files from src/_res/audio/ to Cloudflare R2.
+# Uploads podcast audio files from audio/ to Cloudflare R2.
 # Safe to re-run — existing objects are overwritten.
 #
 # Required environment variables:
@@ -17,13 +17,13 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
-AUDIO_ROOT="${REPO_ROOT}/src/_res/audio"
+AUDIO_ROOT="${REPO_ROOT}/audio"
 
 if [ ! -d "${AUDIO_ROOT}" ]; then
   echo "ERROR: Audio directory not found at ${AUDIO_ROOT}"
   echo "Place your audio files at:"
-  echo "  src/_res/audio/mp3/*.mp3"
-  echo "  src/_res/audio/ogg/*.ogg"
+  echo "  audio/mp3/*.mp3"
+  echo "  audio/ogg/*.ogg"
   exit 1
 fi
 
