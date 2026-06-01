@@ -8,15 +8,20 @@ Pages (25MB per file limit) and are not under source control.
 
 ## How Audio Routing Works
 
-The AngularJS app sets audio paths as `/_res/audio/mp3/<file>.mp3` in JavaScript.
-When a browser requests one of those URLs, the `_redirects` file in `dist/`
-instructs Cloudflare to issue a `301` redirect to the matching path on R2.
-The HTML5 audio player follows the redirect transparently. No changes to
-`app.js` are required.
+The React app sets audio paths as `/_res/audio/mp3/<file>.mp3`. When a browser
+requests one of those URLs, the `_redirects` file (kept in `public/` and emitted
+to `dist/` by the Vite build) instructs Cloudflare to issue a `301` redirect to
+the matching path on R2. The HTML5 audio player follows the redirect
+transparently.
 
 The `_redirects` file also handles SPA routing: any path that doesn't match a
-real file is rewritten to `index.html`, replacing the `.htaccess` fallback that
-Cloudflare Pages ignores.
+real file is rewritten to `index.html` so React Router can resolve the route
+client-side.
+
+Note: the local Vite dev server (`npm run dev`) does not honor `_redirects`, so
+audio will 404 locally unless you drop the files into `public/_res/audio/`. Audio
+plays correctly in production (and in `npm run preview` is still subject to the
+same caveat). The site otherwise works fully offline.
 
 ---
 
@@ -69,9 +74,9 @@ npx wrangler r2 bucket create hotcan-audio
    https://pub-<32-character-hash>.r2.dev
    ```
 
-### 7. Update `src/_redirects` with the Real R2 URL
+### 7. Update `public/_redirects` with the Real R2 URL
 
-Edit [`src/_redirects`](src/_redirects) and replace the placeholder on line 1:
+Edit [`public/_redirects`](public/_redirects) and replace the placeholder on line 1:
 
 ```
 # Before:
@@ -123,7 +128,7 @@ bash scripts/deploy.sh
 
 The script will:
 1. Run `npm install`
-2. Run `gulp build:prod` (outputs to `dist/`)
+2. Run `npm run build` (Vite, outputs to `dist/`)
 3. Deploy `dist/` to Cloudflare Pages via `wrangler pages deploy`
 
 ---
@@ -143,16 +148,12 @@ The script will:
 
 ```
 dist/
-├── .htaccess          (ignored by Cloudflare Pages)
-├── _redirects         (audio → R2 redirect + SPA catch-all)
-├── favicon.ico
+├── _redirects         (audio → R2 redirect + SPA catch-all, from public/)
+├── favicon.ico        (from public/)
 ├── index.html
+├── assets/            (Vite-bundled, content-hashed JS + CSS)
 └── _res/
-    ├── css/main.min.1.1.1.css
-    ├── js/app.min.1.1.1.js
-    ├── img/
-    ├── json/
-    └── views/
+    └── img/           (logos + apple touch icons, from public/)
 ```
 
 Audio files are **not** in `dist/`. They live in R2 at:
