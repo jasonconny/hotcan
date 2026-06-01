@@ -21,7 +21,7 @@ export default function EpisodeNav({ previous, next }: EpisodeNavProps) {
           title={`Previous Episode: ${previous.title}`}
           aria-label={`Previous Episode: ${previous.title}`}
         >
-          Previous Episode: {previous.title}
+          <span className="visually-hidden">Previous Episode: {previous.title}</span>
         </Link>
       )}
 
@@ -32,7 +32,7 @@ export default function EpisodeNav({ previous, next }: EpisodeNavProps) {
           title={`Next Episode: ${next.title}`}
           aria-label={`Next Episode: ${next.title}`}
         >
-          Next Episode: {next.title}
+          <span className="visually-hidden">Next Episode: {next.title}</span>
         </Link>
       )}
     </nav>
