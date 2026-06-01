@@ -130,6 +130,7 @@ li strong {
   font-size: 1em;
   font-weight: normal;
   line-height: 1;
+  list-style: none;
   letter-spacing: 0.132em;
   margin: 0;
   text-transform: uppercase;
