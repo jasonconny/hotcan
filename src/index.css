@@ -276,6 +276,10 @@ li strong {
   margin: 0;
 }
 
+.song-list__item + .song-list__item {
+  margin-left: .5rem;
+}
+
 .episode-list--results .song-list__item {
   margin: 0 0 0.5625rem; /* 0.5em × 1.125 */
 }
