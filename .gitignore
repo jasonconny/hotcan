@@ -1,19 +1,28 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Dependencies
+node_modules/
 
-.idea/*
-*.map
+# Build output
+dist/
+*.local
+*.tsbuildinfo
+
+# Logs
 *.log
-*.css
+npm-debug.log*
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Cloudflare
+.wrangler/
+
+# Claude
+.claude/
+
+# Podcast audio — served locally from /audio in dev, hosted on Cloudflare R2 in
+# production, never committed or built into dist/ (see DEPLOY.md)
+/audio/
 *.mp3
 *.ogg
-*.min*
-
-dist/*
-!dist/.keep
-
-src/_res/js/libs/*/
-*node_modules/
-
-.claude/
-.wrangler/

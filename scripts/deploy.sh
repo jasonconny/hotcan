@@ -23,7 +23,7 @@ echo "==> Installing npm dependencies..."
 npm install
 
 echo "==> Running production build..."
-npx gulp build:prod
+npm run build
 
 WRANGLER="${REPO_ROOT}/node_modules/.bin/wrangler"
 [ -f "${WRANGLER}" ] || WRANGLER="npx wrangler"

@@ -1,7 +1,8 @@
 {
   "name": "hotcan",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "website for The Hot Can All Vinyl Power Hour podcast",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/jasonconny/hotcan.git"
@@ -9,24 +10,26 @@
   "author": "Jason Conny",
   "homepage": "http://hotcan.info",
   "license": "UNLICENSED",
-  "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "browser-sync": "^2.18.13",
-    "del": "^3.0.0",
-    "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-inject": "^4.3.0",
-    "gulp-postcss": "^7.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.57.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-uglify": "^3.0.0",
-    "pump": "^1.0.2"
+  "engines": {
+    "node": ">=20.19.0"
   },
-  "dependencies": {},
-  "overrides": {
-    "graceful-fs": "^4.2.0"
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0",
+    "wrangler": "^4.0.0"
   }
 }

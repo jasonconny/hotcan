@@ -1,0 +1,389 @@
+/* COLORS — ported from the original main.scss SCSS variables. */
+:root {
+  /* Responsive scaling knob: every rem value is relative to this. The breakpoints below
+     step it 100% -> 75% -> 62.5% (16px -> 12px -> 10px), which scales the whole layout. */
+  font-size: 100%;
+  --body-bg: #815bff;
+  --logo-bg: #90f;
+  --logo-txt: #6682d2;
+  --logo-shadow: #4f6cc1;
+  --link-text: #b08cff;
+  --link-hover: #90f;
+  --text: #dcc3e1;
+  --text-strong: #f6dbfc;
+}
+
+/* Minimal modern reset (replaces normalize.css v1.1.3). */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--body-bg);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Accessible label hidden visually but available to screen readers. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+a {
+  color: var(--link-text);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover,
+a:active {
+  background-color: var(--link-text);
+  color: var(--body-bg);
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.5rem; /* 0.125em × 4 */
+  line-height: 1;
+  margin: 1.776rem 0 4rem; /* 0.444em/1em × 4 */
+  text-transform: uppercase;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+p,
+li {
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0 0 2.25rem; /* 1em × 2.25 */
+}
+
+p strong,
+li strong {
+  color: var(--text-strong);
+  font-weight: 400;
+}
+
+.logo {
+  background-color: var(--logo-bg);
+  border-radius: 5.5rem;
+  height: 11rem;
+  left: 3rem;
+  padding: 1rem 0;
+  position: fixed;
+  top: 1rem;
+  width: 11rem;
+  z-index: 1000;
+}
+
+.logo__text {
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin: 0.875rem 0 0; /* 0.25em × 3.5 */
+  text-align: center;
+  text-shadow: -0.175rem 0.175rem 0 var(--logo-shadow); /* 0.05em × 3.5 */
+  transform: rotate(-15deg);
+}
+
+.logo__text a:link,
+.logo__text a:visited {
+  display: block;
+  color: var(--logo-txt);
+  text-decoration: none;
+}
+
+.logo__text a:hover,
+.logo__text a:active {
+  background-color: transparent;
+  color: var(--logo-shadow);
+  text-shadow: -0.175rem 0.175rem 0 var(--logo-txt); /* 0.05em × 3.5 */
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  min-width: 20rem;
+  padding: 0;
+}
+
+.main-nav__list-item {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1;
+  list-style: none;
+  letter-spacing: 0.132rem; /* 0.132em × 1 */
+  margin: 0;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.main-nav__list-item a {
+  display: block;
+  padding: 0.444rem 0.675rem;
+}
+
+.content {
+  color: var(--text);
+  margin: 4rem auto;
+  max-width: 50rem;
+}
+
+/* border-bottom is intentionally kept in em: it scales the underline thickness with each
+   link's own font-size (content links range ~18-36px). No single rem value is
+   pixel-identical across all those sizes — tweak to a fixed rem if you'd rather. */
+.content a {
+  border-bottom: 0.2em solid var(--link-text);
+  font-style: italic;
+}
+
+.content a em {
+  font-style: italic;
+}
+
+.episode__title {
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 0.75rem; /* h1's 0.125em × 6 */
+  margin: 2.664rem 0 6rem; /* h1's 0.444em/1em × 6 */
+}
+
+.episode__title strong {
+  color: var(--text-strong);
+  font-weight: 400;
+}
+
+.episode__audio {
+  display: block;
+}
+
+.episode__link-download {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 1.5rem 0 3rem; /* 1em/2em × 1.5 */
+}
+
+.episode-nav {
+  position: relative;
+  width: 100%;
+}
+
+.episode-nav__link {
+  background-color: var(--link-text);
+  border-bottom: none;
+  border-radius: 3rem;
+  display: block;
+  height: 4rem;
+  margin-top: -2rem;
+  opacity: 0.3;
+  overflow: hidden;
+  position: fixed;
+  padding: 1rem;
+  text-indent: -100%;
+  top: 50%;
+  width: 4rem;
+}
+
+.episode-nav__link:hover,
+.episode-nav__link:active {
+  opacity: 1;
+}
+
+.episode-nav__link--previous {
+  left: 1rem;
+}
+
+.episode-nav__link--previous::before {
+  display: block;
+  content: '';
+  border-top: 1rem solid transparent;
+  border-right: 1rem solid var(--body-bg);
+  border-bottom: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  position: absolute;
+  top: 1rem;
+  left: 0.25rem;
+}
+
+.episode-nav__link--next {
+  right: 1rem;
+}
+
+.episode-nav__link--next::before {
+  display: block;
+  content: '';
+  border-top: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-left: 1rem solid var(--body-bg);
+  position: absolute;
+  top: 1rem;
+  left: 1.75rem;
+}
+
+.song-list,
+.episode-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.episode-list--all .episode-list__item,
+.episode-list--results .episode-list__item {
+  font-size: 1.5rem;
+  margin-bottom: 3.75rem; /* 2.5em × 1.5 */
+}
+
+.episode-list--all .song-list,
+.episode-list--results .song-list {
+  line-height: 1;
+  margin: 0.75rem 0 0; /* 0.5em × 1.5 (inherited 1.5rem item font) */
+}
+
+.episode-list--all .song-list__item,
+.episode-list--results .song-list__item {
+  font-size: 1.125rem; /* 0.75em × 1.5 (nested under the 1.5rem item) */
+  line-height: 1.2;
+}
+
+.episode-list--all .song-list__item {
+  display: inline;
+  margin: 0;
+}
+
+.song-list__item + .song-list__item {
+  margin-left: .5rem;
+}
+
+.episode-list--results .song-list__item {
+  margin: 0 0 0.5625rem; /* 0.5em × 1.125 */
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.search__input {
+  border: 2px solid var(--logo-bg);
+  color: var(--body-bg);
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem; /* 1em × 1.5 */
+  padding: 0.75rem 1.5rem; /* 0.5em/1em × 1.5 */
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.highlighted {
+  background-color: var(--logo-bg);
+  color: inherit;
+}
+
+.footer {
+  color: var(--text);
+  margin: 0 auto;
+  padding: 1rem 0;
+  max-width: 50rem;
+}
+
+@media (max-width: 1000px) {
+  :root {
+    font-size: 75%; /* 12px */
+  }
+
+  .content,
+  .footer {
+    margin: 0 8rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    font-size: 62.5%; /* 10px */
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 0.375rem; /* 0.125em × 3 */
+    margin: 1.332rem 0 3rem; /* 0.444em/1em × 3 */
+  }
+
+  .content,
+  .footer {
+    margin: 0 6rem;
+  }
+
+  .episode__title {
+    font-size: 4.5rem;
+    letter-spacing: 0.5625rem; /* 0.125em × 4.5 */
+    margin: 1.998rem 0 4.5rem; /* 0.444em/1em × 4.5 */
+  }
+
+  .search {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.25rem; /* 0.125em × 2 */
+    margin: 0.888rem 0 2rem; /* 0.444em/1em × 2 */
+  }
+
+  p,
+  li {
+    font-size: 1.75rem;
+    margin: 0 0 1.75rem; /* 1em × 1.75 */
+  }
+
+  .episode__title {
+    font-size: 3rem;
+    letter-spacing: 0.375rem; /* 0.125em × 3 */
+    margin: 1.332rem 0 3rem; /* 0.444em/1em × 3 */
+  }
+
+  .content,
+  .footer {
+    margin: 0 4rem;
+    min-width: 20rem;
+  }
+
+  .episode__audio {
+    width: 100%;
+  }
+}
